@@ -1,0 +1,11 @@
+site_name: DesignSafe User Guide
+site_description: DesignSafe User Guide
+site_url: https://designsafe-ci.org/user-guide/
+
+nav:
+  - Home: index.md
+
+theme: readthedocs
+
+plugins:
+  - search

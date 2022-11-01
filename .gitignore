@@ -1,0 +1,5 @@
+# Ignore site
+user-guide/site/
+
+# Temporary files
+.DS_Store
