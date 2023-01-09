@@ -5,6 +5,7 @@ site_url: https://designsafe-ci.org/user-guide/
 nav:
   - Home: index.md
   - Data Depot: datadepot.md
+  - Data Management Plan Guidance: datamanagementplan.md
   - Data Transfer Guide: datatransfer.md
   - Experimental Facility Checklist: experimentalfacilitychecklist.md
 
