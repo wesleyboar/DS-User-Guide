@@ -8,6 +8,9 @@ nav:
   - Data Management Plan Guidance: datamanagementplan.md
   - Data Transfer Guide: datatransfer.md
   - Experimental Facility Checklist: experimentalfacilitychecklist.md
+  - Globus Data Transfer: globusdatatransfer.md
+  - Cyberduck Data Transfer: cyberducktransfer.md
+  - Command-Line Data Transfer: commandlinetransfer.md
 
 theme: readthedocs
 
