@@ -1,4 +1,4 @@
-# DATA DEPOT USER GUIDE XXX
+# DATA DEPOT USER GUIDE XXX ZZZ
 
 The [Data Depot](https://www.designsafe-ci.org/data/browser/public/) is the data repository for DesignSafe. The web interface to the Data Depot allows you to browse, upload, download, share, curate and publish data stored within the repository. You are encouraged to use the Data Depot not only for curation and publication of research results, but as a working “scratch” area for any of your own data and work in progress. Scientific applications in the [Workspace](xxx) can access your Data Depot files, enablling data analysis directly in the DesignSafe portal that minimizes the need to transfer data to your laptop. The Data Depot hosts both public and private data associated with a project, with the following directories:
 
