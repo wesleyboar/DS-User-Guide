@@ -1,7 +1,7 @@
 # Globus Data Transfer Guide
 
 ---
-Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods (see <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>), it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
+Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods (see <a href="../datatransfer">Data Transfer Guide</a>), it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
 
 The following provides detailed instructions for setting up Globus access to DesignSafe.
 
@@ -21,7 +21,7 @@ Globus requires a unique identifier, called a Distinguished Name (DN), for each 
 
 To create a DN, you need to log in through an authoritative source that can verify your identity, typically your university or employer.
 
-If you already have a DN, you may reuse it here and skip to <a href="/rw/user-guides/globus-data-transfer-guide/#step3">Step 3</a>.
+If you already have a DN, you may reuse it here and skip to <a href="#step3">Step 3</a>.
 
 If you do not have a DN, you can create one for free using the “CI Logon” service.
 
@@ -31,11 +31,11 @@ To create a DN, go to <a href="https://cilogon.org" target="_blank">https://cilo
 
 Select an "Identity Provider" from the drop-down list, and click "Log On" to be redirected to your Identity Provider's log in screen.
 
-If your university or employer is not in the list, we recommend using Cyberduck instead. See the <a href="/rw/user-guides/cyberduck-data-transfer-guide">Cyberduck Data Transfer Guide</a> for instructions.
+If your university or employer is not in the list, we recommend using Cyberduck instead. See the <a href="../cyberducktransfer">Cyberduck Data Transfer Guide</a> for instructions.
 
 ![](imgs/globus-step2.png)
 
-After authenticating via the Identity Provider, you will be redirected back to CILogon, where you can find your Certificate Subject that you will need to copy and paste for <a href="/rw/user-guides/globus-data-transfer-guide/#step3">Step3</a>.
+After authenticating via the Identity Provider, you will be redirected back to CILogon, where you can find your Certificate Subject that you will need to copy and paste for <a href="#step3">Step3</a>.
 
 	/DC=org/DC=cilogon/C=US/O=University of Texas at Austin/CN=Sample Person A00000
 
@@ -109,7 +109,7 @@ To access your data on DesignSafe
 * For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
 * For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
 
-For more information on path selection please see the detailed guide on <a href="/rw/user-guides/data-transfer-guide/setting-the-path-to-designsafe-on-corral/">Setting the Path to DesignSafe on Corral</a>.
+For more information on path selection please see the detailed guide on <a href="../settingpathtocorral">Setting the Path to DesignSafe on Corral</a>.
 
 After entering the appropriate path to DesignSafe on Corral, you are ready to perform your file transfer.
 

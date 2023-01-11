@@ -6,7 +6,7 @@ Cyberduck is an open-source client for file transfer protocols that allows you t
 ---
 ### Step 1: Submit a ticket to activate Corral access for your DesignSafe/TACC Account
 
-If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>), you may skip this step.
+If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="../datatransfer">Data Transfer Guide</a>), you may skip this step.
 
 To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use Cyberduck. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
 
@@ -51,7 +51,7 @@ For the "Path", select one of the following:
 * For **Published **DesignSafe projects set Path to **/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;**/
 * For **Published (NEES)** projects set Path to **/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/**
 
-For more information on path selection please see the detailed in guide on <a href="/rw/user-guides/data-transfer-guide/setting-the-path-to-designsafe-on-corral/">Setting the Path to DesignSafe on Corral</a>.
+For more information on path selection please see the detailed in guide on <a href="../settingpathtocorral">Setting the Path to DesignSafe on Corral</a>.
 
 If you do not see the "Path" option click the button "More Options" in the lower left.
 

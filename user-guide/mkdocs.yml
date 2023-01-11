@@ -4,16 +4,16 @@ site_url: https://designsafe-ci.org/user-guide/
 
 nav:
   - Home: index.md
+  - Cloud Storage Data Transfer: cloudstoragetransfer.md
+  - Command-Line Data Transfer: commandlinetransfer.md
+  - Cyberduck Data Transfer: cyberducktransfer.md
   - Data Depot: datadepot.md
+  - Data Depot Browser: datadepotbrowser.md
   - Data Management Plan Guidance: datamanagementplan.md
   - Data Transfer Guide: datatransfer.md
   - Experimental Facility Checklist: experimentalfacilitychecklist.md
   - Globus Data Transfer: globusdatatransfer.md
-  - Cyberduck Data Transfer: cyberducktransfer.md
-  - Command-Line Data Transfer: commandlinetransfer.md
-  - Data Depot Browser: datadepotbrowser.md
   - Jupyter Browser: jupyterbrowser.md
-  - Cloud Storage Data Transfer: cloudstoragetransfer.md
 
 theme: readthedocs
 

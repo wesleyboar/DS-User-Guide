@@ -28,7 +28,7 @@ After the upload is complete the files will be viewable in Jupyter.
 
 <img alt="Upload Complete" src="../imgs/jupyterbrowser-5.png" style="width: 50%; margin: 10px 10px 20px;">
 
-If you would like to upload an entire folder, please use one of the large data transfer methods listed in the <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>.
+If you would like to upload an entire folder, please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a>.
 
  
 
@@ -41,7 +41,7 @@ To download a file, **select the file** then select **Download**.
 
 <img alt="Select File for Download" src="../imgs/jupyterbrowser-6.png" style="width: 50%; margin: 10px 10px 20px;">
 
-If you would like to download an entire folder, please use one of the large data transfer methods listed in the <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>.
+If you would like to download an entire folder, please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a>.
 
 ---
 

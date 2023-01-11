@@ -26,7 +26,7 @@ Once the transfer is complete the Upload files window will close and you will se
 
 <img alt="Upload Complete" src="../imgs/datadepotbrowser-4.png">
 
-If you wish to upload a folder, follow the same procedure as above except select **Folder upload: max 25 files**. However, be sure that the folder you wish to upload is small than 100 MB and contains fewer than 25 files. If the folder you wish to upload exceeds these limits please use one of the large data transfer methods listed in the <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a> rather than the web interface.
+If you wish to upload a folder, follow the same procedure as above except select **Folder upload: max 25 files**. However, be sure that the folder you wish to upload is small than 100 MB and contains fewer than 25 files. If the folder you wish to upload exceeds these limits please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a> rather than the web interface.
 
  
 
@@ -39,7 +39,7 @@ To download a file from DesignSafe to your local desktop/laptop **select the fil
 
 <img alt="Select File for Download" src="../imgs/datadepotbrowser-5.png">
 
-If you would like to download an entire folder from DesignSafe, please use one of the large data transfer methods listed in the <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>.
+If you would like to download an entire folder from DesignSafe, please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a>.
 
 ---
 ## Transferring Data Inside of DesignSafe

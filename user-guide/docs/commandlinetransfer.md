@@ -1,12 +1,12 @@
 # Command-Line Data Transfer Guide
 
 ---
-Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools (see <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>) have been tried and found to be insufficient.
+Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools (see <a href="../datatransfer">Data Transfer Guide</a>) have been tried and found to be insufficient.
 
 ---
 ### Step 1: Submit a ticket to activate Corral access for your DesignSafe/TACC Account
 
-If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>), you may skip this step.
+If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="../datatransfer">Data Transfer Guide</a>), you may skip this step.
 
 To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use a command-line based data transfer. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
 
@@ -31,14 +31,14 @@ A data transfer can be performed using the secure copy (scp) utility between any
 
 A file can be copied from your local system to the remote server by using the command:
 
-where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory&gt;</strong></em> is the path on Corral where you wish to send the copy of your file.To select the appropriate path on Corral see the guide for <a href="/rw/user-guides/data-transfer-guide/setting-the-path-to-designsafe-on-corral/">Setting the Path to DesignSafe on Corral</a>.
+where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file.To select the appropriate path on Corral see the guide for <a href="./settingpathoncorral">Setting the Path to DesignSafe on Corral</a>.
 
 
 An entire folder can be copied from your local system to the remote server by using the command:
 
 <em><b>scp -r &lt;/path/to/folder/&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</b></em>
 
-where the<em><strong> -r</strong> </em>indicates the copy should be recursive<em>, </em><b><i>&lt;/path/to/folder/&gt;</i></b><i><b> </b></i>is the name of the folder you wish to copy (be sure to include the final "/", and all other terms defined previously.
+where the **-r** indicates the copy should be recursive, <b><i>&lt;/path/to/folder/&gt;</b></i>is the name of the folder you wish to copy (be sure to include the final "/", and all other terms defined previously.
 
 For help execute:
 
@@ -57,7 +57,7 @@ A file can be synced from your local system to the remote server by using the co
 
 	<em><strong>rsync &lt;filename&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
 
-where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. To select the appropriate path on Corral see the guide for <a href="/rw/user-guides/data-transfer-guide/setting-the-path-to-designsafe-on-corral/">Setting the Path to DesignSafe on Corral</a>.
+where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. To select the appropriate path on Corral see the guide for <a href="./settingpathoncorral">Setting the Path to DesignSafe on Corral</a>.
 
 An entire directory can be synced from your local system to the remote server by using the command:
 
