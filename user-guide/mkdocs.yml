@@ -4,16 +4,20 @@ site_url: https://designsafe-ci.org/user-guide/
 
 nav:
   - Home: index.md
-  - Cloud Storage Data Transfer: cloudstoragetransfer.md
-  - Command-Line Data Transfer: commandlinetransfer.md
-  - Cyberduck Data Transfer: cyberducktransfer.md
-  - Data Depot: datadepot.md
-  - Data Depot Browser: datadepotbrowser.md
-  - Data Management Plan Guidance: datamanagementplan.md
-  - Data Transfer Guide: datatransfer.md
-  - Experimental Facility Checklist: experimentalfacilitychecklist.md
-  - Globus Data Transfer: globusdatatransfer.md
-  - Jupyter Browser: jupyterbrowser.md
+  - Managing Files: 
+    - Data Depot: datadepot.md
+    - Data Transfer Guide: datatransfer.md
+    - Data Management Plan Guidance: datamanagementplan.md
+    - Experimental Facility Checklist: experimentalfacilitychecklist.md
+# hidden to emulate original DS design
+#  - Globus Command Line: globuscommandlinetransfer.md
+#  - Setting Path to DS on Corral: settingpathtodesignsafe.md
+#  - Cloud Storage Data Transfer: cloudstoragetransfer.md
+#  - Command-Line Data Transfer: commandlinetransfer.md
+#  - Cyberduck Data Transfer: cyberducktransfer.md
+#  - Data Depot Browser: datadepotbrowser.md
+#  - Globus Data Transfer: globusdatatransfer.md
+#  - Jupyter Browser: jupyterbrowser.md
 
 theme: readthedocs
 
