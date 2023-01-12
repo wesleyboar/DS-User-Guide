@@ -109,7 +109,7 @@ To access your data on DesignSafe
 * For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
 * For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
 
-For more information on path selection please see the detailed guide on <a href="../settingpathtocorral">Setting the Path to DesignSafe on Corral</a>.
+For more information on path selection please see the detailed guide on <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
 
 After entering the appropriate path to DesignSafe on Corral, you are ready to perform your file transfer.
 

@@ -31,7 +31,7 @@ A data transfer can be performed using the secure copy (scp) utility between any
 
 A file can be copied from your local system to the remote server by using the command:
 
-where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file.To select the appropriate path on Corral see the guide for <a href="./settingpathoncorral">Setting the Path to DesignSafe on Corral</a>.
+where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file.To select the appropriate path on Corral see the guide for <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
 
 
 An entire folder can be copied from your local system to the remote server by using the command:
@@ -57,7 +57,7 @@ A file can be synced from your local system to the remote server by using the co
 
 	<em><strong>rsync &lt;filename&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
 
-where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. To select the appropriate path on Corral see the guide for <a href="./settingpathoncorral">Setting the Path to DesignSafe on Corral</a>.
+where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. To select the appropriate path on Corral see the guide for <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
 
 An entire directory can be synced from your local system to the remote server by using the command:
 

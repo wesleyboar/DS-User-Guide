@@ -51,7 +51,7 @@ For the "Path", select one of the following:
 * For **Published **DesignSafe projects set Path to **/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;**/
 * For **Published (NEES)** projects set Path to **/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/**
 
-For more information on path selection please see the detailed in guide on <a href="../settingpathtocorral">Setting the Path to DesignSafe on Corral</a>.
+For more information on path selection please see the detailed in guide on <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
 
 If you do not see the "Path" option click the button "More Options" in the lower left.
 
