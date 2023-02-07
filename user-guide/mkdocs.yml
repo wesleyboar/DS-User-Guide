@@ -19,6 +19,21 @@ nav:
 #  - Globus Data Transfer: globusdatatransfer.md
 #  - Jupyter Browser: jupyterbrowser.md
 
+  - Curating &amp; Publishing Projects:
+    - FAQ: curating/faq.md
+#   - Curation & Publication Guide
+#   - Best Practices:
+#   - Data Depot/Curation Office Hours:
+#   - Metrics Documentation:
+#   - Curation & Publication FAQ:
+#   - Policies:
+#     - Mission &amp; History: curating/policies/history.md
+#     - Governance: curating/policies/governance.md
+#     - Data Collections Development: curating/policies/governance.md
+#     - Data Curation: curating/policies/governance.md
+#     - Data Publication: curating/policies/governance.md
+#     - Data Preservation: curating/policies/governance.md
+
 theme: readthedocs
 
 plugins:
