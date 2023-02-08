@@ -33,7 +33,7 @@ More information about the different Workspaces in DesignSafe and how to manage 
 
 ### Selecting a Project Type
 
-Depending on the research method pursued, users may curate and publish data as “Experimental”, “Simulation”, “Hybrid Simulation,” or “Field Research” project type. The Field Research project type accommodates "Interdisciplinary Datasets" involving engineering and/or social science collections. 
+Depending on the research method pursued, users may curate and publish data as "Experimental", "Simulation", "Hybrid Simulation," or "Field Research" project type. The Field Research project type accommodates "Interdisciplinary Datasets" involving engineering and/or social science collections. 
 
 Based on <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/policies/">data models</a> designed by experts in the field, the different project types provide interactive tools and metadata forms to curate the dataset so it is complete and understandable for others to reuse. So for example,users that want to publish a simulation dataset will have to include files and information about the model or software used, the input and the output files, and add a readme file or a data report. 
 
@@ -62,7 +62,7 @@ Excel and Matlab are two proprietary file formats highly used in this community.
 
 #### Compressed Data
 
-Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to “My Data” , it is possible to unzip it using the extraction <a href="https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1">utility</a> available in the workspace before copying data to My Project for curation and publication.
+Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to "My Data" , it is possible to unzip it using the extraction <a href="https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1">utility</a> available in the workspace before copying data to My Project for curation and publication.
 
 #### Geospatial Data
 
@@ -78,11 +78,9 @@ It is highly recommended to avoid publishing proprietary point cloud data extens
 
 More and more researchers are publishing projects that contain Jupyter Notebooks as part of their data. They can be used to provide sample queries on the published data as well as providing digital data reports.  As you plan for publishing a Jupyter Notebook, please consider the following issues:
 
-<ol dir="ltr">
-1. The DesignSafe publication process involves copying the contents of your project at the time of publication to a read only space within the Published projects section of the Data Depot (i.e., this directory can be accessed at NHERI-Published in JupyterHub). Any future user of your notebook will access it in the read only Published projects section. Therefore, any local path you are using while developing your notebook that is accessing a file from a private space (e.g., “MyData”, “MyProjects”) will need to be replaced by an absolute path to the published project. Consider this example: you are developing a notebook in PRJ-0000 located in your “MyProjects” directory and you are reading a csv file living in this project at this path: `/home/jupyter/MyProjects/PRJ-0000/Foo.csv`. Before publishing the notebook, you need to change the path to this csv file to `/home/jupyter/NHERI-Published/PRJ-0000/Foo.csv`.
+1. The DesignSafe publication process involves copying the contents of your project at the time of publication to a read only space within the Published projects section of the Data Depot (i.e., this directory can be accessed at NHERI-Published in JupyterHub). Any future user of your notebook will access it in the read only Published projects section. Therefore, any local path you are using while developing your notebook that is accessing a file from a private space (e.g., "MyData", "MyProjects") will need to be replaced by an absolute path to the published project. Consider this example: you are developing a notebook in PRJ-0000 located in your "MyProjects" directory and you are reading a csv file living in this project at this path: `/home/jupyter/MyProjects/PRJ-0000/Foo.csv`. Before publishing the notebook, you need to change the path to this csv file to `/home/jupyter/NHERI-Published/PRJ-0000/Foo.csv`.
 1. The published area is a read-only space. In the published section, users can run notebooks, but the notebook is not allowed to write any file to this location. If the notebook needs to write a file, you as the author of the notebook should make sure the notebook is robust to write the file in each user directory. <a href="https://doi.org/10.17603/ds2-v310-qc53">Here</a> is an example of a published notebook that writes files to user directories. Furthermore, since the published space is read-only, if a user wants to revise, enhance or edit the published notebook they will have to copy the notebook to their mydata and continue working on the copied version of the notebook located in their mydata. To ensure that users understand these limitations, we require a readme file be published within the project that explains how future users can run and take advantage of the Jupyter Notebook.
 1. Jupyter Notebooks rely on packages that are used to develop them (e.g., numpy, geopandas, ipywidgets, CartoPy, Scikit-Learn). For preservation purposes, it is important to publish a requirement file including a list of all packages and their versions along with the notebook as a metadata file.
-</ol>
 
 ### Data Organization and Description
 
@@ -101,39 +99,26 @@ File naming conventions are often a very important part of the work of organizin
 The following are good examples of data organization and description of different project types:
 
 * Experimental
-<ul>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197">Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces.</a>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2141">CFS-NHERI: Seismic Resiliency of Repetitively Framed Mid-rise cold-Formed Steel Buildings.</a>
-</ul>
 
 * Simulation
-<ul>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2972">Modeling and Analysis of Steel Frame Building Systems</a>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2968">Texas FEMA Hurricane Winds and Surge</a>
-</ul>
 
 * Hybrid Simulation
-<ul>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-1634">Aeroelastic Real-Time Hybrid Simulation - A New Concept for Wind Engineering Testing </a>
-</ul>
 
 * Field Research
-<ul>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3333">Expert Survey on Community Resilience Testbed Use and Development (Social Science)</a>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2440">Ridgecrest, CA Earthquake Sequence, July 4 and 5, 2019.</a> (Engineering)
-</ul>
 
 * Interdisciplinary Field Research
-<ul>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2656">A Longitudinal Community Resilience Focused Technical Investigation of the Lumberton, North Carolina Flood of 2016 (in progress).</a>
-</ul>
 
 * Other
-* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3285">Contribution to Cold Formed Steel Seismic Design within CFS-NHERI Project.</a>
-* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2289">Global Academic Hazards and Disaster research Centers Data</a>
-</ul>
-
-</ul>
+	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3285">Contribution to Cold Formed Steel Seismic Design within CFS-NHERI Project.</a>
+	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2289">Global Academic Hazards and Disaster research Centers Data</a>
 
 ### Project Documentation
 
@@ -173,42 +158,242 @@ So that DDR metadata can be exchanged in a standard way, we map the fields and t
 
 Due to variations in research methods, users may not need to use all the metadata elements available to describe their data. However, for each project type we identified a required set that represents the structure of the data, are useful for discovery, and will allow proper citation of data. To ensure the quality of the publications, the system automatically checks for completeness of these core elements and whether data files are associated with them. If those elements and data are not present, the publication does not go through. For each project type, the metadata elements including those that are required and recommended are shown below.  
 
-<b>Experimental Research Project<br>
+<table border="1" width="100%">
+<tr valign="top">
+<td><b>Experimental Research Project</b><br>
 <a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/experimental-research-project/">View Metadata Dictionary</a></b>
 
-* DOI<sup>†</sup>
-* Project Title
-* Author (PIs/Team Members)*
-* Participant Institution*
-* Project Type*
-* Description
-* Publisher<sup>†</sup>
-* Date of Publication<sup>†</sup>
-* Licenses
-* Related Works*<sup>$</sup>
-* Award*
-* Keywords
-* Experiment*
-	* Report
-	* DOI<sup>†</sup>
-	* Experiment Title
-	* Author (PIs/Team Members)*
-	* Experiment Description
-	* Date of Publication<sup>†</sup>
-	* Dates of Experiment
-	* Experimental Facility
-	* Experiment Type
-	* Equipment Type*
-	* Model Configuration*
-	* Sensor Information*
-	* Event*
-	* Experiment Report<sup>$</sup>
-* Analysis*<sup>$</sup>
-	* Analysis Title
-	* Description
-	* Referenced Data*
-
-
-
+<ul>
+	<li>DOI<sup>†</sup></li>
+	<li>Project Title</li>
+	<li>Author (PIs/Team Members)&#42;</li>
+	<li>Participant Institution&#42;</li>
+	<li>Project Type&#42;</li>
+	<li>Description</li>
+	<li>Publisher<sup>†</sup></li>
+	<li>Date of Publication<sup>†</sup></li>
+	<li>Licenses</li>
+	<li>Related Works&#42;<sup>$</sup></li>
+	<li>Award&#42;</li>
+	<li>Keywords</li>
+	<li>Experiment&#42;
+	<ul>
+		<li>Report</li>
+		<li>DOI<sup>†</sup></li>
+		<li>Experiment Title</li>
+		<li>Author (PIs/Team Members)&#42;</li>
+		<li>Experiment Description</li>
+		<li>Date of Publication<sup>†</sup></li>
+		<li>Dates of Experiment</li>
+		<li>Experimental Facility</li>
+		<li>Experiment Type</li>
+		<li>Equipment Type&#42;</li>
+		<li>Model Configuration&#42;</li>
+		<li>Sensor Information&#42;</li>
+		<li>Event&#42;</li>
+		<li>Experiment Report<sup>$</sup></li>
+	</ul>
+	</li>
+	<li>Analysis&#42;<sup>$</sup>
+	<ul>
+		<li>Analysis Title</li>
+		<li>Description</li>
+		<li>Referenced Data&#42;</li>
+	</ul>
+	</li>
+</ul>
 
 	
+</td>
+<td><b>Simulation Research Project</b><br>
+<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/simulation-research-project/">View Metadata Dictionary</a></b>
+
+<ul>
+	<li>DOI<sup>†</sup></li>
+	<li>Project Title</li>
+	<li>Author (PIs/Team Members)&#42;</li>
+	<li>Participant Institution&#42;</li>
+	<li>Project Type&#42;</li>
+	<li>Description</li>
+	<li>Publisher<sup>†</sup></li>
+	<li>Date of Publication<sup>†</sup></li>
+	<li>Licenses</li>
+	<li>Related Works&#42;<sup>$</sup></li>
+	<li>Award&#42;</li>
+	<li>Keywords</li>
+	<li>Simulation&#42;
+	<ul>
+		<li>Report</li>
+		<li>Simulation Title</li>
+		<li>Author (PIs/Team Members)&#42;</li>
+		<li>Description</li>
+		<li>Simulation Type</li>
+		<li>Simulation Model</li>
+		<li>Simulation Input&#42;</li>
+		<li>Simulation Output&#42;</li>
+		<li>Referenced Data&#42;</li>
+		<li>Simulation Report<sup>$</sup></li>
+	</ul>
+	</li>
+	<li>Analysis&#42;<sup>$</sup>
+	<ul>
+		<li>Analysis Title</li>
+		<li>Description</li>
+		<li>Referenced Data&#42;</li>
+	</ul>
+	</li>
+</ul>
+
+</td></tr>
+
+<tr valign="top">
+
+<td><b>Hybrid Simulation Research Project</b><br>
+<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/hybrid-simulation-research-project/">View Metadata Dictionary</a></b>
+
+<ul>
+	<li>DOI<sup>†</sup></li>
+	<li>Project Title</li>
+	<li>Author (PIs/Team Members)&#42;</li>
+	<li>Participant Institution&#42;</li>
+	<li>Project Type&#42;</li>
+	<li>Description</li>
+	<li>Publisher<sup>†</sup></li>
+	<li>Date of Publication<sup>†</sup></li>
+	<li>Licenses</li>
+	<li>Related Works&#42;<sup>$</sup></li>
+	<li>Award&#42;</li>
+	<li>Keywords</li>
+	<li>Hybrid Simulation&#42;
+	<ul>
+		<li>Report</li>
+		<li>Global Model
+		<ul>
+			<li>Global Model Title</li>
+			<li>Description</li>
+		</ul>
+		</li>
+		<li>Master Simulation Coordinator
+		<ul>
+			<li>Master Simulation Coordinator Title</li>
+			<li>Application and Version</li>
+			<li>Substructure Middleware</li>
+		</ul>
+		</li>
+		<li>Simulation Substructure&#42;
+		<ul>
+			<li>Simulation Substructure Title</li>
+			<li>Application and Version</li>
+			<li>Description</li>
+		</ul>
+		</li>
+		<li>Experiment Substructure&#42;
+		<ul>
+			<li>Experiment Substructure Title</li>
+			<li>Description</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+</td>
+
+<td><b>Field Research Project</b><br>
+<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/field-research-project/">View Metadata Dictionary</a></b>
+
+<ul>
+	<li>Project Title</li>
+	<li>PI/Co-PI(s)&#42;</li>
+	<li>Project Type</li>
+	<li>Description</li>
+	<li>Related Work(s)&#42;<sup>$</sup></li>
+	<li>Award(s)&#42;<sup>$</sup></li>
+	<li>Keywords</li>
+	<li>Natural Hazard Event</li>
+	<li>Natural Hazard Date</li>
+	<li>Documents Collection&#42;<sup>$</sup>
+	<ul>
+		<li>Author(s)&#42;</li>
+		<li>Date of Publication<sup>†</sup></li>
+		<li>DOI<sup>†</sup></li>
+		<li>Publisher<sup>†</sup></li>
+		<li>License(s)&#42;</li>
+		<li>Referenced Data&#42;<sup>$</sup></li>
+		<li>Description</li>
+	</ul>
+	</li>
+	<li>Mission&#42;
+	<ul>
+		<li>Mission Title</li>
+		<li>Author(s)&#42;</li>
+		<li>Date(s) of Mission</li>
+		<li>Mission Site Location</li>
+		<li>Date of Publication</li>
+		<li>DOI<sup>†</sup></li>
+		<li>Publisher<sup>†</sup></li>
+		<li>License(s)<span style="font-size: 10.8333px;">&#42;</span></li>
+		<li>Mission Description</li>
+		<li>Research Planning Collection<span style="font-size: 10.8333px;">&#42;<sup>$</sup></span>
+		<ul>
+			<li>Collection Title</li>
+			<li>Data Collector(s)<span style="font-size: 10.8333px;">&#42;</span></li>
+			<li>Referenced Data&#42;<sup>$</sup></li>
+			<li>Collection Description</li>
+		</ul>
+		</li>
+		<li>Social Sciences Collection&#42;
+		<ul>
+			<li>Collection Title</li>
+			<li>Unit of Analysis<sup>$</sup></li>
+			<li>Mode(s) of Collection<sup>&#42;$</sup></li>
+			<li>Sampling Approach(es)<sup>&#42;$</sup></li>
+			<li>Sample Size<sup>$</sup></li>
+			<li>Date(s) of Collection</li>
+			<li>Data Collector(s)&#42;</li>
+			<li>Collection Site Location</li>
+			<li>Equipment&#42;</li>
+			<li>Restriction<sup>$</sup></li>
+			<li>Referenced Data&#42;<sup>$</sup></li>
+			<li>Collection Description</li>
+		</ul>
+		</li>
+		<li>Engineering/Geosciences Collection&#42;
+		<ul>
+			<li>Collection Title</li>
+			<li>Observation Type&#42;</li>
+			<li>Date(s) of Collection</li>
+			<li>Data Collector(s)&#42;</li>
+			<li>Collection Site Location</li>
+			<li>Equipment&#42;</li>
+			<li>Referenced Data&#42;<sup>$</sup></li>
+			<li>Collection Description</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+
+</td></tr>
+
+	
+
+<tr valign="top"><td><b>Other</b><br>
+<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/other/">View Metadata Dictionary</a></b>
+
+<ul>
+	<li>DOI<sup>†</sup></li>
+	<li>Project Title</li>
+	<li>Author(s)&#42;</li>
+	<li>Data Type</li>
+	<li>Description</li>
+	<li>Publisher<sup>†</sup></li>
+	<li>Date of Publication<sup>†</sup></li>
+	<li>License(s)</li>
+	<li>Related Works&#42;<sup>$</sup></li>
+	<li>Award&#42;</li>
+	<li>Keywords</li>
+</ul>
+
+</td></tr></table>
