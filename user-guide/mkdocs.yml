@@ -2,6 +2,8 @@ site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
 theme: readthedocs
+plugins:
+  - search
 
 nav:
   - Home: index.md
@@ -10,6 +12,7 @@ nav:
     - Data Transfer Guide: managingdata/datatransfer.md
     - Data Management Plan Guidance: managingdata/datamanagementplan.md
     - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+
   - Curating &amp; Publishing Projects:
     - Curation &amp; Publication Guide: 
       - Experimental: curating/guide/experimental.md
@@ -17,15 +20,19 @@ nav:
       - Hybrid Simulation: curating/guide/hybrid.md
       - Field Research: curating/guide/fieldresearch.md
       - Other: curating/guide/other.md
+
     - Best Practices: 
       - Data Collections Development: curating/bestpractices/datacollectionsdevelopment.md
       - Data Curation: curating/bestpractices/datacuration.md
       - Data Publication: curating/bestpractices/datapublication.md
       - Data Preservation: curating/bestpractices/datapreservation.md
+
     - Data Depot/Curation Office Hours: curating/officehours.md
+
     - Metrics Documentation: curating/metrics.md
+
     - Curation &amp; Publication FAQ: curating/faq.md
-    - Policies:
+    - Policies: 
       - Mission &amp; History: curating/policies/mission.md
       - Governance: curating/policies/governance.md
       - Data Collections Development: curating/policies/development.md
@@ -44,5 +51,3 @@ nav:
 #  - Jupyter Browser: jupyterbrowser.md
 
 
-plugins:
-  - search
