@@ -1,16 +1,17 @@
-## Field Research
+# Field Research
 
 <b><i>Field Research User Guide is in progress.</i></b>
 
-### 1. Add a Project
+---
+## 1. Add a Project
 
-<img src="../../imgs/guide-fieldresearch-1a.jpg">
+<img src="../../imgs/guide-allguides-1a.jpg">
     
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.
 
-<img src="../../imgs/guide-fieldresearch-1b.png">
+<img src="../../imgs/guide-allguides-1b.png">
     
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
@@ -22,8 +23,8 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 
 To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
-<hr>
-### 2. Add a Mission
+---
+## 2. Add a Mission
 
 To begin curation, click on the <strong>Curation Directory</strong> and select <strong>Field Research</strong> as your Project Type.
 
@@ -51,8 +52,8 @@ You can edit a mission from the mission inventory.
 
 <a name="step4d"> </a>
 
-<hr>
-### 3. Add Collections
+---
+## 3. Add Collections
 
 Click <strong>Add Collections</strong> to begin.
 
@@ -77,8 +78,8 @@ After filling out the fields, click <strong>+ Add Collection</strong> and it wil
 <img src="../../imgs/guide-fieldresearch-3.png">
     
 
-<hr>
-### 4. Relate Data
+---
+## 4. Relate Data
 
 Click <strong>Relate Data</strong> to begin.
 
@@ -90,8 +91,8 @@ When published, this diagram will help others understand the structure of your F
 
 <img src="../../imgs/guide-fieldresearch-4.png">
     
-<hr>
-### 5. Assign Collections to Files
+---
+## 5. Assign Collections to Files
 
 As you create collections, they will appear in a dropdown next to each file. This allows you select collections for any file in your project and group them under each collection. Click <strong>Save</strong> to confirm the collection.
 
@@ -108,8 +109,8 @@ Click <strong>Remove</strong> if you make any mistakes.
 <img src="../../imgs/guide-fieldresearch-5b.png">
     
 
-<hr>
-### 6. Tag Files
+---
+## 6. Tag Files
 
 After putting files in collections, dropdowns will appear to allow you to tag/describe unique files. 
 
@@ -123,8 +124,8 @@ If you do not see a file tag that fits, you can select <strong>Other</strong> an
 <img src="../../imgs/guide-fieldresearch-6.png">
     
 
-<hr>
-### 7. Publication Preview
+---
+## 7. Publication Preview
 
 All of the curation work is done in the Curation Directory. The Publication Preview lets you examine the layout of your publication so you can visualize/verify how your work will appear once published.
 
@@ -137,8 +138,8 @@ Look through the Publication Preview early and often to make changes or catch mi
 <img src="../../imgs/guide-fieldresearch-7b.png">
     
 
-<hr>
-### 8. Prepare to Publish
+---
+## 8. Prepare to Publish
 
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 

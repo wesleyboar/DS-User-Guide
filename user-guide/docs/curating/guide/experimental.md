@@ -6,9 +6,11 @@ Below are step-by-step guides on how to create projects in the Data Depot, and c
 * <a href="/rw/user-guides/curating-publishing-projects/best-practices/">Best Practices</a></li>
 * <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/faq/">Curation &amp; Publication FAQs</a>.</li>
 
-## Experimental
+---
+# Experimental
 
-### 1. Add a Project
+---
+## 1. Add a Project
     
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.
 
@@ -28,11 +30,9 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 
 To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
-<hr>
+---
+## 2. Add an Experiment
 
-### 2. Add an Experiment
-
-    
 To begin curation and add an experiment, click on the <strong>Curation Directory</strong> and select <strong>Experimental</strong> as your Project Type.
 
 <img src="../../imgs/guide-experimental-2a.png">
@@ -52,7 +52,8 @@ Click <strong>+</strong> <strong>Add Experiment</strong> when you are done and i
 
 You can edit an experiment from the inventory.
 
-### 3. Add Categories
+---
+## 3. Add Categories
 
     
 Click <strong>Add Categories</strong> to begin.
@@ -73,7 +74,8 @@ Categories group files together based on a shared purpose in an experiment. Be s
 
 After filling out the fields, click <strong>+ Add Category</strong> and it will appear below in your inventory. If you make any mistakes, expand the category and click <strong>Edit</strong>.
 
-### 4. Relate Data
+---
+## 4. Relate Data
 
 Click <strong>Relate Data</strong> to begin.
 
@@ -83,9 +85,8 @@ Relating Data allows you to relate categories to each other and to an experiment
 
 When published, this diagram will help others understand the structure of your experiment at a glance.
 
-<hr>
-
-### 5. Assign Categories to Files
+---
+## 5. Assign Categories to Files
 
 
 <img src="../../imgs/guide-experimental-5a.png">
@@ -99,13 +100,9 @@ A file can belong to one or more categories.
 Click <strong>Remove</strong> if you make any mistakes.
 
 <img src="../../imgs/guide-experimental-5b.png">
-    
 
-<hr>
-
-
-### 6. Tag Files
-
+---
+## 6. Tag Files
 
 <img src="../../imgs/guide-experimental-6.png">
 
@@ -117,10 +114,8 @@ These tags are optional, but recommended.
 
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own.
 
-<hr>
-
-
-### 7. Publication Preview
+---
+## 7. Publication Preview
 
 <img src="../../imgs/guide-experimental-7a.png">
     
@@ -130,9 +125,8 @@ All of the curation work is done in the Curation Directory, while the Publicatio
     
 Look through the Publication Preview early and often to catch any mistakes. If you are working collaboratively with others, this is a good way to proofread changes they make.
 
-<hr>
-
-### 8. Prepare to Publish
+---
+## 8. Prepare to Publish
 
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 
