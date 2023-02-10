@@ -1,7 +1,7 @@
 # Other
 
 ---
-## 1. Add a Project
+## [1. Add a Project](#step1) { #step1 }
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.  
 
@@ -20,7 +20,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
 ---
-### 2. Begin Curation
+## [2. Begin Curation](#step2) { #step2 }
     
 To begin curating and tagging your files, click on the <strong>Curation Directory</strong> and select <b>Other</b> as your Project Type.
 
@@ -31,7 +31,7 @@ Fill out additional required fields in the <strong>Edit Project</strong> window,
 <img src="../../imgs/guide-other-step2b.png">
 
 ---
-### 3. Tag Files
+## [3. Tag Files](#step3) { #step3 }
     
 Dropdowns will appear by each file to allow you to tag specific files. 
 
@@ -42,7 +42,7 @@ These tags are optional, but recommended. The help other users understand your d
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own.
 
 ---
-### 4. Prepare to Publish
+## [4. Prepare to Publish](#step4) { #step4 }
 
     
 When you are satisfied with your work and wish to publish it and recieve a DOI, click Prepare to Publish in the Publication Preview.

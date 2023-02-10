@@ -10,17 +10,17 @@ Below are step-by-step guides on how to create projects in the Data Depot, and c
 # Experimental
 
 ---
-## 1. Add a Project
+## [1. Add a Project](#step1) { #step1 }
     
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.
 
-<img src="../../imgs/guide-experimental-1a.jpg">
+<img src="../../imgs/guide-allguides-1a.jpg">
     
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
-<img src="../../imgs/guide-experimental-1b.png">
+<img src="../../imgs/guide-allguides-1b.png">
 
 PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. 
 
@@ -31,7 +31,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
 ---
-## 2. Add an Experiment
+## [2. Add an Experiment](#step2) { #step2 }
 
 To begin curation and add an experiment, click on the <strong>Curation Directory</strong> and select <strong>Experimental</strong> as your Project Type.
 
@@ -53,7 +53,7 @@ Click <strong>+</strong> <strong>Add Experiment</strong> when you are done and i
 You can edit an experiment from the inventory.
 
 ---
-## 3. Add Categories
+## [3. Add Categories](#step3) { #step3 }
 
     
 Click <strong>Add Categories</strong> to begin.
@@ -75,7 +75,7 @@ Categories group files together based on a shared purpose in an experiment. Be s
 After filling out the fields, click <strong>+ Add Category</strong> and it will appear below in your inventory. If you make any mistakes, expand the category and click <strong>Edit</strong>.
 
 ---
-## 4. Relate Data
+## [4. Relate Data](#step4) { #step4 }
 
 Click <strong>Relate Data</strong> to begin.
 
@@ -86,7 +86,7 @@ Relating Data allows you to relate categories to each other and to an experiment
 When published, this diagram will help others understand the structure of your experiment at a glance.
 
 ---
-## 5. Assign Categories to Files
+## [5. Assign Categories to Files](#step5) { #step5 }
 
 
 <img src="../../imgs/guide-experimental-5a.png">
@@ -102,7 +102,7 @@ Click <strong>Remove</strong> if you make any mistakes.
 <img src="../../imgs/guide-experimental-5b.png">
 
 ---
-## 6. Tag Files
+## [6. Tag Files](#step6) { #step6 }
 
 <img src="../../imgs/guide-experimental-6.png">
 
@@ -115,7 +115,7 @@ These tags are optional, but recommended.
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own.
 
 ---
-## 7. Publication Preview
+## [7. Publication Preview](#step7) { #step7 }
 
 <img src="../../imgs/guide-experimental-7a.png">
     
@@ -126,7 +126,7 @@ All of the curation work is done in the Curation Directory, while the Publicatio
 Look through the Publication Preview early and often to catch any mistakes. If you are working collaboratively with others, this is a good way to proofread changes they make.
 
 ---
-## 8. Prepare to Publish
+## [8. Prepare to Publish](#step8) { #step8 }
 
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 

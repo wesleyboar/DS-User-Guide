@@ -5,6 +5,13 @@ theme: readthedocs
 plugins:
   - search
 
+markdown_extensions:
+  - footnotes
+  - def_list
+  - admonition
+  - attr_list
+  - abbr
+
 nav:
   - Home: index.md
   - Managing Files: 

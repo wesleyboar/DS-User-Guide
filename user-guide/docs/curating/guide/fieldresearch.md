@@ -3,7 +3,7 @@
 <b><i>Field Research User Guide is in progress.</i></b>
 
 ---
-## 1. Add a Project
+## [1. Add a Project](#step1) { #step1 } 
 
 <img src="../../imgs/guide-allguides-1a.jpg">
     
@@ -24,7 +24,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
 ---
-## 2. Add a Mission
+## [2. Add a Mission](#step2) { #step2 } 
 
 To begin curation, click on the <strong>Curation Directory</strong> and select <strong>Field Research</strong> as your Project Type.
 
@@ -53,7 +53,7 @@ You can edit a mission from the mission inventory.
 <a name="step4d"> </a>
 
 ---
-## 3. Add Collections
+## [3. Add Collections](#step3) { #step3 } 
 
 Click <strong>Add Collections</strong> to begin.
 
@@ -79,7 +79,7 @@ After filling out the fields, click <strong>+ Add Collection</strong> and it wil
     
 
 ---
-## 4. Relate Data
+## [4. Relate Data](#step4) { #step4 } 
 
 Click <strong>Relate Data</strong> to begin.
 
@@ -92,7 +92,7 @@ When published, this diagram will help others understand the structure of your F
 <img src="../../imgs/guide-fieldresearch-4.png">
     
 ---
-## 5. Assign Collections to Files
+## [5. Assign Collections to Files](#step5) { #step5 } 
 
 As you create collections, they will appear in a dropdown next to each file. This allows you select collections for any file in your project and group them under each collection. Click <strong>Save</strong> to confirm the collection.
 
@@ -110,7 +110,7 @@ Click <strong>Remove</strong> if you make any mistakes.
     
 
 ---
-## 6. Tag Files
+## [6. Tag Files](#step6) { #step6 } 
 
 After putting files in collections, dropdowns will appear to allow you to tag/describe unique files. 
 
@@ -125,7 +125,7 @@ If you do not see a file tag that fits, you can select <strong>Other</strong> an
     
 
 ---
-## 7. Publication Preview
+## [7. Publication Preview](#step7) { #step7 } 
 
 All of the curation work is done in the Curation Directory. The Publication Preview lets you examine the layout of your publication so you can visualize/verify how your work will appear once published.
 
@@ -139,7 +139,7 @@ Look through the Publication Preview early and often to make changes or catch mi
     
 
 ---
-## 8. Prepare to Publish
+## [8. Prepare to Publish](#step8) { #step8 } 
 
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 

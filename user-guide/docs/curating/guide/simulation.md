@@ -1,7 +1,7 @@
 # Simulation
 
 ---
-## 1. Add a Project
+## [1. Add a Project](#step1) { #step1 }
 
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.
 
@@ -22,7 +22,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
 ---
-## 2. Add a Simulation
+## [2. Add a Simulation](#step2) { #step2 }
     
 To begin curation and add a simulation, click on the <strong>Curation Directory</strong> and select <b>Simulation</b> as your Project Type.
 
@@ -43,7 +43,7 @@ Click <strong>+</strong> <strong>Add Simulation</strong> when you are done and i
 You can edit a simulation from the inventory.
 
 ---
-## 3. Add Categories
+## [3. Add Categories](#step3) { #step3 }
 
     
 Click <strong>Add Categories</strong> to begin.
@@ -65,7 +65,7 @@ Categories group files together based on a shared purpose in a simulation. Be su
 After filling out the fields, click <strong>+ Add Category</strong> and it will appear below in your inventory. If you make any mistakes, expand the category and click <strong>Edit</strong>.
 
 ---
-## 4. Relate Data
+## [4. Relate Data](#step4) { #step4 }
 
 
     
@@ -78,7 +78,7 @@ Relating Data allows you to relate categories to each other and to an simulation
 When published, this diagram will help others understand the structure of your simulation at a glance.
 
 ---
-## 5. Assign Categories to Files
+## [5. Assign Categories to Files](#step5) { #step5 }
 
 As you create categories, they will appear in a dropdown by each file. This allows you to group files in each category. Click <strong>Save</strong> to confirm the category.
 
@@ -91,7 +91,7 @@ A file can belong to one or more categories.
 Click <strong>Remove</strong> if you make any mistakes.
 
 ---
-## 6. Tag Files
+## [6. Tag Files](#step6) { #step6 }
 
 
 After putting files in categories, dropdowns will appear to allow you to tag specific files. 
@@ -105,7 +105,7 @@ These tags are optional, but recommended.
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own.
 
 ---
-## 7. Publication Preview
+## [7. Publication Preview](#step7) { #step7 }
 
 All of the curation work is done in the Curation Directory, while the Publication Preview lets you examine the layout of your publication to give you a peace of mind about how your work will appear to other researchers once published.
     
@@ -116,7 +116,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 <img src="../../imgs/guide-simulation-7b.png">
 
 ---
-## 8. Prepare to Publish
+## [8. Prepare to Publish](#step8) { #step8 }
 
 <img src="../../imgs/guide-simulation-8a.png">
     
