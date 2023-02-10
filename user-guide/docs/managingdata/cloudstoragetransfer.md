@@ -7,7 +7,7 @@ Once connected, data held on the selected cloud storage provider can be easily c
 The three main cloud storage providers, <a href="#box">Box</a>, <a href="#dropbox">Dropbox</a>,and <a href="#google-drive">Google Drive</a>, are supported on DesignSafe. Detailed instructions for setting up these integrations is provided below.
 
 ---
-## Box
+## [Box](#box) { #box }
 
 **Login to DesignSafe** and go to **Workspace &gt; Data Depot &gt; Box.com**.
 
@@ -30,7 +30,7 @@ Return to the Box.com section of the Data Depot. You can now copy files to and f
  
 
 ---
-## Dropbox
+## [Dropbox](#dropbox) { #dropbox }
 
 Login to DesignSafe and go to Workspace &gt; Data Depot &gt; Dropbox.com.
 
@@ -48,10 +48,8 @@ Return to the Dropbox.com section of the Data Depot. You can now copy files to a
 
 <img alt="Complete Dropbox" src="../imgs/cloudstorage-1.png">
 
- 
-
 ---
-## Google Drive
+## [Google Drive](#googledrive) { #googledrive }
 
 Login to DesignSafe and go to Workspace &gt; Data Depot &gt; Google Drive
 
@@ -70,7 +68,6 @@ Return to the Google Drive section of the Data Depot. You can now copy files to 
 <img alt="Complete Google Drive" src="../imgs/cloudstorage-1.png">
 
 ---
-
 If you have any issues transferring files using one of the cloud providers listed above, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>).
 
 *Last Update: October 2021*

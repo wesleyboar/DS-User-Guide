@@ -4,14 +4,14 @@
 Cyberduck is an open-source client for file transfer protocols that allows you to securely connect to DesignSafe and other Texas Advanced Computing Center (TACC) resources without directly using the command line.
 
 ---
-### Step 1: Submit a ticket to activate Corral access for your DesignSafe/TACC Account
+## [1. Submit a ticket to activate Corral access for your DesignSafe/TACC Account](#step1) { #step1 }
 
 If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="../datatransfer">Data Transfer Guide</a>), you may skip this step.
 
 To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use Cyberduck. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
 
 ---
-### Step 2: Set up MFA using the TACC Token App
+## [2. Set up MFA using the TACC Token App](#step2) { #step2 }
 
 Go to TACC user portal (<a href="https://portal.tacc.utexas.edu">https://portal.tacc.utexas.edu)</a> and log in with your DesignSafe/TACC credentials and pair a device with your account.
 
@@ -20,21 +20,21 @@ Full instructions are provided here: <a href="https://portal.tacc.utexas.edu/tut
 Select the TACC Token App option.
 
 ---
-### Step 3: Download and Install Cyberduck
+## [3. Download and Install Cyberduck](#step3) { #step3 }
 
 Download Cyberduck (<a href="https://cyberduck.io/download/">https://cyberduck.io/download/</a>) and install.
 
 Note that Cyberduck is Free Software and as such is freely available to download (see link above). However, some approaches to downloading Cyberduck (such as through the Windows Store and Mac App Store) come with a registration key that disables a donation prompt. While you may purchase a registration key to support the development of Cyberduck if you wish, the **activation key is not required** to use the software for transfer files to and from DesignSafe.
 
 ---
-### Step 4: Create a New Bookmark
+## [4. Create a New Bookmark](#step4) { #step4 }
 
 Launch the Cyberduck app and select "Bookmark" &gt; "New Bookmark".
 
 ![Figure 1. Bookmark](./imgs/cyberduck-1.png)
 
 ---
-### Step 5: Populate Bookmark
+## [5. Populate Bookmark](#step5) { #step5 }
 
 Change the top dropdown to "SFTP (SSH File Transfer Protocol)".
 
@@ -62,7 +62,7 @@ When done close the bookmark. You will now see your newly created bookmark in th
 ![Figure 2. Bookmark Filled](imgs/cyberduck-2.png)
 
 ---
-### Step 6: Perform Transfer
+## [6. Perform Transfer](#step6) { #step6 }
 
 Right-click on your newly created bookmark and select "Connect to Server". You will be prompted for your TACC Token code.  Input the code from your TACC Token app.
 

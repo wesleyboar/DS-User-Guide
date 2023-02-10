@@ -6,7 +6,7 @@ Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. 
 The following provides detailed instructions for setting up Globus access to DesignSafe.
 
 ---
-### Step 1: Submit a ticket to activate Globus access for your DesignSafe/TACC Account
+## [1. Submit a ticket to activate Globus access for your DesignSafe/TACC Account](#step1) { #step1 }
 
 Create a new ticket on DesignSafe (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>) to request Globus access for your account. 
 
@@ -15,7 +15,7 @@ In the body of the message indicate you wish to use Globus and list the Data Dep
 You will get a response via email when the activation is complete.
 
 ---
-### Step 2: Create a Distinguished Name (DN)
+## [2. Create a Distinguished Name (DN)](#step2) { #step2 }
 
 Globus requires a unique identifier, called a Distinguished Name (DN), for each user.
 
@@ -40,7 +40,7 @@ After authenticating via the Identity Provider, you will be redirected back to C
 	/DC=org/DC=cilogon/C=US/O=University of Texas at Austin/CN=Sample Person A00000
 
 ---
-### Step 3: Associate your DN with your DesignSafe/TACC Account
+## [3. Associate your DN with your DesignSafe/TACC Account](#step3) { #step3 }
 
 Login to the TACC User Portal (<a href="https://portal.tacc.utexas.edu/" target="_blank">https://portal.tacc.utexas.edu</a>) with your DesignSafe/TACC account.
 
@@ -61,7 +61,7 @@ Enter the Certificate Subject obtained from CILogon.org in the text field, then 
 **Important**: It may take up to 2 hours for your DN to propagate to all TACC systems.
 
 ---
-### Step 4: Activate Your Desktop/Laptop as a Globus Endpoint and Connect
+## [4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#step4) { #step4 }
 
 After giving your DN time to propagate through the systems (up to 2 hours), go to <a href="https://globus.org" target="_blank">https://globus.org</a> and log in.
 
@@ -92,7 +92,7 @@ You can now access the files on your desktop/laptop via Globus.
 <img alt="Estabilish connection to local endpoint" src="../imgs/globus-step4-f.png" style="border: 2px; margin: 10px 10px 20px;">
 
 ---
-### Step 5: Connect to the DesignSafe (TACC Corral3) Endpoint
+## [5. Connect to the DesignSafe (TACC Corral3) Endpoint](#step5) { #step5 }
 
 To view both endpoint simultaneously, change the Globus' interface to the "two pane" view by toggling the buttons next to "Panels" in the upper right.
 
@@ -118,7 +118,7 @@ After entering the appropriate path to DesignSafe on Corral, you are ready to pe
 <img alt="Establish connection to Corral endpoint" src="../imgs/globus-step5.png" style="border: 2px;  margin: 10px 10px 20px 10px;">
 
 ---
-### Step 6: Perform Transfer between Your Local Enpoint and the DesignSafe (TACC Corral3) Endpoint
+## [6. Perform Transfer between Your Local Enpoint and the DesignSafe (TACC Corral3) Endpoint](#step6) { #step6 }
 
 To begin your transfer, select the file/folder you wish to move to/from DesignSafe.
 

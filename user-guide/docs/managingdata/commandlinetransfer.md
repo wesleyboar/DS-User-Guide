@@ -4,14 +4,14 @@
 Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools (see <a href="../datatransfer">Data Transfer Guide</a>) have been tried and found to be insufficient.
 
 ---
-### Step 1: Submit a ticket to activate Corral access for your DesignSafe/TACC Account
+## [1. Submit a ticket to activate Corral access for your DesignSafe/TACC Account](#step1) { #step1 }
 
 If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="../datatransfer">Data Transfer Guide</a>), you may skip this step.
 
 To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use a command-line based data transfer. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
 
 ---
-### Step 2: Set up MFA using the TACC Token App
+## [2. Set up MFA using the TACC Token App](#step2) { #step2 }
 
 Go to TACC user portal (<a href="https://portal.tacc.utexas.edu">https://portal.tacc.utexas.edu)</a> and log in with your DesignSafe/TACC credentials and pair a device with your account.
 
@@ -20,12 +20,12 @@ Full instructions are provided here: <a href="https://portal.tacc.utexas.edu/tut
 Select the TACC Token App option.
 
 ---
-### Step 3: Select Transfer Utility and Perform Transfer
+## [3. Select Transfer Utility and Perform Transfer](#step3) { #step3 }
 
 There are several different command-line based file transfer utilities. We detail two of them here: scp and rsync.
 
 ---
-#### scp
+### [scp](#step3-scp) { #step3-scp }
 
 A data transfer can be performed using the secure copy (scp) utility between any Linux, Mac, or Windows (with Window's Subsystem for Linux) machine and DesignSafe.
 
@@ -38,7 +38,7 @@ An entire folder can be copied from your local system to the remote server by us
 
 <em><b>scp -r &lt;/path/to/folder/&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</b></em>
 
-where the **-r** indicates the copy should be recursive, <b><i>&lt;/path/to/folder/&gt;</b></i>is the name of the folder you wish to copy (be sure to include the final "/", and all other terms defined previously.
+where the `-r` indicates the copy should be recursive, <b><i>&lt;/path/to/folder/&gt;</b></i>is the name of the folder you wish to copy (be sure to include the final "/", and all other terms defined previously.
 
 For help execute:
 
@@ -49,7 +49,7 @@ For more information execute:
 <em><strong>man scp</strong></em>
 
 ---
-#### rsync
+### [rsync](#step3-rsync) { #step3-rsync }
 
 A data transfer can also be performed using the rsync utility between any Linux, Mac, or Windows (with Window's Subsystem for Linux) machine and DesignSafe. The rsync utility is different from the scp utility as it first compares the source and destination files prior to performing the transfer and only performs a data transfer on the file(s) if they are different.
 
@@ -76,7 +76,7 @@ For more information execute:
 <em><strong>man rsync</strong></em>
 
 ---
-<strong>Important: To avoid problems when transferring files to DesignSafe, name your files using standard ASCII characters, for example [a-z][A-Z][0-9][-,_], and avoid the use of special characters, for example [%,*,#,@,</strong>°<strong>].</strong>
+<strong>Important: To avoid problems when transferring files to DesignSafe, name your files using standard ASCII characters, for example [a-z][A-Z][0-9][-,_], and avoid the use of special characters, for example [%,&#42;,#,@,</strong>°<strong>].</strong>
 
 <strong>If you have any issues transferring files using a command-line utility, </strong><strong>please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)</strong>.
 

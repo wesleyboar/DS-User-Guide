@@ -4,7 +4,7 @@
 Globus provides a command line interface (CLI), for those who need to perform automated data transfers. This data transfer method will likely be of most use to NHERI centers that need to bulk upload their data on a schedule.
 
 ---
-### Step 1: Submit a ticket to activate Globus access for your DesignSafe/TACC Account
+## [1. Submit a ticket to activate Globus access for your DesignSafe/TACC Account](#step1) { #step1 }
 
 Create a new ticket on DesignSafe (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>) to request Globus access for your account. 
 
@@ -13,33 +13,33 @@ In the body of the message indicate you wish to use Globus and list the Data Dep
 You will get a response via email when the activation is complete.
 
 ---
-<h3 id="step2">Step 2: Create a Distinguished Name (DN)</h3>
+## [2. Create a Distinguished Name (DN)](#step2) { #step2 }
 
 Detailed instructions for creating a DN can be found in <a href="../datatransfer#step2">Step 2 of the Globus Data Transfer Guide</a>.
 
 If you have already completed the DN creation process and associated it with your DesignSafe/TACC account you may skip to <a href="#step4">Step 4</a>.
 
 ---
-<h3 id="step3">Step 3: Associate your DN with your DesignSafe/TACC Account</h3>
+## [3. Associate your DN with your DesignSafe/TACC Account](#step3) { #step3 }
 
 Detailed instructions for associating your DN with your DesignSafe/TACC account can be found in <a href="../globusdatatransfer#step3">Step 3 of the Globus Data Transfer Guide</a>.
 
 ---
-### Step 4: Activate Your Desktop/Laptop as a Globus Endpoint and Connect
+## [4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#step4) { #step4 }
 
 If the data you wish to transfer is located on your local machine, follow <a href="../globusdatatransfer#step4">Step 4 of the Globus Data Transfer Guide</a> to create a personal endpoint.
 
 If the data you wish to transfer is located on a server operated by your organization and does not already have a Globus Endpoint available, talk to your system administrator about creating one.
 
 ---
-### Step 5: Install the Globus CLI
+## [5. Install the Globus CLI](#step5) { #step5 }
 
 Follow the instructions provided by Globus for installing the CLI (<a href="https://docs.globus.org/cli/">https://docs.globus.org/cli</a>)
 
 *Note the recommended installation method requires a system with Python3 and the ability to run pip commands.*
 
 ---
-### Step 6: Settings for CLI Transfer
+## [6. Settings for CLI Transfer](#step6) { #step6 }
 
 With the Globus CLI successfully installed on our local machine, we must now determine the endpoint information for DesignSafe.
 
@@ -58,7 +58,7 @@ Search for <strong>TACC Corral3 with CILogon Authentication </strong>&gt; <stron
 <strong>Repeat the process above to attain the UUID for your local endpoint.</strong>
 
 ---
-### Step 7: Test Globus CLI Transfer
+## [7. Test Globus CLI Transfer](#step7) { #step7 }
 
 With the endpoint IDs, we can now do a test transfer with the Globus CLI.
 
@@ -87,13 +87,13 @@ The full reference for the Globus CLI can found here: <a href="https://docs.glob
 The full reference for the transfer command, including information on additional options that may be useful to you, can be found here: <a href="https://docs.globus.org/cli/reference/transfer/">https://docs.globus.org/cli/reference/transfer</a>.
 
 ---
-### Step 8: Create an Automatic Transfer Script
+## [8. Create an Automatic Transfer Script](#step8) { #step8 }
 
 We will now create a shell script to store the transfer details (i.e., UUIDs and paths) and globus-cli syntax to allow us to quickly and reliably initiate future transfers.
 
 Below is an example script you can modify for your transfers. Note that this does hard code the UUIDs and paths and therefore assumes you are always transferring to and from the same locations.
 
-<pre>
+``` { .bash }
 #!/bin/bash
 
 GLOBUS_CLI_INSTALL_DIR="$(python -c 'import site; print(site.USER_BASE)')/bin"
@@ -117,10 +117,11 @@ label=$(data + "%Y&amp;m&amp;d_%H%M%S")
 label=$"YourLabelHere_${label}"
 
 # Run transfer
-globus transfer --recursive --label $label "$ep1" "$ep2"</pre>
+globus transfer --recursive --label $label "$ep1" "$ep2"
+```
 
 ---
-### Step 9: Automate Script Execution with cron
+## [9. Automate Script Execution with cron](#step9) { #step9 }
 
 To automate the transfer we wil use the Linux scheduling utility cron to call our transfer script on a specified schedule.
 
