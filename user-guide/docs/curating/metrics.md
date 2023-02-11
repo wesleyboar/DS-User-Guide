@@ -1,7 +1,6 @@
-
 # Metrics Documentation
 
-## Data Metrics
+## [Data Metrics](#data) { #data }
 
 Data metrics are research impact indicators complementary to other forms of evaluation such as number of paper citations, allowing researchers to assess the repercussions and influence of their work.  
 
@@ -27,7 +26,7 @@ Data Metrics is a work in progress and we add measurements on an ongoing basis. 
 
 Below are descriptions of each type of metric and what is counted at the project and at the data publication levels.
 
-## Project Metrics
+## [Project Metrics](#project) { #project }
 
 <strong>File Preview: </strong>Examining data in any data publication within a project such as clicking on a file name brings up a modal window that allows previewing the files. However, not all data types can be previewed. Among those that can are: text, spreadsheets, graphics and code files. (example extensions: .txt, .doc, .docx, .csv, .xlsx, .pdf, .jpg, .m, .ipynb). Those that can't include binary executables, MATLAB containers, compressed files, and video (eg. .bin, .mat, .zip, .tar, mp4, .mov). Only those files that can be previewed are counted. Users will get a count of all the files that have been previewed in the entire project.
 
@@ -39,7 +38,8 @@ Below are descriptions of each type of metric and what is counted at the project
 
 <strong>Project Downloads: </strong>Total downloads of a compressed entire project and its metadata to a user's machine.
 
-## Data Publication Metrics
+## [Data Publication Metrics](#publication) { #publication }
+
 <strong>File Preview:</strong> Examining data from an individual data publication such as clicking on a file name brings up a modal window that allows previewing files. Those file previews are counted. However, not all document types can be previewed. Among those that can are: text, spreadsheets, graphics and code files. (example extensions: .txt, .doc, .docx, .csv, .xlsx, .pdf, .jpg, .m, .ipynb). Those that can't include binary executables, MATLAB containers, compressed files, and video (eg. .bin, .mat, .zip, .tar, mp4, .mov).  Only those files that can be previewed are counted. Users will get a count of all the files that have been previewed in the data publication.
 
 <strong>File Download: </strong>Copying a file to the machine the user is running on, or to a storage device that the machine has access to. This can be done by ticking the checkbox next to a file and selecting "Download" at the top of the project page. With files that can be previewed, clicking "Download" at the top of the preview modal window has the same effect. Downloads are counted per individual files. We also consider counts when users tick the checkbox next to a file and select "Copy" at the top of the project page. The counts of copying a file from the published project can be to the user's My data, My projects, to Tools and Applications in the Workspace, or to one of the connected spaces (Box, Dropbox, Google Drive).
