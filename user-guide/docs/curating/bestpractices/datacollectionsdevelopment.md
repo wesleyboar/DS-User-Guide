@@ -1,10 +1,10 @@
 # Data Collections Development
 
-## Accepted Data 
+## [Accepted Data ](#accepteddata) { #accepteddata }
 
 The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted and can be stored in relation to data publications or as standalone products (See Data Models). 
 
-## Accepted and Recommended File Formats 
+## [Accepted and Recommended File Formats ](#acceptedfileformats) { #acceptedfileformats }
 
 Due to the diversity of data and instruments used by our community, there are no current restrictions on the file formats users can upload to the DDR. However, for long-term preservation and interoperability purposes, we recommend and promote storing and  publishing data in <a href="https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats">open formats</a>, and we follow the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Formats</a>. 
 
@@ -24,7 +24,7 @@ Below is an adaptation of the list of recommended formats for data and documenta
 * CODE:  (tcl files, py files) <a href="https://github.com/DataCurationNetwork/data-primers/blob/master/Jupyter%20Notebook%20Data%20Curation%20Primer/Jupyter%20Notebooks%20Data%20Curation%20Primer.md">Jupyter Notebook</a>
 * Seismology: SEED
 
-## Data Size</h3>
+## [Data Size](#datasize) { #datasize }
 
 Currently we do not pose restrictions on the volume of data users upload to and publish in the DDR. This is meant to accommodate the vast amount of data researchers in the natural hazards community can generate, especially during the course of large-scale research projects. 
 

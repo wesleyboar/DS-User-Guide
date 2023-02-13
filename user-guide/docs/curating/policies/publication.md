@@ -1,6 +1,6 @@
 # Data Publication and Usage
 
-## Protected Data
+## [Protected Data](#protecteddata) { #protecteddata }
 
 Protected data are information subject to regulation under relevant privacy and data protection laws, such as <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html">HIPAA</a>, <a href="https://studentprivacy.ed.gov/faq/what-ferpa">FERPA</a> and <a href="https://csrc.nist.gov/projects/risk-management/detailed-overview">FISMA</a>, as well as human subjects data containing <a href="https://security.utexas.edu/policies/irusp#definitions">Personally Identifiable Information (PII)</a> and data involving vulnerable populations and or containing <a href="https://en.wikipedia.org/wiki/Information_sensitivity">sensitive information</a>. 
 
@@ -14,23 +14,23 @@ It is the user’s responsibility to adhere to these policies and the procedures
 
 For any data not subject to IRB oversight but may still contain PII, such as Google Earth images containing images of people not studied in the scope of the research project, we recommend blocking out or blurring any information that could be considered PII before publishing the data in the DDR. We still invite any researchers that are interested in seeing the raw data to contact the PI of the research project to try and attain that. See our Protected Data<a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/"> Best Practices</a> for information on how to manage protected data in DDR.
 
-## Subsequent Publishing
+## [Subsequent Publishing](#publishing) { #publishing }
 
 Attending to the needs expressed by the community, we enable the possibility to publish data and other products subsequently within a project, each with a DOI. This arises from the longitudinal and/or tiered structure of some research projects such as experiments and field research missions which happen at different time periods, may involve multiple distinct teams, have the need to publish different types of materials or to release information promptly after a natural hazards event and later publish related products. Subsequent publishing is enabled in My Project interface where users and teams manage and curate their active data throughout their projects' lifecycle. 
 
-## Timely Data Publication  
+## [Timely Data Publication  ](#timely) { #timely }
 
 Although no firm deadline requirements are specified for data publishing, as an NSF-funded platform we expect researchers to publish in a timely manner, so we provide recommended timelines for publishing different types of research data in our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Timely Data Publication Best Practices.</a>
 
-## Peer Review
+## [Peer Review](#peerreview) { #peerreview }
 
 Users that need to submit their data for revision prior to publishing and assigning a DOI have the opportunity to do so by: a) adding reviewers to their My Project, when there is no need for annonymous review, or b) by contacting the DesignSafe data curator through a Help ticket to obtain a Public Accessibility Data Delay (See below). Note that the data must be fully curated prior to requesting a Public Accessibility Delay. 
 
-## Public Accessibility Delay  
+## [Public Accessibility Delay  ](#accessiblity) { #accessiblity }
 
 Many researchers request a DOI for their data before it is made publicly available to include in papers submitted to journals for review. In order to assign a DOI in the DDR, the data has to be curated and ready to be published. Once the DOI is in place, we provide services to researchers with such commitments to delay the public accessibility of their data publication in the DDR, i.e. to make the user’s data publication, via their assigned DOI, not web indexable through DataCote and or not publicly available in DDR's data browser until the corresponding paper is published in a journal, or for up to one year after the data is deposited. The logic behind this policy is that once a DOI has been assigned, it will inevitably be published, so this delay can be used to provide reviewers access to a data publication before it is broadly distributed. Note that data should be fully curated, and that while not broadly it will be eventually indexed by search engines. Users that need to amend/correct their publications will be able to do so via version control. See our <a data-sk="tooltip_parent" data-stringify-link="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/" delay="150" href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/" rel="noopener noreferrer" target="_blank">Data Delay Best Practices</a> for more information on obtaining a public accessibility delay.
 
-## Data Licenses
+## [Data Licenses](#licenses) { #licenses }
 
 DDR provides users with 5 licensing options to accommodate the variety of research outputs generated and how researchers in this community want to be attributed. The following licenses were selected after discussions within our community. In general, DDR users are keen about sharing their data openly but expect attribution. In addition to data, our community issues reports, survey instruments, presentations, learning materials, and code. The licenses are: Creative Commons Attribution (CC-BY 4.0), Creative Commons Public Domain Dedication (CC-0 1.0), Open Data Commons Attribution (ODC-BY 1.0), Open Data Commons Public Domain Dedication (ODC-PPDL 1.0), and GNU General Public License (GNU-GPL 3).  During the publication process  users have the option of selecting one license per publication with a DOI. More specifications of these license options and the works they can be applied to can be found in <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Licensing Best Practices</a>. 
 
@@ -38,7 +38,7 @@ DDR also requires that users reusing data from others in their projects do so in
 
 The expectations of DDR and the responsibilities of users in relation to the application and compliance with licenses are included in the DesignSafe Terms of Use, the Data Usage Agreement, and the Data Publication Agreement. As clearly stated in those documents, in the event that we note or are notified that the licencing policies and best practices are not followed, we will notify the user of the infringement and may cancel their DesignSafe account.
 
-## Data Citation
+## [Data Citation](#citation) { #citation }
 
 DDR abides by and promotes the <a href="https://www.force11.org/datacitationprinciples">Joint Declaration of Data Citation Principles</a> amongst its users. 
 
@@ -50,7 +50,7 @@ The expectations of DDR and the responsibilities of users in relation to the app
 
 However, given that it is not feasible to know with certainty if users comply with data citation, our approach is to educate our community by reinforcing citation in a positive way.  For this we implement outreach strategies to stimulate data citation.  Through diverse <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/faq/">documentation</a>, FAQs<a href="https://www.designsafe-ci.org/community/news/2017/importance-data-publishing-ellen-rathje/"> </a>webinars, and via emails, we regularly train our users on data citation best practices. And, by tracking and publishing information about the <a href="https://www.designsafe-ci.org/rw/impact-of-data-reuse/">impact and science contributions </a>of the works they publish citing the data that they use, we demonstrate the value of data reuse and further stimulate publishing and citing data.
 
-## Data Publication Agreement
+## [Data Publication Agreement](#agreement) { #agreement }
 
 This agreement is read and has to be accepted by the user prior to publishing a dataset. 
 
@@ -85,7 +85,7 @@ If applicable, I warrant that I am following the IRB agreements in place for my 
 
 I understand that the DDR does not approve data publications before they are posted; therefore, I am solely responsible for the submission, publication, and all possible confidentiality/privacy issues that may arise from the publication.
 
-## Data Usage Agreement
+## [Data Usage Agreement](#datausage) { #datausage }
 
 Users who access, preview, download or reuse data and metadata from the DesignSafe Data Depot Repository (DDR) agree to the following policies. If these policies are not followed, we will notify the user of the infringement and may cancel their DesignSafe account.
 
@@ -108,7 +108,7 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 	<li>Our system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. We only use this information in aggregate for metrics purposes and do not link it to the user’s identity.</li>
 </ul>
 
-## Amends and Version Control
+## [Amends and Version Control](#versioncontrol) { #versioncontrol }
 
 Users can amend and version their data publications. Since the DDR came online, we have helped users correct and or improve the metadata applied to their datasets after publication. Most requests involve improving the text of the descriptions, changing the order of the authors, and adding references of papers publised using the data in the project; users also required the possibility to version their datasets. Our amends and version control policy derives from meeting our users needs. 
 
@@ -136,11 +136,11 @@ The Fedora repository manages all amends and versions so there is a record of al
 
 More information about the reasons for amends and versioning are in<a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/"> Publication Best Practices.</a>
 
-## Leave Data Feedback
+## [Leave Data Feedback](#feedback) { #feedback }
 
 Users can click a “Leave Feedback” button on the projects’ landing pages to provide comments on any publication. This feedback is forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the publication landing pages. We encourage users to provide constructive feedback and suggest themes they may want to discuss about the publication in our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Leave Data Feedback Best Practices</a>
 
-## Data Impact
+## [Data Impact](#impact) { #impact }
 
 We understand data impact as a strategy that includes complementary efforts at the crossroads of data discoverability, usage metrics, and scholarly communications. 
 

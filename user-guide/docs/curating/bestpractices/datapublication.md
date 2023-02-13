@@ -1,6 +1,6 @@
 # Data Publication
 
-## Protected Data
+## [Protected Data](#protecteddata) { #protecteddata }
 
 Protected data in the  Data Depot Repository (DDR) are generally (but not always) included within interdisciplinary and social science research projects that study human subjects, which always need to have approval from an Institutional Review Board (IRB). We developed a data model and onboarding instructions <a href="https://converge.colorado.edu/data/data-publication">in coordination with our CONVERGE partners</a> to manage this type of data within our curation and publication pipelines. Additionally, CONVERGE has a series of <a href="https://converge.colorado.edu/resources/check-sheets/ethical-considerations/">check sheets</a> that outline how researchers should manage data that could contain sensitive information; these check sheets have also been published in <a href="http://doi.org/10.17603/ds2-7r74-1021">the DDR</a>.  
 
@@ -20,7 +20,7 @@ To publish protected data researchers should pursue the following steps and requ
 1. The responsibility of maintaining and managing a restricted dataset for the long term lies on the authors, and they can use <a href="https://www.tacc.utexas.edu/protected-data-service">TACC's Protected Data Services</a> if they see fit.  </li>
 1. Please contact DDR through a <a href="http://www.designsafe-ci.org/help/new-ticket">help ticket</a> or join <a href="https://www.designsafe-ci.org/learning-center/training/">curation office hours</a> prior to preparing this type of publication.  </li>
 
-### De-identification Resources
+### [De-identification Resources](#protecteddata-deidentification) { #protecteddata-deidentification }
 
 The NISTIR 8053 publication <a href="https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8053.pdf">De-Identification of Personal Information</a> provides all the definitions and approaches to reduce privacy risk and enable research. 
 
@@ -28,7 +28,7 @@ Another <a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineer
 
 John Hopkins Libraries Data Services <a href="https://dataservices.library.jhu.edu/resources/applications-to-assist-in-de-identification-of-human-subjects-research-data/">Applications to Assist in De-identification of Human Subjects Research Data</a>. 
 
-## Reusing Data Resources in your Publication
+## [Reusing Data Resources in your Publication](#reusingdata) { #reusingdata }
 
 Researchers frequently use data, code, papers or reports from other sources in their experiments, simulations and field research projects as input files, to integrate with data they create, or as references, and they want to republish them. It is a good practice to make sure that this data can be reused appropriately and republished as well as give credit to the data creators. Citing reused sources is also important to provide context and provenance to the project. In the DDR you can republish or reference reused data following the next premises:
 
@@ -50,14 +50,14 @@ Researchers frequently use data, code, papers or reports from other sources in t
 	</li>
 </ol>
 
-## Timely Data Publication 
+## [Timely Data Publication ](#timelypublication) { #timelypublication }
 
 Although no firm timeline requirements are specified for data publishing, researchers are expected to publish in a timely manner. Recommended timelines for publishing different types of research data (i.e., Experimental, Simulation, and Reconnaissance) are listed in Table 1.
 
 Guidelines specific to RAPID reconnaissance data can be found at <a href="https://rapid.designsafe-ci.org/media/filer_public/b3/82/b38231fb-21c9-41f8-b658-f516dfee87c8/rapid-designsafe_curation_guidelines_v3.pdf">rapid.designsafe-ci.org/media/filer_public/b3/82/b38231fb-21c9-41f8-b658-f516dfee87c8/rapid-designsafe_curation_guidelines_v3.pdf</a><br>
  
 
-### Table 1. Recommended Publishing Timeline for Different Data Types
+### [Table 1. Recommended Publishing Timeline for Different Data Types](#table1) { #table1 }
 
 <table border="1" width="100%">
 	<tbody>
@@ -104,7 +104,7 @@ Guidelines specific to RAPID reconnaissance data can be found at <a href="https:
 	</tbody>
 </table>
 
-## Public Accessibility Delay
+## [Public Accessibility Delay](#accessibilitydelay) { #accessibilitydelay }
 
 This refers to time during which a project is not made broadly accessible awaiting for the review and publication of a corresponding journal paper. In some cases, users need to have the data DOI to submit their manuscript for review.  We work with users to:
 

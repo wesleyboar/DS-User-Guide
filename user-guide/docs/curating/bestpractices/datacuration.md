@@ -1,4 +1,4 @@
-## Data Curation
+# Data Curation
 
 Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication <a href="https://www.go-fair.org/fair-principles/">FAIR</a> with assurance that it will be useful for generations to come.
 
@@ -6,7 +6,7 @@ Extensive support for data curation can be found in the <a href="https://www.des
 
 Below we highlight general curation best practices at different stages of the curation process.
 
-### Managing and Sharing Data in My Projects
+## [Managing and Sharing Data in My Projects](#managingdata) { #managingdata }
 
 All data and documentation collected and generated during a research project can be uploaded to My Project from the inception of the project. Within My Project, data are kept private for sharing amongst team members and for curation until published. Using My Project to share data with your team members during the course of research facilitates the progressive curation of data and its eventual publishing. 
 
@@ -31,7 +31,7 @@ Be aware that while you may store all of a project files in My Project, you may 
 
 More information about the different Workspaces in DesignSafe and how to manage data from one to the other can be found <a href="https://www.designsafe-ci.org/rw/user-guide/data-depot/">here</a>.
 
-### Selecting a Project Type
+## [Selecting a Project Type](#selectingprojecttype) { #selectingprojecttype }
 
 Depending on the research method pursued, users may curate and publish data as "Experimental", "Simulation", "Hybrid Simulation," or "Field Research" project type. The Field Research project type accommodates "Interdisciplinary Datasets" involving engineering and/or social science collections. 
 
@@ -39,7 +39,7 @@ Based on <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishi
 
 Users should select the project type that best fits their research method and dataset.  If the data does not fit any of the above project types, they can select project type" Other." In project type "Other" users can curate and publish standalone reports, learning materials, white papers, conference proceedings, tools, scripts, or data that does not fit with the research models mentioned above.
 
-### Working in My Project
+## [Working in My Project](#working) { #working }
 
 Once the project type is selected, the interactive interface in My Project will guide users through the curation and publication steps through detailed onboarding instructions. 
 
@@ -52,29 +52,29 @@ Because My Project is a shared space, it is recommended that teams select a data
 
 After data is published users can still work on My Project for progressive publishing of new experiments, missions or simulations within the project, to version and/or to edit or amend the existing publication. See amends and versions in this document.
 
-### General Research Data Best Practices
+## [General Research Data Best Practices](#bestpractices) { #bestpractices }
 
 Below we include general research data best practices but we strongly recommend to review the available <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a> for more specific directions on how to document and organize specific research data types. 
 
-#### Proprietary Formats
+### [Proprietary Formats](#bestpractices-formats) { #bestpractices-formats }
 
 Excel and Matlab are two proprietary file formats highly used in this community. Instead of Excel spreadsheet files, it is best to publish data as simple csv so it can be used by different software. However,  we understand that in some cases (e.g. Matlab, Excel) conversion may distort the data structures. Always retain an original copy of any structured data before attempting conversions, and then check between the two for fidelity. In addition, in the DDR it is possible to upload and publish both the proprietary and the converted version, especially if you consider that publishing with a proprietary format is convenient for data reuse.
 
-#### Compressed Data
+### [Compressed Data](#bestpractices-compresseddata) { #bestpractices-compresseddata }
 
 Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to "My Data" , it is possible to unzip it using the extraction <a href="https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1">utility</a> available in the workspace before copying data to My Project for curation and publication.
 
-#### Geospatial Data
+### [Geospatial Data](#bestpractices-geospatial) { #bestpractices-geospatial }
 
 We encourage the use of open Geospatial data formats. Within DS Tools and Applications we provide two open source software for users to share and analyze geospatial data. QGIS can handle most open format datasets and HazMapper, is capable of visualizing geo-tagged photos and GeoJSON files. To access these software users should  get an account in DesignSafe. 
 
 Understanding that ArcGIS software is widespread in this community  in the DDR it is possible to upload both proprietary and recommended geospatial data formats. When publishing feature and raster files it is important to make sure that all of the relevant files for reuse such as the projection file and header file are included in the publication for future re-use. For example, for shapefiles it is important to publish all .shp (the file that contains the geometry for all features), .shx (the file that indexes the geometry) and .dbf (the file that stores feature attributes in a tabular format) files.
 
-#### Point Cloud Data
+### [Point Cloud Data](#bestpractices-pointcloud) { #bestpractices-pointcloud }
 
 It is highly recommended to avoid publishing proprietary point cloud data extensions.  Instead, users should consider publishing post-processed and open format extension data such as las or laz files. In addition, point cloud data publications may be very large. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a potree readable format to be visualized in DesignSafe. 
 
-### Jupyter Notebooks
+## [Jupyter Notebooks](#jupyter) { #jupyter }
 
 More and more researchers are publishing projects that contain Jupyter Notebooks as part of their data. They can be used to provide sample queries on the published data as well as providing digital data reports.  As you plan for publishing a Jupyter Notebook, please consider the following issues:
 
@@ -82,7 +82,7 @@ More and more researchers are publishing projects that contain Jupyter Notebooks
 1. The published area is a read-only space. In the published section, users can run notebooks, but the notebook is not allowed to write any file to this location. If the notebook needs to write a file, you as the author of the notebook should make sure the notebook is robust to write the file in each user directory. <a href="https://doi.org/10.17603/ds2-v310-qc53">Here</a> is an example of a published notebook that writes files to user directories. Furthermore, since the published space is read-only, if a user wants to revise, enhance or edit the published notebook they will have to copy the notebook to their mydata and continue working on the copied version of the notebook located in their mydata. To ensure that users understand these limitations, we require a readme file be published within the project that explains how future users can run and take advantage of the Jupyter Notebook.
 1. Jupyter Notebooks rely on packages that are used to develop them (e.g., numpy, geopandas, ipywidgets, CartoPy, Scikit-Learn). For preservation purposes, it is important to publish a requirement file including a list of all packages and their versions along with the notebook as a metadata file.
 
-### Data Organization and Description
+## [Data Organization and Description](#organization) { #organization }
 
 In My Projects, users may upload files and or create folders to keep their files organized; the latter is common when projects have numerous files. However, browsing through an extensive folder hierarchy on the web may be slower on your local computer, so users should try to use the smallest number of nested folders necessary and if possible, none at all, to improve all users’ experience. 
 
@@ -120,7 +120,7 @@ The following are good examples of data organization and description of differen
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3285">Contribution to Cold Formed Steel Seismic Design within CFS-NHERI Project.</a>
 	* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2289">Global Academic Hazards and Disaster research Centers Data</a>
 
-### Project Documentation
+## [Project Documentation](#documentation) { #documentation }
 
 NH projects can be very large and complex, so we require that users submit a data report or a readme file to publish along with their data to express information that will facilitate understanding and reuse of your project. This documentation may include the structure of the data, a data dictionary, information of where everything is, explanation of the file naming convention used, and the methodology used to check the quality of the data. The data report in this <a href="https://doi.org/10.17603/ds2-5aej-e227">published dataset</a> is an excellent example of documentation. 
 
@@ -128,7 +128,7 @@ To provide context needed for others to understand the processes involved in gat
 
 When applicable, we ask users to include information about their project sponsors in the Awards Info fields. 
 
-### Data Quality Control
+## [Data Quality Control](#quality) { #quality }
 
 Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. Due to the specificity,  complexity, and scope of the research involved in each publication, the DDR cannot complete quality checks of the contents of the data published by users. It is the user's responsibility to publish data that is up to the best standards of their profession, and our commitment is to help them achieve these standards. In the DDR, data and metadata quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. In addition, below we include general data content quality recommendations: 
 
@@ -140,7 +140,7 @@ Researchers in NH generate enormous amounts of images. While we are not posing r
 
 It is possible to publish raw and curated data. Raw data is that which comes directly from the recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data as well as their curated data. For users who seek to publish both, consider why it is necessary to publish both sets and how another researcher would use them. Always clarify whether your data is raw or curated in the description or in a readme file. 
 
-### Managing Protected Data in the DDR
+## [Managing Protected Data in the DDR](#protectedddr) { #protectedddr }
 
 Users that plan to work with human subjects should have their IRB approval in place prior to storing, curating, and publishing data in the DDR. We recommend following the recommendations included in the CONVERGE series of<a href="https://converge.colorado.edu/resources/check-sheets/ethical-considerations/"> check sheets</a> that outline how researchers should manage/approach the lifecycle data that contain personal and sensitive information; these check sheets have also been published in the<a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2946"> DDR</a>.
 
@@ -150,7 +150,7 @@ DesignSafe My Data and My Projects are secure spaces to store raw protected data
 
 Projects that do not include the study of human subjects and are not under IRB purview may still contain items with Personally Identifiable Information (PII). For example, researchers conducting field observations may capture human subjects in their documentation including work crews, passersby, or people affected by the disaster. If camera instruments capture people that are in the observed areas incidentally, we recommend that their faces and any <a href="https://www.technology.pitt.edu/help-desk/how-to-documents/guide-identifying-personally-identifiable-information-pii">Personally Identifiable Information</a> should be anonymized/blurred before publishing. In the case of images of team members, make sure they are comfortable with making their images public. Do not include roofing/remodeling records containing any form of PII. When those are public records, researchers should point to the site from which they are obtained using the Referenced Data and or Related Work fields. In short, users should follow all other protected data policies and best practices outlined further in this document.  
 
-### Metadata Requirements
+## [Metadata Requirements](#metadatareqs) { #metadatareqs }
 
 Metadata is information that describes the data in the form of schemas. Metadata schemas provide a structured way for users to share information about data with other platforms and individuals. Because there is no standard schema to describe natural hazards engineering research data, the DDR developed data models containing elements and controlled terms for categorizing and describing NH data. The terms have been identified by experts in the NH community and are continuously expanded, updated, and corrected as we gather feedback and observe how researchers use them in their publications. 
 

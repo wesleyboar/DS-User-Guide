@@ -20,7 +20,7 @@ Data sustainability is a continuous effort that DDR accomplishes along with the 
 	<li>Identifying Data Guideline Needs for Community and Regional Resilience Modelling Workshop: <a href="http://resilience.colostate.edu/files/DATA/Agenda_DATA_20210316.pdf" target="_blank">http://resilience.colostate.edu/files/DATA/Agenda_DATA_20210316.pdf</a></li>
 </ul>
 
-<u>Continuity of Access</u>
+## [Continuity of Access](#continuity) { #continuity }
 
 As part of the requirements of the current award we have a contingency pan in place to transfer all the DDR data, metadata and corresponding DOIs to a new awardee (should one be selected) without interruption of services and access to data. Fedora has <a href="https://wiki.lyrasis.org/display/FEDORA50/Import+and+Export+Tools">export capabilities </a>for transfer of data and metadata to another repository in a complete and validated fashion. The  portability plan is confirmed and updated in the Operations Project Execution Plan that we present anually to the NSF. 
 

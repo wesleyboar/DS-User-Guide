@@ -34,5 +34,4 @@ This preservation environment allows maintaining data in secure conditions at al
 
 Each published dataset has a <a href="/rw/user-guides/curating-publishing-projects/faq/">digital object identifier (DOI)</a> that provides a persistent link to the published data. The DOI is available in the dataset landing page, along with all the required metadata and documentation.
 
-
 To learn about our commitment to data preservation, please read our <a href="/rw/user-guides/curating-publishing-projects/policies/data-preservation/">Digital Preservation Policy</a>.

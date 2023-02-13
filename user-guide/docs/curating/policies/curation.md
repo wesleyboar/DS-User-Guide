@@ -4,17 +4,17 @@ Data curation involves the organization, description, representation, permanent 
 
 Our goal is to enable researchers to curate their data from the beginning of a research project and turn it into publications through interactive pipelines and consultation with data curators. The DDR has and continues to invest efforts in developing and testing curation and publication pipelines based on data models designed with input from the NHERI community.  
 
-## Data Management Plan
+## [Data Management Plan](#management) { #management }
 
 For natural hazards researchers submitting proposals to the NSF using any of the NHERI network facilities/resources, or alternative facilities/resources, we developed Data Management guidelines that explain how to use the DDR for data curation and publication. See Data Management Plan at: <a href="https://www.designsafe-ci.org/rw/user-guides/">https://www.designsafe-ci.org/rw/user-guides/</a> and <a href="https://converge.colorado.edu/data/data-management">https://converge.colorado.edu/data/data-management</a>
 
-## Data Models
+## [Data Models](#models) { #models }
 
 To facilitate data curation of the diverse and large datasets generated in the fields associated with natural hazards, we worked with experts in natural hazards research to develop<a href="https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/"> five data models </a>that encompass the following types of datasets: experimental, simulation, field research, hybrid simulation, and other data products (See: 10.3390/publications7030051; 10.2218/ijdc.v13i1.661) as well as lists of specialized vocabulary. Based on the <a href="http://icatproject-contrib.github.io/CSMD/">Core Scientific Metadata Model</a>, these data models were designed considering the <a href="https://www.youtube.com/watch?v=iYzvYi-SY8Q">community's research practices and workflows</a>, <a href="https://www.youtube.com/watch?v=xUyFJwZmyqM">the need for documenting these processes</a> (provenance), and using terms common to the field. The models highlight the structure and components of natural hazards research projects across time, tests, geographical locations, provenance, and instrumentation. Researchers in our community have presented on the design, implementation and use of these models broadly. 
 
 In the DDR web interface the data models are implemented as interactive functions with instructions that guide the researchers through the curation and publication tasks. As researchers move through the tion pipelines, the interactive features reinforce data and metadata completeness and thus the quality of the  publication. The process will not move forward if requirements for metadata are not in place (See <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-curation/">Metadata in Best Practices</a>), or if key files are missing.  
 
-## Metadata
+## [Metadata](#metadata) { #metadata }
 
 Up to date, there is no standard metadata schema to describe natural hazards data. In DDR we follow a combination of standard metadata schemas and expert-contributed vocabularies to help users describe and find data. 
 
@@ -26,7 +26,7 @@ To further describe datasets, the curation interface offers the possibility to a
 
 For purposes of metadata exchange and interoperability, the elements and tags in the data models are mapped to widely-used, standardized metadata schemas. These are: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin Core</a> for description of the dataset project, <a href="https://ddialliance.org/products/overview-of-current-products">DDI (Data Documentation Initiative)</a> for social science data, <a href="https://datacite.org/dois.html">DataCite</a> for DOI assignment and citation, and <a href="https://www.w3.org/2001/sw/wiki/PROV">PROV-O</a> to record the structure of the dataset. Metadata mapping is substantiated as the data is ingested into Fedora. Users can download the standardized metadata in the publications landing page. 
 
-## Metadata and Data Quality
+## [Metadata and Data Quality](#dataquality) { #dataquality }
 
 The diversity and quantity of research methods, instruments, and data formats in natural hazards research is vast and highly specialized. For this reason, we conceive of data quality as a collaboration between the researchers and the DDR.  In consultation with the larger NHERI network we are continuously observing and defining best practices that emerge from our community's understanding and standards.
 
@@ -42,7 +42,7 @@ We also support citation best practices for datasets reused in our publications.
 
 Data publications review: Once a month, data curators meet to review new publications. These reviews show us how the community is using and understanding the models, and allows verifying the overall quality of the data publications. When we identify curation problems (e.g. insufficient or unclear descriptions, file or category  misplacement, etc.) that could not be automatically detected, we contact the researchers and work on solving these issues. Based on the feedback, users have the possibility to amend/improve their descriptions and to version their datasets (See amends and version control).
 
-## Curation and Publication Assistance 
+## [Curation and Publication Assistance ](#assistance) { #assistance }
 
 We believe that researchers are best prepared to tell the story of their projects through their data publications; our role is to enable them to communicate their research to the public by providing flexible and easy to use curation resources and guidance that abide by publication best practices. To support researchers organizing, categorizing and describing their data, we provide interactive pipelines with onboarding instructions, different modes of training and documentation, and one-on-one help.
 
