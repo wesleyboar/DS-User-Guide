@@ -2,7 +2,7 @@
 
 The DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data ( &lt; 100 MB, &lt; 25 files).
 
-## To Upload a File Through Jupyter
+## [To Upload a File Through Jupyter](#upload) { #upload }
 
 Launch Jupyter by logging into DesignSafe and going to **Workspace** &gt; **Tools &amp; Applications** &gt; **Analysis** &gt; **Jupyter** &gt; **Select Jupyter from dropdown**.
 
@@ -33,7 +33,7 @@ If you would like to upload an entire folder, please use one of the large data t
  
 
 ---
-## To Download a File Through Jupyter</h2>
+## [To Download a File Through Jupyter](#download) { #download }
 
 To download a file, **select the file** then select **Download**.
 

@@ -3,8 +3,7 @@
 ---
 The Data Depot's browser interface allows you to conveniently upload and download small quantities of data (&lt; 100 MB, &lt; 25 files, &lt; 2 folders) as well as move and copy data between directories.
 
----
-## Upload
+## [Upload](#upload) { #upload }
 
 To upload a small amount of data through your browser **login to DesignSafe** and **go to My Data**.
 
@@ -31,7 +30,7 @@ If you wish to upload a folder, follow the same procedure as above except select
  
 
 ---
-## Download
+## [Download](#download) { #download }
 
 To download a file from DesignSafe to your local desktop/laptop **select the file** you wish to download and press **Download**.
 
@@ -42,7 +41,7 @@ To download a file from DesignSafe to your local desktop/laptop **select the fil
 If you would like to download an entire folder from DesignSafe, please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a>.
 
 ---
-## Transferring Data Inside of DesignSafe
+## [Transferring Data Inside of DesignSafe](#transferring) { #transferring }
 
 You can move and copy the data inside of DesignSafe using the browser-based interface.
 
@@ -50,7 +49,7 @@ You can move and copy the data inside of DesignSafe using the browser-based inte
 
 <img alt="Select File for Move or Copy" src="../imgs/datadepotbrowser-6.png">
 
-### If you selected Move
+### [If you selected Move](#transferring-move) { #transferring-move }
 
 Navigate to the new destination and press **Move Here**.
 
@@ -58,7 +57,7 @@ Navigate to the new destination and press **Move Here**.
 
 <img alt="Move Here" src="../imgs/datadepotbrowser-7.png">
 
-### If you selected Copy
+### [If you selected Copy](#transferring-copy) { #transferring-copy }
 
 **Use the drop down menu** in the top left to switch between main directories, such as My Data and My Projects, **navigate to the new destination**, and press **Copy Here**.
 

@@ -6,7 +6,7 @@ The data stored on DesignSafe resides on the large (40 PB), shared data resource
 There are four main locations for data transfers on DesignSafe: <a href="#mydata">My Data</a>, <a href="#myprojects">My Projects</a>, <a href="#published-nheri">Published</a>, and <a href="#published-nees">Published (NEES)</a>, they are each presented in detail below.
 
 ---
-<h2 id="mydata">Path to My Data</h2>
+## [Path to My Data](#mydata) { #mydata }
 
 For <strong>My Data</strong> set Path to <strong>/corral-repl/projects/NHERI/shared/&lt;username&gt;/</strong>
 
@@ -17,7 +17,7 @@ Replace <strong>&lt;username&gt;</strong> with your username. You can find your 
  
 
 ---
-<h2 id="myprojects">Path to My Projects</h2>
+## [Path to My Projects](#myprojects) { #myprojects }
 
 For <strong>My Projects</strong> set Path to <strong>/corral-repl/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
 
@@ -26,7 +26,7 @@ Replace <strong>&lt;project-uid&gt;</strong> with your projects unique identifie
 <img alt="Path to My Projects" src="../imgs/settingpath-2.png">
 
 ---
-<h2 id="published-nheri">Path to Published</h2>
+## [Path to Published](#published-nheri) { #published-nheri }
 
 For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>
 
@@ -37,7 +37,7 @@ Replace <strong>&lt;PRJ-XXXX&gt;</strong> with your project's number. You can fi
  
 
 ---
-<h2 id="published-nees">Path to Published (NEES)</h2>
+## [Path to Published (NEES)](#published-nees) { #published-nees } 
 
 For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;</strong>
 

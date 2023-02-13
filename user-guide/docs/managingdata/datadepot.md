@@ -10,7 +10,7 @@ The [Data Depot](https://www.designsafe-ci.org/data/browser/public/) is the data
 * **Published**: Curated data/projects with DOI’s.
 * **Community Data**: Non-curated user-contributed data.
  
-## Browsing, Upload, and Download
+## [Browsing, Upload, and Download](#browsing) { #browsing } 
 
 ![Figure 1. Data Depot](./imgs/datadepotfigure.jpg)
 
@@ -26,7 +26,7 @@ Click on the blue "+Add" button above the list of directories to create a New Fo
 
 A number of data transfer methods are supported for uploading and downloading files. The [Data Transfer Guide](../datatransfer) provides details regarding the various methods and recommendations based on the quantity and size of your files.
 
-## Data Sharing, Collaboration, Curation & Publication
+## [Data Sharing, Collaboration, Curation & Publication](#sharing) { #sharing }
 
 My Projects is the simplest way to share data with your collaborators and to curate and ultimately publish your data and receive a Digital Object Identifier (DOI). Any team member in a project has both read and write access to the entire contents of the project. The Data Curation & Publication User Guide provides instructions for creating projects, managing team members, curating and publishing your data.
 
