@@ -13,32 +13,17 @@ markdown_extensions:
   - abbr
 
 nav:
-  - Home: index.md
   - Managing Files: 
     - Data Depot: managingdata/datadepot.md
     - Data Transfer Guide: managingdata/datatransfer.md
     - Data Management Plan Guidance: managingdata/datamanagementplan.md
     - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-
   - Curating &amp; Publishing Projects:
-    - Curation &amp; Publication Guide: 
-      - Experimental: curating/guide/experimental.md
-      - Simulation: curating/guide/simulation.md
-      - Hybrid Simulation: curating/guide/hybrid.md
-      - Field Research: curating/guide/fieldresearch.md
-      - Other: curating/guide/other.md
-
-    - Best Practices: 
-      - Data Collections Development: curating/bestpractices/datacollectionsdevelopment.md
-      - Data Curation: curating/bestpractices/datacuration.md
-      - Data Publication: curating/bestpractices/datapublication.md
-      - Data Preservation: curating/bestpractices/datapreservation.md
-
     - Data Depot/Curation Office Hours: curating/officehours.md
-
     - Metrics Documentation: curating/metrics.md
-
     - Curation &amp; Publication FAQ: curating/faq.md
+    - Curation &amp; Publication Guides: curating/guides.md
+    - Best Practices: curating/bestpractices.md
     - Policies: 
       - Mission &amp; History: curating/policies/mission.md
       - Governance: curating/policies/governance.md
