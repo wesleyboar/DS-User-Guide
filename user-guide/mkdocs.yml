@@ -19,11 +19,11 @@ nav:
     - Data Management Plan Guidance: managingdata/datamanagementplan.md
     - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
   - Curating &amp; Publishing Projects:
+    - Curation &amp; Publication Guides: curating/guides.md
+    - Best Practices: curating/bestpractices.md
     - Data Depot/Curation Office Hours: curating/officehours.md
     - Metrics Documentation: curating/metrics.md
     - Curation &amp; Publication FAQ: curating/faq.md
-    - Curation &amp; Publication Guides: curating/guides.md
-    - Best Practices: curating/bestpractices.md
     - Policies: curating/policies.md
 
 # Managing Data files hidden to emulate original DS design

@@ -10,7 +10,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 * Create an account on DesignSafe: <a href="https://www.designsafe-ci.org/account/register/" target="_blank">Account Registration</a>
 * Familiarize yourself with the Data Depot and the curation process.
 
-	* User Guide for Data Curation and Publication: <a href="https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/" target="_blank">User Guide</a>
+	* User Guide for Data Curation and Publication: <a href="../../curating/guides" target="_blank">User Guide</a>
 	* Watch the data curation and publication tutorial available in the learning center: <a href="https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV" target="_blank">Video Tutorial</a>
 	* Look at examples of well curated experimental projects:
 
