@@ -24,13 +24,7 @@ nav:
     - Curation &amp; Publication FAQ: curating/faq.md
     - Curation &amp; Publication Guides: curating/guides.md
     - Best Practices: curating/bestpractices.md
-    - Policies: 
-      - Mission &amp; History: curating/policies/mission.md
-      - Governance: curating/policies/governance.md
-      - Data Collections Development: curating/policies/development.md
-      - Data Curation: curating/policies/curation.md
-      - Data Publication: curating/policies/publication.md
-      - Data Preservation: curating/policies/preservation.md
+    - Policies: curating/policies.md
 
 # Managing Data files hidden to emulate original DS design
 #  - Globus Command Line: globuscommandlinetransfer.md
