@@ -35,10 +35,10 @@ nav:
     - Recon Portal Guide: tools/recon.md
     - Jupyter Guide: tools/jupyter.md
     - Advanced:
-      - API Developer's Guide: tools/advanced/apideveloperguide.md
-      - HPC Allocations Policy: tools/advanced/apideveloperguide.md
-      - Cybersecurity Policy: tools/advanced/apideveloperguide.md
-      - DesignSafe FAQ: tools/advanced/apideveloperguide.md
+      - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
+      - HPC Allocations Policy: tools/advanced/hpcallocations.md
+      - Cybersecurity Policy: tools/advanced/cybersecurity.md
+      - DesignSafe FAQ: tools/advanced/dsfaq.md
   - Managing Files: 
     - Data Depot: managingdata/datadepot.md
     - Data Transfer Guide: managingdata/datatransfer.md
