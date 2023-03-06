@@ -13,6 +13,32 @@ markdown_extensions:
   - abbr
 
 nav:
+  - Tools &amp; Applications:
+    - Applications:
+      - Analysis: 
+        - Overview: tools/applications/analysis/analysis-overview.md
+        - HVSRweb: tools/applications/analysis/analysis-hvsrweb.md
+        - Jupyter: tools/applications/analysis/analysis-jupyter.md
+        - MATLAB: tools/applications/analysis/analysis-matlab.md
+        - SWbatch: tools/applications/analysis/analysis-swbatch.md
+      - Simulation: 
+        - Overview: tools/applications/simulation/overview.md
+        - ADCIRC: tools/applications/simulation/adcirc.md
+        - Clawpack: tools/applications/simulation/clawpack.md
+        - Dakota: tools/applications/simulation/dakota.md
+        - LS-DYNA: tools/applications/simulation/lsdyna.md
+        - OpenFOAM: tools/applications/simulation/openfoam.md
+        - OpenSEES: tools/applications/simulation/opensees.md
+      - Visualization: tools/applications/visualization
+      - Hazard Apps: tools/applications/hazard
+      - Utilities: tools/applications/utilities.md
+    - Recon Portal Guide: tools/recon.md
+    - Jupyter Guide: tools/jupyter.md
+    - Advanced:
+      - API Developer's Guide: tools/advanced/apideveloperguide.md
+      - HPC Allocations Policy: tools/advanced/apideveloperguide.md
+      - Cybersecurity Policy: tools/advanced/apideveloperguide.md
+      - DesignSafe FAQ: tools/advanced/apideveloperguide.md
   - Managing Files: 
     - Data Depot: managingdata/datadepot.md
     - Data Transfer Guide: managingdata/datatransfer.md
