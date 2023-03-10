@@ -14,15 +14,15 @@ More detailed information and OpenFOAM user documentation can be found at the <a
 
 	<img src="../imgs/openfoam-2.png">
 
-Locate your Case Directory (Folder) with your input files that are in the Data Depot and follow the onscreen directions to enter this directory in the form. The following figure shows the example case in the community data. 
+* Locate your Case Directory (Folder) with your input files that are in the Data Depot and follow the onscreen directions to enter this directory in the form. The following figure shows the example case in the community data. 
 
 	<img src="../imgs/openfoam-3.png">
 
-<li>Select your Solver from the dropdown menu. The workspace has options for 5 OpenFOAM solvers i.e. interFOAM, simpleFOAM, icoFOAM, potentialFOAM and olaFlow. If you need any other specfic solver please submit a ticket.</li>
+* Select your Solver from the dropdown menu. The workspace has options for 5 OpenFOAM solvers i.e. interFOAM, simpleFOAM, icoFOAM, potentialFOAM and olaFlow. If you need any other specfic solver please submit a ticket.</li>
 
 	<img src="../imgs/openfoam-4.png">
 
-<li>Choose decompostion and mesh generation options from the dropdown menu. </li>
+* Choose decompostion and mesh generation options from the dropdown menu. </li>
 
 	<img src="../imgs/openfoam-5.png">
 
