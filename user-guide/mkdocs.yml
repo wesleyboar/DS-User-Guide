@@ -45,8 +45,8 @@ nav:
         - QGIS: tools/applications/visualization/qgis.md
         - STKO: tools/applications/visualization/stko.md
         - VisIt: tools/applications/visualization/visit.md
-      - Hazard Apps: tools/hazard.md
-      - Utilities: tools/utilities.md
+      - Hazard Apps: tools/applications/hazard.md
+      - Utilities: tools/applications/utilities.md
     - Jupyter Hub:
       - Basic Info: tools/jupyter/basicinfo.md
       - Example Notebooks: tools/jupyter/examplenotebooks.md
