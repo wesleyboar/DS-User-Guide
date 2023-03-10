@@ -274,7 +274,7 @@ We have in place SEO methods to enhance the web visibility of the data publicati
 
 <strong>Data Usage Metrics</strong>
 
-Our metrics follow the Make your Data Count <b id="docs-internal-guid-36cb56d3-7fff-d9c6-39dc-798fc5a49ee2"><a href="https://www.projectcounter.org/code-practice-research-data/">Counter Code of Practice for Research Data.</a> </b>
+Our metrics follow the Make your Data Count <a href="https://www.projectcounter.org/code-practice-research-data/">Counter Code of Practice for Research Data.</a> 
 
 Below are the definitions for each metric:
 

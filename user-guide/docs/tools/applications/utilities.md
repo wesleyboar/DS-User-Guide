@@ -2,30 +2,11 @@
 
 <hr style="margin-top: 0px;">
 
-</div>
-
-
-</div>
-
-
-</div>
-
-
-<div  class="container">
-
-	
-
-<div  class="row">
-
-	
-
-<div  class="col-xs-12">
-
-	<p>Most web browsers do not support upload/download of Folders, only Files. For moving Folders in and out of the Data Depot, we provide Compress and Extract tools that enable you to transform your Folder into a File (Compress) or to convert that File back into a Folder (Extract).</p>
+Most web browsers do not support upload/download of Folders, only Files. For moving Folders in and out of the Data Depot, we provide Compress and Extract tools that enable you to transform your Folder into a File (Compress) or to convert that File back into a Folder (Extract).
 
 <h3>Compress Folder</h3>
 
-<p>Tranforms your Folder into a File.</p>
+Tranforms your Folder into a File.
 
 <h3>How to submit a Compress Job in the Workspace</h3>
 
@@ -42,7 +23,7 @@
 
 <h3>Extract tar/zip/gzip File</h3>
 
-<p>Extracts the contents of a Compressed file back into its original set of Folder(s) and the Files they contained.</p>
+Extracts the contents of a Compressed file back into its original set of Folder(s) and the Files they contained.
 
 <h3>How to submit an Extract Job in the Workspace</h3>
 

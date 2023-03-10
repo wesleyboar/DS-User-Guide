@@ -1,22 +1,22 @@
 #  SWbatch User Guide
 
-<p><code>SWbatch</code> is a user-friendly, web-based application for performing batch-style surface wave inversions using the Dinver module of the open-source software <a href="http://geopsy.org/" rel="nofollow">Geopsy</a>. <code>SWbatch</code> allows the user to rapidly and conveniently invert experimental dispersion data considering multiple inversion parameterizations to address the problem’s non-uniqueness and multiple trials per parameterization to address the problem’s nonlinearity as detailed in the SWinvert workflow (Vantassel and Cox, 2020). To facilitate the potentially large amounts of pre- and post-processing required when performing batch surface-wave inversions a Python package, <code>SWprepost</code>, (Vantassel, 2020) has been released open-source. More information about <code>SWprepost</code> can be found on its <a href="https://github.com/jpvantassel/swprepost">GitHub</a> page.</p>
+<code>SWbatch</code> is a user-friendly, web-based application for performing batch-style surface wave inversions using the Dinver module of the open-source software <a href="http://geopsy.org/" rel="nofollow">Geopsy</a>. <code>SWbatch</code> allows the user to rapidly and conveniently invert experimental dispersion data considering multiple inversion parameterizations to address the problem’s non-uniqueness and multiple trials per parameterization to address the problem’s nonlinearity as detailed in the SWinvert workflow (Vantassel and Cox, 2020). To facilitate the potentially large amounts of pre- and post-processing required when performing batch surface-wave inversions a Python package, <code>SWprepost</code>, (Vantassel, 2020) has been released open-source. More information about <code>SWprepost</code> can be found on its <a href="https://github.com/jpvantassel/swprepost">GitHub</a> page.
 
-<p>If you use <code>SWbatch</code> in your research we ask that you please cite the following:</p>
+If you use <code>SWbatch</code> in your research we ask that you please cite the following:
 
 <blockquote>
-<p>Vantassel, J.P., Gurram, H., and Cox, B.R., (2020). jpvantassel/swbatch: latest (Concept). Zenodo. <a href="https://doi.org/10.5281/zenodo.3840546" rel="nofollow">https://doi.org/10.5281/zenodo.3840546</a></p>
+Vantassel, J.P., Gurram, H., and Cox, B.R., (2020). jpvantassel/swbatch: latest (Concept). Zenodo. <a href="https://doi.org/10.5281/zenodo.3840546" rel="nofollow">https://doi.org/10.5281/zenodo.3840546</a>
 </blockquote>
 
 <blockquote>
-<p>Vantassel, J.P., Cox, B.R., (2020). SWinvert: A workflow for performing rigorous 1D surface wave inversions. Geophysical Journal International <a href="https://doi.org/10.1093/gji/ggaa426" rel="nofollow">https://doi.org/10.1093/gji/ggaa426</a></p>
+Vantassel, J.P., Cox, B.R., (2020). SWinvert: A workflow for performing rigorous 1D surface wave inversions. Geophysical Journal International <a href="https://doi.org/10.1093/gji/ggaa426" rel="nofollow">https://doi.org/10.1093/gji/ggaa426</a>
 </blockquote>
 
-<p><em>Note: For software, version specific citations should be preferred to general concept citations, such as that listed above. To generate a version specific citation for <code>SWbatch</code>, please use the citation tool for that specific version on the <code>SWbatch</code> <a href="https://zenodo.org/badge/latestdoi/240935736" rel="nofollow">archive</a>.</em></p>
+<em>Note: For software, version specific citations should be preferred to general concept citations, such as that listed above. To generate a version specific citation for <code>SWbatch</code>, please use the citation tool for that specific version on the <code>SWbatch</code> <a href="https://zenodo.org/badge/latestdoi/240935736" rel="nofollow">archive</a>.</em>
 
 ## Getting Started
 
-<p>There are two ways of using <code>SWbatch</code>:</p>
+There are two ways of using <code>SWbatch</code>:
 
 <ol>
 	<li>As part of a developed Jupyter workflow called SWinvert. (Recommended)</li>
