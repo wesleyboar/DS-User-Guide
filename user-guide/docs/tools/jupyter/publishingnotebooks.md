@@ -1,8 +1,7 @@
 <h3 style="font-size: 25px; margin-bottom: 7px;">Publishing Notebooks</h3>
 
-<hr style="margin-top: 0px;">
 
-	<p>More and more researchers are publishing projects that contain Jupyter Notebooks as part of their data. They can be used to provide sample queries on the published data as well as providing digital data reports.</p>
+<p>More and more researchers are publishing projects that contain Jupyter Notebooks as part of their data. They can be used to provide sample queries on the published data as well as providing digital data reports.</p>
 
 <p>As you plan for publishing a Jupyter Notebook, please consider the following issues:</p>
 

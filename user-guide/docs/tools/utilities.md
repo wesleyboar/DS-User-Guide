@@ -1,14 +1,12 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">Compress &amp; Extract</h3>
-
-<hr style="margin-top: 0px;">
+# Compress &amp; Extract
 
 Most web browsers do not support upload/download of Folders, only Files. For moving Folders in and out of the Data Depot, we provide Compress and Extract tools that enable you to transform your Folder into a File (Compress) or to convert that File back into a Folder (Extract).
 
-<h3>Compress Folder</h3>
+## Compress Folder
 
 Tranforms your Folder into a File.
 
-<h3>How to submit a Compress Job in the Workspace</h3>
+## How to submit a Compress Job in the Workspace
 
 <ol>
 	<li>Select the Compress application from the Utilites tab in the Workspace.</li>
@@ -21,11 +19,11 @@ Tranforms your Folder into a File.
 	<li>Check the job status by clicking on the arrow in the upper right of the job submission form.</li>
 </ol>
 
-<h3>Extract tar/zip/gzip File</h3>
+## Extract tar/zip/gzip File
 
 Extracts the contents of a Compressed file back into its original set of Folder(s) and the Files they contained.
 
-<h3>How to submit an Extract Job in the Workspace</h3>
+## How to submit an Extract Job in the Workspace
 
 <ol>
 	<li>Select the Extract application from the Utilites tab in the Workspace.</li>

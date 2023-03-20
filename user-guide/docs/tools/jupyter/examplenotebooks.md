@@ -1,8 +1,6 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">Example Notebooks</h3>
+# Example Notebooks
 
-<hr style="margin-top: 0px;">
-
-	<h3>Examples of Jupyter Notebooks Available via DesignSafe</h3>
+## Examples of Jupyter Notebooks Available via DesignSafe
 
 <ol>
 	<li dir="ltr">
@@ -112,7 +110,7 @@
 	</li>
 </ol>
 
-<h3>Jupyter Notebooks for Civil Engineering Courses</h3>
+## Jupyter Notebooks for Civil Engineering Courses
 
 <ol>
 	<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Oregon%20State%20Univ%20_%20Structural%20Analysis">Oregon State Univ_Structural Analysis</a></li>
