@@ -8,7 +8,7 @@ theme:
     name: readthedocs
     highlightjs: true
     features:
-#      - navigation.top
+      - navigation.top
 
 markdown_extensions:
   - footnotes
@@ -20,7 +20,15 @@ markdown_extensions:
 nav:
   - Managing Files: 
     - Data Depot: managingdata/datadepot.md
-    - Data Transfer Guide: managingdata/datatransfer.md
+#   - Globus Command Line: managingdata/globuscommandlinetransfer.md
+    - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
+#   - Cloud Storage Data Transfer: managingdata/cloudstoragetransfer.md
+#   - Command-Line Data Transfer: managingdata/commandlinetransfer.md
+#   - Cyberduck Data Transfer: managingdata/cyberducktransfer.md
+#   - Data Depot Browser: managingdata/datadepotbrowser.md
+#   - Globus Data Transfer: managingdata/globusdatatransfer.md
+#   - Jupyter Browser: managingdata/jupyterbrowser.md
+    - Data Transfer Guides: managingdata/datatransfer.md
     - Data Management Plan Guidance: managingdata/datamanagementplan.md
     - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
 
@@ -32,50 +40,44 @@ nav:
     - Curation &amp; Publication FAQ: curating/faq.md
     - Policies: curating/policies.md
 
-  - Tools &amp; Applications :
-    - Analysis Applications: 
-      - Overview: tools/analysis/analysis-overview.md
-      - HVSRweb: tools/analysis/analysis-hvsrweb.md
-      - Jupyter: tools/analysis/analysis-jupyter.md
-      - MATLAB: tools/analysis/analysis-matlab.md
-      - SWbatch: tools/analysis/analysis-swbatch.md
-    - Simulation Applications: 
-      - Overview: tools/simulation/overview.md
-      - ADCIRC: tools/simulation/adcirc.md
-      - Clawpack: tools/simulation/clawpack.md
-      - Dakota: tools/simulation/dakota.md
-      - LS-DYNA: tools/simulation/lsdyna.md
-      - OpenFOAM: tools/simulation/openfoam.md
-      - OpenSEES: tools/simulation/opensees.md
-    - Visualization Applications: 
-      - Overview: tools/visualization/overview.md
-      - FigureGen: tools/visualization/figuregen.md
-      - Hazmapper: tools/visualization/hazmapper.md
-      - Kalpana: tools/visualization/kalpana.md
-      - Paraview: tools/visualization/paraview.md
-      - Potree Converter: tools/visualization/potree-converter.md
-      - Potree Viewer: tools/visualization/potree-viewer.md
-      - QGIS: tools/visualization/qgis.md
-      - STKO: tools/visualization/stko.md
-      - VisIt: tools/visualization/visit.md
-    - Hazard Applications: tools/hazard.md
-    - Utilities: tools/utilities.md
-    - Jupyter Hub: tools/jupyterhub.md
-    - Recon Portal Guide: tools/recon/recon.md
-    - Advanced:
-      - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
-      - HPC Allocations Policy: tools/advanced/hpcallocations.md
-      - Cybersecurity Policy: tools/advanced/cybersecurity.md
-      - DesignSafe FAQ: tools/advanced/dsfaq.md
+  - Analysis Applications: 
+     - Overview: analysis/analysis-overview.md
+     - HVSRweb: analysis/analysis-hvsrweb.md
+     - Jupyter: analysis/analysis-jupyter.md
+     - MATLAB: analysis/analysis-matlab.md
+     - SWbatch: analysis/analysis-swbatch.md
 
-# Managing Data files hidden to emulate original DS design
-#  - Globus Command Line: globuscommandlinetransfer.md
-#  - Setting Path to DS on Corral: settingpathtodesignsafe.md
-#  - Cloud Storage Data Transfer: cloudstoragetransfer.md
-#  - Command-Line Data Transfer: commandlinetransfer.md
-#  - Cyberduck Data Transfer: cyberducktransfer.md
-#  - Data Depot Browser: datadepotbrowser.md
-#  - Globus Data Transfer: globusdatatransfer.md
-#  - Jupyter Browser: jupyterbrowser.md
+  - Simulation Applications: 
+    - Overview: tools/simulation/overview.md
+    - ADCIRC: tools/simulation/adcirc.md
+    - Clawpack: tools/simulation/clawpack.md
+    - Dakota: tools/simulation/dakota.md
+    - LS-DYNA: tools/simulation/lsdyna.md
+    - OpenFOAM: tools/simulation/openfoam.md
+    - OpenSEES: tools/simulation/opensees.md
+
+  - Visualization Applications: 
+    - Overview: tools/visualization/overview.md
+    - FigureGen: tools/visualization/figuregen.md
+    - Hazmapper: tools/visualization/hazmapper.md
+    - Kalpana: tools/visualization/kalpana.md
+    - Paraview: tools/visualization/paraview.md
+    - Potree Converter: tools/visualization/potree-converter.md
+    - Potree Viewer: tools/visualization/potree-viewer.md
+    - QGIS: tools/visualization/qgis.md
+    - STKO: tools/visualization/stko.md
+    - VisIt: tools/visualization/visit.md
+
+  - Hazard Applications: tools/hazard.md
+  - Utilities: tools/utilities.md
+  - Jupyter Hub: tools/jupyterhub.md
+  - Recon Portal Guide: tools/recon/recon.md
+
+  - Advanced:
+    - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
+    - HPC Allocations Policy: tools/advanced/hpcallocations.md
+    - Cybersecurity Policy: tools/advanced/cybersecurity.md
+    - DesignSafe FAQ: tools/advanced/dsfaq.md
+
 
 
