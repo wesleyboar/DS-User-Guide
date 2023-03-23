@@ -557,7 +557,7 @@ If you would like to download an entire folder, please use one of the large data
 If you have any issues transferring files using the JupyterHub browser interface,</strong><strong> please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>).
 
 
-## [Cloud Storage Data Transfer Guide](#cloud) { #cloud }
+## [Cloud Storage Transfer](#cloud) { #cloud }
 
 DesignSafe provides users the capability to connect to their preferred cloud storage provider.
 

@@ -20,14 +20,7 @@ markdown_extensions:
 nav:
   - Managing Files: 
     - Data Depot: managingdata/datadepot.md
-#   - Globus Command Line: managingdata/globuscommandlinetransfer.md
     - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-#   - Cloud Storage Data Transfer: managingdata/cloudstoragetransfer.md
-#   - Command-Line Data Transfer: managingdata/commandlinetransfer.md
-#   - Cyberduck Data Transfer: managingdata/cyberducktransfer.md
-#   - Data Depot Browser: managingdata/datadepotbrowser.md
-#   - Globus Data Transfer: managingdata/globusdatatransfer.md
-#   - Jupyter Browser: managingdata/jupyterbrowser.md
     - Data Transfer Guides: managingdata/datatransfer.md
     - Data Management Plan Guidance: managingdata/datamanagementplan.md
     - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
