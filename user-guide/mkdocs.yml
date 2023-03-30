@@ -36,9 +36,13 @@ nav:
   - Analysis Applications: 
      - Overview: analysis/overview.md
      - HVSRweb: analysis/hvsrweb.md
-     - Jupyter: analysis/jupyter.md
      - MATLAB: analysis/matlab.md
      - SWbatch: analysis/swbatch.md
+
+  - Jupyter Hub: 
+    - Jupyter Guide: tools/jupyterhub/jupyterhub.md
+    - Example Notebooks: tools/jupyterhub/examplenotebooks.md
+    - Publishing Notebooks: tools/jupyterhub/publishingnotebooks.md
 
   - Simulation Applications: 
     - Overview: tools/simulation/overview.md
@@ -63,11 +67,6 @@ nav:
 
   - Hazard Applications: tools/hazard.md
   - Utilities: tools/utilities.md
-  - Jupyter Hub: 
-    - Jupyter Guide: tools/jupyterhub/jupyterhub.md
-    - Example Notebooks: tools/jupyterhub/examplenotebooks.md
-    - Publishing Notebooks: tools/jupyterhub/publishingnotebooks.md
-
   - Recon Portal:
     - Recon Portal Guide: tools/recon/recon.md
 
