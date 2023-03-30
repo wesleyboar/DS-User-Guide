@@ -1,31 +1,27 @@
 # Hazard Applications
 
-<hr style="margin-top: 0px;">
-<h3>Status Updates</h3>
+## [Managing Applications](#managing) { #managing }
 
-
-<h3>Requesting New Applications</h3>
+### [Requesting New Applications](#managing-request) { #managing-request }
 
 DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by <a href="/help/new-ticket/">submitting a help ticket</a> if you would like to request the addition of a software application to the Workspace.
 
-<h3>Getting Your Own HPC Application</h3>
+### [Getting Your Own HPC Application](#managing-installing) { #managing-installing }
 
 For those researchers with larger computational needs on the order of tens of thousands, or even millions of core-hours, or if you have a software application that we don't support in the web portal, you may request your own allocation of computing time on TACC's HPC systems. Your files can still be stored in the Data Depot, allowing you to share your research results with your team members, as well as curate and publish your findings.
 
-<h3>Commercial/Licensed Applications</h3>
+### [Commercial/Licensed Applications](#managing-commercial) { #managing-commercial }
 
 The DesignSafe infrastructure includes support for commercial/licensed software. Wile in some cases licenses can be provided by the DesignSafe project itself, not all vendors will make licenses available for larger open communities at reasonable cost. You may contact DesignSafe by <a href="/help/new-ticket/">submitting a help ticket</a> if you have questions regarding a commercial software application.
 
-<h3 style="font-size: 25px; margin-bottom: 7px;">Hurricane Data Analysis User Guide</h3>
 
-<hr style="margin-top: 0px;">
+## [Hurricane Data Analysis User Guide](#hurricane) { #hurricane }
 
 The Hurricane Data Analysis (HDA) is a graphical user interface (GUI) MATLAB program used to convert sensor raw data to physical data. The hurricane Matthew data was collected by deploying a Wireless Sensor Network system on the roof of a Satellite Beach, Florida house. The wireless system measured the pressure distribution over the roof top. The wind speed and wind direction data were obtained from the FCMP tower and Melbourne airport weather station. The pressure data is analyzed by selecting optimum sample period which yielded a steady value for the peak suction pressure. This averaging time was found to be around 300 seconds. The RMS pressure fluctuations are quantified with respect to the 300-second mean pressure. The mean pressure data correlated well with the wind speed data and the mathematical expressions are developed for different segments, before hurricane, during hurricane and after hurricane.
 
 Wireless Sensor Network is an autonomous full-scale hurricane data measurement system with 30 pressure and temperature sensors, and an anemometer to measure pressure, temperature, speed and wind direction respectively. All sensors are connected wirelessly through 3 routers to a base modem, which is connected to the laptop for collecting the data. The data from the laptop was uploaded through a cellular network at five minutes interval to a Box account, which provides cloud storage and file sharing collaboration. The entire wireless sensor network system was monitored using Team Viewer remote desktop application. All the data collected in the Box was then uploaded into the DesignSafe-ci “My Data”, which can be shared with researchers. To perform the analysis a unique graphical user interface (GUI) application was created using MATLAB, which is capable of analyzing the complete data set on a single run. The user can run the GUI code instantly on the cloud and provide plots of the physical data.
 
-<hr>
-<h3 style="margin-top: 25px;">How to Start a Hurricane Data Analysis Interactive Session in the Workspace</h3>
+### [How to Start a Hurricane Data Analysis Interactive Session in the Workspace](#hurricane-start) { #hurricane-start }
 
 <ul>
 	<li>Select the Hurricane Data Analysis application from the Simulation tab in the Workspace. 
@@ -43,9 +39,8 @@ Wireless Sensor Network is an autonomous full-scale hurricane data measurement s
  
 
 
-<h3 style="font-size: 25px; margin-bottom: 7px;">Next Generation Liquefaction</h3>
+## [Next Generation Liquefaction](#liquefaction) { #liquefaction }
 
-<hr style="margin-top: 0px;">
 ngl_tools is a collection of Jupyter notebooks developed to interact with the NGL database in DesignSafe. The Next Generation Liquefaction (NGL) Project is advancing the state of the art in liquefaction research and working toward providing end users with a consensus approach to assess liquefaction potential within a probabilistic and risk-informed framework. Specifically, NGL’s goal is to first collect and organize liquefaction information in a common and comprehensive database to provide all researchers with a substantially larger, more consistent, and more reliable source of liquefaction data than existed previously. Based on this database, we will create probabilistic models that provide hazard- and risk-consistent bases for assessing liquefaction susceptibility, the potential for liquefaction to be triggered in susceptible soils, and the likely consequences. NGL is committed to an open and objective evaluation and integration of data, models and methods, as recommended in a 2016 National Academies <a href="https://www.nap.edu/catalog/23474/state-of-the-art-and-practice-in-the-assessment-of-earthquake-induced-soil-liquefaction-and-its-consequences">report</a>. The evaluation and integration of the data into new models and methods will be clear and transparent. Following these principles will ensure that the resulting liquefaction susceptibility, triggering, and consequence models are reliable, robust and vetted by the scientific community, providing a solid foundation for designing, constructing and overseeing critical infrastructure projects.
 
 The NGL database is populated through a web GUI at <a href="http://www.nextgenerationliquefaction.org" target="_blank">www.nextgenerationliquefaction.org</a>. The web interface provides limited capabilities for users to interact with data. Users are able to view and download data, but they cannot use the GUI to develop an end-to-end workflow to make scientific inferences and draw conclusions from the data. To facilitate end-to-end workflows, the NGL database is replicated daily to DesignSafe, where users can interact with it using Jupyter notebooks. 
@@ -53,14 +48,14 @@ The NGL database is populated through a web GUI at <a href="http://www.nextgener
 Additional information on NGL can be found at:<br>
 <a href="https://ngl-tools.readthedocs.io/en/latest/index.html" target="_blank">https://ngl-tools.readthedocs.io/en/latest/index.html</a>
 
-<h3>Connecting to the database in DesignSafe</h3>
+### [Connecting to the database in DesignSafe](#liquefaction-connect) { #liquefaction-connect }
 
 Connecting to a relational database requires credentials, like username, password, database name, and hostname. Rather than requiring users to know these credentials, we have created a Python package that allows users to connect to the database. The lines of code below first imports the ngl_db Python package, and then creates a connection object to the database called cnx.
 
 <pre>import ngl_db
 cnx = ngl_db.connect()</pre>
 
-<h3>Notebooks published in DesignSafe</h3>
+### [Notebooks published in DesignSafe](#liquefaction-notebooks) { #liquefaction-notebooks }
 
 Jupyter notebooks for this project are located in two different places. One of them is Community Data, which is available via the Next-Generation Liquefaction app in the Tools &amp; Applicaitons section of the Workspace. That app points <a href="https://jupyter.designsafe-ci.org/user/sjbrande/tree/CommunityData/NGL">here</a>. In addition, we have published a number of notebooks in the published area. These notebooks have been assigned a digital object identifier and can be cited as indicated below. The notebooks in Community Data are maintained more frequently.
 
@@ -85,40 +80,33 @@ Jupyter notebooks for this project are located in two different places. One of t
 	</li>
 </ol>
 
-<h3>Understanding the database schema</h3>
+### [Understanding the database schema](#liquefaction-dbschema) { #liquefaction-dbschema }
 
 The NGL database is organized into tables that are related to each other via keys. To query the database, you will need to understand the organizational structure of the database, called the schema. The database schema is documented at the following URL: <a href="https://nextgenerationliquefaction.org/schema/index.html">https://nextgenerationliquefaction.org/schema/index.html</a>
 
 Figure 1 describes the schema for the SITE table, which is a high level table in the NGL database where users enter information about a particular site they have investigated following an earthquake. The SITE table contains SITE_ID, which is the primary key for the SITE table. Every entry in the SITE table is assigned a unique SITE_ID that identifies the entry. Additional fields include SITE_NAME, SITE_LAT, SITE_LON, SITE_GEOL, SITE_REM, SITE_STAT, and SITE_REVW. The Children column in Figure 1 identifies other tables in the NGL database that have been assigned a foreign key constraint to the SITE_ID field. For example, FLDO is a table containing field observations of liquefaction at a site. The FLDO table has a SITE_ID field, called a foreign key, that identifies the observation as being associated with the site with the same SITE_ID.
 
-<img height="336" src="https://lh5.googleusercontent.com/A0Ge2vuvtkToZDp_U5afQIBrYgUCQifqsrq5bA5e8BHz9s3sey6GWmWh2CbDKZfUMuIJjcRkjAB3KPq2C6ncKrH5jvvfRtUVdkSl-UyeEafPfjeSKKso95vcYyhC9bQe1AOv9kw5" width="624">
-
+<img src="../liquefaction-1.png">
 <strong>Figure 1.</strong> Screenshot of NGL site table schema.
 
-<h3 style="font-size: 25px; margin-bottom: 7px;">SCEC BBP Ground Motion Portal User Guide</h3>
+## [SCEC BBP Ground Motion Portal User Guide](#scec)
 
-<hr style="margin-top: 0px;">
 
 The SCEC Broadband Platform is a software system that can generate 0-100 Hz seismograms for historical and scenario earthquakes in California, Eastern North America, and Japan using several alternative computational methods. The SCEC Broadband Platform is a collaborative software development project involving SCEC researchers, research engineers, graduate students, and the SCEC/CME software development group. SCEC scientific groups have contributed modules to the Broadband Platform including rupture generation, low- and high-frequency seismogram synthesis, non-linear site effects, and visualization. These complex scientific codes have been integrated into a system that supports easy on-demand computation of broadband seismograms. The SCEC Broadband Platform is designed to be used by both scientific and engineering researchers with some experience interpreting ground motion simulations.
 
 More can be found on the <a href="https://www.scec.org/" title="SCEC Website" target="_blank">SCEC website</a>.
 
-<hr>
-<h3 style="margin-top: 25px;">How to Start a SCEC BBP Ground Motion Portal Interactive Jupyter Notebook Session in the Workspace</h3>
+## [How to Start a SCEC BBP Ground Motion Portal Interactive Jupyter Notebook Session in the Workspace](#scec-start) { #scec-start }
 
 <ul>
 	<li>Select the SCEC BBP Ground Motion Portal application from the Partner Data Apps tab in the Workspace.</li>
 	<li>Click Launch SCEC BBP Ground Motion Portal to start your interactive session.</li>
 </ul>
 
- 
 
+## [TPU Wind Databases User Guide](#tpu) { #tpu }
 
-<h3 style="font-size: 25px; margin-bottom: 7px;">TPU Wind Databases User Guide</h3>
-
-<hr style="margin-top: 0px;">
-
-	This is a link to a collection of aerodynamic databases for isolated and non-isolated low-rise and tall buildings from wind tunnel tests by the Tokyo Polytechnic University, The School of Architecture &amp; Wind Engineering. <em><strong>Clicking the link will leave DesignSafe and take you to the TPU website.</strong></em>
+This is a link to a collection of aerodynamic databases for isolated and non-isolated low-rise and tall buildings from wind tunnel tests by the Tokyo Polytechnic University, The School of Architecture &amp; Wind Engineering. <em><strong>Clicking the link will leave DesignSafe and take you to the TPU website.</strong></em>
 
 <i>The available collections are:</i>
 
@@ -137,11 +125,8 @@ To study the effects of varied eaves on wind loads on gable-roofed low-rise buil
 <b>Aerodynamic Database of Non-isolated Low-rise Buildings</b><br>
 A series of pressure measurement wind tunnel tests were taken for 3 types of low-rise buildings (flat roof, gable roof and hipped models) surrounded by similar low-rise buildings. Its objective is to investigate the interference effect of regular, staggered, random, with 8 different area density CA (0.1, 0.15, 0.20, 0.25, 0.30, 0.40, 0.50, 0.60) and the heights of target building and surrounding building models are all varied in 60, 120, 180cm. 111 test cases are included in the database from which the local wind pressures, area averaged wind pressure coefficients and wind pressure coefficient time series on roof or wall surfaces and some more detailed information can be queried.
 
-<h3 style="font-size: 25px; margin-bottom: 7px;">VORTEX-Winds: DEDM-HR User Guide</h3>
+## [VORTEX-Winds: DEDM-HR User Guide](#vortex) { #vortex }
 
-<hr style="margin-top: 0px;">
+This is a link to the Database-Enabled Design Module for High-Rise (DEDM-HR) buildings. Navigate to the web application developed by the NatHaz Modeling Laboratory, Univ. of Notre Dame which seamlessly pools databases of multiple high frequency base balance measurements through wind tunnel tests/experiments from geographically dispersed locations and merges them together to expand the number of available building configurations for preliminary design under winds. <strong><em>Clicking the link will leave DesignSafe and take you to the TPU website.</em></strong>
 
-	This is a link to the Database-Enabled Design Module for High-Rise (DEDM-HR) buildings. Navigate to the web application developed by the NatHaz Modeling Laboratory, Univ. of Notre Dame which seamlessly pools databases of multiple high frequency base balance measurements through wind tunnel tests/experiments from geographically dispersed locations and merges them together to expand the number of available building configurations for preliminary design under winds. <strong><em>Clicking the link will leave DesignSafe and take you to the TPU website.</em></strong>
-
-<em>Last update: May 11, 2018</em>
 

@@ -68,7 +68,7 @@ nav:
   - Hazard Applications: tools/hazard.md
   - Utilities: tools/utilities.md
   - Recon Portal:
-    - Recon Portal Guide: tools/recon/recon.md
+    - Recon Portal Guide: tools/recon.md
 
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
