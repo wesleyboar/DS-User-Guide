@@ -19,7 +19,7 @@ The main Ls-Dyna capabilities are:
 	<li>Large library of elements (shell, discrete, solid, etc).</li>
 </ul>
 
-## Ls-Dyna on DesignSafe
+## [Ls-Dyna on DesignSafe](#ds) { #ds }
 
 In the Workspace are available the following apps:
 
@@ -28,17 +28,17 @@ In the Workspace are available the following apps:
 	<li>LS-Dyna: Actual solver (version 9.1.0) – serial and parallel versions (after activation - <i>Workspace &gt; My Apps &gt; LS-DYNA</i>).</li>
 </ul>
 
-## Activate Ls-Dyna on DesignSafe
+## [Activate Ls-Dyna on DesignSafe](#activate) { #activate }
 
 DesignSafe (through TACC) has negotiated with LSTC to allow LS-DYNA access on TACC systems for academic research. Users can submit a ticket (https://www.designsafe-ci.org/help/new-ticket/) requesting LS-DYNA access and are granted access upon verification with LSTC that they have an existing academic departmental license or that you acquire such license.
 
 A <i>Request Activation</i> button is also available in <i>Workspace &gt; Simulation &gt; LS-DYNA</i>:
 
-<img src="../imgs/ls-dyna-1.png" style="width: 50%; margin: 10px 10px 20px 10px;">
+<img src="../imgs/ls-dyna-1.png">
 
 Once activated, Ls-Dyna will appear in <i>Workspace &gt; My Apps tab</i>.
 
-## How to launch LS-Dyna
+## [How to launch LS-Dyna](#launch) { #launch }
 
 Examples in this guide:
 
@@ -49,13 +49,13 @@ Examples in this guide:
 	<li>Launching batch of jobs via Command Line Interface.</li>
 </ul>
 
-### Launching LS-Pre/Post
+### [Launching LS-Pre/Post](#launch-prepost) { #launch-prepost }
 
 <ul>
 	<li>Select the LS-Pre/Post app from the drop-drown menu at (<i>Workspace &gt; Simulation &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-2.png" style="width: 50%; margin: 10px 10px 20px 10px;">
+<img src="../imgs/ls-dyna-2.png">
 
 <ul>
 	<li>Fill the form with the following information:
@@ -72,7 +72,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-3.png" style="width: 50%; margin: 10px 10px 20px 10px;">
+<img src="../imgs/ls-dyna-3.png">
 
 <ul>
 	<li>Once ready a new window will pop-up.
@@ -82,17 +82,17 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-4.png" width="75%">
+<img src="../imgs/ls-dyna-4.png">
 
-<img src="../imgs/ls-dyna-5.png" width="75%">
+<img src="../imgs/ls-dyna-5.png">
 
-### Launching a single job via DesignSafe web portal
+### [Launching a single job via DesignSafe web portal](#launch-singlejob) { #launch-singlejob }
 
 <ul>
 	<li>Select LS-DYNA (Serial) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-6.png" style="width: 50%; margin: 10px 10px 20px 10px;">
+<img src="../imgs/ls-dyna-6.png">
 
 <ul>
 	<li>Fill the form with the following information:
@@ -109,7 +109,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-7.png" style="width: 40%; margin: 10px 10px 20px 10px;">
+<img src="../imgs/ls-dyna-7.png">
 
 <ul>
 	<li>Follow the Job Status on the right tab.</li>
@@ -121,13 +121,13 @@ Examples in this guide:
 	</li>
 </ul>
 
-### Launching batch of jobs via DesignSafe web portal
+### [Launching batch of jobs via DesignSafe web portal](#launch-batch) { #launch-batch }
 
 <ul>
 	<li>Select LS-DYNA (Parallel) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-8.png" style="width: 50%; margin: 10px 10px 20px 10px;">
+<img src="../imgs/ls-dyna-8.png">
 
 <ul>
 	<li>Fill the form with the following information:
@@ -145,13 +145,13 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-9.png" style="margin-bottom: 0px;" width="75%">
-<p style="margin-top: 0px;"><em>Example Ls-Dyna input file for parallel jobs.</em>
+<img src="../imgs/ls-dyna-9.png">
+<p><em>Example Ls-Dyna input file for parallel jobs.</em>
 
 
-<img src="../imgs/ls-dyna-10.png" width="75%">
+<img src="../imgs/ls-dyna-10.png">
 
-<ul style="clear: both;">
+<ul>
 	<li>Follow the Job Status on the right tab.</li>
 	<li>When the analysis is completed two options available:
 	<ul>
@@ -161,7 +161,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-### Launching batch of jobs via Command Line Interface (CLI)
+### [Launching batch of jobs via Command Line Interface (CLI)](#launch-batchcli) { #launch-batchcli }
 
 <ul>
 	<li>Connect to stampede2 using SSH Client (Putty or Terminal - a complete guide to ssh is available at: https://portal.tacc.utexas.edu/user-guides/stampede2 ):
@@ -172,7 +172,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-11.png" style="width: 50%; margin: 10px 10px 20px 10px;">
+<img src="../imgs/ls-dyna-11.png">
 
 <ul>
 	<li>Transfer LS-Dyna k files to /scratch or /work directory on Stampede2 (via Globus);</li>
@@ -193,23 +193,23 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-12.png" width="75%">
-<p style="margin-top: 0px;"><em>Example batch file for Ls-Dyna via CLI.</em>
+<img src="../imgs/ls-dyna-12.png">
+<p><em>Example batch file for Ls-Dyna via CLI.</em>
 
 
-<img src="../imgs/ls-dyna-13.png" width="75%">
-<p style="margin-top: 0px;"><em>Example myprallellines.py routine.</em>
+<img src="../imgs/ls-dyna-13.png">
+<p><em>Example myprallellines.py routine.</em>
 
 
-<img src="../imgs/ls-dyna-14.png" width="75%">
-<p style="margin-top: 0px;"><em>Example my_parallel_lines file.</em>
+<img src="../imgs/ls-dyna-14.png">
+<p><em>Example my_parallel_lines file.</em>
 
 
-<img src="../imgs/ls-dyna-15.png" width="75%">
-<p style="margin-top: 0px;"><em>Example launcher_file.py routine.</em>
+<img src="../imgs/ls-dyna-15.png">
+<p><em>Example launcher_file.py routine.</em>
 
 
-<ul style="clear: both;">
+<ul>
 	<li>Launch jobs using SSH client:
 	<ul>
 		<li><strong>cd</strong> directory_where_your_inputs_are</li>
