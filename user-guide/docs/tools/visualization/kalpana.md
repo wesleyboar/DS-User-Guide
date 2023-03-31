@@ -1,13 +1,11 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">Kalpana User Guide</h3>
+# Kalpana User Guide
 
-<hr style="margin-top: 0px;">
 
 Kalpana is a python script that converts ADCIRC output files to GIS compatible shapefiles. The code accepts NetCDF formatted ADCIRC outputs for maximum water levels and wind speeds (maxele.63.nc and maxwvel.63.nc) and converts these to polyline/polygon shapefiles.
 
 More information regarding Kalpana can be found at: <a href="https://ccht.ccee.ncsu.edu/how-to-run-kalpana/" target="_blank">https://ccht.ccee.ncsu.edu/how-to-run-kalpana/</a>.
 
-<hr>
-<h3 style="margin-top: 25px;">How to Submit a Kalpana Job in the Workspace</h3>
+## How to Submit a Kalpana Job in the Workspace
 
 You will have to fill out a form to submit your job that asks multiple information as follows:
 
@@ -37,7 +35,6 @@ You can track the status of your job to the right side of the same page. The sta
 
 Once the status changed to “FINISHED”, you can find the outputs in data depot by navigating to the archived location. If not specified by the user, the job output including the converted shapefile can be found at: My Data / archive / jobs / ${YYYY-MM-DD} / ${JOB_NAME}-${JOB_ID}
 
- 
 
 <em>Last update: May 23, 2019</em>
 

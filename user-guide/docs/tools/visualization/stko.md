@@ -1,6 +1,5 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">STKO User Guide</h3>
+# STKO User Guide
 
-<hr style="margin-top: 0px;">
 
 The Scientific ToolKit for OpenSees (STKO) is a data visualization tool for OpenSees, it creates an input (Tool Command Language, TCL) and output file, which can be read with its advanced graphic interface. The preprocessor features advanced CAD modeling tools and provides a comprehensive set of meshing algorithms. This application runs as an interactive STKO Desktop session on a virtual machine using VNC technology. 
 
@@ -43,9 +42,8 @@ More detailed information and STKO user documentation can be found on the <a hre
 </li>
 </ol>
 
-<h2 dir="ltr">Run OpenSees-STKO on DesignSafe</h2>
+## [Run OpenSees-STKO on DesignSafe](#run) { #run }
 
-<hr>
 <ol>
 <li dir="ltr">
 	After users create their Tcl scripts and mpco.cdata files in their folder (e.g., “STKO_example_1” in this example). Users can submit the OpenSees Job via OPENSEESMP (V 3.0)-STKO in this page: <a href="https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation" target="_blank">https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation</a>

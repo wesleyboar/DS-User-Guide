@@ -1,11 +1,8 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">Potree Viewer User Guide</h3>
-
-<hr style="margin-top: 0px;">
+# Potree Viewer User Guide
 
 Potree Viewer is a point cloud viewer that enables exploration and measurement of very large LiDAR datasets and is designed to be efficient in a web browser. Use the Potree Converter to first convert your point cloud data to a format compatible with the Potree Viewer.
 
-<hr>
-<h3 style="margin-top: 25px;">How to Start a Potree Interactive Session in the Workspace</h3>
+## [How to Start a Potree Interactive Session in the Workspace](#submit) { #submit }
 
 <ul>
 <li>Select the Potree Viewer application from the Visualization tab in the Workspace.</li>
@@ -16,8 +13,7 @@ Potree Viewer is a point cloud viewer that enables exploration and measurement o
 <li>Click Run to start your interactive session.</li>
 </ul>
 
-<hr>
-<h3 style="margin-top: 25px;">General Potree Viewing Instructions</h3>
+## [General Potree Viewing Instructions](#viewing) { #viewing }
 
 You can upload the data, run the Potree converter and then create a Potree Viewer website where you can view the data in your web browser (Best with Chrome). Here are some examples you can explore:
 

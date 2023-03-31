@@ -1,15 +1,11 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">Hazmapper User Guide (v2.8)</h3>
-
-<hr style="margin-top: 0px;">
-
+# Hazmapper User Guide (v2.8)
 
 DesignSafe HazMapper is a rich web-based application for visualizing and analyzing geospatial data (<a href="/rw/user-guides/tools-applications/visualization/hazmapper#supported-asset-types">assets</a>).
 
 <strong>NOTE</strong>: At this time, <strong>DO NOT</strong> include ".hazmapper" extension files in the list of pieces of a project to curate and publish with any project that needs to acquire a DOI. The curated map will not be public for viewing with the DOI. Instead, make a public version of the map, and include the URL of the public map in the project description.
 
- 
 
-<h2 id="accessing-hazmapper">Accessing Hazmapper</h2>
+## [Accessing Hazmapper](#accessing) { #accessing }
 
 To access Hazmapper from Designsafe, the user can first navigate to the top menu bar and find <em>Workspace</em> (<em>Fig 1.1</em>).
 
@@ -25,9 +21,9 @@ From the <em>Tools &amp; Applications</em> page, the user can navigate to <em>Ha
 
 <center><img src="../imgs/hazmapper-1.4.png"> <b>Fig 1.4</b></center>
 
-<h2 id="interface-overview">Interface Overview</h2>
+## [Interface Overview](#overview) { #overview }
 
-<h3 id="welcome-menu">Welcome Menu</h3>
+### [Welcome Menu](#overview-welcome) { #overview-welcome }
 
 The welcome menu is the first interface that the user will see. This menu lists all of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#maps">maps</a> that are tied to the user either from <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#project-creation-prompt">creating the map</a> or from a <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#shared-maps">shared map</a> (<em>Fig 2.1</em>).
 
@@ -41,7 +37,7 @@ To access a map, the user can either click on a map item or click on the <em>edi
 
 <center><img class="img-responsive" src="https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/menu.png" style="margin: 5px 0px 15px 0px;" width="70%"> <b>Fig 2.1</b></center>
 
-<h3 id="map-creation-prompt">Map Creation Prompt</h3>
+### [Map Creation Prompt](#overview-mapcreation) { #overview-mapcreation }
 
 Clicking on the <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="12"> <em>Create a New Map</em> button from the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#welcome-menu">welcome menu</a> (<em>Fig 2.2</em>) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
 
@@ -63,7 +59,7 @@ Once you create a map or select a map from the welcome menu, you will see the fo
 
 <center><img src="../imgs/hazmapper-2.3.png"> <b>Fig 2.3</b></center>
 
-<h3 id="title-bar">Title bar</h3>
+### [Title bar](#overview-title) { #overview-title }
 
 We will start the overview of the map interface by first looking at the title bar section of the interface.
 
@@ -75,7 +71,7 @@ The last part of the title bar is the latitude and longitude coordinates indicat
 
 <center><img class="img-responsive" src="https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/control-bar.png" style="margin: 5px 0px 15px 0px;" width="70%"> <b>Fig 2.4</b></center>
 
-<h3 id="panels">Panels</h3>
+### [Panels](#overview-panels) { #overview-panels }
 
 Next, we will take a look at the panel interface of Hazmapper.
 
@@ -83,7 +79,7 @@ Panels are the primary interface a user can interact with the map and handle <a 
 
 <center><img class="img-responsive" src="https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/map-panel.png" style="margin: 5px 0px 15px 0px;" width="70%"> <b>Fig 2.5</b></center>
 
-<h4 id="assets-panel">Assets Panel</h4>
+#### [Assets Panel](#overview-panels-assets) { #overview-panels-assets }
 
 The assets panel is the hub of all of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#map-associated-assets">map-associated feature assets</a>. Here users can add, view, and delete each asset.
 
@@ -103,7 +99,7 @@ Once imported, the selected assets will be listed inside the panel. A user can c
 
 <strong>NOTE</strong>: <em>Unless imported from the top-level (i.e. in the root of the folder), image, video, streetview assets will show up in the folders they are located in. On the other hand, point-cloud assets will always display at the root of the asset tree.</em>
 
-<h4 id="point-clouds-panel">Point Clouds Panel</h4>
+#### [Point Clouds Panel](#overview-panels-pointclouds) { #overview-panels-pointclouds }
 
 This panel allows users to create point cloud objects that associate point clouds assets (las or laz).
 
@@ -143,7 +139,7 @@ The URL to the Potree Viewer created for the asset will be permanent as long as 
 
 <center><img src="../imgs/hazmapper-2.14.png"> <b>Fig 2.14</b></center>
 
-<h4 id="layers-panel">Layers Panel</h4>
+#### [Layers Panel](#overview-panels-layers) { #overview-panels-layers }
 
 Using this panel users can select, create, edit, or delete tile layers. By default, the user will see the Satellite and Roads basemap layers.
 
@@ -187,7 +183,7 @@ If the user desires to preserve the changed options for collaborators or those w
 
 <center><img src="../imgs/hazmapper-2.21.png"> <b>Fig 2.21</b></center>
 
-<h4 id="filters-panel">Filters Panel</h4>
+#### [Filters Panel](#overview-panels-filters) { #overview-panels-filters }
 
 Displayed assets can be filtered based on type (Images, Videos, Point Clouds, Converted Streetview, Non-asset Features) under this panel.
 
@@ -195,17 +191,17 @@ Displayed assets can be filtered based on type (Images, Videos, Point Clouds, Co
 
 <center><img src="../imgs/hazmapper-2.22.png"> <b>Fig 2.22</b></center>
 
-<h4 id="streetview-panel">Streetview Panel</h4>
+#### [Streetview Panel](#overview-panels-streetview) { #overview-panels-streetview }
 
 The streetview panel provides streetview functionality through an external service called <a href="https://www.mapillary.com/">Mapillary</a>.
 
 Because we rely on this external service, much of the functionality is catered to how the service works. Furthermore, there is some jargon accompanied by the functionality.
 
-<h5 id="mapillary-overview">Mapillary Overview</h5>
+##### [Mapillary Overview](#overview-panels-streetview-mapillary) { #overview-panels-streetview-mapillary }
 
 Mapillary is a service that allows its users to import streetview imagery to view through their app. They also expose a tile-based API that allows other apps to integrate with their services.
 
-<h6 id="mapillary-terminology">Mapillary Terminology</h6>
+##### [Mapillary Terminology](#overview-panels-streetview-terminology) { #overview-panels-streetview-terminology }
 
 <ul>
 <li>
@@ -219,7 +215,7 @@ Mapillary is a service that allows its users to import streetview imagery to vie
 </li>
 </ul>
 
-<h6 id="logging-in-to-mapillary">Logging in to Mapillary</h6>
+##### [Logging in to Mapillary
 
 To start using streetview assets with Mapillary, the user must log in to Mapillary.
 
@@ -257,13 +253,13 @@ If a user adds a correct organization key, Hazmapper will automatically add the 
 
 <center><img src="../imgs/hazmapper-2.31.png"> <b>Fig 2.31</b></center>
 
-<h5 id="display-mapillary-sequences">Display Mapillary Sequences</h5>
+##### [Display Mapillary Sequences](#overview-panels-streetview-display) { #overview-panels-streetview-display }
 
 This will display all of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#mapillary-assets">mapillary assets</a> of a selected organization in the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#filters-tab">filters tab</a>.
 
 <center><img src="../imgs/hazmapper-2.32.png"> <b>Fig 2.32</b></center>
 
-<h5 id="publish-button">Publish Button</h5>
+##### [Publish Button](#overview-panels-streetview-publish) { #overview-panels-streetview-publish }
 
 This allows the user to upload and publish images from DesignSafe to Mapillary. During the process, the images are linked to hazmapper.
 
@@ -275,7 +271,7 @@ On clicking the <em>Publish</em> button, the user will see a prompt that asks fo
 
 <center><img src="../imgs/hazmapper-2.34.png"> <b>Fig 2.34</b></center>
 
-<h5 id="assets-tab">Assets Tab</h5>
+##### [Assets Tab](#overview-panels-streetview-assets) { #overview-panels-streetview-assets }
 
 This tab will all of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#linked-mapillary-assets">linked mapillary assets</a>. On clicking on the asset, the prompt will display the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#mapillary-terminology">mapillary sequences</a> associated with a system/path.
 
@@ -291,7 +287,7 @@ In this interface (<em>Fig 2.36</em>), the user can:
 
 <center><img src="../imgs/hazmapper-2.36.png"> <b>Fig 2.37</b></center>
 
-<h5 id="log-tab">Log Tab</h5>
+##### [Log Tab](#overview-panels-streetview-log) { #overview-panels-streetview-log }
 
 The <em>Publish</em> process prompted by the user submitting a <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#publish-button">publish job</a> requires the images to be first collected from DesignSafe and then published to Mapillary.
 
@@ -299,13 +295,13 @@ This tab shows a list of the progress of active publish processes.
 
 <center><img src="../imgs/hazmapper-2.37.png"> <b>Fig 2.37</b></center>
 
-<h5 id="filters-tab">Filters Tab</h5>
+##### [Filters Tab](#overview-panels-streetview-filterstab) { #overview-panels-streetview-filterstab }
 
 The interface of the <em>Filters tab</em> is similar to that of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#filters-panel">Filters panel</a>. However, instead of filtering based on a date range or asset type, this will filter by the organizations that a user added (either on login or through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#account-tab">account tab</a>).
 
 <center><img src="../imgs/hazmapper-2.38.png"> <b>Fig 2.39</b></center>
 
-<h5 id="account-tab">Account Tab</h5>
+##### [Account Tab](#overview-panels-streetview-accounttab) { #overview-panels-streetview-accounttab }
 
 The account tab is where the user can view and modify the mapillary account information associated with Hazmapper.
 
@@ -319,7 +315,7 @@ The <em>Delete Streetview Service</em> button will delete all of the association
 
 <center><img src="../imgs/hazmapper-2.39.png"> <b>Fig 2.39</b></center>
 
-<h5 id="streetview-assets">Streetview Assets</h5>
+##### [Streetview Assets](#overview-panels-streetview-streetview) { #overview-panels-streetview-streetview }
 
 The streetview support in Hazmapper comes with different asset components.
 
@@ -336,7 +332,7 @@ First, there are some commonalities among the different asset components:
 
 <center><img src="../imgs/hazmapper-2.41.png"> <b>Fig 2.41</b></center>
 
-<h6 id="mapillary-assets">Mapillary assets</h6>
+##### [Mapillary assets](#overview-panels-streetview-mapillaryassets) { #overview-panels-streetview-mapillaryassets }
 
 Because the Mapillary account is tied to an individual user, Mapillary assets are <em>not</em> part of the map itself. Thus, they will not be shown across members of the map and those with access to the public version of the map.
 
@@ -364,7 +360,7 @@ They are displayed in this color: .
 
 <center><img src="../imgs/hazmapper-2.44.png"> <b>Fig 2.44</b></center>
 
-<h5 id="imported-streetview-feature-assets">Imported streetview feature assets</h5>
+##### [Imported streetview feature assets](#overview-panels-streetview-feature) { #overview-panels-streetview-feature }
 
 Although the user is required to log in to the Mapillary to utilize them, imported streetview assets <em>are</em> part of the map. Thus, unlike <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#mapillary-assets">mapillary assets</a>, they can be shared among the members of the map and with those with access to the public version of the map.
 
@@ -374,7 +370,7 @@ They are displayed in this color: .
 
 <center><img src="../imgs/hazmapper-2.45.png"> <b>Fig 2.45</b></center>
 
-<h4 id="manage-panel">Manage Panel</h4>
+#### [Manage Panel](#overview-panels-manage) { #overview-panels-manage }
 
 In this panel, the user can manage the configuration of the maps.
 
@@ -402,9 +398,9 @@ The <em>Save</em> tab shows where the map is saved within DesignSafe's Data Depo
 
 <center><img src="../imgs/hazmapper-2.51.png"> <b>Fig 2.51</b></center>
 
-<h2 id="maps">Maps</h2>
+## [Maps](#maps) { #maps }
 
-<h3 id="map">Map</h3>
+### [Map](#maps-map) { #maps-map }
 
 A map is the equivalent of projects in some apps (not to confuse with DesignSafe Projects). They are the basic unit of work.
 
@@ -414,23 +410,23 @@ If saved to a DesignSafe project, the DesignSafe project interface will also sho
 
 <center><img src="../imgs/hazmapper-3.1.png"> <b>Fig 3.1</b></center>
 
-<h4 id="public-map">Public Map</h4>
+#### [Public Map](#maps-map-public) { #maps-map-public }
 
 An owner of a map can create a "Public Map" by creating one in the Manage -&gt; Public (tab) -&gt; (icon) Make a public map. The user can open the map by clicking on the generated link. When clicking on the (icon) copy icon, the URL address of the public icon will be available.
 
 A public map is meant to be a permanent link to the project unless the project itself is deleted. Thus, one must be careful of deleting the underlying project after sharing a link to the map.
 
-<h4 id="syncing-map">Syncing Map</h4>
+#### [Syncing Map](#maps-map-sync) { #maps-map-sync }
 
 If the user checks the "Sync Folder" checkbox on creating the map, the map will sync all the assets from the chosen save location. So, all the assets will be imported. Whatever asset the user import to the location from DesignSafe will automatically be imported.
 
 To check the discrepancies Hazmapper will start the import job periodically.
 
-<h2 id="supported-asset-types">Supported Asset Types</h2>
+## [Supported Asset Types](#assettypes) { #assettypes }
 
-<h3 id="map-associated-assets">Map Associated Assets</h3>
+### [Map Associated Assets](#assettypes-map) { #assettypes-map }
 
-<h4 id="media-assets">Media Assets</h4>
+#### [Media Assets](#assettypes-map-media) { #assettypes-map-media }
 
 Currently, we support the following media assets. Note that these assets must have geospatial data (lat/lon) for Hazmapper to properly process and handle them. If the image is problematic, Hazmapper should show an error during the import process.
 
@@ -446,19 +442,19 @@ Currently, we support the following media assets. Note that these assets must ha
 </li>
 </ul>
 
-<h4 id="point-cloud-assets">Point Cloud Assets</h4>
+#### [Point Cloud Assets](#assettypes-map-pointcloud) { #assettypes-map-pointcloud }
 
 Point cloud assets are represented as bounding boxes showing their respective geographic locations.
 
 They can be analyzed further through the Potree Viewer, which shows a 3D model of the point cloud.
 
-<h4 id="imported-streetview-assets">Imported Streetview Assets</h4>
+#### [Imported Streetview Assets](#assettypes-map-streetview) { #assettypes-map-streetview }
 
 These are imported versions of mapillary streetview assets and bound to the map (different from <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#non-imported-streetview-assets">non-imported streetview assets</a> shown and accessed through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#streetview-panel">Streetview panel</a>).
 
 Thus, they can be shared among users of the map and with those who have access to the public link map if the map has a public version.
 
-<h4 id="tile-layers">Tile Layers</h4>
+#### [Tile Layers](#assettypes-map-layers) { #assettypes-map-layers }
 
 These are tile layers from an external tile server. They are managed through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#layers-panel">Layers panel</a>.
 
@@ -474,19 +470,19 @@ Currently, supported formats are:
 
 <strong>NOTE</strong>: <em>Tile layers are not regular Feature Assets (i.e. they do not show up in the assets panel), but they are part of the map and can be shared among collaborators and those with access to the public version of the map.</em>
 
-<h3 id="third-party-assets">Third-party Assets</h3>
+### [Third-party Assets](#assettypes-thirdparty) { #assettypes-thirdparty }
 
-<h4 id="non-imported-streetview-assets">Non-imported Streetview Assets</h4>
+#### [Non-imported Streetview Assets](#assettypes-thirdparty-streetview) { #assettypes-thirdparty-streetview }
 
 These are supported through a Mapillary's tile service. Because these are user-dependent services, they cannot be shared among users of a map. Thus, they must be <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#assets-tab">imported</a> as <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#imported-streetview-assets">imported streetview assets</a>
 
-<h2 id="collaboration">Collaboration</h2>
+## [Collaboration](#collaboration) { #collaboration }
 
-<h3 id="shared-maps">Shared Maps</h3>
+### [Shared Maps](#collaboration-sharedmaps) { #collaboration-sharedmaps }
 
 As briefly mentioned in the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#maps">Maps</a> section, maps that are saved in the DesignSafe project will be shared among the <a href="">members of the project</a>. These maps will automatically display in the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#welcome-menu">welcome menu</a>. Because of the connection, the addition/deletion of members is also managed by each corresponding DesignSafe project.
 
-<h3 id="public-maps">Public Maps</h3>
+### [Public Maps](#collaboration-public) { #collaboration-public }
 
 Any map can have a public version of the map through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#public-tab">public tab of the manage panel</a>. The generated link will be permanent unless the owner of the map makes the map private, or unless the owner of the map deletes the original map.
 

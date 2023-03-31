@@ -1,6 +1,4 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">QGIS Desktop User Guide</h3>
-
-<hr style="margin-top: 0px;">
+# QGIS Desktop User Guide
 
 QGIS is a free and open source Geographic Information System. Geospatial information can be created, edited, visualized and analyzed using this application. This application runs as an interactive QGIS Desktop session on a virtual machine using VNC technology.
 
@@ -21,13 +19,11 @@ By clicking on Connect, a new tab will be opened that comprises QGIS interactive
 QGIS has the following components:<br>
 (1) Menu Bar, (2) Toolbars, (3) Browser Panel, (4) Layers Panel, (5) Map view, (6) Status Bar
 
-<h3>Load raster and vector layers from the sample dataset</h3>
+## [Load raster and vector layers from the sample dataset](#load) { #load }
 
 You can either use Browser Panel to browse to your dataset (e.g. mydata or projects) and drag and drop it to Layers panel for visualization or from toolbar, you can select 'Add Raster Layer' and 'Add Vector Layer' icons to select raster or vector layers respectively.
 
 A full documentation on QGIS software and its capabilities can be found at: <a href="https://docs.qgis.org/2.8/en/docs/user_manual/introduction/getting_started.html" target="_blank">https://docs.qgis.org/2.8/en/docs/user_manual/introduction/getting_started.html</a>.
-
- 
 
 <em>Last update: May 23, 2019</em>
 

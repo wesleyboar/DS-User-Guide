@@ -1,13 +1,11 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">VisIt User Guide</h3>
+# VisIt User Guide
 
-<hr style="margin-top: 0px;">
 
 VisIt is an Open Source, interactive, scalable, visualization, animation and analysis tool. Users can quickly generate visualizations, animate them through time, manipulate them with a variety of operators and mathematical expressions, and save the resulting images and animations for presentations. VisIt contains a rich set of visualization features to enable users to view a wide variety of data including scalar and vector fields defined on two- and three-dimensional (2D and 3D) structured, adaptive and unstructured meshes. Owing to its customizable plugin design, VisIt is capable of visualizing data from over 120 different scientific data formats.
 
 More detailed information and VisIt user documentation can be found on the <a href="https://wci.llnl.gov/simulation/computer-codes/visit/" title="VisIt Website" target="_blank">VisIt website</a>.
 
-<hr>
-<h3 style="margin-top: 25px;">How to Start a VisIt Interactive Session in the Workspace</h3>
+## [How to Start a VisIt Interactive Session in the Workspace](#start) { #start }
 
 <ul>
 	<li>Select the VisIt application from the Visualization tab in the Workspace.</li>

@@ -1,12 +1,10 @@
-<h3 style="font-size: 25px; margin-bottom: 7px;">Potree Converter User Guide</h3>
-
-<hr style="margin-top: 0px;">
+# Potree Converter User Guide
 
 The Potree Converter converts point clouds to a format compatible with the Potree Viewer. Several options are available for you to customize your conversion, and can be found on the Potree Converter Github site.
 
 POTREE Converter can be found under Visualization tab in DesignSafe Workspace. This application converts non-proprietary point cloud data formats (e.g. las, laz, binary ply, xyz or ptx) to a POTREE readable data structure (octree). The output directory from this application can next be visualized in POTREE Viewer.
 
-<h3 style="margin-top: 25px;">How to Submit a Potree Converter Job in the Workspace</h3>
+## [How to Submit a Potree Converter Job in the Workspace](#submit) { #submit }
 
 Similar to most applications in DesignSafe, you will have to fill out a form to submit your job that asks for following information:
 
@@ -27,7 +25,7 @@ The job log files will be stored at archive folder in “Mydata”: {username}/a
 
 When the form is completed, you can click “Launch” to submit your job. The job status can be monitored to the right of this form. It will change from “Pending” to “Staged”, “Submitted” and “Running” before it is successfully “Finished.”
 
-<b>FAQ:</b>
+## [FAQ](#faw) { #faq }
 
 <ol>
 <li>My job’s status will change swiftly from Running to Finished with no converted output directory?<br>
@@ -37,8 +35,6 @@ When the form is completed, you can click “Launch” to submit your job. The j
 	 <br>
 	From the Data Depot Browser to the left of job submission form, you can browse to your desired project and select the file/folder to be converted.</li>
 </ol>
-
- 
 
 <em>Last update: May 24, 2019</em>
 
