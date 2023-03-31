@@ -33,15 +33,6 @@ nav:
     - Curation &amp; Publication FAQ: curating/faq.md
     - Policies: curating/policies.md
 
-  - Simulation Applications: 
-    - Overview: tools/simulation/overview.md
-    - ADCIRC: tools/simulation/adcirc.md
-    - Clawpack: tools/simulation/clawpack.md
-    - Dakota: tools/simulation/dakota.md
-    - LS-DYNA: tools/simulation/lsdyna.md
-    - OpenFOAM: tools/simulation/openfoam.md
-    - OpenSEES: tools/simulation/opensees.md
-
   - Analysis Applications: 
      - Overview: analysis/overview.md
      - HVSRweb: analysis/hvsrweb.md
@@ -52,6 +43,15 @@ nav:
     - Jupyter Guide: tools/jupyterhub/jupyterhub.md
     - Example Notebooks: tools/jupyterhub/examplenotebooks.md
     - Publishing Notebooks: tools/jupyterhub/publishingnotebooks.md
+
+  - Simulation Applications: 
+    - Overview: tools/simulation/overview.md
+    - ADCIRC: tools/simulation/adcirc.md
+    - Clawpack: tools/simulation/clawpack.md
+    - Dakota: tools/simulation/dakota.md
+    - LS-DYNA: tools/simulation/lsdyna.md
+    - OpenFOAM: tools/simulation/openfoam.md
+    - OpenSEES: tools/simulation/opensees.md
 
   - Visualization Applications: 
     - Overview: tools/visualization/overview.md
@@ -65,8 +65,9 @@ nav:
     - STKO: tools/visualization/stko.md
     - VisIt: tools/visualization/visit.md
 
-  - Hazard Applications: tools/hazard.md
-  - Utilities: tools/utilities.md
+  - Other Applications:
+    - Hazard Applications: tools/hazard.md
+    - Utilities: tools/utilities.md
   - Recon Portal:
     - Recon Portal Guide: tools/recon.md
 
