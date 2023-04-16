@@ -1,6 +1,6 @@
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
-site_url: https://designsafe-ci.org/user-guide/
+site_url: https://designsafe-ci.org/user-guide/index.md
 plugins:
   - search
 
@@ -18,13 +18,6 @@ markdown_extensions:
   - abbr
 
 nav:
-  - Dictionaries:
-    - Experimental: dictionary/experimental.md
-    - simulation: dictionary/simulation.md
-    - hybrid: dictionary/hybrid.md
-    - field: dictionary/field.md
-    - other: dictionary/other.md
-
   - Managing Files: 
     - Data Depot: managingdata/datadepot.md
     - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
@@ -83,6 +76,13 @@ nav:
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
     - DesignSafe FAQ: tools/advanced/dsfaq.md
+
+  - Dictionaries:
+    - Experimental: dictionary/experimental.md
+    - Simulation: dictionary/simulation.md
+    - Hybrid: dictionary/hybrid.md
+    - Field: dictionary/field.md
+    - Other: dictionary/other.md
 
 
 
