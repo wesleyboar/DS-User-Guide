@@ -18,6 +18,13 @@ markdown_extensions:
   - abbr
 
 nav:
+  - Dictionaries:
+    - Experimental: dictionary/experimental.md
+    - simulation: dictionary/simulation.md
+    - hybrid: dictionary/hybrid.md
+    - field: dictionary/field.md
+    - other: dictionary/other.md
+
   - Managing Files: 
     - Data Depot: managingdata/datadepot.md
     - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
