@@ -556,8 +556,182 @@ This refers to time during which a project is not made broadly accessible awaiti
 Users that request that their publications remain non-indexable and or non viewable should let the DDR team know through a Help ticket when the respective paper is accepted so we change its status. Without exceptions, all non-indexable, non-viewable publications in the DDR will be made publicly available upon one year even if the corresponding paper is not published.
 
 
+### [Licensing](#licensing) { #licensing }
 
-## Data Preservation
+Within DesignSafe, you will choose a license to distribute your material. The reason for offering licences with few restrictions, is that by providing less demands on reusers, they are more effective at enabling reproducible science. We offere licenses with few to no restrictions. By providing less demands on reusers, they are more effective at enabling reproducible science. Because the DesignSafe Data Depot is an open repository, the following licenses will be offered:
+
+<ul>
+	<li>For datasets: ODC-PDDL and ODC-BY</li>
+	<li>For copyrightable materials (for example, documents, workflows, designs, etc.): CC0 and CC-BY</li>
+	<li>For code: GPL</li>
+</ul>
+
+You should select appropriate licenses for your publication after identifying which license best fits your needs and institutional standards. Note that datasets are not copyrightable materials, but works such as reports, instruments, presentations and learning objects are.
+
+<strong>Please select only one license per publication with a DOI. </strong>
+
+
+Available Licenses for Publishing Datasets in DesignSafe
+
+#### [DATASETS](#licensing-datasets) { #licensing-datasets }
+
+If you are publishing data, such as simulation or experimental data, choose between:
+
+<table class="tg" style="width: 100%; padding-bottom: 15px;">
+	<tr>
+		<td><strong>Open Data Commons Attribution</strong>
+		<div style="color: #158600;">Recommended for datasets</div>
+		</td>
+	</tr>
+	<tr><td>
+		<ul>
+			<li>You allow others to freely share, reuse, and adapt your data/database.</li>
+			<li>You expect to be attributed for any public use of the data/database.</li>
+		</ul>
+
+		Please read the <a href="https://opendatacommons.org/licenses/by/summary/" target="_blank">License Website</a>
+	</td></tr></table>
+	
+
+<table>
+	<tr>
+		<td><strong>Open Data Commons Public Domain Dedication</strong>
+		<div style="color: orange;">Consider and read carefully</div>
+		</td>
+	</tr>
+
+	<tr><td>
+
+		<ul>
+			<li>You allow others to freely share, modify, and use this data/database for any purpose without any restrictions.</li>
+			<li>You do not expect to be attributed for it.</li>
+		</ul>
+
+
+		Please read the <a href="https://opendatacommons.org/licenses/pddl/summary/" target="_blank">License Website</a>
+		</td>
+	</tr>
+</table>
+
+#### [WORKS](#licensing-works) { #licensing-works }
+
+If you are publishing papers, presentations, learning objects, workflows, designs, etc, choose between:
+
+<table class="tg" style="width: 100%; padding-bottom: 15px;">
+<tr>
+<td class="tg-0lax" valign="top">
+<tr>
+<td><strong>Creative Commons Attribution </strong>
+<div style="color: #158600;">Recommended for reports, instruments, learning objects, etc.</div>
+</td>
+</tr>
+<tr><td>
+			<ul>
+				<li>You allow others to freely share, reuse, and adapt your work.</li>
+				<li>You expect to be attributed for any public use of your work.</li>
+				<li>You retain your copyright.</li>
+			</ul>
+
+			Please read the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">License Website</a>
+			</td>
+</tr></table>
+
+
+<table>
+<tr>
+<td><strong>Creative Commons Public Domain Dedication</strong>
+<div style="color: orange;">Consider and read carefully</div>
+</td>
+</tr>
+<tr><td>
+<ul>
+<li>You allow others to freely share, modify, and use this work for any purpose without any restrictions.</li>
+<li>You do not expect to be attributed for it.</li>
+<li>You give all of your rights away.</li>
+</ul>
+Please read the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">License Website</a>
+</td>
+</tr>
+</table>
+
+#### [SOFTWARE](#licensing-software) { #licensing-software }
+
+If you are publishing community software, scripts, libraries, applications, etc, choose the following:
+
+<table>
+<tr> <td><strong>GNU General Public License</strong></td> </tr>
+<tr><td>
+<ul>
+<li>You give permission to modify, copy, and redistribute the work or any derivative version.</li>
+<li>The licensee is free to choose whether or not to charge a fee for services that use this work.</li>
+<li>They cannot impose further restrictions on the rights imposed by this license.</li>
+</ul>
+Please read the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">License Website</a>
+</td></tr>
+</table>
+
+### [Subsequent Publishing](#publishing) { #publishing }
+
+With the exception of Project Type Other, which is a one time publication, in the DDR it is possible to publish datasets or works subsequently. A project can be conceived as an umbrella where reports or learning materials, code, and datasets from distinct experiments, simulations, hybrid simulations or field research missions that happen at different time periods, involve participation of distinct authors, or need to be released more promptly, can be published at different times. Each new product will have its own citation and DOI, and users may select a different license if that is appropriate for the material, (e.g. a user publishing a data report will use a Creative Commons license, and an Open Data Commons license to publish the data). The subsequent publication will be linked to the umbrella project via the citation, and to the other published products in the project through metadata. 
+
+After a first publication, users can upload more data and create a new experiment/simulation/hybrid simulation or mission and proceed to curate it. Users should be aware that momentarily they cannot publish the new product following the publication pipeline. After curation and before advancing through the Publish My Project button, they should write a help ticket or attend curation office hours so that the DDR team can assist and publish the new product.
+
+### [Amends and Version Control ](#amends) { #amends }
+
+Once a dataset is published users can do two things to improve and or / continue their data publication: amends and version control. Amends involve correcting certain metadata fields that do not incur major changes to the existing published record, and version control includes changes to the data. Once a dataset is published, however, we do not allow title or author changes. If those changes need to be made due to omission or mistake, users have to submit a Help ticket and discuss the change with the data curator. If applicable, changes will be done by the curation team. 
+
+Amends include:
+
+<ul>
+<li>Improving descriptions: often after the curator reviews the publicationn, or following versioning, users need to clarify or enhance descriptions.</li>
+<li>Adding related works: when papers citing a dataset are published we encourage users to add the references in Related Works to improve data understandibility and cross-referencing and citation count.</li>
+<li>Changing the order of authors: even though DDR has interactive tools to set the order of authors in the publication pipeline, users further require changes after publication due to oversight.</li>
+</ul>
+
+Version control includes:
+
+<ul>
+<li>Adding or deleting files to a published dataset.</li>
+<li>Documenting the nature of the changes which will publicly show in the landing page.</li>
+<li>Descriptions of the nature of the changes are displayed for users to see what changed and stored as metadata.</li>
+<li>In the citation and landing pages, different versions of a dataset will have the same DOI and different version number. </li>
+<li>The DOI will always resolve to the latest version of the data publication. </li>
+<li>Users will always be able to access previous versions through the landing page.</li>
+</ul>
+
+When implementing amend and version take the following into consideration: 
+
+<b data-stringify-type="bold">Amend</b> is only going to update the latest version of a publication (if there is only one version that will be the target). Only the specified fields in the metadata form will be updated. The order of authors must be confirmed before the amendments can be submitted.
+
+<b data-stringify-type="bold">Version</b> will create a new published version of a project. This pipeline will allow you to select a new set of files to publish, and whatever is selected in the pipeline is what will be published, nothing else. Additionally, the order of authors can be updated. 
+
+<b data-stringify-type="bold">Important</b>: Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
+
+### [Leave Data Feedback](#feedback) { #feedback }
+
+We welcome feedback from users about the published datasets. For this, users can click on the "Leave Feedback" button at the top of the data presentation on the data publication landing pages. We suggest that feedback is written in a positive, constructive language. The following are examples of feedback questions and concerns:
+
+<ul>
+	<li>Questions about the dataset that are not answered in the published metadata and or documentation.</li>
+	<li>Missing documentation.</li>
+	<li>Questions about the method/instruments used to generate the data.</li>
+	<li>Questions about data validation.</li>
+	<li>Doubts/concerns about data organization and or inability to find desired files.</li>
+	<li>Interest in bibliography about the data/related to the data.</li>
+	<li>Interest in reusing the data.</li>
+	<li>Comments about the experience of reusing the data.</li>
+	<li>Request to access raw data if not published.</li>
+	<li>Congratulations.</li>
+</ul>
+
+### [Marketing Datasets](#marketing) { #marketing }
+
+Datasets take a lot of work to produce; they are important research products. By creating a complete, organized, and clearly described publication in DDR, users are inviting others to reuse and cite their data.  Researchers using published data from DDR must cite it using the DOI, which relies on the <a href="http://schema.datacite.org/">DataCite schema</a> for accurate citation. For convenience, users can retrieve a formatted citation from the published data landing page. It is recommended to insert the citations in the reference section of the paper to facilitate citation tracking and count.
+
+When using social media or any presentation platform to communicate research, it is important to include the proper citation and DOI on the presentations, emails, tweets, professional blog posts, etc.. A researcher does not actually need to reuse a dataset to cite it, but rather may cite it to point/review something about a dataset (e.g., how it was collected, its uniqueness, certain facts, etc.). This is similar to the process of citing other papers within a literary review section.
+
+
+## [Data Preservation](#datapreservation) { #datapreservation }
 
 In the Data Depot Repository (DDR) data preservation is achieved through the combined efforts of the NH community that submits data and metadata following policies and best practices, and the DDR's administrative responsibilities and technical capabilities. The following data preservation best practices ensure preservation of the data from the moment in which researchers plan their data projects and for the long term after the data is published.
 
