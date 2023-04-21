@@ -14,7 +14,7 @@ The [Data Depot](https://www.designsafe-ci.org/data/browser/public/) is the data
 
 ![Figure 1. Data Depot](./imgs/datadepotfigure.jpg)
 
-Figure 1. Data Depot “My Data” screenshot
+Figure 1. Data Depot “My Data” screenshot 
 
 The Data Depot provides a user interface with a familiar desktop metaphor for manipulating files. The UI for a typical Data Depot window is shown in Figure 1 above. On the left is your directory tree (My Data, etc), and on the right are the files and folders within the currently selected directory. Folders can be navigated simply by clicking on the name of the folders. Clicking on the name of a file will pop up a preview of the file. 
 
