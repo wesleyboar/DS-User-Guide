@@ -1,10 +1,10 @@
 # Frequently Asked Questions
 
-## An Expanding Collection of the Most Frequently Asked Questions</h3>
+An Expanding Collection of the Most Frequently Asked Questions
 
 <hr style="margin-top: 0px;">
 
-## FAQ Categories
+## [FAQ Categories](#categories) { #categories }
 
 <ul>
 	<li><b><a href="#faq-users">Users and Accounts</a></b></li>
@@ -23,7 +23,7 @@
 </ul>
 
 <hr>
-## Users and Accounts <a name="faq-users"> </a>
+## [Users and Accounts](#faq-users) { #faq-users } 
 
 <b><a href="/rw/support/getting-started/">www.designsafe-ci.org/rw/support/getting-started</a></b>
 
@@ -47,7 +47,7 @@ A: With an account, you can:
 A: Join our <a href="/community/slack-online-collaboration/">Slack team</a> to participate in discussions and give your input on the site. All feedback is welcome and helps improve the site.
 
 <hr>
-## Training <a name="faq-training"> </a>
+## [Training](#faq-training) { #faq-training }
 
 <b><a href="/learning-center/training/">www.designsafe-ci.org/learning-center/training</a></b>
 
@@ -58,7 +58,7 @@ A: <a href="/learning-center/training/">Upcoming training opportunities</a> are 
 A: Webinars on a variety of topics are recorded and made <a href="https://www.youtube.com/channel/UCF4nS051wnvMRpnezTRUSqA/playlists">available online</a>, and there are additional <a href="/rw/support/getting-started/">user support videos</a> and <a href="/rw/user-guide/">documentation</a>.
 
 <hr>
-## Data Depot <a name="faq-datadepot"> </a>
+## [Data Depot](#faq-datadepot) { #faq-datadepot }
 
 <b><a href="/data/browser">www.designsafe-ci.org/data/browser</a></b>
 
@@ -97,7 +97,7 @@ A: This will require contacting your IT department to make sure your company/uni
 A: The Published directory in the Data Depot holds the <a href="https://www.designsafe-ci.org/data/browser/public/nees.public/" target="_blank">NEES Public Data</a>. Projects published using DesignSafe will be hosted there as well. The DOIs for the NEES Public Data point to the Data Depot.
 
 <hr>
-## Discovery Workspace <a name="faq-workspace"> </a>
+## [Discovery Workspace](#faq-workspace) { #faq-workspace }
 
 <b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
@@ -108,7 +108,7 @@ A: <a href="/help/">Submit a ticket</a> and we will work with you to add your ap
 A: One Stampede node is requested, containing 16 cores and 32GB of memory. For more info, visit the <a href="https://portal.tacc.utexas.edu/user-guides/stampede#config-specs-compute" target="_blank">Stampede user guide</a>.
 
 <hr>
-## MATLAB</b> <a name="faq-matlab"> </a>
+## [MATLAB](#faq-matlab) { #faq-matlab }
 
 <b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
@@ -125,7 +125,7 @@ A: If you are starting up with a folder that has a large number of files and/or 
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## Jupyter</b> <a name="faq-jupyter"> </a>
+## [Jupyter](#faq-jupyter) { #faq-jupyter }
 
 <b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
@@ -136,7 +136,7 @@ A: The Jupyter Notebook is a web application that allows you to create and share
 A: Many people use Jupyter in a similar fashion as they use MATLAB to analyze and plot their data. We will be sharing example Jupyter Notebooks soon that you can copy into your My Data and customize for your research. We also provide <a href="/training">Jupyter training</a>.
 
 <hr>
-## OpenSees</b> <a name="faq-opensees"> </a>
+## [OpenSees](#faq-opensees") { #faq-opensees }
 
 <b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
@@ -154,7 +154,7 @@ A: OpenSees Express performs analysis using a single Tcl script, and runs on a v
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## ADCIRC <a name="faq-adcirc"> </a>
+## [ADCIRC](#faq-adcirc) { #faq-adcirc }
 
 <b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
@@ -178,7 +178,7 @@ A: If you do not specify a location, the default output is shown in the grayed-o
 A: If you do not specify a location, the default output is shown in the grayed out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## OpenFOAM <a name="faq-openfoam"> </a>
+## [OpenFOAM](#faq-openfoam) { #faq-openfoam }
 
 <b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
@@ -190,7 +190,7 @@ A more detailed description can be found on the <a href="http://openfoam.com/" t
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## ParaView <a name="faq-paraview"> </a>
+## [ParaView](#faq-paraview) { #faq-paraview }
 
 <b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
@@ -203,7 +203,7 @@ A more detailed description can be found on the <a href="http://www.paraview.org
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## Experimental Facilities<a name="faq-ef"> </a>
+## [Experimental Facilities](#faq-ef) { #faq-ef }
 
 <b><a href="/facilities/experimental">www.designsafe-ci.org/facilities/experimental</a></b>
 
@@ -214,7 +214,7 @@ A: You can explore the NSF NHERI Program <a href="/facilities/experimental/">Exp
 A: Each facility hosts <a href="/learning-center/training/">workshops</a> to provide prospective users with the knowledge of a facility's capabilities and discuss details toward developing research proposals, such as to the <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505177" target="_blank">NSF Engineering for Natural Hazards Program</a>.
 
 <hr>
-## Citing DesignSafe<a name="faq-citation"> </a>
+## [Citing DesignSafe](#faq-citation) { #faq-citation }
 
 <strong>Q: How do I cite my use of DesignSafe in my papers, presentations, and publications?</strong><br>
 A: DesignSafe has published a marker paper that you can cite as a reference:
