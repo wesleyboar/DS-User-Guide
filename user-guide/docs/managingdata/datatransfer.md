@@ -14,19 +14,19 @@ We define a large data transfer here as any file transfer that is  &gt; 2GB, or 
 
 	Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, setup only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
 
-	See the <a href="../globusdatatransfer">Globus Data Transfer Guide</a> for instructions. If you need to perform automated transfers using Globus, see the <a href="../globuscommandlinetransfer">Globus CLI Automated Transfer Guide</a> for instructions.
+	See the <a href="#globus">Globus Data Transfer Guide</a> for instructions. If you need to perform automated transfers using Globus, see the <a href="#globuscli">Globus CLI Automated Transfer Guide</a> for instructions.
 
 1. Cyberduck
 
 	Cyberduck is an open-source client for file transfer protocols that allows you to securely connect to DesignSafe and other TACC resources without directly using the command line. Cyberduck presents a compromise between a shorter setup time than Globus but at the expense of Globus' superior speed and reliability.
 
-	See the <a href="../cyberducktransfer">Cyberduck Data Transfer Guide</a> for instructions.
+	See the <a href="#cyberduck">Cyberduck Data Transfer Guide</a> for instructions.
 
 1. Command Line
 
 	Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
-	See the <a href="../globuscommandlinetransfer">Command-Line Data Transfer Guide</a> for instructions.
+	See the <a href="#globuscli">Command-Line Data Transfer Guide</a> for instructions.
 
 ### [Recommended Normal Data Transfer Methods](#recommended-normaldatatransfer) { #recommended-normaldatatransfer } 
 
@@ -72,7 +72,7 @@ Globus requires a unique identifier, called a Distinguished Name (DN), for each 
 
 To create a DN, you need to log in through an authoritative source that can verify your identity, typically your university or employer.
 
-If you already have a DN, you may reuse it here and skip to <a href="#step3">Step 3</a>.
+If you already have a DN, you may reuse it here and skip to <a href="#globus-step3">Step 3</a>.
 
 If you do not have a DN, you can create one for free using the “CI Logon” service.
 
@@ -82,17 +82,17 @@ To create a DN, go to <a href="https://cilogon.org" target="_blank">https://cilo
 
 Select an "Identity Provider" from the drop-down list, and click "Log On" to be redirected to your Identity Provider's log in screen.
 
-If your university or employer is not in the list, we recommend using Cyberduck instead. See the <a href="../cyberducktransfer">Cyberduck Data Transfer Guide</a> for instructions.
+If your university or employer is not in the list, we recommend using Cyberduck instead. See the <a href="#cyberduck">Cyberduck Data Transfer Guide</a> for instructions.
 
 ![](imgs/globus-step2.png)
 
-After authenticating via the Identity Provider, you will be redirected back to CILogon, where you can find your Certificate Subject that you will need to copy and paste for <a href="#step3">Step3</a>.
+After authenticating via the Identity Provider, you will be redirected back to CILogon, where you can find your Certificate Subject that you will need to copy and paste for <a href="#globus-step3">Step3</a>.
 
 	/DC=org/DC=cilogon/C=US/O=University of Texas at Austin/CN=Sample Person A00000
 
 ### [3. Associate your DN with your DesignSafe/TACC Account](#globus-step3) { #globus-step3 }
 
-Login to the TACC User Portal (<a href="https://portal.tacc.utexas.edu/" target="_blank">https://portal.tacc.utexas.edu</a>) with your DesignSafe/TACC account.
+Login to the TACC User Portal (<a href="https://www.tacc.utexas.edu/portal/login" target="_blank">https://portal.tacc.utexas.edu</a>) with your DesignSafe/TACC account.
 
 Select "Home" &gt; "Account Profile".
 
@@ -195,17 +195,17 @@ You will get a response via email when the activation is complete.
 
 ### [2. Create a Distinguished Name (DN)](#globuscli-step2) { #globuscli-step2 }
 
-Detailed instructions for creating a DN can be found in <a href="../datatransfer#step2">Step 2 of the Globus Data Transfer Guide</a>.
+Detailed instructions for creating a DN can be found in <a href="#globus-step2">Step 2 of the Globus Data Transfer Guide</a>.
 
-If you have already completed the DN creation process and associated it with your DesignSafe/TACC account you may skip to <a href="#step4">Step 4</a>.
+If you have already completed the DN creation process and associated it with your DesignSafe/TACC account you may skip to <a href="#globus-step4">Step 4</a>.
 
 ### [3. Associate your DN with your DesignSafe/TACC Account](#globuscli-step3) { #globuscli-step3 }
 
-Detailed instructions for associating your DN with your DesignSafe/TACC account can be found in <a href="../globusdatatransfer#step3">Step 3 of the Globus Data Transfer Guide</a>.
+Detailed instructions for associating your DN with your DesignSafe/TACC account can be found in <a href="#globus-step3">Step 3 of the Globus Data Transfer Guide</a>.
 
 ### [4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#globuscli-step4) { #globuscli-step4 }
 
-If the data you wish to transfer is located on your local machine, follow <a href="../globusdatatransfer#step4">Step 4 of the Globus Data Transfer Guide</a> to create a personal endpoint.
+If the data you wish to transfer is located on your local machine, follow <a href="#globus-step4">Step 4 of the Globus Data Transfer Guide</a> to create a personal endpoint.
 
 If the data you wish to transfer is located on a server operated by your organization and does not already have a Globus Endpoint available, talk to your system administrator about creating one.
 
@@ -311,15 +311,15 @@ Cyberduck is an open-source client for file transfer protocols that allows you t
 
 ### [1. Submit a ticket to activate Corral access for your DesignSafe/TACC Account](#cyberduck-step1) { #cyberduck-step1 }
 
-If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="../datatransfer">Data Transfer Guide</a>), you may skip this step.
+If you have already requested access to Corral for using Globus or another data transfer method, you may skip this step.
 
 To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use Cyberduck. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
 
 ### [2. Set up MFA using the TACC Token App](#cyberduck-step2) { #cyberduck-step2 }
 
-Go to TACC user portal (<a href="https://portal.tacc.utexas.edu">https://portal.tacc.utexas.edu)</a> and log in with your DesignSafe/TACC credentials and pair a device with your account.
+Go to TACC user portal (<a href="https://www.tacc.utexas.edu/portal/login">https://www.tacc.utexas.edu/portal/login)</a> and log in with your DesignSafe/TACC credentials and pair a device with your account.
 
-Full instructions are provided here: <a href="https://portal.tacc.utexas.edu/tutorials/multifactor-authentication">https://portal.tacc.utexas.edu/tutorials/multifactor-authentication</a>.
+Full instructions are provided here: <https://portal.tacc.utexas.edu/tutorials/multifactor-authentication>.
 
 Select the TACC Token App option.
 
@@ -376,19 +376,19 @@ To download files, select the file(s) you wish to download. Select "File" &gt; "
 
 ## [Command-Line Data Transfer Guide](#cli) { #cli }
 
-Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools (see <a href="../datatransfer">Data Transfer Guide</a>) have been tried and found to be insufficient.
+Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
 ### [1. Submit a ticket to activate Corral access for your DesignSafe/TACC Account](#cli-step1) { #cli-step1 }
 
-If you have already requested access to Corral for using Globus or another data transfer method (refer to <a href="../datatransfer">Data Transfer Guide</a>), you may skip this step.
+If you have already requested access to Corral for using Globus or another data transfer method, you may skip this step.
 
 To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use a command-line based data transfer. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
 
 ### [2. Set up MFA using the TACC Token App](#cli-step2) { #cli-step2 }
 
-Go to TACC user portal (<a href="https://portal.tacc.utexas.edu">https://portal.tacc.utexas.edu)</a> and log in with your DesignSafe/TACC credentials and pair a device with your account.
+Go to TACC user portal (<https://www.tacc.utexas.edu/portal/login>) and log in with your DesignSafe/TACC credentials and pair a device with your account.
 
-Full instructions are provided here: <a href="https://portal.tacc.utexas.edu/tutorials/multifactor-authentication">https://portal.tacc.utexas.edu/tutorials/multifactor-authentication</a>.
+Full instructions are provided here: <https://docs.tacc.utexas.edu/basics/mfa/>.
 
 Select the TACC Token App option.
 
@@ -473,7 +473,7 @@ Once the transfer is complete the Upload files window will close and you will se
 
 <img alt="Upload Complete" src="../imgs/datadepotbrowser-4.png">
 
-If you wish to upload a folder, follow the same procedure as above except select **Folder upload: max 25 files**. However, be sure that the folder you wish to upload is small than 100 MB and contains fewer than 25 files. If the folder you wish to upload exceeds these limits please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a> rather than the web interface.
+If you wish to upload a folder, follow the same procedure as above except select **Folder upload: max 25 files**. However, be sure that the folder you wish to upload is small than 100 MB and contains fewer than 25 files. If the folder you wish to upload exceeds these limits please use one of the large data transfer methods listed in this guide rather than the web interface.
 
  
 
@@ -485,7 +485,7 @@ To download a file from DesignSafe to your local desktop/laptop **select the fil
 
 <img alt="Select File for Download" src="../imgs/datadepotbrowser-5.png">
 
-If you would like to download an entire folder from DesignSafe, please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a>.
+If you would like to download an entire folder from DesignSafe, please use one of the large data transfer methods listed in this guide.
 
 ### [Transferring Data Inside of DesignSafe](#datadepotbrowser-transferring) { #datadepotbrowser-transferring }
 
@@ -540,7 +540,7 @@ After the upload is complete the files will be viewable in Jupyter.
 
 <img alt="Upload Complete" src="../imgs/jupyterbrowser-5.png" style="width: 50%; margin: 10px 10px 20px;">
 
-If you would like to upload an entire folder, please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a>.
+If you would like to upload an entire folder, please use one of the large data transfer methods listed in this guide.
 
  
 
@@ -552,7 +552,7 @@ To download a file, **select the file** then select **Download**.
 
 <img alt="Select File for Download" src="../imgs/jupyterbrowser-6.png" style="width: 50%; margin: 10px 10px 20px;">
 
-If you would like to download an entire folder, please use one of the large data transfer methods listed in the <a href="../datatransfer">Data Transfer Guide</a>.
+If you would like to download an entire folder, please use one of the large data transfer methods listed in this guide. 
 
 If you have any issues transferring files using the JupyterHub browser interface,</strong><strong> please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>).
 
@@ -563,7 +563,7 @@ DesignSafe provides users the capability to connect to their preferred cloud sto
 
 Once connected, data held on the selected cloud storage provider can be easily copied to and from DesignSafe. Note DesignSafe does not actively synchronize your data and so any copy operation must be initiated manually. Any changes you make to data transferred to DesignSafe from a cloud storage provider will not affect the files located on the cloud storage provider. To update the files on the cloud storage provider you must manually copy them back to the provider using the copy functionality in the DesignSafe browser interface.
 
-The three main cloud storage providers, <a href="#box">Box</a>, <a href="#dropbox">Dropbox</a>,and <a href="#google-drive">Google Drive</a>, are supported on DesignSafe. Detailed instructions for setting up these integrations is provided below.
+The three main cloud storage providers, <a href="#cloud-box">Box</a>, <a href="#cloud-dropbox">Dropbox</a>,and <a href="#cloud-googledrive">Google Drive</a>, are supported on DesignSafe. Detailed instructions for setting up these integrations is provided below.
 
 ### [Box](#cloud-box) { #cloud-box }
 
@@ -579,7 +579,7 @@ Follow the on-screen instructions to login to your Box.com account.
 
 <img alt="Box Enable" src="../imgs/cloudstorage-1.png">
 
-Return to the Box.com section of the Data Depot. You can now copy files to and from your Box.com account. For instructions on copying data in DesignSafe see the <a href="../datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
+Return to the Box.com section of the Data Depot. You can now copy files to and from your Box.com account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
 
 <img alt="Box Complete" src="../imgs/cloudstorage-1.png">
 
@@ -597,7 +597,7 @@ Follow the on-screen instructions to login to your Dropbox.com account.
 
 <img alt="Enable Dropbox" src="../imgs/cloudstorage-1.png">
 
-Return to the Dropbox.com section of the Data Depot. You can now copy files to and from your Dropbox.com account. For instructions on copying data in DesignSafe see the <a href="../datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
+Return to the Dropbox.com section of the Data Depot. You can now copy files to and from your Dropbox.com account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
 
 <img alt="Complete Dropbox" src="../imgs/cloudstorage-1.png">
 
@@ -615,7 +615,7 @@ Follow the on-screen instructions to login to your Google Drive account.
 
 <img alt="Enable Google Drive" src="../imgs/cloudstorage-1.png">
 
-Return to the Google Drive section of the Data Depot. You can now copy files to and from your Google Drive account. For instructions on copying data in DesignSafe see the <a href="../datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
+Return to the Google Drive section of the Data Depot. You can now copy files to and from your Google Drive account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
 
 <img alt="Complete Google Drive" src="../imgs/cloudstorage-1.png">
 

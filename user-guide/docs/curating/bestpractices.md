@@ -8,7 +8,7 @@ The DDR accepts engineering datasets generated through simulation, hybrid simula
 
 ### [Accepted and Recommended File Formats ](#acceptedfileformats) { #acceptedfileformats }
 
-Due to the diversity of data and instruments used by our community, there are no current restrictions on the file formats users can upload to the DDR. However, for long-term preservation and interoperability purposes, we recommend and promote storing and  publishing data in <a href="https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats">open formats</a>, and we follow the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Formats</a>. 
+Due to the diversity of data and instruments used by our community, there are no current restrictions on the file formats users can upload to the DDR. However, for long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats, and we follow the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Formats</a>. 
 
 In addition, we suggest that users look into the <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>, which "detail a specific subject, disciplinary area or curation task and that can be used as a reference to curate research data." Importantly, the primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel. 
 
@@ -30,13 +30,13 @@ Below is an adaptation of the list of recommended formats for data and documenta
 
 Currently we do not pose restrictions on the volume of data users upload to and publish in the DDR. This is meant to accommodate the vast amount of data researchers in the natural hazards community can generate, especially during the course of large-scale research projects. 
 
-However, for data curation and publication purposes users need to consider the sizes of their data for its proper reuse. Publishing large amounts of data requires more curation work (organizing and describing) so that other users can understand the structure and contents of the dataset. In addition, downloading very large projects may require the use of [Globus](../../../managingdata/globusdatatransfer).  We further discuss data selection and quality considerations in the Data Curation section.
+However, for data curation and publication purposes users need to consider the sizes of their data for its proper reuse. Publishing large amounts of data requires more curation work (organizing and describing) so that other users can understand the structure and contents of the dataset. In addition, downloading very large projects may require the use of [Globus](../../managingdata/datatransfer#globus).  We further discuss data selection and quality considerations in the Data Curation section.
 
 ## Data Curation
 
 Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication <a href="https://www.go-fair.org/fair-principles/">FAIR</a> with assurance that it will be useful for generations to come.
 
-Extensive support for data curation can be found in the <a href="https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/">Data Curation and Publication User Guides</a> and in <a href="https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV">Data Curation Tutorials</a>. In addition, we strongly recommend that users follow the step by step onboarding instructions available in the My Projects curation interface. <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/curation-office-hours/">Virtual Office Hours</a> are also available twice a week.
+Extensive support for data curation can be found in the <a href="../guides">Data Curation and Publication User Guides</a> and in <a href="https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV">Data Curation Tutorials</a>. In addition, we strongly recommend that users follow the step by step onboarding instructions available in the My Projects curation interface. <a href="../officehours">Virtual Office Hours</a> are also available twice a week.
 
 Below we highlight general curation best practices at different stages of the curation process.
 
@@ -54,22 +54,22 @@ There are different ways to upload data to My Project:
 
 * Do not upload folders and files with special characters in their filenames. In general, keep filenames meaningful but short and without spacing. Keep in mind that you will be able to describe files with tags and descriptions when you curate them.  
 * Select the Add button, then File upload to begin uploading data from your local machine. You can browse and select files or drag and drop files into the window that appears.  
-* Connect to your favorite cloud storage provider. <a href="https://www.designsafe-ci.org/rw/user-guide/data-depot/">We currently support integration with Box,  Dropbox, and Google Drive.</a> 
+* Connect to your favorite cloud storage provider. <a href="../../managingdata/datadepot">We currently support integration with Box,  Dropbox, and Google Drive.</a> 
 * You can also copy data to and from My Data.  
 * You may consider zipping files for purpses of uploading: however, you should unzip them for curation and publication purposes.  
-* For uploads of files bigger than 2 Gigabytes and or more than 25 files, consider using Globus, CyberDuck and  Command Line Utilities. Explanations on how to use those applications are available in our <a href="https://www.designsafe-ci.org/rw/user-guides/data-transfer-guide/">Data Transfer Guide.</a> 
+* For uploads of files bigger than 2 Gigabytes and or more than 25 files, consider using Globus, CyberDuck and  Command Line Utilities. Explanations on how to use those applications are available in our <a href="../../managingdata/datatransfer">Data Transfer Guide.</a> 
 
-Downloading several individual files via our web interface could be cumbersome, so DesignSafe offers a number of alternatives. First, users may interact with data in the <a href="https://www.designsafe-ci.org/rw/workspace/#!/">Workspace</a> using any of the available tools and applications without the need to download; for this, users will need a DesignSafe account. Users needing to download a large number of files from a project may also use <a href="https://www.designsafe-ci.org/rw/user-guides/globus-data-transfer-guide/">Globus</a>. When feasible, to facilitate data download from their projects users may consider aggregating data into larger files.
+Downloading several individual files via our web interface could be cumbersome, so DesignSafe offers a number of alternatives. First, users may interact with data in the Workspace using any of the available tools and applications without the need to download; for this, users will need a DesignSafe account. Users needing to download a large number of files from a project may also use <a href="../../managingdata/datatransfer#globus">Globus</a>. When feasible, to facilitate data download from their projects users may consider aggregating data into larger files.
 
 Be aware that while you may store all of a project files in My Project, you may not need to publish all of them. During curation and publication you will have the option to select a subset of the uploaded files that you wish to publish without the need to delete them. 
 
-More information about the different Workspaces in DesignSafe and how to manage data from one to the other can be found <a href="https://www.designsafe-ci.org/rw/user-guide/data-depot/">here</a>.
+More information about the different Workspaces in DesignSafe and how to manage data from one to the other can be found <a href="../../managingdata/datadepot">here</a>.
 
 ### [Selecting a Project Type](#selectingprojecttype) { #selectingprojecttype }
 
 Depending on the research method pursued, users may curate and publish data as "Experimental", "Simulation", "Hybrid Simulation," or "Field Research" project type. The Field Research project type accommodates "Interdisciplinary Datasets" involving engineering and/or social science collections. 
 
-Based on <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/policies/">data models</a> designed by experts in the field, the different project types provide interactive tools and metadata forms to curate the dataset so it is complete and understandable for others to reuse. So for example,users that want to publish a simulation dataset will have to include files and information about the model or software used, the input and the output files, and add a readme file or a data report. 
+Based on <a href="../policies">data models</a> designed by experts in the field, the different project types provide interactive tools and metadata forms to curate the dataset so it is complete and understandable for others to reuse. So for example,users that want to publish a simulation dataset will have to include files and information about the model or software used, the input and the output files, and add a readme file or a data report. 
 
 Users should select the project type that best fits their research method and dataset.  If the data does not fit any of the above project types, they can select project type" Other." In project type "Other" users can curate and publish standalone reports, learning materials, white papers, conference proceedings, tools, scripts, or data that does not fit with the research models mentioned above.
 
@@ -77,10 +77,7 @@ Users should select the project type that best fits their research method and da
 
 Once the project type is selected, the interactive interface in My Project will guide users through the curation and publication steps through detailed onboarding instructions. 
 
-My Project is a space where users can work during the process of curation and publication and after publication to publish new data products or to analyze their data.<br>
-See: <a href="https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/">https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/</a>
-
-<a href="https://www.designsafe-ci.org/rw/user-guide/data-depot/">https://www.designsafe-ci.org/rw/user-guide/data-depot/</a>
+My Project is a space where users can work during the process of curation and publication and after publication to publish new data products or to analyze their data.  
 
 Because My Project is a shared space, it is recommended that teams select a data manager to coordinate file organization, transfers, curation, naming, etc. 
 
@@ -195,7 +192,7 @@ Due to variations in research methods, users may not need to use all the metadat
 <table border="1" width="100%">
 <tr valign="top">
 <td><b>Experimental Research Project</b><br>
-<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/experimental-research-project/">View Metadata Dictionary</a></b>
+<a href="../../dictionary/experimental">View Metadata Dictionary</a></b>
 
 <ul>
 	<li>DOI<sup>†</sup></li>
@@ -240,7 +237,7 @@ Due to variations in research methods, users may not need to use all the metadat
 	
 </td>
 <td><b>Simulation Research Project</b><br>
-<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/simulation-research-project/">View Metadata Dictionary</a></b>
+<a href="../../dictionary/simulation">View Metadata Dictionary</a></b>
 
 <ul>
 	<li>DOI<sup>†</sup></li>
@@ -283,7 +280,7 @@ Due to variations in research methods, users may not need to use all the metadat
 <tr valign="top">
 
 <td><b>Hybrid Simulation Research Project</b><br>
-<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/hybrid-simulation-research-project/">View Metadata Dictionary</a></b>
+<a href="../../dictionary/hybrid">View Metadata Dictionary</a></b>
 
 <ul>
 	<li>DOI<sup>†</sup></li>
@@ -334,7 +331,7 @@ Due to variations in research methods, users may not need to use all the metadat
 </td>
 
 <td><b>Field Research Project</b><br>
-<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/field-research-project/">View Metadata Dictionary</a></b>
+<a href="../../dictionary/hybrid">View Metadata Dictionary</a></b>
 
 <ul>
 	<li>Project Title</li>
@@ -414,7 +411,7 @@ Due to variations in research methods, users may not need to use all the metadat
 	
 
 <tr valign="top"><td><b>Other</b><br>
-<a href="/rw/user-guides/curating-publishing-projects/best-practices/data-curation/other/">View Metadata Dictionary</a></b>
+<a href="../../dictionary/hybrid">View Metadata Dictionary</a></b>
 
 <ul>
 	<li>DOI<sup>†</sup></li>
@@ -735,13 +732,13 @@ When using social media or any presentation platform to communicate research, it
 
 In the Data Depot Repository (DDR) data preservation is achieved through the combined efforts of the NH community that submits data and metadata following policies and best practices, and the DDR's administrative responsibilities and technical capabilities. The following data preservation best practices ensure preservation of the data from the moment in which researchers plan their data projects and for the long term after the data is published.
 
-Depositing your data and associated research project materials in the DDR meets NSF requirements for data management. See our <a href="/rw/user-guides/">Data Management Plan</a>.
+Depositing your data and associated research project materials in the DDR meets NSF requirements for data management. See our <a href="../../managingdata/datamanagementplan">Data Management Plan</a>.
 
 
-Follow the curation and publication onboarding instructions and steps -documented in the <a href="/rw/user-guides/data-curation-publication/">Data Curation and Publication Guides</a> - to ensure that your data curation and publication process is smooth and that your public datasets are well organized, complete, and understandable to others.
+Follow the curation and publication onboarding instructions and steps -documented in the <a href="../guides">Data Curation and Publication Guides</a> - to ensure that your data curation and publication process is smooth and that your public datasets are well organized, complete, and understandable to others.
 
 
-To facilitate long term access to your published data, when possible, we recommend using open file formats. Open file formats facilitate interoperability between datasets and with applications, which in turn facilitates long term access to the datasets. The Data Curation and Publication Best Practices have information about <a href="/rw/user-guides/curating-publishing-projects/best-practices/">file formats</a> .
+To facilitate long term access to your published data, when possible, we recommend using open file formats. Open file formats facilitate interoperability between datasets and with applications, which in turn facilitates long term access to the datasets. <!-- The Data Curation and Publication Best Practices have information about <a href="/rw/user-guides/curating-publishing-projects/best-practices/">file formats</a> . -->
 
 
 DDR data is stored in high performance storage (HPC) resources deployed at the <a href="https://www.tacc.utexas.edu" target="_blank">Texas Advanced Computing Center</a>. These storage resources are reliable, secure, monitored 24/7, and under a rigorous maintenance and update schedule.
@@ -765,6 +762,6 @@ The underlying storage systems for the DDR are managed in-house at TACC. All the
 This preservation environment allows maintaining data in secure conditions at all times, before and after publication, comply with <a href="https://ndsa.org/publications/levels-of-digital-preservation/">NDSA Preservation Level 1</a>, attain and maintain the required representation and descriptive information about each file, and be ready at any time to transfer custody of published data and metadata in an orderly and validated fashion. Fedora has <a href="https://github.com/fcrepo-exts/fcrepo-import-export">export capabiiities</a> for transfer of data and metadata to another Fedora repository or to another system. 
 
 
-Each published dataset has a <a href="/rw/user-guides/curating-publishing-projects/faq/">digital object identifier (DOI)</a> that provides a persistent link to the published data. The DOI is available in the dataset landing page, along with all the required metadata and documentation.
+Each published dataset has a <a href="../faq">digital object identifier (DOI)</a> that provides a persistent link to the published data. The DOI is available in the dataset landing page, along with all the required metadata and documentation.
 
-To learn about our commitment to data preservation, please read our <a href="/rw/user-guides/curating-publishing-projects/policies/data-preservation/">Digital Preservation Policy</a>.
+To learn about our commitment to data preservation, please read our <a href="../policies#data-preservation/">Digital Preservation Policy</a>.

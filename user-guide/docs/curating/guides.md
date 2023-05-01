@@ -2,9 +2,9 @@
 
 Below are step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe. We offer the following project types when publishing: Experimental, Simulation, Hybrid Simulation, Field Research, and Other. More information on Data Depot policies, project types, and curation/publication can be found at:
 
-* <a href="/rw/user-guides/curating-publishing-projects/policies/">Data Depot Repository (DDR) Policies</a></li>
-* <a href="/rw/user-guides/curating-publishing-projects/best-practices/">Best Practices</a></li>
-* <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/faq/">Curation &amp; Publication FAQs</a>.</li>
+* <a href="../policies/">Data Depot Repository (DDR) Policies</a></li>
+* <a href="../bestpractices/">Best Practices</a></li>
+* <a href="../faq">Curation &amp; Publication FAQs</a>.</li>
 
 ---
 ## [Experimental](#experimental)
@@ -28,7 +28,6 @@ You can edit all these fields later if you make any mistakes.
 
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
 
-To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
 ---
 ### [2. Add an Experiment](#step2) { #step2 }
@@ -165,8 +164,6 @@ You can edit all these fields later if you make any mistakes.
 <img src="../imgs/guide-allguides-1b.png">
 
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
-
-To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
 ---
 ### [2. Add a Simulation](#simulation-step2) { #simulation-step2 }
@@ -311,8 +308,6 @@ You can edit all these fields later.
 
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
 
-To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
-
 ---
 ### [2. Add a Mission](#fieldresearch-step2) { #fieldresearch-step2 } 
 
@@ -444,7 +439,7 @@ In <strong>Order Authors</strong>, order the authors of the mission and preview 
 
 In <strong>Licenses</strong>, select one or more licenses that best fit your data. 
 
-Please see the <a href="/rw/user-guides/data-publication-guidelines/" >Data Publication Guidelines</a> for more information.
+Please see the <a href="../bestpractices">Data Publication Guidelines</a> for more information.
 
 Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agreement to publish your work.
 
@@ -471,7 +466,6 @@ You can edit all these fields later if you make any mistakes.
 
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
 
-To learn how to move files into your project, visit our <a href="/rw/user-guides/getting-started/">Getting Started</a> guide.
 
 ---
 ### [2. Begin Curation](#other-step2) { #other-step2 }

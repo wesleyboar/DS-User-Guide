@@ -84,11 +84,11 @@ nav:
     - Field: dictionary/field.md
     - Other: dictionary/other.md
 
-  - Heading Lvl 1: 
-    - Heading Lvl 2: 
-      - Data Depot: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
-      - Data Management Plan Guidance: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+#  - Heading Lvl 1: 
+#    - Heading Lvl 2: 
+#      - Data Depot: managingdata/datadepot.md
+#      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
+#      - Data Transfer Guides: managingdata/datatransfer.md
+#      - Data Management Plan Guidance: managingdata/datamanagementplan.md
+#      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
 
