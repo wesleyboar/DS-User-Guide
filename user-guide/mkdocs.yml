@@ -6,6 +6,7 @@ plugins:
 
 theme: 
     name: readthedocs
+    navigation_depth: 2
     highlightjs: true
     features:
       - navigation.top
