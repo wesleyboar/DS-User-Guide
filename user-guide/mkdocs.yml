@@ -32,12 +32,7 @@ nav:
       - Metrics Documentation: curating/metrics.md
       - Curation &amp; Publication FAQ: curating/faq.md
       - Policies: curating/policies.md
-      - Metadata Dictionaries:
-        - Experimental: dictionary/experimental.md
-        - Simulation: dictionary/simulation.md
-        - Hybrid: dictionary/hybrid.md
-        - Field: dictionary/field.md
-        - Other: dictionary/other.md
+      - Metadata Dictionaries: dictionary.md
     - Recon Portal:
       - Recon Portal Guide: tools/recon.md
 
