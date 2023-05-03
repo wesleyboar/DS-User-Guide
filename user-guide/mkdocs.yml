@@ -17,59 +17,62 @@ markdown_extensions:
   - attr_list
   - abbr
 
-nav:
-  - Managing Files: 
-    - Data Depot: managingdata/datadepot.md
-    - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-    - Data Transfer Guides: managingdata/datatransfer.md
-    - Data Management Plan Guidance: managingdata/datamanagementplan.md
-    - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+ nav:
+  - Data Depot:
+    - Managing Data:
+      - Data Depot: managingdata/datadepot.md
+      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
+      - Data Transfer Guides: managingdata/datatransfer.md
+      - Data Management Plan Guidance: managingdata/datamanagementplan.md
+      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+    - Curating &amp; Publishing Projects:
+      - Curation &amp; Publication Guides: curating/guides.md
+      - Best Practices: curating/bestpractices.md
+      - Data Depot/Curation Office Hours: curating/officehours.md
+      - Metrics Documentation: curating/metrics.md
+      - Curation &amp; Publication FAQ: curating/faq.md
+      - Policies: curating/policies.md
+      - Metadata Dictionaries:
+        - Experimental: dictionary/experimental.md
+        - Simulation: dictionary/simulation.md
+        - Hybrid: dictionary/hybrid.md
+        - Field: dictionary/field.md
+        - Other: dictionary/other.md
+    - Recon Portal:
+      - Recon Portal Guide: tools/recon.md
 
-  - Curating &amp; Publishing Projects:
-    - Curation &amp; Publication Guides: curating/guides.md
-    - Best Practices: curating/bestpractices.md
-    - Data Depot/Curation Office Hours: curating/officehours.md
-    - Metrics Documentation: curating/metrics.md
-    - Curation &amp; Publication FAQ: curating/faq.md
-    - Policies: curating/policies.md
-
-  - Analysis Applications: 
-     - Overview: analysis/overview.md
-     - HVSRweb: analysis/hvsrweb.md
-     - MATLAB: analysis/matlab.md
-     - SWbatch: analysis/swbatch.md
-
-  - Jupyter Hub: 
-    - Jupyter Guide: tools/jupyterhub/jupyterhub.md
-    - Example Notebooks: tools/jupyterhub/examplenotebooks.md
-    - Publishing Notebooks: tools/jupyterhub/publishingnotebooks.md
-
-  - Simulation Applications: 
-    - Overview: tools/simulation/overview.md
-    - ADCIRC: tools/simulation/adcirc.md
-    - Clawpack: tools/simulation/clawpack.md
-    - Dakota: tools/simulation/dakota.md
-    - LS-DYNA: tools/simulation/lsdyna.md
-    - OpenFOAM: tools/simulation/openfoam.md
-    - OpenSEES: tools/simulation/opensees.md
-
-  - Visualization Applications: 
-    - Overview: tools/visualization/overview.md
-    - FigureGen: tools/visualization/figuregen.md
-    - Hazmapper: tools/visualization/hazmapper.md
-    - Kalpana: tools/visualization/kalpana.md
-    - Paraview: tools/visualization/paraview.md
-    - Potree Converter: tools/visualization/potree-converter.md
-    - Potree Viewer: tools/visualization/potree-viewer.md
-    - QGIS: tools/visualization/qgis.md
-    - STKO: tools/visualization/stko.md
-    - VisIt: tools/visualization/visit.md
-
-  - Other Applications:
-    - Hazard Applications: tools/hazard.md
-    - Utilities: tools/utilities.md
-  - Recon Portal:
-    - Recon Portal Guide: tools/recon.md
+  - Tools and Apps:
+    - Jupyter Hub: 
+      - Jupyter Guide: tools/jupyterhub/jupyterhub.md
+      - Example Notebooks: tools/jupyterhub/examplenotebooks.md
+      - Publishing Notebooks: tools/jupyterhub/publishingnotebooks.md
+    - Simulation Applications: 
+      - Overview: tools/simulation/overview.md
+      - ADCIRC: tools/simulation/adcirc.md
+      - Clawpack: tools/simulation/clawpack.md
+      - Dakota: tools/simulation/dakota.md
+      - LS-DYNA: tools/simulation/lsdyna.md
+      - OpenFOAM: tools/simulation/openfoam.md
+      - OpenSEES: tools/simulation/opensees.md
+    - Visualization Applications: 
+      - Overview: tools/visualization/overview.md
+      - FigureGen: tools/visualization/figuregen.md
+      - Hazmapper: tools/visualization/hazmapper.md
+      - Kalpana: tools/visualization/kalpana.md
+      - Paraview: tools/visualization/paraview.md
+      - Potree Converter: tools/visualization/potree-converter.md
+      - Potree Viewer: tools/visualization/potree-viewer.md
+      - QGIS: tools/visualization/qgis.md
+      - STKO: tools/visualization/stko.md
+      - VisIt: tools/visualization/visit.md
+    - Analysis Applications: 
+       - Overview: analysis/overview.md
+       - HVSRweb: analysis/hvsrweb.md
+       - MATLAB: analysis/matlab.md
+       - SWbatch: analysis/swbatch.md
+    - Hazard Apps & Utilities:
+      - Hazard Applications: tools/hazard.md
+      - Utilities: tools/utilities.md
 
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
@@ -77,18 +80,5 @@ nav:
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
-  - Dictionaries:
-    - Experimental: dictionary/experimental.md
-    - Simulation: dictionary/simulation.md
-    - Hybrid: dictionary/hybrid.md
-    - Field: dictionary/field.md
-    - Other: dictionary/other.md
-
-#  - Heading Lvl 1: 
-#    - Heading Lvl 2: 
-#      - Data Depot: managingdata/datadepot.md
-#      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-#      - Data Transfer Guides: managingdata/datatransfer.md
-#      - Data Management Plan Guidance: managingdata/datamanagementplan.md
-#      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-
+  - Use Cases:
+    - (documentation pending):
