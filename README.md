@@ -7,10 +7,21 @@ Designsafe ReadTheDocs Documentation with mkdocs.
 
 
 ## Local Development
+
+### Using Default Styles
+
 ```
 cd ds-user-guide/user-guide
 poetry install
 mkdocs serve
+```
+
+### Using TACC Styles
+
+```
+cd ds-user-guide
+make build
+make start
 ```
 
 ## Releases
