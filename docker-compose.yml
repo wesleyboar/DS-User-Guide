@@ -3,8 +3,8 @@ services:
   docs:
     build: .
     volumes:
-      - .:/code
+      - ./user-guide:/code
     ports:
       - 127.0.0.1:8000:8000
-    command: ["mkdocs", "serve", "--dev-addr", "0.0.0.0:8000", "--watch-theme", "--config-file", "/code/user-guide/mkdocs.yml"]
+    command: ["mkdocs", "serve", "--dev-addr", "0.0.0.0:8000", "--watch-theme", "--config-file", "/code/mkdocs.yml"]
     container_name: ds_docs
