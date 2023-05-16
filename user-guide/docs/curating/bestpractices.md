@@ -10,7 +10,7 @@ The DDR accepts engineering datasets generated through simulation, hybrid simula
 
 Due to the diversity of data and instruments used by our community, there are no current restrictions on the file formats users can upload to the DDR. However, for long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats, and we follow the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Formats</a>. 
 
-In addition, we suggest that users look into the <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>, which "detail a specific subject, disciplinary area or curation task and that can be used as a reference to curate research data." Importantly, the primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel. 
+In addition, we suggest that users look into the <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>, which can be used as a reference to curate research data types . The primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel. 
 
 Below is an adaptation of the list of recommended formats for data and documentation by <a href="https://guides.library.stanford.edu/data-best-practices/format-files">Stanford Libraries.</a> For those available, we include a link to the curation primers:
 
