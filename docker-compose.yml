@@ -3,8 +3,23 @@ services:
   docs:
     build: .
     volumes:
-      - ./user-guide:/code
+      - ./user-guide/docs:/code/docs
+      # To not sync these files to host (so no one tries to edit or commit them)
+      - type: tmpfs
+        target: /code/docs/js/core
+      - type: tmpfs
+        target: /code/docs/css/core
     ports:
       - 127.0.0.1:8000:8000
-    command: ["mkdocs", "serve", "--dev-addr", "0.0.0.0:8000", "--watch-theme", "--config-file", "/code/mkdocs.yml"]
+    # command: mkdocs serve --dev-addr 0.0.0.0:8000 --watch-theme --config-file /code/mkdocs.yml
+    # To restore TACC code, then start MkDocs server
+    command:
+      - /bin/bash
+      - -c
+      - |
+        mkdir --parents /code/docs/js/core; cp -r /code-from-tacc/docs/js/core/** /code/docs/js/core/
+        mkdir --parents /code/docs/css/core; cp -r /code-from-tacc/docs/css/core/** /code/docs/css/core/
+        mkdir --parents /code/themes/tacc-readthedocs; cp -r /code-from-tacc/themes/tacc-readthedocs/** /code/themes/tacc-readthedocs/
+        rm -rf /code-from-tacc
+        mkdocs serve --dev-addr 0.0.0.0:8000 --watch-theme --config-file /code/mkdocs.yml
     container_name: ds_docs

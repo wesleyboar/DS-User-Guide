@@ -3,3 +3,7 @@ user-guide/site/
 
 # Temporary files
 .DS_Store
+
+# Core files (from tacc-docs)
+user-guide/docs/**/core
+user-guide/themes/tacc-readthedocs
