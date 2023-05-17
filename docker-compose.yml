@@ -5,15 +5,15 @@ services:
     volumes:
       - ./user-guide/docs:/code/docs
       - ./user-guide/mkdocs.yml:/code/mkdocs-tacc-client.yml
-      # To not sync these files to host (so no one tries to edit or commit them)
+      # To not sync these from container to host
+      # (so no one tries to edit or commit them)
       - type: tmpfs
         target: /code/docs/js/core
       - type: tmpfs
         target: /code/docs/css/core
     ports:
       - 127.0.0.1:8000:8000
-    # command: mkdocs serve --dev-addr 0.0.0.0:8000 --watch-theme --config-file /code/mkdocs.yml
-    # To restore TACC code, merge TACC MkDocs config with ours, then start MkDocs server
+    # To integrate TACC code, then start MkDocs server
     command:
       - /bin/bash
       - -c
