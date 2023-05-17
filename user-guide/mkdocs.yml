@@ -1,6 +1,6 @@
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
-site_url: https://designsafe-ci.org/user-guide/index.md
+site_url: https://designsafe-ci.org/user-guide/
 plugins:
   - search
 

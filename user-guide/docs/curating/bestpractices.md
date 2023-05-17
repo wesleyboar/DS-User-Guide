@@ -4,13 +4,13 @@
 
 ### [Accepted Data ](#accepteddata) { #accepteddata }
 
-The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted and can be stored in relation to data publications or as standalone products (See Data Models). 
+The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted. 
 
 ### [Accepted and Recommended File Formats ](#acceptedfileformats) { #acceptedfileformats }
 
 Due to the diversity of data and instruments used by our community, there are no current restrictions on the file formats users can upload to the DDR. However, for long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats, and we follow the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Formats</a>. 
 
-In addition, we suggest that users look into the <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>, which "detail a specific subject, disciplinary area or curation task and that can be used as a reference to curate research data." Importantly, the primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel. 
+In addition, we suggest that users look into the <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>, which are "peer-reviewed, living documents that detail a specific subject, disciplinary area or curation task and that can be used as a reference to curate research data.  The primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel. 
 
 Below is an adaptation of the list of recommended formats for data and documentation by <a href="https://guides.library.stanford.edu/data-best-practices/format-files">Stanford Libraries.</a> For those available, we include a link to the curation primers:
 
@@ -32,17 +32,17 @@ Currently we do not pose restrictions on the volume of data users upload to and 
 
 However, for data curation and publication purposes users need to consider the sizes of their data for its proper reuse. Publishing large amounts of data requires more curation work (organizing and describing) so that other users can understand the structure and contents of the dataset. In addition, downloading very large projects may require the use of [Globus](../../managingdata/datatransfer#globus).  We further discuss data selection and quality considerations in the Data Curation section.
 
-## Data Curation
+## Data Curation 
 
 Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication <a href="https://www.go-fair.org/fair-principles/">FAIR</a> with assurance that it will be useful for generations to come.
 
 Extensive support for data curation can be found in the <a href="../guides">Data Curation and Publication User Guides</a> and in <a href="https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV">Data Curation Tutorials</a>. In addition, we strongly recommend that users follow the step by step onboarding instructions available in the My Projects curation interface. <a href="../officehours">Virtual Office Hours</a> are also available twice a week.
 
-Below we highlight general curation best practices at different stages of the curation process.
+Below we highlight general curation best practices.
 
 ### [Managing and Sharing Data in My Projects](#managingdata) { #managingdata }
 
-All data and documentation collected and generated during a research project can be uploaded to My Project from the inception of the project. Within My Project, data are kept private for sharing amongst team members and for curation until published. Using My Project to share data with your team members during the course of research facilitates the progressive curation of data and its eventual publishing. 
+All data and documentation collected and generated during a research project can be uploaded to My Project from the inception of the project. Within My Project, data are kept private for sharing amongst team members and for curation until published. Using My Project to share data with your team members during the course of research facilitates the progressive curation of data and its eventual publication. 
 
 However, when conducting human subjects research, you must follow and comply with the procedures submitted to and approved by your Institutional Review Board (IRB) as well as your own ethical commitment to participants for sharing protected data in My Project. 
 
@@ -52,7 +52,7 @@ For all other research performed at a non-NHERI facility, it will be the respons
 
 There are different ways to upload data to My Project:    
 
-* Do not upload folders and files with special characters in their filenames. In general, keep filenames meaningful but short and without spacing. Keep in mind that you will be able to describe files with tags and descriptions when you curate them.  
+* Do not upload folders and files with special characters in their filenames. In general, keep filenames meaningful but short and without spacing. See file naming convention recommendations in the [Data Organization and Description](#organization)
 * Select the Add button, then File upload to begin uploading data from your local machine. You can browse and select files or drag and drop files into the window that appears.  
 * Connect to your favorite cloud storage provider. <a href="../../managingdata/datadepot">We currently support integration with Box,  Dropbox, and Google Drive.</a> 
 * You can also copy data to and from My Data.  
@@ -125,7 +125,7 @@ In addition, users can tag individual files or groups of files for ease of data 
 
 To enhance organization and description of projects type "Other," users can group files in folders when needed and use file tags. However, it is always best to avoid overly nesting and instead use the file tags and descriptions to indicate what are the groupings.
 
-File naming conventions are often a very important part of the work of organizing and running large scale experimental and simulation data. See this Stanford University Libraries best practices<a href="https://guides.library.stanford.edu/data-best-practices"> for file naming convention. </a>
+File naming conventions are often an important part of the work of organizing and running large scale experimental and simulation data. File names make it possible to identify files by succintly expressing their content and their relations to other files. File naming conventions should be established during the research planning phase, they should be meaningful -to the team and to others- and they should be kept short. When establishing a file naming convention, researchers should think about the key information elements they want to convey for others to identify tiles and group of files. The meaning and components of file naming conventions should be documented in a Data Report or readme file so that others can understand and identify files as well. Users should consider that in DesignSafe you will be able to describe files with tags and descriptions when you curate them. File naming conventions should not have spaces or special characters, as those features may cause errors within the storage systems. See this Stanford University Libraries best practices<a href="https://guides.library.stanford.edu/data-best-practices"> for file naming convention. </a>
 
 The following are good examples of data organization and description of different project types:
 
@@ -153,11 +153,11 @@ The following are good examples of data organization and description of differen
 
 ### [Project Documentation](#documentation) { #documentation }
 
-NH projects can be very large and complex, so we require that users submit a data report or a readme file to publish along with their data to express information that will facilitate understanding and reuse of your project. This documentation may include the structure of the data, a data dictionary, information of where everything is, explanation of the file naming convention used, and the methodology used to check the quality of the data. The data report in this <a href="https://doi.org/10.17603/ds2-5aej-e227">published dataset</a> is an excellent example of documentation. 
+NH datasets can be very large and complex, so we require that users submit a data report or a readme file to publish along with their data to express information that will facilitate understanding and reuse of your project. This documentation may include the structure of the data, a data dictionary, information of where everything is, explanation of the file naming convention used, and the methodology used to check the quality of the data. The data report in this <a href="https://doi.org/10.17603/ds2-5aej-e227">published dataset</a> is an excellent example of documentation. 
 
-To provide context needed for others to understand the processes involved in gathering/creating the data, users can use the Related Work field to link their datasets to: other resources used or connected to the data publication, related projects in the DDR, and existing papers published elsewhere about the dataset. 
+To provide connections to different types of information about the published dataset, users can use the Related Work field. We provide different types of tags that explain their relation to the dataset. To connect to information resources that provide contextual information about the dataset (events or organizations) use the tag "context". To link to other published datasets in the DDR use the tag "link Dataset", and to connect to published papers that cite the dataset use the tag "is cited by". Importantly, users should add the DOI of these different information types in http format (if there is no DOI add a URL). The latter information is sent to DataCite, enabling exchange of citation counts within the broader research ecosystem through permanent identifiers. Related Works can be added after the dataset was published using the amends pipeline. This is useful when a paper citing the dataset is published after the publication of the dataset. 
 
-When applicable, we ask users to include information about their project sponsors in the Awards Info fields. 
+When applicable, we ask users to include information about their research funding in the Awards Info fields. 
 
 ### [Data Quality Control](#quality) { #quality }
 
@@ -169,7 +169,7 @@ Include a data dictionary or a readme file to explain the meaning of data fields
 
 Researchers in NH generate enormous amounts of images. While we are not posing restrictions on the amount of files, in order to be effective in communicating their research users being selective with the images chosen to publish is key.  For example, making sure they have a purpose, are illustrative of a process or a function, and using file tags to describe them. The same concept can be applied for other data formats. 
 
-It is possible to publish raw and curated data. Raw data is that which comes directly from the recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data as well as their curated data. For users who seek to publish both, consider why it is necessary to publish both sets and how another researcher would use them. Always clarify whether your data is raw or curated in the description or in a readme file. 
+It is possible to publish raw and curated data. Raw data is that which comes directly from the recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data as well as their curated data. For users who seek to publish both, consider why it is necessary to publish both sets and how another researcher would use them. Always clarify whether your data is raw or curated in the description or in a data report/readme file including the method used to post-process it.  
 
 ### [Managing Protected Data in the DDR](#protectedddr) { #protectedddr }
 
