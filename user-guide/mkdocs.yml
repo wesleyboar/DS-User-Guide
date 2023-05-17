@@ -1,11 +1,13 @@
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
+site_favicon: https://www.designsafe-ci.org/favicon.ico
 plugins:
   - search
 
-theme: 
+theme:
     name: readthedocs
+    logo: https://www.designsafe-ci.org/static/images/org_logos/Horizontal-DS.b190a072b800.jpg
     navigation_depth: 2
     highlightjs: true
     features:
