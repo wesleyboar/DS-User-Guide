@@ -21,6 +21,5 @@ services:
         mkdir --parents /code/docs/js/core; cp -r /code-from-tacc/docs/js/core/** /code/docs/js/core/
         mkdir --parents /code/docs/css/core; cp -r /code-from-tacc/docs/css/core/** /code/docs/css/core/
         mkdir --parents /code/themes/tacc-readthedocs; cp -r /code-from-tacc/themes/tacc-readthedocs/** /code/themes/tacc-readthedocs/
-        rm -rf /code-from-tacc
         mkdocs serve --dev-addr 0.0.0.0:8000 --watch-theme --config-file /code/mkdocs.yml
     container_name: ds_docs
