@@ -1,7 +1,9 @@
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
+# NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
 site_favicon: https://www.designsafe-ci.org/favicon.ico
+
 plugins:
   - search
 
