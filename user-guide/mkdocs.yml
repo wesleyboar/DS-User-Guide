@@ -10,6 +10,8 @@ plugins:
 theme:
     name: readthedocs
     logo: https://www.designsafe-ci.org/static/images/org_logos/Horizontal-DS.b190a072b800.jpg
+    cms_url: https://designsafe-ci.org/ # TACC Feature
+    cms_name: designsafe-ci.org # TACC Feature
     navigation_depth: 2
     highlightjs: true
     features:
