@@ -4,6 +4,5 @@ user-guide/site/
 # Temporary files
 .DS_Store
 
-# Core files (from tacc-docs)
+# TACC-Docs files within Docker-synced directories
 user-guide/docs/**/core
-user-guide/themes/tacc-readthedocs
