@@ -5,7 +5,7 @@ services:
     volumes:
       - ./user-guide/docs:/code/docs
       - ./user-guide/mkdocs.yml:/code/mkdocs-tacc-client.yml
-      # To not sync these from container to host
+      # To NOT sync these from container to host
       # (so no one tries to edit or commit them)
       - type: tmpfs
         target: /code/docs/js/core
