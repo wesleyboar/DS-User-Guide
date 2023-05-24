@@ -88,5 +88,16 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    - (documentation pending):
-      - (placeholder): tools/utilities.md
+    - Arduino: usecases/arduino/usecase.md
+    - Brandenberg: usecases/brandenberg/usecase.md
+    - Dawson: usecases/dawson/usecase.md
+    - Haan: usecases/haan/usecase.md
+    - Kareem: usecases/kareem/usecase.md
+    - Kumar: usecases/kumar/usecase.md
+    - Lowes: usecases/lowes/usecase.md
+    - Mosqueda: usecases/mosqueda/usecase.md
+    - Padgett: usecases//brandenbergdgettusecase.md
+    - Pinelli: usecases/pinelli/usecase.md
+    - Rathje: usecases/rathje/usecase.md
+    - Usgs_api: usecases/USGS/usecase.md
+    - Vantassel &amp; zhang: usecases/vantassel-zhang/usecase.md
