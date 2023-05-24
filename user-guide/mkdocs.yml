@@ -11,6 +11,12 @@ theme:
     features:
       - navigation.top
 
+extra_css:
+    - css/ds-docs.css
+
+extra_javascript:
+    - js/changeNavMarkup.js
+
 markdown_extensions:
   - footnotes
   - def_list
