@@ -9,7 +9,9 @@ Designsafe ReadTheDocs Documentation with mkdocs.
 
 ## Local Development
 
-### Using Default Styles
+### Using Local Environment
+
+More control. More caveats. No TACC UI.
 
 ```shell
 cd ds-user-guide/user-guide
@@ -17,7 +19,9 @@ poetry install
 mkdocs serve
 ```
 
-### Using TACC Styles
+### Using Shared Environment
+
+Less control. Less caveats. Has TACC UI.
 
 ```shell
 cd ds-user-guide

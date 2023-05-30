@@ -13,9 +13,16 @@ theme:
     cms_url: https://designsafe-ci.org/ # TACC Feature
     cms_name: designsafe-ci.org # TACC Feature
     navigation_depth: 2
+    collapse_navigation: false
     highlightjs: true
     features:
       - navigation.top
+
+extra_css:
+    - css/ds-docs.css
+
+extra_javascript:
+    - js/changeNavMarkup.js
 
 markdown_extensions:
   - footnotes
@@ -23,63 +30,21 @@ markdown_extensions:
   - admonition
   - attr_list
   - abbr
+  - pymdownx.snippets:
+      base_path: docs
 
 nav:
   - Data Depot:
-    - Managing Data:
-      - Data Depot: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
-      - Data Management Plan Guidance: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    - Curating &amp; Publishing Projects:
-      - Curation &amp; Publication Guides: curating/guides.md
-      - Best Practices: curating/bestpractices.md
-      - Data Depot/Curation Office Hours: curating/officehours.md
-      - Metrics Documentation: curating/metrics.md
-      - Curation &amp; Publication FAQ: curating/faq.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries:
-        - Experimental: dictionary/experimental.md
-        - Simulation: dictionary/simulation.md
-        - Hybrid: dictionary/hybrid.md
-        - Field: dictionary/field.md
-        - Other: dictionary/other.md
-    - Recon Portal:
-      - Recon Portal Guide: tools/recon.md
+    - Managing Data: managingdata.md
+    - Curating &amp; Publishing Projects: curating.md
+    - Recon Portal: recon.md
 
   - Tools and Apps:
-    - Jupyter Hub:
-      - Jupyter Guide: tools/jupyterhub/jupyterhub.md
-      - Example Notebooks: tools/jupyterhub/examplenotebooks.md
-      - Publishing Notebooks: tools/jupyterhub/publishingnotebooks.md
-    - Simulation Applications:
-      - Overview: tools/simulation/overview.md
-      - ADCIRC: tools/simulation/adcirc.md
-      - Clawpack: tools/simulation/clawpack.md
-      - Dakota: tools/simulation/dakota.md
-      - LS-DYNA: tools/simulation/lsdyna.md
-      - OpenFOAM: tools/simulation/openfoam.md
-      - OpenSEES: tools/simulation/opensees.md
-    - Visualization Applications:
-      - Overview: tools/visualization/overview.md
-      - FigureGen: tools/visualization/figuregen.md
-      - Hazmapper: tools/visualization/hazmapper.md
-      - Kalpana: tools/visualization/kalpana.md
-      - Paraview: tools/visualization/paraview.md
-      - Potree Converter: tools/visualization/potree-converter.md
-      - Potree Viewer: tools/visualization/potree-viewer.md
-      - QGIS: tools/visualization/qgis.md
-      - STKO: tools/visualization/stko.md
-      - VisIt: tools/visualization/visit.md
-    - Analysis Applications:
-       - Overview: analysis/overview.md
-       - HVSRweb: analysis/hvsrweb.md
-       - MATLAB: analysis/matlab.md
-       - SWbatch: analysis/swbatch.md
-    - Hazard Apps & Utilities:
-      - Hazard Applications: tools/hazard.md
-      - Utilities: tools/utilities.md
+    - Jupyter Hub: tools/jupyterhub.md
+    - Simulation Applications: tools/simulation.md
+    - Visualization Applications: tools/visualization.md
+    - Analysis Applications: analysis.md
+    - Hazard Apps & Utilities: tools/hazard_utils.md
 
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
@@ -88,16 +53,4 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    - Arduino: usecases/arduino/usecase.md
-    - Brandenberg: usecases/brandenberg/usecase.md
-    - Dawson: usecases/dawson/usecase.md
-    - Haan: usecases/haan/usecase.md
-    - Kareem: usecases/kareem/usecase.md
-    - Kumar: usecases/kumar/usecase.md
-    - Lowes: usecases/lowes/usecase.md
-    - Mosqueda: usecases/mosqueda/usecase.md
-    - Padgett: usecases//brandenbergdgettusecase.md
-    - Pinelli: usecases/pinelli/usecase.md
-    - Rathje: usecases/rathje/usecase.md
-    - Usgs_api: usecases/USGS/usecase.md
-    - Vantassel &amp; zhang: usecases/vantassel-zhang/usecase.md
+    - Use Cases Products: usecases.md
