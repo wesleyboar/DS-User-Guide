@@ -9,10 +9,24 @@ Designsafe ReadTheDocs Documentation with mkdocs.
 
 ## Local Development
 
+### Using Local Environment
+
+More control. More caveats.
+
 ```shell
 cd ds-user-guide/user-guide
 poetry install
 mkdocs serve
+```
+
+### Using Shared Environment
+
+Less control. Less caveats.
+
+```shell
+cd ds-user-guide
+make build
+make start
 ```
 
 ## Releases
