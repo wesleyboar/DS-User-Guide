@@ -1,6 +1,6 @@
 # DesignSafe User Guide
 
-DesignSafe ReadTheDocs Documentation with [Mkdocs](https://mkdocs.readthedocs.io/).
+DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io/).
 
 ## Local Development
 
