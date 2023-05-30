@@ -11,7 +11,9 @@ Designsafe ReadTheDocs Documentation with mkdocs.
 
 ### Using Local Environment
 
-More control. More caveats.
+> More control. More caveats.
+
+If you have not already, install [Poetry](https://python-poetry.org/).
 
 ```shell
 cd ds-user-guide/user-guide
@@ -21,7 +23,9 @@ mkdocs serve
 
 ### Using Shared Environment
 
-Less control. Less caveats.
+> Less control. Less caveats.
+
+If you have not already, follow [TACC/TACC-Docs "Prequisites for Running the Docs"](https://github.com/TACC/TACC-Docs#prequisites-for-running-the-docs).
 
 ```shell
 cd ds-user-guide
