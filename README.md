@@ -1,17 +1,14 @@
 # DesignSafe User Guide
 
-Designsafe ReadTheDocs Documentation with mkdocs.
-
-## Prerequisites
-
-1. Python Poetry: `curl -sSL https://install.python-poetry.org | python3 -`
-
+DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io/).
 
 ## Local Development
 
 ### Using Local Environment
 
-More control. More caveats.
+> More control. More caveats.
+
+If you have not already, install Python [Poetry](https://python-poetry.org/): `curl -sSL https://install.python-poetry.org | python3 -`
 
 ```shell
 cd ds-user-guide/user-guide
@@ -21,7 +18,9 @@ mkdocs serve
 
 ### Using Shared Environment
 
-Less control. Less caveats.
+> Less control. Less caveats.
+
+If you have not already, follow [TACC/TACC-Docs "Prequisites for Running the Docs"](https://github.com/TACC/TACC-Docs#prequisites-for-running-the-docs).
 
 ```shell
 cd ds-user-guide
