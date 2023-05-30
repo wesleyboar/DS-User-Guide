@@ -1,11 +1,6 @@
 # DesignSafe User Guide
 
-Designsafe ReadTheDocs Documentation with mkdocs.
-
-## Prerequisites
-
-1. Python Poetry: `curl -sSL https://install.python-poetry.org | python3 -`
-
+DesignSafe ReadTheDocs Documentation with [Mkdocs](https://mkdocs.readthedocs.io/).
 
 ## Local Development
 
@@ -13,7 +8,7 @@ Designsafe ReadTheDocs Documentation with mkdocs.
 
 > More control. More caveats.
 
-If you have not already, install [Poetry](https://python-poetry.org/).
+If you have not already, install Python [Poetry](https://python-poetry.org/): `curl -sSL https://install.python-poetry.org | python3 -`
 
 ```shell
 cd ds-user-guide/user-guide
