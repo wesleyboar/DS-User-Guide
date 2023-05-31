@@ -1,4 +1,4 @@
-# Material Point Method for Landslide Modeling
+### Material Point Method for Landslide Modeling
 
 **Krishna Kumar - University of Texas at Austin**  
 
