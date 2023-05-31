@@ -1,4 +1,4 @@
-### ADCIRC Use Case - Creating an ADCIRC DataSets on DesignSafe
+# ADCIRC Use Case - Creating an ADCIRC DataSet on DesignSafe
 
 **Clint Dawson, University of Texas at Austin**
 
