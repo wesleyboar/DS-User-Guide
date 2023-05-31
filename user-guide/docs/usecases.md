@@ -1,6 +1,6 @@
 # Use Cases Products
 
---8<-- "usecases/index.md"
+--8<-- "usecases/overview.md"
 
 ## Taggit - Image Tagging
 
