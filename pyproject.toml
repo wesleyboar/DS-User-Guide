@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ds-user-ugide"
+name = "ds-user-guide"
 version = "0.1.0"
 description = ""
 authors = ["rstijerina <r.sal.tijerina@gmail.com>"]
