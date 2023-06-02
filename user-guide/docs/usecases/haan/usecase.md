@@ -18,7 +18,7 @@ Taggit allows users to browse images files on DesignSafe and tag them for later 
 #### Getting Started and Creating a Gallery 
 The collapsed menus icon (shown below) opens the main menu of Taggit and enables creating a gallery, selecting from existing galleries, and opening the file browser. For this project, "Create Gallery" was selected to get started. 
 
-<img src="../img/CreateProject2.PNG" alt="CreateProject2" width="400"/>
+<img src="img/CreateProject2.PNG" alt="CreateProject2" width="400"/>
 
 
 #### Loading Image Files
