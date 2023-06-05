@@ -22,12 +22,12 @@ You can upload the data, run the Potree converter and then create a Potree Viewe
 <a href="https://agave.designsafe-ci.org/geo/v2/assets/72/961e37b1-a0ac-47b9-9161-b977c0eb92e5/index.html">https://agave.designsafe-ci.org/geo/v2/assets/72/961e37b1-a0ac-47b9-9161-b977c0eb92e5/index.html</a>
 
 
-<img src="../imgs/potreeviewer-1.png">
+![](./imgs/potreeviewer-1.png)
 
 <a href="https://agave.designsafe-ci.org/geo/v2/assets/72/077e6d23-930b-4b20-9c04-f7c92503f751/index.html">https://agave.designsafe-ci.org/geo/v2/assets/72/077e6d23-930b-4b20-9c04-f7c92503f751/index.html</a>
 
 
-<img src="../imgs/potreeviewer-2.png">
+![](./imgs/potreeviewer-2.png)
 
 
 (2) Alaska Anchorage Rockslope - (DOI: <a data-ng-href="https://doi.org/10.17603/ds2-jmfv-9171" href="https://doi.org/10.17603/ds2-jmfv-9171">https://doi.org/10.17603/ds2-jmfv-9171</a>)
@@ -35,18 +35,18 @@ You can upload the data, run the Potree converter and then create a Potree Viewe
 <a href="https://agave.designsafe-ci.org/geo/v2/assets/104/cfc136e1-e91c-40d2-8d8e-c010da0f9656/index.html">https://agave.designsafe-ci.org/geo/v2/assets/104/cfc136e1-e91c-40d2-8d8e-c010da0f9656/index.html</a>
 
 
-<img src="../imgs/potreeviewer-3.png">
+![](./imgs/potreeviewer-3.png)
 
 (3) SfM Point Cloud (University of Washington Campus):
 
 <a href="https://agave.designsafe-ci.org/geo/v2/assets/80/8f4c3c75-a0b0-44f1-a858-e1949802cf6e/index.html">https://agave.designsafe-ci.org/geo/v2/assets/80/8f4c3c75-a0b0-44f1-a858-e1949802cf6e/index.html</a>
 
 
-<img src="../imgs/potreeviewer-4.png">
+![](./imgs/potreeviewer-4.png)
 
 Note for best viewing, be sure to turn on eye dome lighting in the appearance tab and increase the point budget. You can also change the coloring of point clouds by clicking on index under object which will bring various coloring objects under attribute menu. For instance, you can select "Elevation" and set the minimum and maximum range for a coloring scheme. 
 
-<p style="margin: 0in;"><strong><span style="font-size: 11.0pt;"><span style='font-family: "Calibri",sans-serif;'>Potree Point Cloud Cross-section Tutorial</span></span></strong>
+<strong><span style="font-size: 11.0pt;"><span style='font-family: "Calibri",sans-serif;'>Potree Point Cloud Cross-section Tutorial</span></span></strong>
 
 Note that the locations of the tools and options will vary somewhat in different version of potree, but the process is similar. The current version of potree Viewer in DesignSafe is 1.6. The figure below shows examples of tools in version 1.6.
 
@@ -69,7 +69,7 @@ To view data in potree, the following mouse movements are used to navigate the s
 <li><span style="line-height: normal;"><span style="">When you want to finalize your profile <b>double click</b> on the last node. Once a profile is finalized, you can still change its location by clicking on the red nodes and dragging them to a different location.</span></span></li>
 </ul>
 
-<img src="../imgs/potreeviewer-5.png">
+![](./imgs/potreeviewer-5.png)
 
 <ul>
 <li><span style="line-height: normal;"><span style="">Now, return to the side menu and click on the "<b>Measurements</b>" bar. You should see a Profile item with coordinates listed. Click the "<b>show 2D profile</b>" button. This is also where you can delete profiles by clicking the red X.</span></span></li>

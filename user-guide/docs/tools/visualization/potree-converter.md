@@ -8,7 +8,7 @@ POTREE Converter can be found under Visualization tab in DesignSafe Workspace. T
 
 Similar to most applications in DesignSafe, you will have to fill out a form to submit your job that asks for following information:
 
-<center><img src="../imgs/potreeconverter-1.png"></center>
+![](./imgs/potreeconverter-1.png){: class="align-center" }
 
 <ol>
 <li>File/Folder to be converted:<br>
@@ -21,7 +21,7 @@ Similar to most applications in DesignSafe, you will have to fill out a form to 
 
 The job log files will be stored at archive folder in “Mydata”: {username}/archive/jobs/${YYYY-MM-DD}/${JOB_NAME}-${JOB_ID}
 
-<center><img src="../imgs/potreeconverter-2.png"></center>
+<center>![](./imgs/potreeconverter-2.png){: class="align-center" }</center>
 
 When the form is completed, you can click “Launch” to submit your job. The job status can be monitored to the right of this form. It will change from “Pending” to “Staged”, “Submitted” and “Running” before it is successfully “Finished.”
 
