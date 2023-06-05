@@ -27,6 +27,8 @@ markdown_extensions:
   - admonition
   - attr_list
   - abbr
+  - toc:
+      permalink: True
 
 nav:
   - Data Depot:
