@@ -11,7 +11,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 <b> Geohazard Use Cases </b>
 
-* [**Data Analysis using Next Generation Liquefaction (NGL) Database**](#application-programming-nterfaces) (NGL, Jupyter, SQL, Interactive Data Analytics)
+* [**Data Analysis using Next Generation Liquefaction (NGL) Database**](#application-programming-interfaces) (NGL, Jupyter, SQL, Interactive Data Analytics)
 * [**Landslide Runout Simulations**](#mpm-landslide) (MPM, Jupyter, Paraview, HPC)
 
 <b> Hurricane and Windstorm Use Cases </b>
