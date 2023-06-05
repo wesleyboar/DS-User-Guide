@@ -1,0 +1,10 @@
+{# https://github.com/mkdocs/mkdocs/blob/1.4.2/mkdocs/themes/readthedocs/base.html #}
+{# All changes must start and end with comments " TACC: " and " /TACC " #}
+{%- extends "base.html" %}
+
+{%- block scripts %}
+  {{ super() }}
+  {# TACC: #}{# To load modular scripts #}
+  <script type="module" src="{{ base_url }}/js/setTargetForExternalLinks.js"></script>
+  {# /TACC #}
+{%- endblock %}
