@@ -39,11 +39,11 @@ The welcome menu is the first interface that the user will see. This menu lists 
 
 The header of the menu displays the name of the map and the DesignSafe project that it is saved in. If it is saved to the Data Depot, it will show a <code>----------</code>.
 
-On the rightmost side of the header is the <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="12"> <em>Create a New Map</em> button, which opens the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#project-creation-prompt">map creation prompt</a>.
+On the rightmost side of the header is the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg){: height="12" width="12" } <em>Create a New Map</em> button, which opens the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#project-creation-prompt">map creation prompt</a>.
 
-The icons on the right side of each map item are <em>edit</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="12"> and <em>delete</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12">.
+The icons on the right side of each map item are <em>edit</em> ![](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg){: height="12" width="12" } and <em>delete</em> ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" }.
 
-To access a map, the user can either click on a map item or click on the <em>edit</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="12"> button. To delete a map, the user can click on the <em>delete</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12"> button of a map.
+To access a map, the user can either click on a map item or click on the <em>edit</em> ![edit icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg){: height="12" width="12" } button. To delete a map, the user can click on the <em>delete</em> ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" } button of a map.
 
 ![](https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/menu.png){: class="align-center" width="70%" }
 
@@ -51,7 +51,7 @@ To access a map, the user can either click on a map item or click on the <em>edi
 
 #### [Map Creation Prompt](#overview-mapcreation) { #overview-mapcreation }
 
-Clicking on the <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="12"> <em>Create a New Map</em> button from the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#welcome-menu">welcome menu</a> (<em>Fig 2.2</em>) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
+Clicking on the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg){: height="12" width="12" } <em>Create a New Map</em> button from the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#welcome-menu">welcome menu</a> (<em>Fig 2.2</em>) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
 
 ![](./imgs/hazmapper-2.2.png){: class="align-center" }
 
@@ -79,7 +79,7 @@ Once you create a map or select a map from the welcome menu, you will see the fo
 
 We will start the overview of the map interface by first looking at the title bar section of the interface.
 
-Starting from the left to right, we can see a left arrow button <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-left.svg" width="12">. Clicking on this button will bring the user back to the welcome menu we looked into in the previous section.
+Starting from the left to right, we can see a left arrow button ![left arrow icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-left.svg){: height="12" width="12" }. Clicking on this button will bring the user back to the welcome menu we looked into in the previous section.
 
 The next part of the title bar is the name of the map with the associated DesignSafe Project if it exists.
 
@@ -145,7 +145,7 @@ In the point cloud creation prompt, the user is required to create a <em>Descrip
 
 Once created, the point cloud object with be shown in the panel.
 
-Now, the user can add a point cloud asset (las or laz), delete <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12"> the point cloud object, or view <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/info.svg" width="12"> the object information.
+Now, the user can add a point cloud asset (las or laz), delete ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" } the point cloud object, or view ![info icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/info.svg){: height="12" width="12" } the object information.
 
 To add a point cloud asset to the point cloud object, the user must click on the <em>Add las/laz</em> button.
 
@@ -189,7 +189,7 @@ By default, the <strong>Roads</strong> and <strong>Satellite</strong> base layer
 
 <p align="center"> <b>Fig 2.15</b> </p>
 
-To add more layers, the user must click on the <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="12"> button directly under <em>Tile Layers</em>.
+To add more layers, the user must click on the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg){: height="12" width="12" } button directly under <em>Tile Layers</em>.
 
 This will open the tile layer creation prompt.
 
@@ -360,9 +360,9 @@ This tab will all of the <a href="https://www.designsafe-ci.org/rw/user-guides/t
 In this interface (<em>Fig 2.36</em>), the user can:
 
 <ol>
-<li><a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#imported-streetview-assets">Imported the streetview assets to the map</a> (<img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/link.svg" width="12">).</li>
+<li><a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#imported-streetview-assets">Imported the streetview assets to the map</a> (![link icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/link.svg){: height="12" width="12" }).</li>
 <li>Jump to the sequence in the map.</li>
-<li>Delete the sequence's association with Hazmapper (<img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12">).</li>
+<li>Delete the sequence's association with Hazmapper (![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" }).</li>
 </ol>
 
 ![](./imgs/hazmapper-2.36.png){: class="align-center" }
