@@ -4,29 +4,29 @@ The horizontal-to-vertical spectral ratio (HVSR) method has become an increasing
 
 ### [Step 1](#step1) { #step1 }
 
-<img src="../imgs/HVSR-1.png"></b>
+![](./imgs/HVSR-1.png)
 
 ### [Step 2](#step2) { #step2 }
 
-<img src="../imgs/HVSR-2.png"></b>
+![](./imgs/HVSR-2.png)
 
 ### [Step 3](#step3) { #step3 }
 
-<img src="../imgs/HVSR-3.png"></b>
+![](./imgs/HVSR-3.png)
 
 ### [Step 4](#step4) { #step4 }
 
-<img src="../imgs/HVSR-4.png"></b>
+![](./imgs/HVSR-4.png)
 
 ### [Step 5](#step5) { #step5 }
 
-<img src="../imgs/HVSR-5.png"></b>
+![](./imgs/HVSR-5.png)
 
 ### [Step 6](#step6) { #step6 }
 
-<img src="../imgs/HVSR-6.png"></b>
+![](./imgs/HVSR-6.png)
 
 ### [Step 7](#step7) { #step7 }
 
-<img src="../imgs/HVSR-7.png"></b>
+![](./imgs/HVSR-7.png)
 
