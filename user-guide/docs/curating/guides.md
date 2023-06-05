@@ -499,7 +499,7 @@ When you are satisfied with your work and wish to publish it and recieve a DOI, 
 There are 5 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Data, Order Authors, and Licenses
 
-<img class='img-responsive' src="/media/filer_public_thumbnails/filer_public/d5/cb/d5cb572c-4546-4988-8441-f03691dacd81/82_licenses.png__418x410_q85_subsampling-2.png"
+![](https://www.designsafe-ci.org/media/filer_public_thumbnails/filer_public/d5/cb/d5cb572c-4546-4988-8441-f03691dacd81/82_licenses.png__418x410_q85_subsampling-2.png)
 
 In <strong>Selection</strong>, select which files you want to publish.
 
