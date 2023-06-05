@@ -8,19 +8,19 @@ You can access DesignSafe's JupyterHub via the DesignSafe-CI workspace by select
 
 If you have not accessed Jupyter previously or if your previous Jupyter session has stopped you will be brought to the JupyterHub Spawner. An image of the JupyterHub Spawner is shown below.
 
-<img alt="JupyterHub Spawner" src="../imgs/jupyterhub_1.png">
+![JupyterHub Spawner](./imgs/jupyterhub_1.png)
 Figure 1. JupyterHub Spawner
 
 The JupyterHub Spawner allows you to select from different notebook images available on DesignSafe. Each notebook image provides a unique user-interface complete with various pre-installed system and software-specific packages. There are two notebook images available the Classic Jupyter Image and the Updated Jupyter Image. To use an image, select it from the list and click "Start My Server". The spawner will then prepare and serve you the associated image via your browser. Note that it may take a minute or two for the image to load.
 
 The interface that you see once your image has been served will depend on the image you selected. The two options are the classic JupyterNotebook interface (the default for older images) or the updated JupyterLab interface (the default for newer images). Images of the classic JupyterNotebook Interface and the updated JupyterLab Interface are shown below.
 
-<img alt="Classic JupyterNotebook Interface" src="../imgs/jupyterhub_2.png">
+![Classic JupyterNotebook Interface](./imgs/jupyterhub_2.png)
 Figure 2. Classic JupyterNotebook Interface
 
 To return to the spawner in the classic JupyterNotebook interface select "Control Panel" &gt; "Stop My Server" &gt; "Start My Server".
 
-<img alt="Updated JupyterLab Interface" src="../imgs/jupyterhub_3.png">
+![Updated JupyterLab Interface](./imgs/jupyterhub_3.png)
 Figure 3.  Updated JupyterLab Interface
 
 To return to the spawner in the updated JupyterNotebook interface select "File" &gt; "Hub Control Panel" &gt; "Stop My Server" &gt; "Start My Server".
@@ -55,12 +55,12 @@ Creating a new Jupyter notebook is different depending on whether you are using 
 
 For the classic JupyterNotebook interface select "New" &gt; then select the notebook of your choice for example "Python 3". If you want to run a notebook using a different kernel for example Python 2, R, or Bash you can do so using a similar approach. Note that the notebook will be created in the directory that you are currently viewing, so be sure to navigate into "MyData" or "projects" before creating a new notebook to ensure your changes will be saved.
 
-<img alt="JupyterHub Spawner" src="../imgs/jupyterhub_4.png">
+![JupyterHub Spawner](./imgs/jupyterhub_4.png)
 Figure 4.
 
 For the updated JupyterLab interface select "+" to open the launcher &gt; then select the notebook of your choice for example "Python 3 (ipykernel)". If you want to run a notebook using a different kernel for example Julia or R you can do so using a similar approach. Note that the notebook will be created in the directory that you are currently viewing, so be sure to navigate into "MyData" or "projects" before creating a new notebook to ensure your changes will be saved.
 
-<img alt="JupyterHub Spawner" src="../imgs/jupyterhub_5.png">
+![JupyterHub Spawner](./imgs/jupyterhub_5.png)
 Figure 5.
 
 #### [Ending your Jupyter Session](#using-ending))  { #using-ending }

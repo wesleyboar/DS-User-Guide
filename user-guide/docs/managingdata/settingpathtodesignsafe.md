@@ -11,7 +11,7 @@ For <strong>My Data</strong> set Path to <strong>/corral-repl/projects/NHERI/sha
 
 Replace <strong>&lt;username&gt;</strong> with your username. You can find your username by examining the URL in My Data, see figure below.
 
-<img alt="Path to My Data" src="../imgs/settingpath-1.png">
+![Path to My Data](./imgs/settingpath-1.png)
 
  
 
@@ -22,7 +22,7 @@ For <strong>My Projects</strong> set Path to <strong>/corral-repl/projects/NHERI
 
 Replace <strong>&lt;project-uid&gt;</strong> with your projects unique identifier (UID). You can find your projects UID by examining the URL in My Projects, see figure below.
 
-<img alt="Path to My Projects" src="../imgs/settingpath-2.png">
+![Path to My Projects](./imgs/settingpath-2.png)
 
 ---
 ### [Path to Published](#published-nheri) { #published-nheri }
@@ -31,7 +31,7 @@ For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-r
 
 Replace <strong>&lt;PRJ-XXXX&gt;</strong> with your project's number. You can find your project number by examining the URL in Published, see figure below.
 
-<img alt="Path to Published" src="../imgs/settingpath-3.png">
+![Path to Published](./imgs/settingpath-3.png)
 
  
 
@@ -42,7 +42,7 @@ For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/
 
 Replace <strong>&lt;NEES-XXXX-XXXX.groups&gt;</strong> with the NEES project number. You can find the NEES project number by examining the URL in Published (NEES), see figure below.
 
-<img alt="Path to Published (NEES)" src="../imgs/settingpath-4.png">
+![Path to Published (NEES)](./imgs/settingpath-4.png)
 
 
 ---
