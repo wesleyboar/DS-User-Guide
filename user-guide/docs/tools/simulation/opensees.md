@@ -31,7 +31,7 @@ OpenSeesMP is an OpenSees interpreter intended for high performance computers fo
 4. To test out a tutorial case you can copy paste the link in the description for working directory as well as the TCL script name. As shown in the figure below.
 
 
-	<img src="../imgs/opensees-3.png" >
+	<img src="../imgs/opensees-3.png">
 
 
 5. Enter a maximum job runtime in the form. See guidance on form for selecting a runtime.
