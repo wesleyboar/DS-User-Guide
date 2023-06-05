@@ -16,3 +16,10 @@
 .wy-menu-vertical a:hover i.fa-external-link {
     color: #d9d9d9;
 }
+
+/* To allow images to be center-aligned */
+/* https://github.com/TACC/Core-CMS/blob/v3.10.2/taccsite_cms/static/site_cms/css/src/_imports/components/django.cms.picture.css#L30-L33 */
+.align-center {
+  display: block;
+  margin-inline: auto;
+}
