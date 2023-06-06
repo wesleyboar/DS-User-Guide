@@ -450,7 +450,7 @@ This will open a modal, in which the user can select a location to link the sequ
 
 <em>Linked mapillary assets</em><a id="linked-mapillary-assets"></a>
 
-These are created either by manually adding a link from a <a href="non-linked-mapillary-asset">non-linked mapillary asset</a> or <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#publish-button">publishing</a> streetview assets to Mapillary through Hazmapper.
+These are created either by manually adding a link from a non-linked mapillary asset or <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#publish-button">publishing</a> streetview assets to Mapillary through Hazmapper.
 
 They are displayed in this color: .
 
@@ -600,5 +600,4 @@ As briefly mentioned in the <a href="https://www.designsafe-ci.org/rw/user-guide
 
 Any map can have a public version of the map through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#public-tab">public tab of the manage panel</a>. The generated link will be permanent unless the owner of the map makes the map private, or unless the owner of the map deletes the original map.
 
-<em>Last update: June 21, 2022</em>
-
+---

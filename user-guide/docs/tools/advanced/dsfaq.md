@@ -19,7 +19,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 	<li><b><a href="#faq-paraview">ParaView</a></b></li>
 	<li><b><a href="#faq-ef">Experimental Facilities</a></b></li>
 	<li><b><a href="#faq-citation"><b>Citing DesignSafe</b></a></b></li>
-	<li><b><a href="/curating/faq/"><b>Data Curation &amp; Publication</b></a></b></li>
+	<li><b><a href="../../../curating/#curation-publication-faq"><b>Data Curation &amp; Publication</b></a></b></li>
 </ul>
 
 <hr>
@@ -105,7 +105,7 @@ A: The Published directory in the Data Depot holds the <a href="https://www.desi
 A: <a href="/help/">Submit a ticket</a> and we will work with you to add your application to the Discovery Workspace. We can make your application available privately to you, or if it's a widely used code we can make it publicly available to all users.
 
 <strong>Q: What computing resources are used when a job is submitted?</strong><br>
-A: One Stampede node is requested, containing 16 cores and 32GB of memory. For more info, visit the <a href="https://portal.tacc.utexas.edu/user-guides/stampede#config-specs-compute" target="_blank">Stampede user guide</a>.
+A: One Stampede node is requested, containing 16 cores and 32GB of memory. For more info, visit the <a href="https://docs.tacc.utexas.edu/hpc/stampede2/#overview" target="_blank">Stampede user guide</a>.
 
 <hr>
 ## [MATLAB](#faq-matlab) { #faq-matlab }
@@ -133,7 +133,7 @@ A: If you do not specify a location, the default output is shown in the grayed-o
 A: The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. A more detailed description including a list of more than 40 supported programming languages can be found on the <a href="http://jupyter.org/" target="_blank">Jupyter website</a>.
 
 <strong>Q: What do people do with Jupyter?</strong><br>
-A: Many people use Jupyter in a similar fashion as they use MATLAB to analyze and plot their data. We will be sharing example Jupyter Notebooks soon that you can copy into your My Data and customize for your research. We also provide <a href="/training">Jupyter training</a>.
+A: Many people use Jupyter in a similar fashion as they use MATLAB to analyze and plot their data. We will be sharing example Jupyter Notebooks soon that you can copy into your My Data and customize for your research. We also provide <a href="../../../tools/jupyterhub/#jupyterhub-guide">Jupyter training</a>.
 
 <hr>
 ## [OpenSees](#faq-opensees") { #faq-opensees }

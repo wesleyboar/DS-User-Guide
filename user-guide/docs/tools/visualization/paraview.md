@@ -19,5 +19,5 @@ More detailed information and ParaView user documentation can be found on the <a
 </ul>
 
 
-<em>Last update: May 16, 2018</em>
+---
 

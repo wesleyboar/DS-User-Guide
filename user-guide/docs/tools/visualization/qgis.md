@@ -25,5 +25,5 @@ You can either use Browser Panel to browse to your dataset (e.g. mydata or proje
 
 A full documentation on QGIS software and its capabilities can be found at: <a href="https://docs.qgis.org/2.8/en/docs/user_manual/introduction/getting_started.html" target="_blank">https://docs.qgis.org/2.8/en/docs/user_manual/introduction/getting_started.html</a>.
 
-<em>Last update: May 23, 2019</em>
+---
 

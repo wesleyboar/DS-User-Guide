@@ -77,5 +77,5 @@ To view data in potree, the following mouse movements are used to navigate the s
 <li><span style="line-height: normal;"><span style="">The save button in the upper right corner of the profile window will download a las file containing the points from the profile. This is useful for extracting the data you want to use for further analysis. </span></span></li>
 </ul>
 
-<em>Last update: June 12, 2020</em>
+---
 

@@ -73,6 +73,5 @@ More detailed information and STKO user documentation can be found on the <a hre
 </ol>
 
 
-<br>
-<em>Last update: October 25, 2021</em>
+---
 
