@@ -1,8 +1,8 @@
 Below are step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe. We offer the following project types when publishing: Experimental, Simulation, Hybrid Simulation, Field Research, and Other. More information on Data Depot policies, project types, and curation/publication can be found at:
 
-* <a href="../policies/">Data Depot Repository (DDR) Policies</a></li>
-* <a href="../bestpractices/">Best Practices</a></li>
-* <a href="../faq">Curation &amp; Publication FAQs</a>.</li>
+* <a href="#policies">Data Depot Repository (DDR) Policies</a></li>
+* <a href="#best-practices/">Best Practices</a></li>
+* <a href="#curation-publication-faq">Curation &amp; Publication FAQs</a>.</li>
 
 ---
 ### [Experimental](#experimental)
@@ -437,7 +437,7 @@ In <strong>Order Authors</strong>, order the authors of the mission and preview 
 
 In <strong>Licenses</strong>, select one or more licenses that best fit your data. 
 
-Please see the <a href="../bestpractices">Data Publication Guidelines</a> for more information.
+Please see the <a href="#best-practices">Data Publication Guidelines</a> for more information.
 
 Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agreement to publish your work.
 
