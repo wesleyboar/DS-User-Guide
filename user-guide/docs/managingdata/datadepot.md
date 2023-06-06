@@ -28,4 +28,4 @@ A number of data transfer methods are supported for uploading and downloading fi
 
 My Projects is the simplest way to share data with your collaborators and to curate and ultimately publish your data and receive a Digital Object Identifier (DOI). Any team member in a project has both read and write access to the entire contents of the project. The Data Curation & Publication User Guide provides instructions for creating projects, managing team members, curating and publishing your data.
 
-*Last update: April 21, 2023*
+---
