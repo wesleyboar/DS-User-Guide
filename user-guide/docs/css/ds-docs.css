@@ -19,6 +19,61 @@
 
 
 
+
+
+/* CONTENT */
+
+
+
+/* To have automatic permalink mimic the appearance of a manual permalink */
+/* FAQ: Makes an automatic permalink cover both heading and manual permalink */
+/* FAQ: We cover the manual permalink because:
+        - those links are rewritten by include-markdown plugin
+        - that rewrite causes them to be broken
+        - automatic permalinks are not broken
+*/
+
+/* To control position and size of automatic permalink */
+/* WARNING: This assumes every content heading has a permalink */
+.rst-content :is(h1, h2, h3, h4, h5, h6) {
+    position: relative; /* to constrain `<a>` `posiiton: absolute` to heading */
+    width: fit-content; /* to limit `<a>` from spanning width of page content */
+}
+/* FAQ: The `:last-child` avoids selecting a manual permalink */
+a.headerlink:last-child {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* To always hide the text of an automatic permalink (the "¶") */
+.rst-content :is(h1, h2, h3, h4, h5, h6):hover a.headerlink {
+    opacity: 0; /* overwrite theme.css */
+}
+
+
+
+/* To style a heading (and a manual permalink) like a link */
+/* WARNING: This assumes every content heading has a permalink */
+/* https://github.com/mkdocs/mkdocs/blob/1.4.2/mkdocs/themes/readthedocs/css/theme.css */
+
+/* To mimic text color swap on hover for an automatic permalink */
+.rst-content :is(h1, h2, h3, h4, h5, h6) { color: #2980b9; }
+.rst-content :is(h1, h2, h3, h4, h5, h6):hover { color: #3091d1; }
+
+/* To mimic text color swap on hover for a manual permalink */
+.rst-content :is(h1, h2, h3, h4, h5, h6) a:not(.headerlink) { color: #2980b9; }
+.rst-content :is(h1, h2, h3, h4, h5, h6):hover a:not(.headerlink) { color: #3091d1; }
+
+
+
+
+
 /* CUSTOM CLASSES */
 
 /* To allow images to be center-aligned */
