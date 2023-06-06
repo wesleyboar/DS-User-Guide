@@ -50,7 +50,7 @@ For all other research performed at a non-NHERI facility, it will be the respons
 
 There are different ways to upload data to My Project:    
 
-* Do not upload folders and files with special characters in their filenames. In general, keep filenames meaningful but short and without spacing. See file naming convention recommendations in the [Data Organization and Description](#organization)
+* Do not upload folders and files with special characters in their filenames. In general, keep filenames meaningful but short and without spacing. See file naming convention recommendations in the <a href="#organization">Data Organization and Description</a>
 * Select the Add button, then File upload to begin uploading data from your local machine. You can browse and select files or drag and drop files into the window that appears.  
 * Connect to your favorite cloud storage provider. <a href="../../managingdata/datadepot">We currently support integration with Box,  Dropbox, and Google Drive.</a> 
 * You can also copy data to and from My Data.  
