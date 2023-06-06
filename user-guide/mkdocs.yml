@@ -34,6 +34,8 @@ nav:
   - Data Depot:
     - Managing Data: managingdata.md
     - Curating &amp; Publishing Projects: curating.md
+      # NOTE: External link is achieved via `js/changeNavMarkup.js`, NOT here
+      # - Data Depot/Curation Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
     - Recon Portal: recon.md
 
   - Tools and Apps:
