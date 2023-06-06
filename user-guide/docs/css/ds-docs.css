@@ -25,21 +25,21 @@
 
 
 
-/* To have automatic permalink mimic the appearance of a manual permalink */
-/* FAQ: Makes an automatic permalink cover both heading and manual permalink */
-/* FAQ: We cover the manual permalink because:
+/* To have an auto–heading-anchor mimic appearance of manual heading-anchor */
+/* FAQ: Make auto–heading-anchor cover both heading & manual heading-anchor */
+/* FAQ: Cover the manual heading-anchor because:
         - those links are rewritten by include-markdown plugin
         - that rewrite causes them to be broken
-        - automatic permalinks are not broken
+        - auto–heading-anchors are not broken
 */
 
-/* To control position and size of automatic permalink */
-/* WARNING: This assumes every content heading has a permalink */
+/* To control position and size of an auto–heading-anchor */
+/* WARNING: This assumes every content heading has an auto–heading-anchor */
 .rst-content :is(h1, h2, h3, h4, h5, h6) {
     position: relative; /* to constrain `<a>` `posiiton: absolute` to heading */
     width: fit-content; /* to limit `<a>` from spanning width of page content */
 }
-/* FAQ: The `:last-child` avoids selecting a manual permalink */
+/* FAQ: The `:last-child` avoids selecting a manual heading-anchor */
 a.headerlink:last-child {
     position: absolute;
     display: flex;
@@ -51,22 +51,22 @@ a.headerlink:last-child {
     bottom: 0;
 }
 
-/* To always hide the text of an automatic permalink (the "¶") */
+/* To always hide the text of an auto–heading-anchor (the "¶") */
 .rst-content :is(h1, h2, h3, h4, h5, h6):hover a.headerlink {
     opacity: 0; /* overwrite theme.css */
 }
 
 
 
-/* To style a heading (and a manual permalink) like a link */
-/* WARNING: This assumes every content heading has a permalink */
+/* To style a heading like a link */
+/* WARNING: This assumes every content heading has an auto–heading-anchor */
 /* https://github.com/mkdocs/mkdocs/blob/1.4.2/mkdocs/themes/readthedocs/css/theme.css */
 
-/* To mimic text color swap on hover for an automatic permalink */
+/* To mimic text color swap on hover for an auto–heading-anchor */
 .rst-content :is(h1, h2, h3, h4, h5, h6) { color: #2980b9; }
 .rst-content :is(h1, h2, h3, h4, h5, h6):hover { color: #3091d1; }
 
-/* To mimic text color swap on hover for a manual permalink */
+/* To mimic text color swap on hover for a manual heading-anchor */
 .rst-content :is(h1, h2, h3, h4, h5, h6) a:not(.headerlink) { color: #2980b9; }
 .rst-content :is(h1, h2, h3, h4, h5, h6):hover a:not(.headerlink) { color: #3091d1; }
 
