@@ -73,7 +73,6 @@ For detailed explanation of slides below, watch the tutorial above.
 	<li><a href="/media/filer_public/c4/d6/c4d6aaef-5035-4506-9c4b-256fdaa47d0f/openseesmp.pdf" target="_blank">OpenSeesMP Slides</a></li>
 </ul>
 
-<em>Last update: May 31, 2020</em>
 
 ### [Additional Resources](#resources) { #resources }
 

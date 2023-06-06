@@ -553,9 +553,6 @@ To download a file, **select the file** then select **Download**.
 
 If you would like to download an entire folder, please use one of the large data transfer methods listed in this guide. 
 
-If you have any issues transferring files using the JupyterHub browser interface,</strong><strong> please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>).
-
-
 ### [Cloud Storage Transfer](#cloud) { #cloud }
 
 DesignSafe provides users the capability to connect to their preferred cloud storage provider.

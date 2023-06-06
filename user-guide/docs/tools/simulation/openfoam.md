@@ -46,5 +46,4 @@ More detailed information and OpenFOAM user documentation can be found at the <a
 
 ![](./imgs/openfoam-8.png)
 
-<em>Last update: July 15, 2020</em>
-
+---

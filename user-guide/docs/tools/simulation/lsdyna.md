@@ -223,6 +223,5 @@ Examples in this guide:
 </ul>
 
  
-
-<em>Last update: May 29, 2019</em>
+---
 

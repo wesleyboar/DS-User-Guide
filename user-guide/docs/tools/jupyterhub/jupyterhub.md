@@ -93,4 +93,4 @@ User-defined kernels are supported in the Updated Jupyter Image using the <em>ke
 
 <strong>If you have any issues using DesignSafe's JupyterHub, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)</strong>.
 
-<em>Last Update: March 2022</em>
+---
