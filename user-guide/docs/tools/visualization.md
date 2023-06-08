@@ -1,21 +1,21 @@
 # Visualization
 
---8<-- "tools/visualization/overview.md"
+{% include-markdown 'visualization/overview.md' %}
 
---8<-- "tools/visualization/figuregen.md"
+{% include-markdown 'visualization/figuregen.md' %}
 
---8<-- "tools/visualization/hazmapper.md"
+{% include-markdown 'visualization/hazmapper.md' %}
 
---8<-- "tools/visualization/kalpana.md"
+{% include-markdown 'visualization/kalpana.md' %}
 
---8<-- "tools/visualization/paraview.md"
+{% include-markdown 'visualization/paraview.md' %}
 
---8<-- "tools/visualization/potree-converter.md"
+{% include-markdown 'visualization/potree-converter.md' %}
 
---8<-- "tools/visualization/potree-viewer.md"
+{% include-markdown 'visualization/potree-viewer.md' %}
 
---8<-- "tools/visualization/qgis.md"
+{% include-markdown 'visualization/qgis.md' %}
 
---8<-- "tools/visualization/stko.md"
+{% include-markdown 'visualization/stko.md' %}
 
---8<-- "tools/visualization/visit.md"
+{% include-markdown 'visualization/visit.md' %}

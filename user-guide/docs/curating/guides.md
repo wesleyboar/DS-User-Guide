@@ -1,8 +1,8 @@
 Below are step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe. We offer the following project types when publishing: Experimental, Simulation, Hybrid Simulation, Field Research, and Other. More information on Data Depot policies, project types, and curation/publication can be found at:
 
-* <a href="../policies/">Data Depot Repository (DDR) Policies</a></li>
-* <a href="../bestpractices/">Best Practices</a></li>
-* <a href="../faq">Curation &amp; Publication FAQs</a>.</li>
+* <a href="#policies">Data Depot Repository (DDR) Policies</a></li>
+* <a href="#best-practices/">Best Practices</a></li>
+* <a href="#curation-publication-faq">Curation &amp; Publication FAQs</a>.</li>
 
 ---
 ### [Experimental](#experimental)
@@ -14,11 +14,11 @@ You can start a project at the very beginning of its lifespan, upload and curate
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.
 
-<img src="../imgs/guide-allguides-1a.jpg">
+![](./imgs/guide-allguides-1a.jpg)
     
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
-<img src="../imgs/guide-allguides-1b.png">
+![](./imgs/guide-allguides-1b.png)
 
 PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. 
 
@@ -32,14 +32,14 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 
 To begin curation and add an experiment, click on the <strong>Curation Directory</strong> and select <strong>Experimental</strong> as your Project Type.
 
-<img src="../imgs/guide-experimental-2a.png">
+![](./imgs/guide-experimental-2a.png)
 
 Go through the overview and fill out additional required fields in the <strong>Edit Project</strong> window, click <strong>Update Project, </strong>then click <strong>Add Experiments</strong>.
 
     
 Adding an experiment involves filling out high level information about the files you will be publishing. Each experiment will receive its own DOI. Add multiple experiments if any of this information changes or you want multiple DOIs. Do not add another experiment if you are testing multiple models and this information stays the same. Instead, you can add multiple models to one experiment.
 
-<img src="../imgs/guide-experimental-2b.png">
+![](./imgs/guide-experimental-2b.png)
 
 Fill out the required and optional fields using the advice given to create concise and understandable descriptions. 
 
@@ -55,7 +55,7 @@ You can edit an experiment from the inventory.
     
 Click <strong>Add Categories</strong> to begin.
 
-<img src="../imgs/guide-experimental-3.png">
+![](./imgs/guide-experimental-3.png)
 
 Categories group files together based on a shared purpose in an experiment. Be sure and read the definitions of each category to understand what files belong to each.
 
@@ -76,7 +76,7 @@ After filling out the fields, click <strong>+ Add Category</strong> and it will 
 
 Click <strong>Relate Data</strong> to begin.
 
-<img src="../imgs/guide-experimental-4.png">
+![](./imgs/guide-experimental-4.png)
 
 Relating Data allows you to relate categories to each other and to an experiment, which determines the layout and order of categories in your publication. You can reorder the categories if needed.
 
@@ -86,7 +86,7 @@ When published, this diagram will help others understand the structure of your e
 #### [5. Assign Categories to Files](#step5) { #step5 }
 
 
-<img src="../imgs/guide-experimental-5a.png">
+![](./imgs/guide-experimental-5a.png)
     
 As you create categories, they will appear in a dropdown by each file. This allows you to group files in each category. Click <strong>Save</strong> to confirm the category.
 
@@ -96,12 +96,12 @@ A file can belong to one or more categories.
 
 Click <strong>Remove</strong> if you make any mistakes.
 
-<img src="../imgs/guide-experimental-5b.png">
+![](./imgs/guide-experimental-5b.png)
 
 ---
 #### [6. Tag Files](#step6) { #step6 }
 
-<img src="../imgs/guide-experimental-6.png">
+![](./imgs/guide-experimental-6.png)
 
 After putting files in categories, dropdowns will appear to allow you to tag specific files. 
 
@@ -114,11 +114,11 @@ If you do not see a file tag that fits, you can select <strong>Other</strong> an
 ---
 #### [7. Publication Preview](#step7) { #step7 }
 
-<img src="../imgs/guide-experimental-7a.png">
+![](./imgs/guide-experimental-7a.png)
     
 All of the curation work is done in the Curation Directory, while the Publication Preview lets you examine the layout of your publication to give you a peace of mind about how your work will appear to other researchers once published.
 
-<img src="../imgs/guide-experimental-7b.png">
+![](./imgs/guide-experimental-7b.png)
     
 Look through the Publication Preview early and often to catch any mistakes. If you are working collaboratively with others, this is a good way to proofread changes they make.
 
@@ -127,7 +127,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 
-<img src="../imgs/guide-experimental-8.png">
+![](./imgs/guide-experimental-8.png)
     
 There are 6 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Experiment, Proofread Categories, Order Authors, and Licenses
@@ -151,7 +151,7 @@ You can start a project at the very beginning of its lifespan, upload and curate
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.
 
-<img src="../imgs/guide-allguides-1a.jpg">
+![](./imgs/guide-allguides-1a.jpg)
     
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
@@ -159,7 +159,7 @@ PIs and project members have the same level of access to the project, but the PI
 
 You can edit all these fields later if you make any mistakes.
 
-<img src="../imgs/guide-allguides-1b.png">
+![](./imgs/guide-allguides-1b.png)
 
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
 
@@ -168,13 +168,13 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
     
 To begin curation and add a simulation, click on the <strong>Curation Directory</strong> and select <b>Simulation</b> as your Project Type.
 
-<img src="../imgs/guide-simulation-2a.png">
+![](./imgs/guide-simulation-2a.png)
 
 Go through the overview and fill out additional required fields in the <strong>Edit Project</strong> window, click <strong>Update Project, </strong>then click <strong>Add Simulations</strong>.
 
 Adding a simulation involves filling out high level information about the files you will be publishing. Each simulation will receive its own DOI. Add multiple simulations if any of this information changes or you want multiple DOIs. Do not add another simulation if you are testing multiple models and this information stays the same. Instead, you can add multiple models to one simulation.
 
-<img src="../imgs/guide-simulation-2b.png">
+![](./imgs/guide-simulation-2b.png)
 
 Fill out the required and optional fields using the advice given to create concise and understandable descriptions. 
 
@@ -192,7 +192,7 @@ Click <strong>Add Categories</strong> to begin.
 
 Categories group files together based on a shared purpose in a simulation. Be sure and read the definitions of each category to understand what files belong to each.
 
-<img src="../imgs/guide-simulation-3.png">
+![](./imgs/guide-simulation-3.png)
 
 <span style="color: #145ec2;"><strong>Simulation Model</strong></span> Files and/or information describing the design, geometry, and/or code of a simulation.
 
@@ -215,7 +215,7 @@ Click <strong>Relate Data</strong> to begin.
 
 Relating Data allows you to relate categories to each other and to an simulation, which determines the layout and order of categories in your publication. You can reorder the categories if needed.
 
-<img src="../imgs/guide-simulation-4.png">
+![](./imgs/guide-simulation-4.png)
 
 When published, this diagram will help others understand the structure of your simulation at a glance.
 
@@ -224,7 +224,7 @@ When published, this diagram will help others understand the structure of your s
 
 As you create categories, they will appear in a dropdown by each file. This allows you to group files in each category. Click <strong>Save</strong> to confirm the category.
 
-<img src="../imgs/guide-simulation-5.png">
+![](./imgs/guide-simulation-5.png)
 
 If you categorize a folder, then all files within that folder will belong to the category of the folder. <br>
 <br>
@@ -238,7 +238,7 @@ Click <strong>Remove</strong> if you make any mistakes.
 
 After putting files in categories, dropdowns will appear to allow you to tag specific files. 
 
-<img src="../imgs/guide-simulation-6.png">
+![](./imgs/guide-simulation-6.png)
 
 The natural hazards community has contributed to creating these agreed upon terms.
 
@@ -251,20 +251,20 @@ If you do not see a file tag that fits, you can select <strong>Other</strong> an
 
 All of the curation work is done in the Curation Directory, while the Publication Preview lets you examine the layout of your publication to give you a peace of mind about how your work will appear to other researchers once published.
     
-<img src="../imgs/guide-simulation-7a.png">
+![](./imgs/guide-simulation-7a.png)
 
 Look through the Publication Preview early and often to catch any mistakes. If you are working collaboratively with others, this is a good way to proofread changes they make.
 
-<img src="../imgs/guide-simulation-7b.png">
+![](./imgs/guide-simulation-7b.png)
 
 ---
 #### [8. Prepare to Publish](#simulation-step8) { #simulation-step8 }
 
-<img src="../imgs/guide-simulation-8a.png">
+![](./imgs/guide-simulation-8a.png)
     
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 
-<img src="../imgs/guide-simulation-8b.png">
+![](./imgs/guide-simulation-8b.png)
     
 There are 6 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Simulation, Proofread Categories, Order Authors, and Licenses
@@ -290,13 +290,13 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 ---
 #### [1. Add a Project](#fieldresearch-step1) { #fieldresearch-step1 } 
 
-<img src="../imgs/guide-allguides-1a.jpg">
+![](./imgs/guide-allguides-1a.jpg)
     
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.
 
-<img src="../imgs/guide-allguides-1b.png">
+![](./imgs/guide-allguides-1b.png)
     
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
@@ -316,9 +316,9 @@ Please, read the overview, it has information that will clarify and guide you th
 Fill out required fields in the <strong>Edit Project </strong>window. Without this information your project will not be published. Click <strong>Update Project, </strong>then click <strong>Add Missions</strong>.
 
 
-<img src="../imgs/guide-fieldresearch-2a.jpg">
+![](./imgs/guide-fieldresearch-2a.jpg)
 
-<img src="../imgs/guide-fieldresearch-2b.png">
+![](./imgs/guide-fieldresearch-2b.png)
     
 
 A mission is a group of data collections that are associated with a common goal or time. Some researchers may also refer to this as Time or Wave.
@@ -358,7 +358,7 @@ When defining a collection, there are several information that are required to b
 
 After filling out the fields, click <strong>+ Add Collection</strong> and it will appear below in your collection inventory. If you make any mistakes, expand the category and click <strong>Edit</strong>.
 
-<img src="../imgs/guide-fieldresearch-3.png">
+![](./imgs/guide-fieldresearch-3.png)
     
 
 ---
@@ -372,7 +372,7 @@ When published, this diagram will help others understand the structure of your F
 
 
 
-<img src="../imgs/guide-fieldresearch-4.png">
+![](./imgs/guide-fieldresearch-4.png)
     
 ---
 #### [5. Assign Collections to Files](#fieldresearch-step5) { #fieldresearch-step5 } 
@@ -386,10 +386,10 @@ A file can belong to one or more collections.
 Click <strong>Remove</strong> if you make any mistakes.
 
 
-<img src="../imgs/guide-fieldresearch-5a.jpg">
+![](./imgs/guide-fieldresearch-5a.jpg)
     
 
-<img src="../imgs/guide-fieldresearch-5b.png">
+![](./imgs/guide-fieldresearch-5b.png)
     
 
 ---
@@ -404,7 +404,7 @@ These tags are optional, but recommended.
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own descriptive tag.
 
 
-<img src="../imgs/guide-fieldresearch-6.png">
+![](./imgs/guide-fieldresearch-6.png)
     
 
 ---
@@ -415,10 +415,10 @@ All of the curation work is done in the Curation Directory. The Publication Prev
 Look through the Publication Preview early and often to make changes or catch mistakes. If you are working collaboratively with others, this is a good way to proofread changes.
 
 
-<img src="../imgs/guide-fieldresearch-7a.jpg">
+![](./imgs/guide-fieldresearch-7a.jpg)
     
 
-<img src="../imgs/guide-fieldresearch-7b.png">
+![](./imgs/guide-fieldresearch-7b.png)
     
 
 ---
@@ -437,12 +437,12 @@ In <strong>Order Authors</strong>, order the authors of the mission and preview 
 
 In <strong>Licenses</strong>, select one or more licenses that best fit your data. 
 
-Please see the <a href="../bestpractices">Data Publication Guidelines</a> for more information.
+Please see the <a href="#best-practices">Data Publication Guidelines</a> for more information.
 
 Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agreement to publish your work.
 
 
-<img src="../imgs/guide-fieldresearch-8.jpg">
+![](./imgs/guide-fieldresearch-8.jpg)
     
     
 ### [Other](#other)
@@ -452,11 +452,11 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.  
 
-<img src="../imgs/guide-allguides-1a.jpg">
+![](./imgs/guide-allguides-1a.jpg)
     
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
-<img src="../imgs/guide-allguides-1b.png">
+![](./imgs/guide-allguides-1b.png)
 
 PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. 
 
@@ -470,18 +470,18 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
     
 To begin curating and tagging your files, click on the <strong>Curation Directory</strong> and select <b>Other</b> as your Project Type.
 
-<img src="../imgs/guide-other-step2a.png">  
+![](./imgs/guide-other-step2a.png)  
 
 Fill out additional required fields in the <strong>Edit Project</strong> window, including a Data Type, then click <strong>Update Project </strong>and you will be brought to the <strong>Curation Directory. </strong>
 
-<img src="../imgs/guide-other-step2b.png">
+![](./imgs/guide-other-step2b.png)
 
 ---
 #### [3. Tag Files](#other-step3) { #other-step3 }
     
 Dropdowns will appear by each file to allow you to tag specific files. 
 
-<img src="../imgs/guide-other-step3.png">
+![](./imgs/guide-other-step3.png)
 
 These tags are optional, but recommended. The help other users understand your data and discover it in searches.
 
@@ -493,13 +493,13 @@ If you do not see a file tag that fits, you can select <strong>Other</strong> an
     
 When you are satisfied with your work and wish to publish it and recieve a DOI, click Prepare to Publish in the Publication Preview.
 
-<img src="../imgs/guide-other-step4.png">
+![](./imgs/guide-other-step4.png)
 
     
 There are 5 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Data, Order Authors, and Licenses
 
-<img class='img-responsive' src="/media/filer_public_thumbnails/filer_public/d5/cb/d5cb572c-4546-4988-8441-f03691dacd81/82_licenses.png__418x410_q85_subsampling-2.png"
+![](https://www.designsafe-ci.org/media/filer_public_thumbnails/filer_public/d5/cb/d5cb572c-4546-4988-8441-f03691dacd81/82_licenses.png__418x410_q85_subsampling-2.png)
 
 In <strong>Selection</strong>, select which files you want to publish.
 

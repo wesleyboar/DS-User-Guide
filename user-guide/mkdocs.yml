@@ -3,20 +3,26 @@ site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
 plugins:
   - search
+  - include-markdown
 
 theme:
     name: readthedocs
-    navigation_depth: 2
+    navigation_depth: 3
     collapse_navigation: false
+    custom_dir: themes/ds-readthedocs
     highlightjs: true
     features:
       - navigation.top
+    ds_navigation_redirects:
+      - before: '#data-depotcuration-office-hours'
+        after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
 
 extra_css:
     - css/ds-docs.css
 
 extra_javascript:
     - js/changeNavMarkup.js
+    # some JavaScript is included as modules in `./themes/ds-readthedocs/`
 
 markdown_extensions:
   - footnotes
@@ -24,13 +30,15 @@ markdown_extensions:
   - admonition
   - attr_list
   - abbr
-  - pymdownx.snippets:
-      base_path: docs
+  - toc:
+      permalink: True
 
 nav:
   - Data Depot:
     - Managing Data: managingdata.md
     - Curating &amp; Publishing Projects: curating.md
+      # NOTE: External link is achieved via `js/changeNavMarkup.js`, NOT here
+      # - Data Depot/Curation Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
     - Recon Portal: recon.md
 
   - Tools and Apps:
@@ -47,4 +55,6 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    - Use Cases Products: usecases.md
+    # NOTE: These documents are disabled until a certain one does not freeze build
+    # - Use Cases Products: usecases.md
+    - Use Cases Products: https://www.designsafe-ci.org/rw/use-cases/

@@ -52,7 +52,7 @@ We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folde
 
 ### [Globus Data Transfer Guide](#globus) { #globus }
 
-Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods (see <a href="../datatransfer">Data Transfer Guide</a>), it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
+Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods (see <a href="#data-transfer-guides">Data Transfer Guide</a>), it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
 
 The following provides detailed instructions for setting up Globus access to DesignSafe.
 
@@ -94,17 +94,17 @@ Login to the TACC User Portal (<a href="https://www.tacc.utexas.edu/portal/login
 
 Select "Home" &gt; "Account Profile".
 
-<img alt="TACC User Portal" src="../imgs/globus-step3-a.png" style="border: 2px; margin: 10px 10px 20px;">
+![TACC User Portal](./imgs/globus-step3-a.png)
 
 Select "Manage DNs" in the lower left.
 
 
-<img alt="TACC Account Profile" src="../imgs/globus-step3-b.png" style="border: 2px; margin: 10px 10px 20px;">
+![TACC Account Profile](./imgs/globus-step3-b.png)
 
 
 Enter the Certificate Subject obtained from CILogon.org in the text field, then click "Associate DN". This will associate the new DN with your account.
 
-<img alt="TACC Manage DNs" src="../imgs/globus-step3-c.png" style="border: 2px; margin: 10px 10px 20px;">
+![TACC Manage DNs](./imgs/globus-step3-c.png)
 
 **Important**: It may take up to 2 hours for your DN to propagate to all TACC systems.
 
@@ -112,19 +112,19 @@ Enter the Certificate Subject obtained from CILogon.org in the text field, then 
 
 After giving your DN time to propagate through the systems (up to 2 hours), go to <a href="https://globus.org" target="_blank">https://globus.org</a> and log in.
 
-<img alt="Globus Login" src="../imgs/globus-step4-a.png" style="border: 2px; margin: 10px 10px 20px;">
+![Globus Login](./imgs/globus-step4-a.png)
 
 Upon successful login you, you will be directed to the "File Manager" landing page.
 
-<img alt="Globus File Manager" src="../imgs/globus-step4-b.png" style="border: 2px; margin: 10px 10px 20px;">
+![Globus File Manager](./imgs/globus-step4-b.png)
 
 Click on "Endpoints" in the left-hand menu, then click “Create a personal endpoint”.
 
-<img alt="Globus Endpoints" src="../imgs/globus-step4-c.png" style="border: 2px; margin: 10px 10px 20px;">
+![Globus Endpoints](./imgs/globus-step4-c.png)
 
 If you are using Windows click "Download Globus Connect Personal for Windows" in the upper right, otherwise click "Show me other supported operating systems" and select the one appropriate for your desktop/laptop.
 
-<img alt="Create a personal endpoint" src="../imgs/globus-step4-d.png" style="border: 2px; margin: 10px 10px 20px;">
+![Create a personal endpoint](./imgs/globus-step4-d.png)
 
 Download and Install the Globus Connect Personal client. When setting the "Collection Name" be sure to select a descriptive name. We will use "My Laptop" as the name of our endpoint.
 
@@ -132,11 +132,11 @@ After installation and setup is complete return to the Globus online interface. 
 
 To initiate a transfer between your local desktop/laptop and DesignSafe, select "Your Collections" followed by the name of your endpoint, this is "My Laptop" for our example.
 
-<img alt="File Manager" src="../imgs/globus-step4-e.png" style="border: 2px; margin: 10px 10px 20px;">
+![File Manager](./imgs/globus-step4-e.png)
 
 You can now access the files on your desktop/laptop via Globus.
 
-<img alt="Estabilish connection to local endpoint" src="../imgs/globus-step4-f.png" style="border: 2px; margin: 10px 10px 20px;">
+![Estabilish connection to local endpoint](./imgs/globus-step4-f.png)
 
 #### [5. Connect to the DesignSafe (TACC Corral3) Endpoint](#globus-step5) { #globus-step5 }
 
@@ -155,13 +155,13 @@ To access your data on DesignSafe
 * For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
 * For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
 
-For more information on path selection please see the detailed guide on <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
+For more information on path selection please see the detailed guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
 
 After entering the appropriate path to DesignSafe on Corral, you are ready to perform your file transfer.
 
 <em>Note: For directories you connect to frequency, for example My Data, you can create a bookmark for easy access using the bookmark icon immediately to the right of the "Path" bar.</em>
 
-<img alt="Establish connection to Corral endpoint" src="../imgs/globus-step5.png" style="border: 2px;  margin: 10px 10px 20px 10px;">
+![Establish connection to Corral endpoint](./imgs/globus-step5.png)
 
 #### [6. Perform Transfer between Your Local Enpoint and the DesignSafe (TACC Corral3) Endpoint](#globus-step6) { #globus-step6 }
 
@@ -219,15 +219,15 @@ With the Globus CLI successfully installed on our local machine, we must now det
 
 Go to the Globus web interface &gt; select the search bar.
 
-<img alt="Select Globus Search Bar" src="../imgs/globuscli-1.png">
+![Select Globus Search Bar](./imgs/globuscli-1.png)
 
 Search for <strong>TACC Corral3 with CILogon Authentication </strong>&gt; <strong>click the three vertical dots to the right</strong> to view endpoint details.
 
-<img alt="Search and Select Three Dots" src="../imgs/globuscli-2.png">
+![Search and Select Three Dots](./imgs/globuscli-2.png)
 
 <strong>Copy the Endpoint UUID </strong>and store for later reference.
 
-<img alt="Copy UUID" src="../imgs/globuscli-3.png">
+![Copy UUID](./imgs/globuscli-3.png)
 
 <strong>Repeat the process above to attain the UUID for your local endpoint.</strong>
 
@@ -249,7 +249,7 @@ An example transfer command:
 
 <code>globus transfer --recursive [endpoint uuid for your machine]:[path on your machine] [endpoint uuid for tacc corral3]:[path on tacc corral3 to your My Data or Project]</code>
 
-Fill out the variables in the example command with the UUIDs and paths and submit the transfer. If you are unsure of the appropriate Corral3 path, please refer to the guide on <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a> for more information.
+Fill out the variables in the example command with the UUIDs and paths and submit the transfer. If you are unsure of the appropriate Corral3 path, please refer to the guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a> for more information.
 
 You will get a message stating whether your transfer was successful or not. If it was successful, you will receive the message:
 
@@ -350,7 +350,7 @@ For the "Path", select one of the following:
 * For **Published **DesignSafe projects set Path to **/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;**/
 * For **Published (NEES)** projects set Path to **/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/**
 
-For more information on path selection please see the detailed in guide on <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
+For more information on path selection please see the detailed in guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
 
 If you do not see the "Path" option click the button "More Options" in the lower left.
 
@@ -400,7 +400,7 @@ A data transfer can be performed using the secure copy (scp) utility between any
 
 A file can be copied from your local system to the remote server by using the command:
 
-where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file.To select the appropriate path on Corral see the guide for <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
+where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file.To select the appropriate path on Corral see the guide for <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
 
 
 An entire folder can be copied from your local system to the remote server by using the command:
@@ -425,7 +425,7 @@ A file can be synced from your local system to the remote server by using the co
 
 	<em><strong>rsync &lt;filename&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
 
-where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. To select the appropriate path on Corral see the guide for <a href="../settingpathtodesignsafe">Setting the Path to DesignSafe on Corral</a>.
+where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. To select the appropriate path on Corral see the guide for <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
 
 An entire directory can be synced from your local system to the remote server by using the command:
 
@@ -455,21 +455,21 @@ To upload a small amount of data through your browser **login to DesignSafe** an
 
 **Open the DesignSafe directory where you wish to uploaded your data.** Here we upload to "an_example_upload_directory".
 
-<img alt="Select Folder for Upload" src="../imgs/datadepotbrowser-1.png">
+![Select Folder for Upload](./imgs/datadepotbrowser-1.png)
 
 Select **+ Add** then **File Upload: max 100 MB**.
 
-<img alt="Start File Upload" src="../imgs/datadepotbrowser-2.png">
+![Start File Upload](./imgs/datadepotbrowser-2.png)
 
 Select **Browse...** at the top to select the files you wish to upload. Press **Begin upload** to initiate the transfer.
 
-<img alt="Select Files and Begin Transfer" src="../imgs/datadepotbrowser-3.png">
+![Select Files and Begin Transfer](./imgs/datadepotbrowser-3.png)
 
 Once the transfer is complete the Upload files window will close and you will see your files in your DesignSafe directory.
 
 **Note, if the files are not immediately visible refresh the page.**
 
-<img alt="Upload Complete" src="../imgs/datadepotbrowser-4.png">
+![Upload Complete](./imgs/datadepotbrowser-4.png)
 
 If you wish to upload a folder, follow the same procedure as above except select **Folder upload: max 25 files**. However, be sure that the folder you wish to upload is small than 100 MB and contains fewer than 25 files. If the folder you wish to upload exceeds these limits please use one of the large data transfer methods listed in this guide rather than the web interface.
 
@@ -481,7 +481,7 @@ To download a file from DesignSafe to your local desktop/laptop **select the fil
 
 **Note depending on how you have configured your browser, it will either download the file directly to your default downloads directory or will prompt you to save the file in a location of your choice.**
 
-<img alt="Select File for Download" src="../imgs/datadepotbrowser-5.png">
+![Select File for Download](./imgs/datadepotbrowser-5.png)
 
 If you would like to download an entire folder from DesignSafe, please use one of the large data transfer methods listed in this guide.
 
@@ -491,7 +491,7 @@ You can move and copy the data inside of DesignSafe using the browser-based inte
 
 **Select the file** you wish to move or copy, then press **Move** or **Copy**.
 
-<img alt="Select File for Move or Copy" src="../imgs/datadepotbrowser-6.png">
+![Select File for Move or Copy](./imgs/datadepotbrowser-6.png)
 
 ##### [If you selected Move](#datadepotbrowser-transferring-move) { #datadepotbrowser-transferring-move }
 
@@ -499,13 +499,13 @@ Navigate to the new destination and press **Move Here**.
 
 **Note that you cannot move files between main directories, such as My Data and My Projects, however may copy between them. See instructions below for details.**
 
-<img alt="Move Here" src="../imgs/datadepotbrowser-7.png">
+![Move Here](./imgs/datadepotbrowser-7.png)
 
 ##### [If you selected Copy](#datadepotbrowser-transferring-copy) { #datadepotbrowser-transferring-copy }
 
 **Use the drop down menu** in the top left to switch between main directories, such as My Data and My Projects, **navigate to the new destination**, and press **Copy Here**.
 
-<img alt="Copy Here" src="../imgs/datadepotbrowser-8.png">
+![Copy Here](./imgs/datadepotbrowser-8.png)
 
 ---
 
@@ -521,23 +521,23 @@ When your session has launched you will see a directory structure similar to tha
 
 Select **MyData**.
 
-<img alt="Select MyData" src="../imgs/jupyterbrowser-1.png" style="width: 50%; margin: 10px 10px 20px;">
+![Select MyData](./imgs/jupyterbrowser-1.png)
 
 Navigate to the directory where you wish to upload.
 
-<img alt="Select Folder for Upload" src="../imgs/jupyterbrowser-2.png" style="width: 50%; margin: 10px 10px 20px;">
+![Select Folder for Upload](./imgs/jupyterbrowser-2.png)
 
 Select Upload
 
-<img alt="Select Upload" src="../imgs/jupyterbrowser-3.png" style="width: 50%; margin: 10px 10px 20px;">
+![Select Upload](./imgs/jupyterbrowser-3.png)
 
 **Select the file(s) you wish to upload and press OK.** You will now see the files have been queued for upload. Click **Upload** for each queued file.
 
-<img alt="Click Upload" src="../imgs/jupyterbrowser-4.png" style="width: 50%; margin: 10px 10px 20px;">
+![Click Upload](./imgs/jupyterbrowser-4.png)
 
 After the upload is complete the files will be viewable in Jupyter.
 
-<img alt="Upload Complete" src="../imgs/jupyterbrowser-5.png" style="width: 50%; margin: 10px 10px 20px;">
+![Upload Complete](./imgs/jupyterbrowser-5.png)
 
 If you would like to upload an entire folder, please use one of the large data transfer methods listed in this guide.
 
@@ -549,12 +549,9 @@ To download a file, **select the file** then select **Download**.
 
 *Note depending on how you have configured your browser, it will either download the file directly to your default downloads directory or will prompt you to save the file in a location of your choice.*
 
-<img alt="Select File for Download" src="../imgs/jupyterbrowser-6.png" style="width: 50%; margin: 10px 10px 20px;">
+![Select File for Download](./imgs/jupyterbrowser-6.png)
 
 If you would like to download an entire folder, please use one of the large data transfer methods listed in this guide. 
-
-If you have any issues transferring files using the JupyterHub browser interface,</strong><strong> please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>).
-
 
 ### [Cloud Storage Transfer](#cloud) { #cloud }
 
@@ -570,17 +567,17 @@ The three main cloud storage providers, <a href="#cloud-box">Box</a>, <a href="#
 
 Click here to connect to your Box account.
 
-<img alt="Box Begin" src="../imgs/cloudstorage-1.png">
+![Box Begin](./imgs/cloudstorage-1.png)
 
 Click Setup Box.com.
 
 Follow the on-screen instructions to login to your Box.com account.
 
-<img alt="Box Enable" src="../imgs/cloudstorage-1.png">
+![Box Enable](./imgs/cloudstorage-1.png)
 
 Return to the Box.com section of the Data Depot. You can now copy files to and from your Box.com account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
 
-<img alt="Box Complete" src="../imgs/cloudstorage-1.png">
+![Box Complete](./imgs/cloudstorage-1.png)
 
 #### [Dropbox](#cloud-dropbox) { #cloud-dropbox }
 
@@ -588,17 +585,17 @@ Login to DesignSafe and go to Workspace &gt; Data Depot &gt; Dropbox.com.
 
 Click here to connect to your Dropbox account.
 
-<img alt="Dropbox Begin" src="../imgs/cloudstorage-1.png">
+![Dropbox Begin](./imgs/cloudstorage-1.png)
 
 Click Setup Dropbox.com.
 
 Follow the on-screen instructions to login to your Dropbox.com account.
 
-<img alt="Enable Dropbox" src="../imgs/cloudstorage-1.png">
+![Enable Dropbox](./imgs/cloudstorage-1.png)
 
 Return to the Dropbox.com section of the Data Depot. You can now copy files to and from your Dropbox.com account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
 
-<img alt="Complete Dropbox" src="../imgs/cloudstorage-1.png">
+![Complete Dropbox](./imgs/cloudstorage-1.png)
 
 #### [Google Drive](#cloud-googledrive) { #cloud-googledrive }
 
@@ -606,23 +603,17 @@ Login to DesignSafe and go to Workspace &gt; Data Depot &gt; Google Drive
 
 Click here to connect to your Google Drive account.
 
-<img alt="Google Begin" src="../imgs/cloudstorage-1.png">
+![Google Begin](./imgs/cloudstorage-1.png)
 
 Click Setup Google Drive.
 
 Follow the on-screen instructions to login to your Google Drive account.
 
-<img alt="Enable Google Drive" src="../imgs/cloudstorage-1.png">
+![Enable Google Drive](./imgs/cloudstorage-1.png)
 
 Return to the Google Drive section of the Data Depot. You can now copy files to and from your Google Drive account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
 
-<img alt="Complete Google Drive" src="../imgs/cloudstorage-1.png">
+![Complete Google Drive](./imgs/cloudstorage-1.png)
 
 ---
 
-**Important: To avoid problems when transferring files to DesignSafe, name your files using standard ASCII characters, for example [a-z][A-Z][0-9], and avoid the use of special characters, for example [%,*,#,@,°].**
-
-**If you have any issues transferring files to DesignSafe using a method listed above, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>).**
-
-
-*Last Update: October 2021*

@@ -22,16 +22,16 @@ OpenSeesMP is an OpenSees interpreter intended for high performance computers fo
 
 2. Choose the application that is best suited for your work.
 
-	<img src="../imgs/opensees-1.png">
+	![](./imgs/opensees-1.png)
 
-	<img src="../imgs/opensees-2.png">
+	![](./imgs/opensees-2.png)
 
 3. Locate your OpenSees input files and TCL script in the Data Depot and follow the onscreen directions to provide your Input Directory and TCL Script in the form.
 
 4. To test out a tutorial case you can copy paste the link in the description for working directory as well as the TCL script name. As shown in the figure below.
 
 
-	<img src="../imgs/opensees-3.png" >
+	![](./imgs/opensees-3.png)
 
 
 5. Enter a maximum job runtime in the form. See guidance on form for selecting a runtime.
@@ -46,12 +46,12 @@ OpenSeesMP is an OpenSees interpreter intended for high performance computers fo
 
 10. Click Run to submit your job.
 
-	<img src="../imgs/opensees-4.png">
+	![](./imgs/opensees-4.png)
 
 11. Check the job status by clicking on the arrow in the upper right of the job submission form.
 
 
-	<img src="../imgs/opensees-5.png">
+	![](./imgs/opensees-5.png)
 
 
 
@@ -73,11 +73,10 @@ For detailed explanation of slides below, watch the tutorial above.
 	<li><a href="/media/filer_public/c4/d6/c4d6aaef-5035-4506-9c4b-256fdaa47d0f/openseesmp.pdf" target="_blank">OpenSeesMP Slides</a></li>
 </ul>
 
-<em>Last update: May 31, 2020</em>
 
-### [Additional Resources](#resources) { #resources } 
+### [Additional Resources](#resources) { #resources }
 
-#### [Examples in Community Data](#resources-communitydata) { #resources-communitydata } 
+#### [Examples in Community Data](#resources-communitydata) { #resources-communitydata }
 
 <ul>
 	<li>OpenSees-EXPRESS:

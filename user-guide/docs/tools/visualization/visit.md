@@ -20,6 +20,5 @@ More detailed information and VisIt user documentation can be found on the <a hr
 </ul>
 
  
-
-<em>Last update: May 16, 2018</em>
+---
 

@@ -34,7 +34,7 @@ DesignSafe (through TACC) has negotiated with LSTC to allow LS-DYNA access on TA
 
 A <i>Request Activation</i> button is also available in <i>Workspace &gt; Simulation &gt; LS-DYNA</i>:
 
-<img src="../imgs/ls-dyna-1.png">
+![](./imgs/ls-dyna-1.png)
 
 Once activated, Ls-Dyna will appear in <i>Workspace &gt; My Apps tab</i>.
 
@@ -55,7 +55,7 @@ Examples in this guide:
 	<li>Select the LS-Pre/Post app from the drop-drown menu at (<i>Workspace &gt; Simulation &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-2.png">
+![](./imgs/ls-dyna-2.png)
 
 <ul>
 	<li>Fill the form with the following information:
@@ -72,7 +72,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-3.png">
+![](./imgs/ls-dyna-3.png)
 
 <ul>
 	<li>Once ready a new window will pop-up.
@@ -82,9 +82,9 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-4.png">
+![](./imgs/ls-dyna-4.png)
 
-<img src="../imgs/ls-dyna-5.png">
+![](./imgs/ls-dyna-5.png)
 
 #### [Launching a single job via DesignSafe web portal](#launch-singlejob) { #launch-singlejob }
 
@@ -92,7 +92,7 @@ Examples in this guide:
 	<li>Select LS-DYNA (Serial) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-6.png">
+![](./imgs/ls-dyna-6.png)
 
 <ul>
 	<li>Fill the form with the following information:
@@ -109,7 +109,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-7.png">
+![](./imgs/ls-dyna-7.png)
 
 <ul>
 	<li>Follow the Job Status on the right tab.</li>
@@ -127,7 +127,7 @@ Examples in this guide:
 	<li>Select LS-DYNA (Parallel) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-8.png">
+![](./imgs/ls-dyna-8.png)
 
 <ul>
 	<li>Fill the form with the following information:
@@ -145,11 +145,12 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-9.png">
-<p><em>Example Ls-Dyna input file for parallel jobs.</em>
+![](./imgs/ls-dyna-9.png)
+
+<p><em>Example Ls-Dyna input file for parallel jobs.</em></p>
 
 
-<img src="../imgs/ls-dyna-10.png">
+![](./imgs/ls-dyna-10.png)
 
 <ul>
 	<li>Follow the Job Status on the right tab.</li>
@@ -172,7 +173,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-11.png">
+![](./imgs/ls-dyna-11.png)
 
 <ul>
 	<li>Transfer LS-Dyna k files to /scratch or /work directory on Stampede2 (via Globus);</li>
@@ -193,21 +194,21 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-12.png">
-<p><em>Example batch file for Ls-Dyna via CLI.</em>
+![](./imgs/ls-dyna-12.png)
 
+<p><em>Example batch file for Ls-Dyna via CLI.</em></p>
 
-<img src="../imgs/ls-dyna-13.png">
-<p><em>Example myprallellines.py routine.</em>
+![](./imgs/ls-dyna-13.png)
 
+<p><em>Example myprallellines.py routine.</em></p>
 
-<img src="../imgs/ls-dyna-14.png">
-<p><em>Example my_parallel_lines file.</em>
+![](./imgs/ls-dyna-14.png)
 
+<p><em>Example my_parallel_lines file.</em></p>
 
-<img src="../imgs/ls-dyna-15.png">
-<p><em>Example launcher_file.py routine.</em>
+![](./imgs/ls-dyna-15.png)
 
+<p><em>Example launcher_file.py routine.</em></p>
 
 <ul>
 	<li>Launch jobs using SSH client:
@@ -222,6 +223,5 @@ Examples in this guide:
 </ul>
 
  
-
-<em>Last update: May 29, 2019</em>
+---
 

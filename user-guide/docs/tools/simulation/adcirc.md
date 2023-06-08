@@ -51,6 +51,5 @@ More detailed information and ADCIRC user documentation can be found at the <a h
 </ul>
 
  
-
-<em>Last update: March 6, 2019</em>
+---
 
