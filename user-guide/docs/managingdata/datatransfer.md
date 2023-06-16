@@ -8,17 +8,23 @@ This document provides a brief description of the various methods available for 
 
 We define a large data transfer here as any file transfer that is  &gt; 2GB, or &gt; 25 files or &gt; 2 folders.
 
-1. Globus (recommended)
-
+<!--
+1. Globus
+	
 	Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, setup only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
 
 	See the <a href="#globus">Globus Data Transfer Guide</a> for instructions. If you need to perform automated transfers using Globus, see the <a href="#globuscli">Globus CLI Automated Transfer Guide</a> for instructions.
+-->
 
-1. Cyberduck
+1. Cyberduck (recommended)
 
 	Cyberduck is an open-source client for file transfer protocols that allows you to securely connect to DesignSafe and other TACC resources without directly using the command line. Cyberduck presents a compromise between a shorter setup time than Globus but at the expense of Globus' superior speed and reliability.
 
 	See the <a href="#cyberduck">Cyberduck Data Transfer Guide</a> for instructions.
+
+1. <s>Globus</s> (unavailable)
+
+	This method is temporarily unavailable.
 
 1. Command Line
 
