@@ -95,4 +95,4 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 <!--
 {% include-markdown 'usecases/brandenberg/apiusecases/usecase.md' %}
 -->
-See <a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F"><i class="fa fa-external-link" target="_blank" aria-label="(external url)"></i> Design Safe: Use Cases: Application Programming Interfaces</a>.
+See <a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F" target="_blank"><i class="fa fa-external-link" aria-label="(external url)"></i> Design Safe: Use Cases: Application Programming Interfaces</a>.
