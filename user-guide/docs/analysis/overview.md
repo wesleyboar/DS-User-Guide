@@ -1,14 +1,5 @@
 ## Analysis Applications
 
-### [Status Updates](#status) { #status }
-
-<ul>
-	<li>HVSR web -  Last updated 04/20</li>
-	<li>Jupyter -  Last updated 04/20</li>
-	<li>MATLAB - Last updated 05/21</li>
-	<li>SWbatch - Last updated 05/21</li>
-</ul>
-
 ### [Requesting New Applications](#newapps) { #newapps }
 
 DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by submitting a help ticket if you would like to request the addition of a software application to the Workspace.
