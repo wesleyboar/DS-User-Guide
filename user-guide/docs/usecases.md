@@ -47,7 +47,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## NGL Database
 
-{% include-markdown 'usecases/brandenberg/usecase.md' %}
+{% include-markdown 'usecases/brandenberg-ngl/usecase.md' %}
 
 ## MPM Landslide
 
@@ -91,8 +91,10 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Application Programming Interfaces
 
-<!-- NOTE: This doc, internally, is disabled until it does not freeze build -->
-<!--
-{% include-markdown 'usecases/brandenberg/apiusecases/usecase.md' %}
+<!-- 
+All actual Python code removed, (4 interactive maps) replaced with "INTERACTIVE MAP REMOVED".
 -->
+{% include-markdown 'usecases/brandenberg-api/usecase.md' %}
+<!--
 See <a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F" target="_blank"><i class="fa fa-external-link" aria-label="(external url)"></i> Design Safe: Use Cases: Application Programming Interfaces</a>.
+-->
