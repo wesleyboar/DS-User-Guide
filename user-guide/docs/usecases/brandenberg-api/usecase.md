@@ -629,7 +629,8 @@ cp.add_to(pop_map)
 display(pop_map)
 ```
 
-INTERACTIVE MAP 1
+!!! info "Example Interactive Map"
+    Coming soon.
 
 ### USGS API to map earthquakes on world map
 
@@ -843,8 +844,8 @@ my_map
 
 
 
-
-INTERACTIVE MAP 2
+!!! info "Example Interactive Map"
+    Coming soon.
 
  The final folium cell allows the user to add the marker/title and other changes to the base map previously created. Here we added markers and titles to the map. The final map shows the earthquake locations and pop-ups with the name and magintude. Given your project, you could extract various data from the json and create relevant maps/figures with that data.
 
@@ -856,7 +857,8 @@ my_map
 ```
 
 
-INTERACTIVE MAP 3
+!!! info "Example Interactive Map"
+    Coming soon.
 
 ### USGS Shakemap API
 
@@ -949,7 +951,8 @@ m
 ```
 
 
-INTERACTIVE MAP 4
+!!! info "Example Interactive Map"
+    Coming soon.
 
 ### NOAA API Use Case 
 
