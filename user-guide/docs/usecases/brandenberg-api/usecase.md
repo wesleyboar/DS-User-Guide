@@ -132,7 +132,7 @@ print('Explanation: ' + explanation)
     
 
 
-![png](img/output_7_1.png)
+![png](output_7_1.png)
 
 
 
@@ -176,7 +176,7 @@ else:
     
 
 
-![png](img/output_9_1.png)
+![png](output_9_1.png)
 
 
 
@@ -226,7 +226,7 @@ else:
     
 
 
-![png](img/output_11_1.png)
+![png](output_11_1.png)
 
 
 
@@ -1041,7 +1041,7 @@ ax.grid(True,alpha=0.5)
 ```
 
 
-![png](img/output_8_0.png)
+![png](output_8_0.png)
 
 
  
