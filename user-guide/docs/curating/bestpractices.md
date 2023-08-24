@@ -536,7 +536,7 @@ Guidelines specific to RAPID reconnaissance data can be found at <a href="https:
 
 Some journals require that researchers submitting a paper for review inlcude the corresponding dataset DOI in the manuscript. Data accessibility delay or embargo refers to time during which a dataset has a DOI but it is not made broadly accessible, awaiting for the review to be accepted by a journal paper.
 
-In August 25, 2022 the Office of Science and Technology Policy issued a memorandum (https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf) with policy guidelines to “ensure free, immediate and equitable access to federally funded research.” In the spirit of this guidance, DesignSafe has ceased offering data accessibility delays or embargos. DesignSafe continues working with users to:
+In August 25, 2022 the Office of Science and Technology Policy issued a <a href="https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf" target="_blank"> memorandum with policy guidelines </a> to “ensure free, immediate and equitable access to federally funded research.” In the spirit of this guidance, DesignSafe has ceased offering data accessibility delays or embargos. DesignSafe continues working with users to:
 
 <ul>
 	<li dir="ltr">
