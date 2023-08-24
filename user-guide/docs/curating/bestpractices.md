@@ -534,21 +534,23 @@ Guidelines specific to RAPID reconnaissance data can be found at <a href="https:
 
 #### [Public Accessibility Delay](#accessibilitydelay) { #accessibilitydelay }
 
-This refers to time during which a project is not made broadly accessible awaiting for the review and publication of a corresponding journal paper. In some cases, users need to have the data DOI to submit their manuscript for review.  We work with users to:
+Some journals require that researchers submitting a paper for review inlcude the corresponding dataset DOI in the manuscript. Data accessibility delay or embargo refers to time during which a dataset has a DOI but it is not made broadly accessible, awaiting for the review to be accepted by a journal paper.
+
+In August 25, 2022 the Office of Science and Technology Policy issued a memorandum (https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf) with policy guidelines to “ensure free, immediate and equitable access to federally funded research.” In the spirit of this guidance, DesignSafe has ceased offering data accessibility delays or embargos. DesignSafe continues working with users to:
 
 <ul>
 	<li dir="ltr">
-	Provide access to reviewers via My Projects before the data is published. There is no DOI involved and the review is not annonymous.
+	Provide access to reviewers via My Projects before the dataset is published. There is no DOI involved and the review is not annonymous.
 	</li>
 	<li dir="ltr">
-	The dataset is curated and complete and receives a DOI. We can make the DataCite DOI metadata not web indexable. The publication will be findable within DDR. It will eventually be indexed by search engines. 
+	Help users curate and publish their datasets so they are publicly available for reviewers in the best possible form.
 	</li>
 	<li dir="ltr">
-	The dataset is curated and complete and receives a DOI. We can remove the publication from the list of published datasets in the DDR. 
+	Provide amends and versioning so that prompt changes can be made to data and metadata upon receiving feedback from the reviewers or at any other time.
 	</li>
 </ul>
 
-Users that request that their publications remain non-indexable and or non viewable should let the DDR team know through a Help ticket when the respective paper is accepted so we change its status. Without exceptions, all non-indexable, non-viewable publications in the DDR will be made publicly available upon one year even if the corresponding paper is not published.
+In addition, DesignSafe Data Depot does not offer capabilities for enabling single or double blind peer review.
 
 
 #### [Licensing](#licensing) { #licensing }
