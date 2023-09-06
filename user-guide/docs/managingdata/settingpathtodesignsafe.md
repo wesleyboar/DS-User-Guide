@@ -5,7 +5,7 @@ There are four main locations for data transfers on DesignSafe: <a href="#mydata
 
 ### [Path to My Data](#mydata) { #mydata }
 
-For <strong>My Data</strong> set Path to <strong>/corral-repl/projects/NHERI/shared/&lt;username&gt;/</strong>
+For <strong>My Data</strong> set Path to <strong>/data/designsafe/mydata/&lt;username&gt;/</strong>
 
 Replace <strong>&lt;username&gt;</strong> with your username. You can find your username by examining the URL in My Data, see figure below.
 

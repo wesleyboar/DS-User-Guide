@@ -156,7 +156,7 @@ Corral3 is a large (40 PB), shared data resource, as such, the data stored on De
 
 To access your data on DesignSafe
 
-* For <strong>My Data</strong> set Path to <strong>/corral-repl/projects/NHERI/shared/&lt;username&gt;/</strong>
+* For <strong>My Data</strong> set Path to <strong>/data/designsafe/mydata/&lt;username&gt;/</strong>
 * For <strong>My Projects</strong> set Path to <strong>/corral-repl/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
 * For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
 * For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
@@ -351,7 +351,7 @@ Enter your DesignSafe/TACC username and password.
 
 For the "Path", select one of the following:
 
-* For **My Data** set Path to **/corral-repl/projects/NHERI/shared/&lt;username&gt;/**
+* For **My Data** set Path to **/data/designsafe/mydata/&lt;username&gt;/**
 * For **My Projects** set Path to **/corral-repl/projects/NHERI/projects/&lt;project-uid&gt;/**
 * For **Published **DesignSafe projects set Path to **/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;**/
 * For **Published (NEES)** projects set Path to **/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/**
