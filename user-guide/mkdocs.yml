@@ -16,6 +16,8 @@ theme:
     ds_navigation_redirects:
       - before: '#data-depotcuration-office-hours'
         after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
+    analytics:
+      gtag: G-D96RT1T24K
 
 extra_css:
     - css/ds-docs.css
