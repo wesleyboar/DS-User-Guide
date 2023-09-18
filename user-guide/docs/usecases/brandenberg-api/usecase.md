@@ -21,9 +21,9 @@ Tokens are similar to keys in that they are text strings, but they often carry a
 
 [![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb)
 
-NASA maintains a number of open API's to make NASA data, including imagery, available to the public. Here we focus on the Astronomy Picture of the Day, or APOD. Many of NASA's API's require an API key, which can be obtained by signing up through their form at https://api.nasa.gov/. We have elected to use APOD because a demo key can be used to retrieve photos. Therefore this example will work for users who do not have a NASA API token. Below is an example query.
+NASA maintains a number of open API's to make NASA data, including imagery, available to the public. Here we focus on the Astronomy Picture of the Day, or APOD. Many of NASA's API's require an API key, which can be obtained by signing up through their form at <https://api.nasa.gov/>. We have elected to use APOD because a demo key can be used to retrieve photos. Therefore this example will work for users who do not have a NASA API token. Below is an example query.
 
-https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+<https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY>
 
 If you click on the link above, or paste the URL in your web browser, you will see a JSON string that contains information about the image, including a copyright, date, explanation, hdurl, media_type, service_version, title, and url. The JSON string looks like a Python dictionary, and may easily be converted to one using the Python JSON package. While entering the URL into a web browser returns useful information in the form of the JSON string, it does not actually display the image. Rather, the hdurl or url fields contain links to the image, and users could click these links to view the image. But the real power of the API is unlocked by interacting with it programatically rather than through a browser window. 
 
@@ -39,13 +39,10 @@ pillow
 
 Links to the documentation for these packages are provided below.
 
-https://docs.python.org/3/library/io.html  
-
-https://docs.python.org/3/library/json.html  
-
-https://requests.readthedocs.io/en/latest/  
-
-https://pillow.readthedocs.io/en/stable/  
+* <https://docs.python.org/3/library/io.html>
+* <https://docs.python.org/3/library/json.html>
+* <https://requests.readthedocs.io/en/latest/>
+* <https://pillow.readthedocs.io/en/stable/>
 
 
 
@@ -73,7 +70,7 @@ print(r)
  
 By default, the print(r) command above contains information about the HTTP status code, which indicates whether the request was succesful. A successful request will result in a 3-digit HTTP status code beginning with 2 (i.e., 2xx), with "Response \[200\]" indicating that the request was successful. Status code 1xx means that the request was received but has not yet been processed, 3xx means that the user must take additional action to complete the request, 4xx indicates a client error, and 5xx indicates that the server failed to fulfill a request
  
- More about HTTP status codes: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes 
+ More about HTTP status codes: <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes >
 
 
 ```python
@@ -136,7 +133,7 @@ print('Explanation: ' + explanation)
 
 
 
-    Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
+Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
     
 
 #### Putting it together into a single cell
@@ -180,7 +177,7 @@ else:
 
 
 
-    Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
+Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
     
 
 #### Alternative method of passing api_key as a query string parameter
@@ -228,26 +225,27 @@ else:
 
 ![png](output_11_1.png)
 
-
-
-    Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
+Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
     
 ### US Census API Example
 
+![Alt Text](us_census_api.png) 
+
 [![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb)
 
-The following use case will demonstrate how to pull data from a US Census API request and plot it using Folium. Details about the US Census API can be found at https://www.census.gov/data/developers/guidance/api-user-guide.html. This use case focuses on the American Community Survey (ACS) https://www.census.gov/programs-surveys/acs, which is a survey conducted by the US Census which details housing and population counts for the nation. This information provides an important tool for communities to assess how they are changing. When people fill out the ACS form, they are helping to ensure that decisions about the future of their community can be made using the best data available. Decision-makers require a clear picture of their population so that scarce resources can be allocated efficiently and effectively.
+The following use case will demonstrate how to pull data from a US Census API request and plot it using Folium. Details about the US Census API can be found at <https://www.census.gov/data/developers/guidance/api-user-guide.html>. This use case focuses on the American Community Survey (ACS) <https://www.census.gov/programs-surveys/acs>, which is a survey conducted by the US Census which details housing and population counts for the nation. This information provides an important tool for communities to assess how they are changing. When people fill out the ACS form, they are helping to ensure that decisions about the future of their community can be made using the best data available. Decision-makers require a clear picture of their population so that scarce resources can be allocated efficiently and effectively.
 
-A US Census API Key is required to use this use case product. So go over to https://api.census.gov/data/key_signup.html and get your API key now! We'll be here when you get back.
+A US Census API Key is required to use this use case product. So go over to <https://api.census.gov/data/key_signup.html> and get your API key now! We'll be here when you get back.
 
 #### Requirements
-folium  
-geopandas  
-requests  
-json  
-numpy  
-getpass  
-US Census API key from https://api.census.gov/data/key_signup.html
+
+* folium  
+* geopandas  
+* requests  
+* json  
+* numpy  
+* getpass  
+* US Census API key from <https://api.census.gov/data/key_signup.html>
 
 #### Install packages
 
@@ -261,7 +259,7 @@ To begin building, we will install first install the Folium Python Package which
 
 #### Import packages
 
-Next to set-up the notebook we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy (https://numpy.org/) and Pandas (https://pandas.pydata.org/).
+Next to set-up the notebook we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy (<https://numpy.org/>) and Pandas (<https://pandas.pydata.org/>).
 
 
 ```python
@@ -275,7 +273,7 @@ from getpass import getpass
 
 #### Enter API key
 
-Below you will need to input the API Key that you received from the US Census website https://api.census.gov/data/key_signup.html. You will need a working Key to proceed through the rest of the use case. Do not share your key with any other individuals. We have used the Python "getpass" method here so you can enter your password without echoing so your neighbors can't see it. This key will be passed to the API later through the variable name "CENSUS_KEY".
+Below you will need to input the API Key that you received from the US Census website <https://api.census.gov/data/key_signup.html>. You will need a working Key to proceed through the rest of the use case. Do not share your key with any other individuals. We have used the Python "getpass" method here so you can enter your password without echoing so your neighbors can't see it. This key will be passed to the API later through the variable name "CENSUS_KEY".
 
 
 ```python
@@ -287,7 +285,7 @@ CENSUS_KEY = getpass('Enter Census key: ')
 
 #### Make an API call
 
-The following section will walk through how to create a Census API call. There are three key inputs before we make our request and that includes variables, year, and the API Key. The variables specify the information we would like to extract from our query. The variable can be changed to pull different population groups that differ on age, sex, and race. A table of the available variables are found here: https://api.census.gov/data/2019/acs/acs1/variables.html. For this use case example, we are looking at total population as well as African American population, both in the United States, which are the variables 'B01001_001E' and 'B02001_003E' respectively. Additionally we are looking at data from 2020. This information along with our Census API key will allow us to extract relevant data.
+The following section will walk through how to create a Census API call. There are three key inputs before we make our request and that includes variables, year, and the API Key. The variables specify the information we would like to extract from our query. The variable can be changed to pull different population groups that differ on age, sex, and race. A table of the available variables are found here: <https://api.census.gov/data/2019/acs/acs1/variables.html>. For this use case example, we are looking at total population as well as African American population, both in the United States, which are the variables 'B01001_001E' and 'B02001_003E' respectively. Additionally we are looking at data from 2020. This information along with our Census API key will allow us to extract relevant data.
 
 Using Python requests we are able to gather the data from the URL, and convert it to a JSON (Javascript Object Notation). This allows for easy data manipulation. 
 
@@ -626,21 +624,22 @@ cp.add_to(pop_map)
 display(pop_map)
 ```
 
-!!! info "Example Interactive Map"
-    Coming soon.
 
 ### USGS API to map earthquakes on world map
 
+![Alt text](usgs_recent_earthquakes.png)
+
 [![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb)
 
-This Jupyter notebook will walk through how to access an API that is available through USGS that details earthquakes over a certain magntiude that occured over a specific time period. The goal of this notebook is to take the USGS hourly/weekly/monthly earthquake RSS feed ( https://earthquake.usgs.gov/earthquakes/feed/) and plot the earthquakes and their relevant magnitudes using a Python Package called Folium (https://python-visualization.github.io/folium/).
+This Jupyter notebook will walk through how to access an API that is available through USGS that details earthquakes over a certain magntiude that occured over a specific time period. The goal of this notebook is to take the USGS hourly/weekly/monthly earthquake RSS feed ( <https://earthquake.usgs.gov/earthquakes/feed/>) and plot the earthquakes and their relevant magnitudes using a Python Package called Folium (<https://python-visualization.github.io/folium/>).
  
 #### Requirements
-folium  
-geopandas  
-requests  
-json  
-numpy
+
+* folium  
+* geopandas  
+* requests  
+* json  
+* numpy
 
 #### Install packages
 
@@ -656,7 +655,7 @@ pip install -q folium
 
 #### Import packages
 
-Next to set-up the notebook we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy (https://numpy.org/) and Pandas (https://pandas.pydata.org/
+Next to set-up the notebook we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy (<https://numpy.org/>) and Pandas (<https://pandas.pydata.org/>).
 
 
 ```python
@@ -669,7 +668,7 @@ import folium
 
 #### Make an API Call 
 
-We then call the USGS API via the the following URL ( details can be found here https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). Calling the API directly can be helpful as the URL is constantly updated and will provide the most up to date information. This example references the earthquake feed for events that occured in the last month that are over Mw= 2.5. We will convert the url into a data parseable form, JSON (JavaScript Object Notation). 
+We then call the USGS API via the the following URL (details can be found here <https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php>). Calling the API directly can be helpful as the URL is constantly updated and will provide the most up to date information. This example references the earthquake feed for events that occured in the last month that are over Mw= 2.5. We will convert the url into a data parseable form, JSON (JavaScript Object Notation). 
 
 
 ```python
@@ -829,7 +828,7 @@ df
 
 #### Map Creation 
 
-The final step is to create the map with the earthquake information collated so far. Using Folium documentation (https://python-visualization.github.io/folium/) we will set up a simple map, using locations from the dataframe. 
+The final step is to create the map with the earthquake information collated so far. Using Folium documentation (<https://python-visualization.github.io/folium/>) we will set up a simple map, using locations from the dataframe. 
 
 
 ```python
@@ -838,11 +837,6 @@ for index, location_info in df.iterrows():
                         attr='ESRI')
 my_map
 ```
-
-
-
-!!! info "Example Interactive Map"
-    Coming soon.
 
  The final folium cell allows the user to add the marker/title and other changes to the base map previously created. Here we added markers and titles to the map. The final map shows the earthquake locations and pop-ups with the name and magintude. Given your project, you could extract various data from the json and create relevant maps/figures with that data.
 
@@ -854,23 +848,24 @@ my_map
 ```
 
 
-!!! info "Example Interactive Map"
-    Coming soon.
-
 ### USGS Shakemap API
+
+![Alt text](usgs_shakemap_api.png)
 
 [![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb)
 
-This Jupyter notebook will walk through how to access an USGS Shakemap API. The goal of this example is to use an API request to retrieve a USGS Shakemap (https://earthquake.usgs.gov/data/shakemap/) and plot the shakemap for the earthquake using a Python Package called Folium (https://python-visualization.github.io/folium/)
+
+This Jupyter notebook will walk through how to access an USGS Shakemap API. The goal of this example is to use an API request to retrieve a USGS Shakemap (<https://earthquake.usgs.gov/data/shakemap/>) and plot the shakemap for the earthquake using a Python Package called Folium (<https://python-visualization.github.io/folium/>)
  
  
 #### Requirements
-folium  
-geopandas  
-requests  
-json  
-numpy  
-pandas
+
+* folium  
+* geopandas  
+* requests  
+* json  
+* numpy  
+* pandas
 
 #### Install packages
 To begin building, we will install first install the Folium Python Package which we will use later on. To install folium, we will use the "pip install" framework
@@ -897,7 +892,7 @@ import folium
 ```
 
 #### API Data Call
-A url request is made to the USGS website, to download shakemap contours. Users can navigate to any specific event of their liking and use the url in the "Download data" section of the event. For this example, we will be looking at the Mw=4.2 earthquake off the coast of Malibu (https://earthquake.usgs.gov/earthquakes/eventpage/ci40161279/executive). "Get requests" is used to pull the url information, and is then saved into a variable with a JSON Format. 
+A url request is made to the USGS website, to download shakemap contours. Users can navigate to any specific event of their liking and use the url in the "Download data" section of the event. For this example, we will be looking at the Mw=4.2 earthquake off the coast of Malibu (<https://earthquake.usgs.gov/earthquakes/eventpage/ci40161279/executive>). "Get requests" is used to pull the url information, and is then saved into a variable with a JSON Format. 
 
 
 ```python
@@ -908,7 +903,7 @@ json_data= r.json()
 
 #### GeoJSON output 
 
-To understand the GEOJSON output from the URL request you can look to the USGS summary here: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php. The main points to include are that the each earthquake has its own features. For our case, we are looking at Peak Ground Intensity contours, and therefore each "feature" is for a different PGA interval. The interval is indicated in the "value" and is a nested key under features. Within the "features" there are also coordinates for the pga contours that we will use to recreate the shake map. 
+To understand the GEOJSON output from the URL request you can look to the USGS summary here: <https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php>. The main points to include are that the each earthquake has its own features. For our case, we are looking at Peak Ground Intensity contours, and therefore each "feature" is for a different PGA interval. The interval is indicated in the "value" and is a nested key under features. Within the "features" there are also coordinates for the pga contours that we will use to recreate the shake map. 
 
 #### Map Creation 
 
@@ -948,21 +943,22 @@ m
 ```
 
 
-!!! info "Example Interactive Map"
-    Coming soon.
 
 ### NOAA API Use Case 
 
+![Alt Text](noaa_api.png)
+
 [![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb)
 
-The following use case will detail data from the NOAA Co-OPS Data Retrieval API. You can learn more information here :https://api.tidesandcurrents.noaa.gov/api/prod/. Data regarding tidal/water levels, wind data, temperature data, air temperature/pressure, conductivity, visibility, humidity, and salinity are available. The locations where data is availble is based on buoy and instrumentation location. Predictions as well as reviewed NOAA data is available to users. 
+The following use case will detail data from the NOAA Co-OPS Data Retrieval API. You can learn more information here: <https://api.tidesandcurrents.noaa.gov/api/prod/>. Data regarding tidal/water levels, wind data, temperature data, air temperature/pressure, conductivity, visibility, humidity, and salinity are available. The locations where data is availble is based on buoy and instrumentation location. Predictions as well as reviewed NOAA data is available to users. 
 
 #### Requirements
-folium  
-matplotlib
-requests  
-json  
-numpy  
+
+* folium  
+* matplotlib
+* requests  
+* json  
+* numpy  
 
 
 #### Install packages
@@ -976,7 +972,7 @@ pip install MatplotLib, a Python package that will allow us to plot the data.
 
 #### Import packages
 
-Next to set-up the use case we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy(https://numpy.org/) and Pandas (https://pandas.pydata.org/).
+Next to set-up the use case we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy(<https://numpy.org/>) and Pandas (<https://pandas.pydata.org/>).
 
 
 ```python
@@ -992,7 +988,7 @@ from pandas import json_normalize
 #### Gathering data from API Call 
 
 The following example will be plotting Wind Data (Hourly) in Key West, FL during July 2021. The url should include information as a start and end date, the product, units, station number, and what format you would like the data. More information for how to build the API again can be found 
-https://api.tidesandcurrents.noaa.gov/api/prod/. Here we are using Python Requests, retrieving the data, and converting it into a Pandas Dataframe. 
+<https://api.tidesandcurrents.noaa.gov/api/prod/>. Here we are using Python Requests, retrieving the data, and converting it into a Pandas Dataframe. 
 
 
 ```python
@@ -1041,7 +1037,3 @@ ax.grid(True,alpha=0.5)
 ```
 
 
-![png](output_8_0.png)
-
-
- 
