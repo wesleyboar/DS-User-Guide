@@ -1,11 +1,54 @@
 
-### API Background
+__Scott J. Brandenberg and Meera Kota, UCLA__
+
+This use case provides some background information on application programming interfaces (API's) followed by examples that utilize the Python requests package to pull data from API's maintained by NASA, the US Census Bureau, the US Geological Survey, and the National Oceanic and Atmospheric Administration. 
+
+Key Words: API, Application Programming Interface, Jupyter, Python, requests, US Census, USGS, NASA, NOAA
+
+#### Resources
+
+<table>
+ <tr>
+  <th>Use Case Name</th>
+  <th>Packages Used</th>
+  <th>Link</th>            
+ </tr>
+ <tr>
+  <td>NASA astronomy photo of the day</td>
+  <td>io, json, requests, pillow</td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+ </tr>
+ <tr>
+  <td>US Census map</td>
+  <td>folium, geopandas, requests, json, getpass</td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+ </tr>
+ <tr>
+  <td>USGS map of recent earthquakes</td>
+  <td>folium, geopandas, requests, json</td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+ </tr>
+ <tr>
+  <td>USGS Shakemap contours</td>
+  <td>folium, geopandas, requests, json, pandas</td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+ </tr>
+ <tr>
+  <td>NOAA hourly wind data</td>
+  <td>folium, matplotlib, requests, json</td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+ </tr>
+</table>
+
+#### Description
+
+##### What is an API?
 
 An Application Programming Interface (API) is software that enables communication between two components, typically on different computers. For simplicity, we'll refer to a client and a server as the two different software components. Many API's are configured such that the client submits information to the server via a query string at the end of a Uniform Resource Locator (URL). The server receives the URL, parses the query string, runs a script to gather requested information often by querying a relational database, and returns the data to the client in the requested format. Example formats include html, xml, json, or plain text.
 
 A primary benefit of API's is that users can retrieve information from the database using intuitive query string parameters, without requiring users to understand the structure of the database. Furthermore, databases are generally configured to reject connections originating from another computer for security reasons. The API is a middle-layer that allows users to submit a request to the server, but the query itself then originates from the same server that hosts the database.
 
-#### Authentication, Authorization, Keys, and Tokens
+##### Authentication, Authorization, Keys, and Tokens
 
 Authentication verifies the identity of a user, generally by entering a username and password, and sometimes through additional measures like multi-factor authentication. When a user authenticates through a website, the server may store information about that user in a manner that persists through the user session. 
 
@@ -15,37 +58,27 @@ API's are often stateless, meaning that the server does not store any informatio
 
 API keys are designed to identify the client to the server. In some cases you may need to request a key for a particular API. This often requires you to create an account and authenticate. Generally that key will remain the same and you'll need to include it with your API requests. Note that you typically do not need to authenticate each time a request is made. Simply including the key is adequate.
 
-Tokens are similar to keys in that they are text strings, but they often carry additional information required to authorize the user (i.e., the token bearer). Tokens are often generated when a user authenticates, and set to expire after a specified time period, at which point the user must re-authenticate to obtain a new token.
+Tokens are similar to keys in that they are text strings, but they often carry additional information required to authorize the user (i.e., the token bearer). Tokens are often generated when a user authenticates, and set to expire after a specified time period, at which point the user must re-authenticate to obtain a new token.  
 
-#### Example API Interaction: NASA Astronomy Picture of the Day
+##### HTTP Status Codes
+ 
+By default, the print(r) command above contains information about the HTTP status code, which indicates whether the request was succesful. A successful request will result in a 3-digit HTTP status code beginning with 2 (i.e., 2xx), with "Response \[200\]" indicating that the request was successful. Status code 1xx means that the request was received but has not yet been processed, 3xx means that the user must take additional action to complete the request, 4xx indicates a client error, and 5xx indicates that the server failed to fulfill a request
+ 
+More about HTTP status codes: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes 
 
-[![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb)
+#### Implementation
 
-NASA maintains a number of open API's to make NASA data, including imagery, available to the public. Here we focus on the Astronomy Picture of the Day, or APOD. Many of NASA's API's require an API key, which can be obtained by signing up through their form at <https://api.nasa.gov/>. We have elected to use APOD because a demo key can be used to retrieve photos. Therefore this example will work for users who do not have a NASA API token. Below is an example query.
+The use cases below provide a description of each API followed by code required to run the API, and output produced at the time the documentation was written. The code provided in the documentation has been shortened; a more fully-documented version of the code exists in the Jupyter notebooks, where code is often distributed among multiple cells with annotations prior to each cell. The output presented in the documentation may differ from the output obtained by running one of the notebooks. This is because the notebooks pull live data from an API, and will therefore be different from the data that was pulled at the time the documentation was created.
 
-<https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY>
+##### NASA Astronomy Picture of the Day
+
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+
+NASA maintains a number of open API's to make NASA data, including imagery, available to the public. Here we focus on the Astronomy Picture of the Day, or APOD. Many of NASA's API's require an API key, which can be obtained by signing up through their form at https://api.nasa.gov/. We have elected to use APOD because a demo key can be used to retrieve photos. Therefore this example will work for users who do not have a NASA API token. Below is an example query.
+
+https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 
 If you click on the link above, or paste the URL in your web browser, you will see a JSON string that contains information about the image, including a copyright, date, explanation, hdurl, media_type, service_version, title, and url. The JSON string looks like a Python dictionary, and may easily be converted to one using the Python JSON package. While entering the URL into a web browser returns useful information in the form of the JSON string, it does not actually display the image. Rather, the hdurl or url fields contain links to the image, and users could click these links to view the image. But the real power of the API is unlocked by interacting with it programatically rather than through a browser window. 
-
-#### Using Python requests to make API calls
-
-The example code below uses the Python requests package to submit the request to the APOD server. The returned JSON is then parsed using the json package to retrieve relevant fields. Python packages requests, io, and PIL are then used to open the image and display it along with its explanation. 
-
-#### Required Python packages:
-io  
-json  
-requests  
-pillow  
-
-Links to the documentation for these packages are provided below.
-
-* <https://docs.python.org/3/library/io.html>
-* <https://docs.python.org/3/library/json.html>
-* <https://requests.readthedocs.io/en/latest/>
-* <https://pillow.readthedocs.io/en/stable/>
-
-
-
 
 ```python
 # Step 1: import packages
@@ -60,238 +93,66 @@ from io import BytesIO
 r = requests.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
 
 # Step 3: Display variable r. If the request was successful, you should see <Response [200]>.
-print(r)
-```
-
-    <Response [200]>
-    
-
-### HTTP Status Codes
- 
-By default, the print(r) command above contains information about the HTTP status code, which indicates whether the request was succesful. A successful request will result in a 3-digit HTTP status code beginning with 2 (i.e., 2xx), with "Response \[200\]" indicating that the request was successful. Status code 1xx means that the request was received but has not yet been processed, 3xx means that the user must take additional action to complete the request, 4xx indicates a client error, and 5xx indicates that the server failed to fulfill a request
- 
- More about HTTP status codes: <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes >
-
-
-```python
+print('HTTP Status Code: ' + str(r) + '\n')
 #Step 4: Display the text of variable r. If the request was successful, you should see a JSON string.
 if(r.status_code == 200):
-    print(r.text)
+    json_string = r.text
 else:
-    print('Request was not successful. Status code = ' + str(r.status_code))
-```
-
-    {"copyright":"Gianni Lacroce","date":"2023-05-15","explanation":"From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).","hdurl":"https://apod.nasa.gov/apod/image/2305/EagleDeep_Lacroce_2047.jpg","media_type":"image","service_version":"v1","title":"M16: Eagle Nebula Deep Field","url":"https://apod.nasa.gov/apod/image/2305/EagleDeep_Lacroce_1080.jpg"}
+    json_string = 'Request was not successful. Status code = ' + str(r.status_code)
     
-    
-
-
-```python
 # Step 5: Convert the JSON string to a python dictionary using the json package
 r_dict = json.loads(r.text)
 
 # Step 6: Extract explanation and hdurl fields from r_dict
 title = r_dict['title']
 explanation = r_dict['explanation']
-hdurl = r_dict['hdurl']
+url = r_dict['url']
 copyright = r_dict['copyright']
 
-print('title: ' + title)
-print('explanation: ' + explanation)
-print('hdurl: ' + hdurl)
-print('copyright: ' + copyright)
-```
-
-    title: M16: Eagle Nebula Deep Field
-    explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
-    hdurl: https://apod.nasa.gov/apod/image/2305/EagleDeep_Lacroce_2047.jpg
-    copyright: Gianni Lacroce
-    
-
-
-```python
 # Step 7. Retrieve image using Python requests package and open the image using the PIL Image method
-r_img = requests.get(hdurl)
+r_img = requests.get(url)
 img = Image.open(BytesIO(r_img.content))
-```
 
-
-```python
 # Step 8. Display the image and explanation
-print('Title: ' + title)
-print('Copyright: ' + copyright)
+print('Title: ' + title + '\n')
+print('Copyright: ' + copyright + '\n')
+print('url: ' + url + '\n')
 img.show()
-print('Explanation: ' + explanation)
+print('Explanation: ' + explanation + '\n')
 ```
 
-    Title: M16: Eagle Nebula Deep Field
-    Copyright: Gianni Lacroce
-    
+HTTP Status Code: Response [200]
 
+Title: IC 4592: The Blue Horsehead Reflection Nebula
+Copyright: 
+Antoine & Dalia Grelin
 
-![png](output_7_1.png)
+url: https://apod.nasa.gov/apod/image/2309/BlueHorse_Grelin_1080.jpg
 
+![Photo of the Blue Horsehead Reflection Nebula](img/BlueHorse_Grelin_1080.jpg)
 
+Description: Do you see the horse's head? What you are seeing is not the famous Horsehead nebula toward Orion, but rather a fainter nebula that only takes on a familiar form with deeper imaging. The main part of the here imaged molecular cloud complex is a reflection nebula cataloged as IC 4592. Reflection nebulas are actually made up of very fine dust that normally appears dark but can look quite blue when reflecting the visible light of energetic nearby stars. In this case, the source of much of the reflected light is a star at the eye of the horse. That star is part of Nu Scorpii, one of the brighter star systems toward the constellation of the Scorpion (Scorpius). A second reflection nebula dubbed IC 4601 is visible surrounding two stars above and to the right of the image center.
 
-Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
-    
+##### US Census Map
 
-#### Putting it together into a single cell
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
-
-```python
-import requests
-import json
-from PIL import Image
-from io import BytesIO
-
-# Submit API request and assign returned data to a variable called r
-r = requests.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
-
-if(r.status_code != 200):
-    print('Request unsuccessful. Status code = ' + str(r.status_code))
-else:
-    # Convert returned JSON string into a Python dictionary using the json package
-    r_dict = json.loads(r.text)
-
-    # Extract explanation and URL for HD version of image
-    title = r_dict['title']
-    explanation = r_dict['explanation']
-    hdurl = r_dict['hdurl']
-    copyright = r_dict['copyright']
-
-    r_img = requests.get(hdurl)
-    img = Image.open(BytesIO(r_img.content))
-    print('Title: ' + title)
-    print('Copyright: ' + copyright)
-    img.show()
-    print('Explanation: ' + explanation)
-```
-
-    Title: M16: Eagle Nebula Deep Field
-    Copyright: Gianni Lacroce
-    
-
-
-![png](output_9_1.png)
-
-
-
-Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
-    
-
-#### Alternative method of passing api_key as a query string parameter
-
-The NASA APOD API includes the API key as a query string parameter, which is the portion of the URL that comes after the "?" symbol. Some API's require keys or tokens to be passed in a different manner that is more secure. The code below shows how to bind the query string parameters to the URL using Python requests. In the end, this is no more secure than simply putting the API key at the end of the query string, but it demonstrates a key functionality of the Python requests package. More secure implementations might use the HTTPBasicAuth() functionality in the Python requests package, or a POST request instead of GET. 
-
+This use case demonstrates how to pull data from a US Census API request and plot it using Folium. The Jupyter notebook is more heavily annotated and divided into cells. This page presents an abridged version highlighting key details. Details about the US Census API can be found at https://www.census.gov/data/developers/guidance/api-user-guide.html. This use case focuses on the American Community Survey (ACS) https://www.census.gov/programs-surveys/acs, which is a survey conducted by the US Census which details housing and population counts for the nation. A US Census API Key is required to use this use case product. So go over to https://api.census.gov/data/key_signup.html and get your API key now! We'll be here when you get back.
 
 ```python
-import requests
-import json
-from PIL import Image
-from io import BytesIO
-
-# Prepare URL and query string parameters
-url = 'https://api.nasa.gov/planetary/apod'
-params = {'api_key':'DEMO_KEY'}
-
-# Submit API request and assign returned data to a variable called r
-r = requests.get(url, params=params)
-
-if(r.status_code != 200):
-    print('Request unsuccessful. Status code = ' + str(r.status_code))
-else:
-    # Convert returned JSON string into a Python dictionary using the json package
-    r_dict = json.loads(r.text)
-
-    # Extract explanation and URL for HD version of image
-    title = r_dict['title']
-    explanation = r_dict['explanation']
-    hdurl = r_dict['hdurl']
-    copyright = r_dict['copyright']
-
-    r_img = requests.get(hdurl)
-    img = Image.open(BytesIO(r_img.content))
-    print('Title: ' + title)
-    print('Copyright: ' + copyright)
-    img.show()
-    print('Explanation: ' + explanation)
-```
-
-    Title: M16: Eagle Nebula Deep Field
-    Copyright: Gianni Lacroce
-    
-
-
-![png](output_11_1.png)
-
-Explanation: From afar, the whole thing looks like an eagle.  A closer look at the Eagle Nebula, however, shows the bright region is actually a window into the center of a larger dark shell of dust.  Through this window, a brightly-lit workshop appears where a whole open cluster of stars is being formed.  In this cavity, tall pillars and round globules of dark dust and cold molecular gas remain where stars are still forming.  Already visible are several young bright blue stars whose light and winds are burning away and pushing back the remaining filaments and walls of gas and dust.  The Eagle emission nebula, tagged M16, lies about 6500 light years away, spans about 20 light-years, and is visible with binoculars toward the constellation of the Serpent (Serpens).  This picture involved long and deep exposures and combined three specific emitted colors emitted by sulfur (colored as yellow), hydrogen (red), and oxygen (blue).
-    
-### US Census API Example
-
-![Alt Text](us_census_api.png) 
-
-[![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb)
-
-The following use case will demonstrate how to pull data from a US Census API request and plot it using Folium. Details about the US Census API can be found at <https://www.census.gov/data/developers/guidance/api-user-guide.html>. This use case focuses on the American Community Survey (ACS) <https://www.census.gov/programs-surveys/acs>, which is a survey conducted by the US Census which details housing and population counts for the nation. This information provides an important tool for communities to assess how they are changing. When people fill out the ACS form, they are helping to ensure that decisions about the future of their community can be made using the best data available. Decision-makers require a clear picture of their population so that scarce resources can be allocated efficiently and effectively.
-
-A US Census API Key is required to use this use case product. So go over to <https://api.census.gov/data/key_signup.html> and get your API key now! We'll be here when you get back.
-
-#### Requirements
-
-* folium  
-* geopandas  
-* requests  
-* json  
-* numpy  
-* getpass  
-* US Census API key from <https://api.census.gov/data/key_signup.html>
-
-#### Install packages
-
-To begin building, we will install first install the Folium Python Package which we will use later on, as well as the GeoPandas Package. To install them both, we will use the "pip install" framework. The other required packages are already part of Python, so there is no reason to separately install them. 
-
-
-```python
-!pip install folium -q
-!pip install geopandas -q
-```
-
-#### Import packages
-
-Next to set-up the notebook we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy (<https://numpy.org/>) and Pandas (<https://pandas.pydata.org/>).
-
-
-```python
+## Import packages and prompt user to enter US Census API key using getpass
 import requests 
 import numpy as np
 import pandas as pd
 import folium
 import json
+from tempfile import TemporaryDirectory
+import geopandas as gpd
 from getpass import getpass
-```
-
-#### Enter API key
-
-Below you will need to input the API Key that you received from the US Census website <https://api.census.gov/data/key_signup.html>. You will need a working Key to proceed through the rest of the use case. Do not share your key with any other individuals. We have used the Python "getpass" method here so you can enter your password without echoing so your neighbors can't see it. This key will be passed to the API later through the variable name "CENSUS_KEY".
-
-
-```python
 CENSUS_KEY = getpass('Enter Census key: ')
 ```
-
-    Enter Census key:  ········································
-    
-
-#### Make an API call
-
-The following section will walk through how to create a Census API call. There are three key inputs before we make our request and that includes variables, year, and the API Key. The variables specify the information we would like to extract from our query. The variable can be changed to pull different population groups that differ on age, sex, and race. A table of the available variables are found here: <https://api.census.gov/data/2019/acs/acs1/variables.html>. For this use case example, we are looking at total population as well as African American population, both in the United States, which are the variables 'B01001_001E' and 'B02001_003E' respectively. Additionally we are looking at data from 2020. This information along with our Census API key will allow us to extract relevant data.
-
-Using Python requests we are able to gather the data from the URL, and convert it to a JSON (Javascript Object Notation). This allows for easy data manipulation. 
-
-
-
 ```python
+# total population and African American population use Census codes B01001_001E and B02001_003E, respectively
 census_variables = ('B01001_001E', 'B02001_003E')
 year = 2020
 url = (
@@ -300,281 +161,12 @@ url = (
 )
 response = requests.get(url)
 columns = response.json()[0]
-```
-
-
-```python
 pd.set_option('display.max_rows',10)
 df = pd.read_json(response.text)
-df
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>NAME</td>
-      <td>B01001_001E</td>
-      <td>B02001_003E</td>
-      <td>state</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Pennsylvania</td>
-      <td>12794885</td>
-      <td>1419582</td>
-      <td>42</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>California</td>
-      <td>39346023</td>
-      <td>2250962</td>
-      <td>06</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>West Virginia</td>
-      <td>1807426</td>
-      <td>64285</td>
-      <td>54</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Utah</td>
-      <td>3151239</td>
-      <td>38059</td>
-      <td>49</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>Delaware</td>
-      <td>967679</td>
-      <td>212795</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>Puerto Rico</td>
-      <td>3255642</td>
-      <td>367906</td>
-      <td>72</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>Kentucky</td>
-      <td>4461952</td>
-      <td>361230</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>South Dakota</td>
-      <td>879336</td>
-      <td>18836</td>
-      <td>46</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>Tennessee</td>
-      <td>6772268</td>
-      <td>1128806</td>
-      <td>47</td>
-    </tr>
-  </tbody>
-</table>
-<p>53 rows × 4 columns</p>
-</div>
-
-
-
-#### Put JSON data into a Pandas dataframe
-
-Once we have the data stores as a JSON, we can convert them to a Pandas Data Frame, to allow for more human readable understanding. The columns are renated to delineate the state name, the total USA population for each state, African American population, as well as the State ID (determined by the US Census). 
-##### We convert the data frame columns to numeric values( strings to floats). This will allow us to divide the two columns to determine the percentage of African American population in each state. 
-
-
-```python
 df = pd.DataFrame(response.json()[1:]).rename(columns={0: 'NAME', 1: 'total_pop', 2: 'aa_pop', 3: 'state_id'})
 df['total_pop'] = pd.to_numeric(df['total_pop'])
 df['aa_pop'] = pd.to_numeric(df['aa_pop'])
 df['aa_pct'] = (df['aa_pop'] / df['total_pop'] * 100).round()
-
-df
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>NAME</th>
-      <th>total_pop</th>
-      <th>aa_pop</th>
-      <th>state_id</th>
-      <th>aa_pct</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Pennsylvania</td>
-      <td>12794885</td>
-      <td>1419582</td>
-      <td>42</td>
-      <td>11.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>California</td>
-      <td>39346023</td>
-      <td>2250962</td>
-      <td>06</td>
-      <td>6.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>West Virginia</td>
-      <td>1807426</td>
-      <td>64285</td>
-      <td>54</td>
-      <td>4.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Utah</td>
-      <td>3151239</td>
-      <td>38059</td>
-      <td>49</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>New York</td>
-      <td>19514849</td>
-      <td>3002401</td>
-      <td>36</td>
-      <td>15.0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>Delaware</td>
-      <td>967679</td>
-      <td>212795</td>
-      <td>10</td>
-      <td>22.0</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>Puerto Rico</td>
-      <td>3255642</td>
-      <td>367906</td>
-      <td>72</td>
-      <td>11.0</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>Kentucky</td>
-      <td>4461952</td>
-      <td>361230</td>
-      <td>21</td>
-      <td>8.0</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>South Dakota</td>
-      <td>879336</td>
-      <td>18836</td>
-      <td>46</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>Tennessee</td>
-      <td>6772268</td>
-      <td>1128806</td>
-      <td>47</td>
-      <td>17.0</td>
-    </tr>
-  </tbody>
-</table>
-<p>52 rows × 5 columns</p>
-</div>
-
-
-
-#### Map Creation- Step 1
-
-Next, using our data frame we will create a map of the United States, that lists the total population, African American population, and the perecentage of African American population. 
-
-To create our map we will need the state outlines and locations. For accuracy, we can query this data directly from the Census website. The Census provides shape files for the outline of the 50 states. We will temporarily download the files and use them to build our map. The folder with the shape file will be deleted afterwards by the code. The shape files is transformed into a json, and added onto the previous constructed data frame. 
-
-
-```python
-import requests
-
-shape_zip = requests.get('https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_state_500k.zip').content
-
-from tempfile import TemporaryDirectory
-
-import geopandas as gpd
 
 with TemporaryDirectory() as temp_dir:
     with open(f"{temp_dir}/states.zip", "wb") as zip_file:
@@ -585,15 +177,6 @@ with TemporaryDirectory() as temp_dir:
         #states_gdf.rename(columns={5: 'state'})
 
 states_json = states_gdf.merge(df, on="NAME").to_json()
-```
-
-#### Map Creation- Step 2
-Then using the choropleth function in Folium, we are able to create a heat map for the state populations from the census data. 
-We will set the map bounds for the contigous United States to prevent zooming to other locations. 
-The Choropleth is set up to provide a heat map, based on the  percentage of African American people in each state. This is set through the columns and key_on feature. Lastly to allow the hovering mechancis we can use a folium feature called tool tip. 
-
-
-```python
 pop_map = folium.Map(tiles= 'Stamen Terrain',height=500)
 
 # Bounds for contiguous US - starting bounds for map
@@ -623,40 +206,13 @@ cp.add_to(pop_map)
 
 display(pop_map)
 ```
+![Map of the United States showing percent of African American/Black Population from the 2020 Census](img/us_census_api.png)
 
+##### USGS recent earthquake map
 
-### USGS API to map earthquakes on world map
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
-![Alt text](usgs_recent_earthquakes.png)
-
-[![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb)
-
-This Jupyter notebook will walk through how to access an API that is available through USGS that details earthquakes over a certain magntiude that occured over a specific time period. The goal of this notebook is to take the USGS hourly/weekly/monthly earthquake RSS feed ( <https://earthquake.usgs.gov/earthquakes/feed/>) and plot the earthquakes and their relevant magnitudes using a Python Package called Folium (<https://python-visualization.github.io/folium/>).
- 
-#### Requirements
-
-* folium  
-* geopandas  
-* requests  
-* json  
-* numpy
-
-#### Install packages
-
-To begin building, we will install first install the Folium Python Package which we will use later on. To install them, we will use the "pip install" framework. The other required packages are already part of Python, so there is no reason to separately install them. 
-
-
-```python
-pip install -q folium
-```
-
-    Note: you may need to restart the kernel to use updated packages.
-    
-
-#### Import packages
-
-Next to set-up the notebook we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy (<https://numpy.org/>) and Pandas (<https://pandas.pydata.org/>).
-
+This Jupyter notebook demonstrates the USGS API for retrieving details of earthquakes over a certain magntiude that occured over a specific time period. The goal of this notebook is to take the USGS hourly/weekly/monthly earthquake RSS feed ( https://earthquake.usgs.gov/earthquakes/feed/) and plot the earthquakes and their relevant magnitudes using the Folium Python package(https://python-visualization.github.io/folium/). This API does not require a key.
 
 ```python
 import requests
@@ -664,30 +220,11 @@ import numpy
 import json
 import pandas as pd
 import folium
-```
 
-#### Make an API Call 
-
-We then call the USGS API via the the following URL (details can be found here <https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php>). Calling the API directly can be helpful as the URL is constantly updated and will provide the most up to date information. This example references the earthquake feed for events that occured in the last month that are over Mw= 2.5. We will convert the url into a data parseable form, JSON (JavaScript Object Notation). 
-
-
-```python
 url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson'
 r = requests.get(url)
 json_data= r.json()
-# Print beginning of JSON string
-print(str(json_data)[0:1000] + '...')
-```
 
-    {'type': 'FeatureCollection', 'metadata': {'generated': 1684260883000, 'url': 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson', 'title': 'USGS Magnitude 2.5+ Earthquakes, Past Month', 'status': 200, 'api': '1.10.3', 'count': 1730}, 'features': [{'type': 'Feature', 'properties': {'mag': 2.81, 'place': 'Puerto Rico region', 'time': 1684259328900, 'updated': 1684260670420, 'tz': None, 'url': 'https://earthquake.usgs.gov/earthquakes/eventpage/pr71409643', 'detail': 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71409643.geojson', 'felt': None, 'cdi': None, 'mmi': None, 'alert': None, 'status': 'reviewed', 'tsunami': 0, 'sig': 121, 'net': 'pr', 'code': '71409643', 'ids': ',pr71409643,', 'sources': ',pr,', 'types': ',origin,phase-data,', 'nst': 20, 'dmin': 0.05666, 'rms': 0.11, 'gap': 220, 'magType': 'md', 'type': 'earthquake', 'title': 'M 2.8 - Puerto Rico region'}, 'geometry': {'type': 'Point', 'coordinates': [-66.9516666666667, 17.9328333333333, 9...
-    
-
-#### Understanding JSON keys
-
-Once we have the data in the JSON format, we need to identify what data we need from the output to map the data. JSON "keys" are found on the left side of the colons, such as "geometry" and "features". Values for the keys are found on the right side of the colons and give details about those keys. To build a map of the earthquakes, we will pull the coordinate information from the "geometry" key, as well as the title of the earthquake from the "properties key". The values are collected through a "for loop" and are saved for future use. 
-
-
-```python
 lat1 = []
 lon1 = []
 captions = []
@@ -701,217 +238,40 @@ for earthquake in json_data['features']:
     names=(labelmarkers)
     captions.append(names)
 
-```
-
-#### List of sites and magnitudes 
-
-Using a simple zip function, we are able to put the coordinates and the title/magnitude for the earthquakes into a list.
-
-
-
-
-```python
 mapinfo_list  = list (zip(lat1,lon1, captions))
-```
 
-#### Dataframe creation 
-
-From the list we are able to convert the information to a dateframe which makes data easier to digest. 
-
-
-
-
-```python
 df = pd.DataFrame(mapinfo_list,columns =['latitude','longitude','title'])
-df
-```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>latitude</th>
-      <th>longitude</th>
-      <th>title</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>-66.951833</td>
-      <td>17.919000</td>
-      <td>M 2.6 - 7 km SW of Guánica, Puerto Rico</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>143.115700</td>
-      <td>-4.522900</td>
-      <td>M 5.0 - 47 km SE of Ambunti, Papua New Guinea</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>-155.238000</td>
-      <td>19.418333</td>
-      <td>M 3.1 - 2 km S of Volcano, Hawaii</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>-173.769300</td>
-      <td>53.028500</td>
-      <td>M 4.3 - 97 km NNE of Atka, Alaska</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>-149.608200</td>
-      <td>62.331000</td>
-      <td>M 3.8 - 22 km NE of Susitna North, Alaska</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>1725</th>
-      <td>127.524000</td>
-      <td>-49.277100</td>
-      <td>M 4.5 - western Indian-Antarctic Ridge</td>
-    </tr>
-    <tr>
-      <th>1726</th>
-      <td>-66.954167</td>
-      <td>17.947000</td>
-      <td>M 2.8 - 5 km WSW of Guánica, Puerto Rico</td>
-    </tr>
-    <tr>
-      <th>1727</th>
-      <td>-124.390000</td>
-      <td>40.528667</td>
-      <td>M 2.5 - 12km WSW of Ferndale, CA</td>
-    </tr>
-    <tr>
-      <th>1728</th>
-      <td>-179.044800</td>
-      <td>51.086900</td>
-      <td>M 3.1 - 188 km WSW of Adak, Alaska</td>
-    </tr>
-    <tr>
-      <th>1729</th>
-      <td>-176.159700</td>
-      <td>50.548700</td>
-      <td>M 3.1 - 151 km SSE of Adak, Alaska</td>
-    </tr>
-  </tbody>
-</table>
-<p>1730 rows × 3 columns</p>
-</div>
-
-
-
-#### Map Creation 
-
-The final step is to create the map with the earthquake information collated so far. Using Folium documentation (<https://python-visualization.github.io/folium/>) we will set up a simple map, using locations from the dataframe. 
-
-
-```python
-for index, location_info in df.iterrows():
-    my_map=folium.Map(locations=[location_info["longitude"],location_info["latitude"]],zoom_start=10, control_scale=True,tiles= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+title_html = '''
+     <head><style> html { overflow-y: hidden; } </style></head>
+     ''' 
+my_map=folium.Map(zoom_start=10, control_scale=True,tiles= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
                         attr='ESRI')
-my_map
-```
-
- The final folium cell allows the user to add the marker/title and other changes to the base map previously created. Here we added markers and titles to the map. The final map shows the earthquake locations and pop-ups with the name and magintude. Given your project, you could extract various data from the json and create relevant maps/figures with that data.
-
-
-```python
 for index, location_info in df.iterrows():
     folium.Marker([location_info["longitude"], location_info["latitude"]],popup=location_info["title"], color ='purple').add_to(my_map)
+my_map.get_root().html.add_child(folium.Element(title_html))
+
 my_map
 ```
+![map of recent earthquakes in the United States](img/usgs_recent_earthquakes.png)
 
+##### USGS Shakemap contours
 
-### USGS Shakemap API
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
-![Alt text](usgs_shakemap_api.png)
+This Jupyter notebook will walk through how to access an USGS Shakemap API. The goal of this example is to use an API request to retrieve a USGS Shakemap (https://earthquake.usgs.gov/data/shakemap/) and plot the shakemap for the earthquake using a Python Package called Folium (https://python-visualization.github.io/folium/)
 
-[![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb)
-
-
-This Jupyter notebook will walk through how to access an USGS Shakemap API. The goal of this example is to use an API request to retrieve a USGS Shakemap (<https://earthquake.usgs.gov/data/shakemap/>) and plot the shakemap for the earthquake using a Python Package called Folium (<https://python-visualization.github.io/folium/>)
- 
- 
-#### Requirements
-
-* folium  
-* geopandas  
-* requests  
-* json  
-* numpy  
-* pandas
-
-#### Install packages
-To begin building, we will install first install the Folium Python Package which we will use later on. To install folium, we will use the "pip install" framework
-
-
-```python
-pip install -q folium
-```
-
-    Note: you may need to restart the kernel to use updated packages.
-    
-
-#### Import packages
-Next to set-up the notebook we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. 
-
-
-```python
+```Python
 import requests
 import numpy as np
 import json
 import pandas as pd
 import folium
+from folium.features import DivIcon
 
-```
-
-#### API Data Call
-A url request is made to the USGS website, to download shakemap contours. Users can navigate to any specific event of their liking and use the url in the "Download data" section of the event. For this example, we will be looking at the Mw=4.2 earthquake off the coast of Malibu (<https://earthquake.usgs.gov/earthquakes/eventpage/ci40161279/executive>). "Get requests" is used to pull the url information, and is then saved into a variable with a JSON Format. 
-
-
-```python
 url = 'https://earthquake.usgs.gov/product/shakemap/40161279/ci/1675464767472/download/cont_pga.json'
 r = requests.get(url)
 json_data= r.json()
-```
-
-#### GeoJSON output 
-
-To understand the GEOJSON output from the URL request you can look to the USGS summary here: <https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php>. The main points to include are that the each earthquake has its own features. For our case, we are looking at Peak Ground Intensity contours, and therefore each "feature" is for a different PGA interval. The interval is indicated in the "value" and is a nested key under features. Within the "features" there are also coordinates for the pga contours that we will use to recreate the shake map. 
-
-#### Map Creation 
-
-To create a map, we will utilize a for loop within Folium. We first initialize our map, m with a general latitude and longitude. We also use the tile "Stamen Terrain" as our base layer for our map. We loop through the json_data via the different features, and plot the differnet PGA contours. We need to flip the coordinates, to ensure the values are plotted correctly, and the "polyline" function is used to connect the contours. Lasktly a marker is added to each polyline to denote the PGA value.
-
-
-```python
-from folium.features import DivIcon
 
 m=folium.Map(locations=[40.525,-124.423],zoom_start=25,control_scale=True,tiles= 'Stamen Terrain',
                         attr='ESRI')
@@ -941,41 +301,15 @@ for feature in json_data['features']:
          ).add_to(m)
 m
 ```
+![Plot of USGS Shakemap contours showing peak ground acceleration for an earthquake in southern California](img/usgs_shakemap_api.png)
 
+##### NOAA hourly wind data
 
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
-### NOAA API Use Case 
+The following use case will detail data from the NOAA Co-OPS Data Retrieval API. You can learn more information here :https://api.tidesandcurrents.noaa.gov/api/prod/. Data regarding tidal/water levels, wind data, temperature data, air temperature/pressure, conductivity, visibility, humidity, and salinity are available. The locations where data is availble is based on buoy and instrumentation location. Predictions as well as reviewed NOAA data is available to users.
 
-![Alt Text](noaa_api.png)
-
-[![Try on DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/name/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb)
-
-The following use case will detail data from the NOAA Co-OPS Data Retrieval API. You can learn more information here: <https://api.tidesandcurrents.noaa.gov/api/prod/>. Data regarding tidal/water levels, wind data, temperature data, air temperature/pressure, conductivity, visibility, humidity, and salinity are available. The locations where data is availble is based on buoy and instrumentation location. Predictions as well as reviewed NOAA data is available to users. 
-
-#### Requirements
-
-* folium  
-* matplotlib
-* requests  
-* json  
-* numpy  
-
-
-#### Install packages
-
-pip install MatplotLib, a Python package that will allow us to plot the data. 
-
-
-```python
-!pip install -q matplotlib
-```
-
-#### Import packages
-
-Next to set-up the use case we will call various packages and modules using the " import function". This will allow us to more seamlessly use the packages as needed throughout the notebook. Packages inclue NumPy(<https://numpy.org/>) and Pandas (<https://pandas.pydata.org/>).
-
-
-```python
+```Python
 import requests 
 import numpy as np
 import pandas as pd
@@ -983,15 +317,6 @@ import folium
 import json
 import matplotlib.pyplot as plt
 from pandas import json_normalize
-```
-
-#### Gathering data from API Call 
-
-The following example will be plotting Wind Data (Hourly) in Key West, FL during July 2021. The url should include information as a start and end date, the product, units, station number, and what format you would like the data. More information for how to build the API again can be found 
-<https://api.tidesandcurrents.noaa.gov/api/prod/>. Here we are using Python Requests, retrieving the data, and converting it into a Pandas Dataframe. 
-
-
-```python
 
 url = ("https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20210701&end_date=20210731&station=8724580&product=wind&time_zone=lst_ldt&interval=h&units=english&application=DataAPI_Sample&format=json")
 
@@ -1000,30 +325,7 @@ json_data= r.json()
 data = json_data['data']
 df = json_normalize(data)
 df["s"] = pd.to_numeric(df["s"], downcast="float")
-print(df)
-```
 
-                        t      s       d   dr      g    f
-    0    2021-07-01 00:00   4.86  103.00  ESE   8.36  0,0
-    1    2021-07-01 01:00  12.44  164.00  SSE  20.02  0,0
-    2    2021-07-01 02:00   6.80  178.00    S  10.30  0,0
-    3    2021-07-01 03:00   4.67  195.00  SSW   8.75  0,0
-    4    2021-07-01 04:00   3.69  219.00   SW   4.86  0,0
-    ..                ...    ...     ...  ...    ...  ...
-    739  2021-07-31 19:00   5.64  122.00  ESE   7.19  0,0
-    740  2021-07-31 20:00   3.50  117.00  ESE   6.22  0,0
-    741  2021-07-31 21:00    NaN                      1,1
-    742  2021-07-31 22:00   7.00  132.00   SE   8.75  0,0
-    743  2021-07-31 23:00   5.44  123.00  ESE   8.16  0,0
-    
-    [744 rows x 6 columns]
-    
-
-#### Plotting data using Matplotlib 
-The hourly wind data is plotted with data and times on the x axis and the Wind Speed in Knots on the y axis. The date/time data is shown only at certain intervals to prevent overcrowding of the axis and is then rotated for ease of reading. 
-
-
-```python
 fig, ax = plt.subplots()
 FL =ax.plot(df["t"], df["s"], label= 'Windspeed (knots)')
 ax.set_xticks(ax.get_xticks()[::50])
@@ -1035,5 +337,9 @@ ax.set_xlabel("Date")
 ax.set_ylabel("Wind Speed (knots)")
 ax.grid(True,alpha=0.5)
 ```
+![Plot of wind speed versus time in Key West during July 2021](img/noaa_api.png)
 
+#### Citations and Licensing
 
+- Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246">Rathje et al. (2017)</a> to acknowledge use of DesignSafe resources.
+- This software is distributed under the [MIT License](license.md).
