@@ -57,4 +57,9 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    - Use Cases Products: usecases.md
+    - General: generalusecases.md
+    - GeoHazard: geohazardusecases.md
+    - Hurricane: hurricaneusecases.md
+    - Seismic: seismicusecases.md
+    - API: apiusecases.md
+

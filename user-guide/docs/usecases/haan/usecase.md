@@ -1,5 +1,4 @@
-### Using Taggit to Browse and Tag Hurricane Irma Damage Survey Images on DesignSafe
-
+**Using Taggit to Browse and Tag Hurricane Irma Damage Survey Images on DesignSafe**   
 **Fred L. Haan, Jr - Calvin University**  
 
 Taggit allows users to browse images files on DesignSafe and tag them for later use in analysis or mapping applications. It also easily connects to HazMapper to map image locations. This use case illustrates how photos from a 2017 damage survey in the Florida Keys after Hurricane Irma were organized into groups and tagged for later analysis. The example makes use of the following DesignSafe resources:
@@ -7,21 +6,20 @@ Taggit allows users to browse images files on DesignSafe and tag them for later 
 [Taggit](https://taggit-tacc.github.io/){target=_blank}<br/>
 [HazMapper](https://www.designsafe-ci.org/rw/workspace/#!/Hazmapper-1.0){target=_blank}
 
-#### Background
-##### Citation and Licensing
+### Citation and Licensing
 
 * Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
 
 
-#### Getting Started and Creating a Gallery 
+### Getting Started and Creating a Gallery 
 The collapsed menus icon (shown below) opens the main menu of Taggit and enables creating a gallery, selecting from existing galleries, and opening the file browser. For this project, "Create Gallery" was selected to get started. 
 
 ![CreateProject2](./img/CreateProject2.PNG){: width="400" }
 
 
-#### Loading Image Files
+### Loading Image Files
 
 Image files can be loaded into an existing project by selecting "File Browser" from the main menu. This enables access to all parts of DesignSafe including My Data, Community Data, Published Project, and My Projects. For this project, the PI's images from the Irma damage survey were selected.
 
@@ -32,7 +30,7 @@ Clicking Import brings the selected files into the gallery, and you see thumbnai
 ![caption](img/ThumbNails.JPG)
 
 
-#### Creating Groups and Organizing Images
+### Creating Groups and Organizing Images
 
 Groups were created for this gallery to organize the photos into types of structures and types of damage. Clicking on one or more images generates a green border that denotes selected images. The Add Group button (see below) was used to create names for groups.
 
@@ -65,7 +63,7 @@ The icons associated with each group were customized by clicking on the icon and
 
 
 
-#### Creating Tags for Images
+### Creating Tags for Images
 
 The Tag Images area below the Image List was used to create custom tags for images. 
 
@@ -82,8 +80,7 @@ The colors assigned with a Color Tag will be used if the user decides to map the
 ![caption](img/ColorTag3.JPG)
 
 
-
-#### Plotting Images Locations with HazMapper
+### Plotting Images Locations with HazMapper
 
 Clicking the HazMapper button launches HazMapper to see all the photos from this gallery located on a map.
 
@@ -102,9 +99,7 @@ Zooming in to regions where images were taken shows that a generic camera icon o
 ![caption](img/HazMapperMap2.JPG)
 
 
-
-
-#### Exporting Tag Data as CSV Files
+### Exporting Tag Data as CSV Files
 
 From the main menu, the user can select several options (see below) for exporting the group and tag information from the current project. These files can be used for further analysis or for machine learning applications.
 
