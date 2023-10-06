@@ -1,107 +1,99 @@
-**Using Taggit to Browse and Tag Hurricane Irma Damage Survey Images on DesignSafe**   
-**Fred L. Haan, Jr - Calvin University**  
+**Using HazMapper and Taggit to browse thumbnails of large numbers of images and map their locations**   
+**Fred Haan – Calvin University Key Words: Taggit, HazMapper, image browsing**
 
-Taggit allows users to browse images files on DesignSafe and tag them for later use in analysis or mapping applications. It also easily connects to HazMapper to map image locations. This use case illustrates how photos from a 2017 damage survey in the Florida Keys after Hurricane Irma were organized into groups and tagged for later analysis. The example makes use of the following DesignSafe resources:
+### Resources 
 
-[Taggit](https://taggit-tacc.github.io/){target=_blank}<br/>
-[HazMapper](https://www.designsafe-ci.org/rw/workspace/#!/Hazmapper-1.0){target=_blank}
+The example makes use of the following DesignSafe resources:
 
-### Citation and Licensing
+* <https://hazmapper.tacc.utexas.edu/hazmapper>
+* <https://hazmapper.tacc.utexas.edu/taggit>
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+### Description
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
+This use case demonstrates how to use HazMapper and Taggit applications on DesignSafe to browse through large numbers of image files. HazMapper and Taggit should be considered different ways of viewing the same set of images. You see a thumbnail Gallery of those images when you use Taggit, and you see a Map of those images when you use HazMapper, but it is the same *.hazmapper file in both cases.
 
+NOTE: You always start a Map/Gallery file in HazMapper. All browsing/mapping starts with HazMapper, and you can switch back and forth between the apps as you wish.
 
-### Getting Started and Creating a Gallery 
-The collapsed menus icon (shown below) opens the main menu of Taggit and enables creating a gallery, selecting from existing galleries, and opening the file browser. For this project, "Create Gallery" was selected to get started. 
+### Implementation
 
-![CreateProject2](./img/CreateProject2.PNG){: width="400" }
+**Creating a Map/Gallery and Browsing Images**
 
+Taggit and HazMapper allow you to browse and map image files that are on DesignSafe. This document shows you how to get started with Taggit and HazMapper for a set of images available on DesignSafe.
 
-### Loading Image Files
+As an example workflow, we will consider a damage survey dataset from the December 2021 Midwest tornado outbreak (see below).
 
-Image files can be loaded into an existing project by selecting "File Browser" from the main menu. This enables access to all parts of DesignSafe including My Data, Community Data, Published Project, and My Projects. For this project, the PI's images from the Irma damage survey were selected.
+![A screenshot of a computer](img/image001.png)
 
-![caption](img/SelectImageFiles.JPG)
+If you were looking at this project on DesignSafe, you might be interested in seeing the image files in the folder shown below.
 
-Clicking Import brings the selected files into the gallery, and you see thumbnails of the images as shown below.
+![Description automatically generated with medium confidence](img/image002.png)
 
-![caption](img/ThumbNails.JPG)
+In order to browse thumbnail images of these photographs or see them laid out on a map, you can launch HazMapper to get started.
 
+NOTE: All browsing/mapping starts with HazMapper. HazMapper and Taggit are just different ways of viewing the same Map/Gallery.
 
-### Creating Groups and Organizing Images
-
-Groups were created for this gallery to organize the photos into types of structures and types of damage. Clicking on one or more images generates a green border that denotes selected images. The Add Group button (see below) was used to create names for groups.
-
-![caption](img/AddGroup.JPG)
-
-The add group dialog box enables naming the groups.
-
-![caption](img/GroupName.JPG)
-
-Once a group or groups is created, the Taggit button appears (see below). The Taggit button takes you to the Taggit screen where you can see the images in their groups and begin to create tags.
-
-![caption](img/TaggitButton.JPG)
-
-The Taggit screen is shown below. Here you can see the groups that have been created and the images in each group. The Gallery button toggles back to the thumbnail gallery.
-
-![caption](img/TaggitScreenIntro.JPG)
-
-When hovering over any given image in the thumbnail gallery, several icons will appear. The Zoom, Remove, and Add to Group buttons appear in the upper right. The Add To Group button provides another way to add an image to a group. The box in the lower right shows colored boxes representing each group this image belongs to.
-
-![caption](img/ThumbNailButtons2.JPG)
-
-After creating a number of groups and adding images to those groups, the Taggit view looks like the image below. From this view, you can browse through the groups and through the images in each group.
-
-![caption](img/GroupsAndImages.JPG)
-
-The icons associated with each group were customized by clicking on the icon and selecting different ones from the list.
-
-![caption](img/GroupListIcons.JPG)
+So to get started, we launch HazMapper from the Visualization tab of the Tools and Applications page of the DesignSafe Workspace.
 
 
+![](img/image003.png)
+![](img/image004.png)
+
+Once HazMapper is up, click on “Create a New Map” as shown below:
+
+![](img/image005.png)
+![](img/image006.png)
+
+Fill out a name and description of the “Map” you will create. This Map will also be a Gallery in Taggit. You then select a Save Location for your Map/Gallery by pulling down the menu on the right:
 
 
-### Creating Tags for Images
+![](img/image003.png)
+![](img/image007.png)
 
-The Tag Images area below the Image List was used to create custom tags for images. 
+When you are selecting a Save Location, you should probably select from MyProjects. That way, you can share your Map/Gallery with other users. I selected a project called “Tornado Damage Research” as shown below. 
 
-![caption](img/TagImagesArea.JPG)
+![](img/image008.png)
 
-For this group, a Color Tag representing damage was created (see below).
+Next you click on Assets and Import from DesignSafe to load the images you want to see:
 
-![caption](img/ColorTag1.JPG)
+![](img/image009.png)
 
-![caption](img/ColorTag2.JPG)
+I’m going to select files from the StEER – 10 December 2021 Midwest Tornado Outbreak project:
 
-The colors assigned with a Color Tag will be used if the user decides to map the image using HazMapper.
+![](img/image010.png)
 
-![caption](img/ColorTag3.JPG)
+Once you navigate to the folder containing the image files you want, you can use shift-select to select multiple files to import:
+
+![](img/image011.png)
+
+Once you press Import, you will see messages about successful imports on the right side of the screen:
+
+![](img/image012.png)
+
+**Browsing Thumbnail Images in Taggit**
+
+Once you’ve loaded your images, you can zoom in on your map to see the location of each photo. However, for this Taggit workflow demonstration, we will click on Manage and select View in Taggit as show below:
+
+![](img/image013.png)
+![](img/image014.png)
+
+This will launch Taggit and show thumbnail images of all the photos that were just loaded in HazMapper. You can now browse through all the photos as shown below.
+
+![](img/image015.png)
+
+You can then add more photos to the Gallery using the pull-down menu in the upper-left corner. Selecting Import image from DesignSafe gives you access to all the files on DesignSafe.
+
+![](img/image016.png)
+![](img/image017.png)
+
+If you want to go back to HazMapper and put all the photos on a map, click the View in HazMapper button in the upper right corner of the screen.
 
 
-### Plotting Images Locations with HazMapper
+![](img/image003.png)
+![](img/image018.png)
 
-Clicking the HazMapper button launches HazMapper to see all the photos from this gallery located on a map.
+### Citations and Licensing
 
-![caption](img/HazMapperButton.JPG)
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please cite Kijewski-Correa et al. (2021) to acknowledge PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
 
-For this gallery, a Roads layer was added to the map.
-
-![caption](img/CreateLayerWindow.JPG)
-
-The locations of collections of images are denoted with numbers on the map.
-
-![caption](img/HazMapperMap1.JPG)
-
-Zooming in to regions where images were taken shows that a generic camera icon or a user-selected icon denotes image location. If a Color tag was assigned to a given image, then that color will be used for the HazMapper icon.
-
-![caption](img/HazMapperMap2.JPG)
-
-
-### Exporting Tag Data as CSV Files
-
-From the main menu, the user can select several options (see below) for exporting the group and tag information from the current project. These files can be used for further analysis or for machine learning applications.
-
-![caption](img/SaveAsCSV.JPG)
-
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a> to acknowledge the use of DesignSafe
+resources.

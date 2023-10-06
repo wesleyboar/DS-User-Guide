@@ -9,7 +9,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ---
 
-## Taggit - Image Tagging
+## Basic Image Browsing and Mapping
 
 {% include-markdown 'haan/usecase.md' %}
 
