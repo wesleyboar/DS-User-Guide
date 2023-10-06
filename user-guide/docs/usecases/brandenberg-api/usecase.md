@@ -5,7 +5,7 @@ This use case provides some background information on application programming in
 
 Key Words: API, Application Programming Interface, Jupyter, Python, requests, US Census, USGS, NASA, NOAA
 
-#### Resources
+### Resources
 
 <table>
  <tr>
@@ -40,15 +40,15 @@ Key Words: API, Application Programming Interface, Jupyter, Python, requests, US
  </tr>
 </table>
 
-#### Description
+### Description
 
-##### What is an API?
+#### What is an API?
 
 An Application Programming Interface (API) is software that enables communication between two components, typically on different computers. For simplicity, we'll refer to a client and a server as the two different software components. Many API's are configured such that the client submits information to the server via a query string at the end of a Uniform Resource Locator (URL). The server receives the URL, parses the query string, runs a script to gather requested information often by querying a relational database, and returns the data to the client in the requested format. Example formats include html, xml, json, or plain text.
 
 A primary benefit of API's is that users can retrieve information from the database using intuitive query string parameters, without requiring users to understand the structure of the database. Furthermore, databases are generally configured to reject connections originating from another computer for security reasons. The API is a middle-layer that allows users to submit a request to the server, but the query itself then originates from the same server that hosts the database.
 
-##### Authentication, Authorization, Keys, and Tokens
+#### Authentication, Authorization, Keys, and Tokens
 
 Authentication verifies the identity of a user, generally by entering a username and password, and sometimes through additional measures like multi-factor authentication. When a user authenticates through a website, the server may store information about that user in a manner that persists through the user session. 
 
@@ -60,17 +60,17 @@ API keys are designed to identify the client to the server. In some cases you ma
 
 Tokens are similar to keys in that they are text strings, but they often carry additional information required to authorize the user (i.e., the token bearer). Tokens are often generated when a user authenticates, and set to expire after a specified time period, at which point the user must re-authenticate to obtain a new token.  
 
-##### HTTP Status Codes
+#### HTTP Status Codes
  
 By default, the print(r) command above contains information about the HTTP status code, which indicates whether the request was succesful. A successful request will result in a 3-digit HTTP status code beginning with 2 (i.e., 2xx), with "Response \[200\]" indicating that the request was successful. Status code 1xx means that the request was received but has not yet been processed, 3xx means that the user must take additional action to complete the request, 4xx indicates a client error, and 5xx indicates that the server failed to fulfill a request
  
 More about HTTP status codes: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes 
 
-#### Implementation
+### Implementation
 
 The use cases below provide a description of each API followed by code required to run the API, and output produced at the time the documentation was written. The code provided in the documentation has been shortened; a more fully-documented version of the code exists in the Jupyter notebooks, where code is often distributed among multiple cells with annotations prior to each cell. The output presented in the documentation may differ from the output obtained by running one of the notebooks. This is because the notebooks pull live data from an API, and will therefore be different from the data that was pulled at the time the documentation was created.
 
-##### NASA Astronomy Picture of the Day
+#### NASA Astronomy Picture of the Day
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
@@ -133,7 +133,7 @@ url: https://apod.nasa.gov/apod/image/2309/BlueHorse_Grelin_1080.jpg
 
 Description: Do you see the horse's head? What you are seeing is not the famous Horsehead nebula toward Orion, but rather a fainter nebula that only takes on a familiar form with deeper imaging. The main part of the here imaged molecular cloud complex is a reflection nebula cataloged as IC 4592. Reflection nebulas are actually made up of very fine dust that normally appears dark but can look quite blue when reflecting the visible light of energetic nearby stars. In this case, the source of much of the reflected light is a star at the eye of the horse. That star is part of Nu Scorpii, one of the brighter star systems toward the constellation of the Scorpion (Scorpius). A second reflection nebula dubbed IC 4601 is visible surrounding two stars above and to the right of the image center.
 
-##### US Census Map
+#### US Census Map
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
@@ -208,7 +208,7 @@ display(pop_map)
 ```
 ![Map of the United States showing percent of African American/Black Population from the 2020 Census](img/us_census_api.png)
 
-##### USGS recent earthquake map
+#### USGS recent earthquake map
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
@@ -255,7 +255,7 @@ my_map
 ```
 ![map of recent earthquakes in the United States](img/usgs_recent_earthquakes.png)
 
-##### USGS Shakemap contours
+#### USGS Shakemap contours
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
@@ -303,7 +303,7 @@ m
 ```
 ![Plot of USGS Shakemap contours showing peak ground acceleration for an earthquake in southern California](img/usgs_shakemap_api.png)
 
-##### NOAA hourly wind data
+#### NOAA hourly wind data
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
@@ -339,7 +339,7 @@ ax.grid(True,alpha=0.5)
 ```
 ![Plot of wind speed versus time in Key West during July 2021](img/noaa_api.png)
 
-#### Citations and Licensing
+### Citations and Licensing
 
 - Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246">Rathje et al. (2017)</a> to acknowledge use of DesignSafe resources.
 - This software is distributed under the [MIT License](license.md).
