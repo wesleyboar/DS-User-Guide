@@ -1,5 +1,6 @@
 # Hurricane and Windstorm Use Cases 
 
+* [**Hurricane Data Integration & Visualization**](#hurricane-data-integration-visualization)
 * [**Large-Scale Ensemble Simulations of Storm Surge**](#large-scale-storm-surge)  (ADCIRC, pylauncher, Jupyter, HPC)
 * [**Creating an ADCIRC dataset**](#creating-an-adcirc-dataset)  (ADCIRC, pylauncher, Jupyter, Dataset)
 * [**Visualization of Storm Surge Impacts**](#visualizing-surge-for-regional-risks) (ADCIRC, Jupyter, QGIS)
@@ -7,6 +8,10 @@
 * [**Analysis of Field Sensor Data from Wind Events**](#field-sensing-wind-events) (Jupyter, Interactive Data Analysis)
 
 ---
+
+## Hurricane Data Integration & Visualization
+
+{% include-markdown 'pinelli/2usecase.md' %}
 
 ## Large-Scale Storm Surge
 
