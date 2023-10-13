@@ -93,7 +93,8 @@ To see the wind speeds from the NWS DAT data, select the nws_dat layer from the 
 
 In this example, the NWS wind speeds were found to be 170 mph to the southeast, 155 mph to the southwest, and 135 mph to the north. This gives a researcher a good idea of the range of wind speeds that the water tower experienced during the passage of the tornado.  This example represents just one way that Taggit image analysis data can be combined with other data sets to conduct data re-use and research.
 
-##  Citations and Licensing
+###  Citations and Licensing
+
 * Please cite Kijewski-Correa et al. (2021) to acknowledge PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
 * Please cite NOAA, National Weather Service Damage Assessment Toolkit, <a href="https://apps.dat.noaa.gov/StormDamage/DamageViewer">https://apps.dat.noaa.gov/StormDamage/DamageViewer</a>. 
 * Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a> to acknowledge the use of DesignSafe
