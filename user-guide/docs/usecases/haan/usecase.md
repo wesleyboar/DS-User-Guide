@@ -22,11 +22,11 @@ Taggit and HazMapper allow you to browse and map image files that are on DesignS
 
 As an example workflow, we will consider a damage survey dataset from the December 2021 Midwest tornado outbreak (see below).
 
-![A screenshot of a computer](img/image001.png)
+![](img/image001.png)
 
 If you were looking at this project on DesignSafe, you might be interested in seeing the image files in the folder shown below.
 
-![Description automatically generated with medium confidence](img/image002.png)
+![](img/image002.png)
 
 In order to browse thumbnail images of these photographs or see them laid out on a map, you can launch HazMapper to get started.
 
@@ -35,18 +35,15 @@ NOTE: All browsing/mapping starts with HazMapper. HazMapper and Taggit are just 
 So to get started, we launch HazMapper from the Visualization tab of the Tools and Applications page of the DesignSafe Workspace.
 
 
-![](img/image003.png)
 ![](img/image004.png)
 
 Once HazMapper is up, click on “Create a New Map” as shown below:
 
-![](img/image005.png)
 ![](img/image006.png)
 
 Fill out a name and description of the “Map” you will create. This Map will also be a Gallery in Taggit. You then select a Save Location for your Map/Gallery by pulling down the menu on the right:
 
 
-![](img/image003.png)
 ![](img/image007.png)
 
 When you are selecting a Save Location, you should probably select from MyProjects. That way, you can share your Map/Gallery with other users. I selected a project called “Tornado Damage Research” as shown below. 
@@ -57,7 +54,7 @@ Next you click on Assets and Import from DesignSafe to load the images you want 
 
 ![](img/image009.png)
 
-I’m going to select files from the StEER – 10 December 2021 Midwest Tornado Outbreak project:
+I'm going to select files from the StEER – 10 December 2021 Midwest Tornado Outbreak project:
 
 ![](img/image010.png)
 
@@ -69,11 +66,10 @@ Once you press Import, you will see messages about successful imports on the rig
 
 ![](img/image012.png)
 
-**Browsing Thumbnail Images in Taggit**
+### Browsing Thumbnail Images in Taggit
 
-Once you’ve loaded your images, you can zoom in on your map to see the location of each photo. However, for this Taggit workflow demonstration, we will click on Manage and select View in Taggit as show below:
+Once you've loaded your images, you can zoom in on your map to see the location of each photo. However, for this Taggit workflow demonstration, we will click on Manage and select View in Taggit as show below:
 
-![](img/image013.png)
 ![](img/image014.png)
 
 This will launch Taggit and show thumbnail images of all the photos that were just loaded in HazMapper. You can now browse through all the photos as shown below.
@@ -82,18 +78,14 @@ This will launch Taggit and show thumbnail images of all the photos that were ju
 
 You can then add more photos to the Gallery using the pull-down menu in the upper-left corner. Selecting Import image from DesignSafe gives you access to all the files on DesignSafe.
 
-![](img/image016.png)
 ![](img/image017.png)
 
 If you want to go back to HazMapper and put all the photos on a map, click the View in HazMapper button in the upper right corner of the screen.
 
-
-![](img/image003.png)
 ![](img/image018.png)
 
 ### Citations and Licensing
 
-·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please cite Kijewski-Correa et al. (2021) to acknowledge PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
-
-·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a> to acknowledge the use of DesignSafe
+* Please cite Kijewski-Correa et al. (2021) to acknowledge PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
+* Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a> to acknowledge the use of DesignSafe
 resources.

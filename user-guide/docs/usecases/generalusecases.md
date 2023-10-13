@@ -4,7 +4,9 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 # General Use Cases 
 
-* [**Damage Tagging of Field Images**](#taggit-image-tagging) (Taggit, HazMapper)
+* [**Basic Image Browsing and Mapping**](#taggit-image-tagging) (Taggit, HazMapper)
+* [**Grouping and Tagging Image Files**](#grouping-and-tagging-image-files) (Taggit, HazMapper)
+* [**Multi-Data Set Image Analysis in Taggit**](#) (Taggit, HazMapper)
 * [**Machine Learning and AI Resources**](#ml-and-ai) (Jupyter, Interactive Data Analytics, HPC)
 
 ---
@@ -12,6 +14,14 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 ## Basic Image Browsing and Mapping
 
 {% include-markdown 'haan/usecase.md' %}
+
+## Grouping and Tagging Image Files
+
+{% include-markdown 'haan/usecase-2.md' %}
+
+## Multi-Data Set Image Analysis in Taggit
+
+{% include-markdown 'haan/usecase-3.md' %}
 
 ## ML and AI
 
