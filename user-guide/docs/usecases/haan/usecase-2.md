@@ -35,7 +35,7 @@ As an example workflow, we will consider a damage survey dataset from the Decemb
 
 Clicking on any of the images, will put a blue border around the image and cause a Create Group to appear in the upper right corner as shown here:
 
-![](img2/image004.png)
+<!-- ![](img2/image004.png) -->
 
 Clicking on Create Group will bring up a window in which to type in a name for your new group as show here. I am creating a group for all the Grain bins. 
 
@@ -47,7 +47,7 @@ Two things then happen when you add this group. First, that image you selected b
 
 If you hover your mouse near the colored square, you will see the name of the group like this:
 
-![](img2/image008.png)
+<!-- ![](img2/image008.png) -->
 
 If you click the Taggit button, the screen will switch from the Gallery view to the Taggit view as shown below. This view will show the groups you have created and the images that are in each group. You can click on each image name to show them enlarged on the left. The Gallery/Map button in the upper right will send you back to the Gallery view.
 

@@ -4,6 +4,7 @@
 * [**Simulating the Seismic Performance of Reinforced Concrete Walls**](#seismic-response-of-concrete-walls) (OpenSees, Jupyter, HPC)
 * [**Soil-Structure-Interaction Simulations**](#soil-structure-interaction) (OpenSees, STKO, Jupyter, HPC)
 * [**Experimental Visualization of Shaking Table Data**](#experimental-shake-table-testing) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
+* [**Shake Table Data Analysis Using ML**](#shake-table-data-analysis-using-ml) 
 
 ---
 
@@ -26,4 +27,8 @@
 ## Experimental Shake Table Testing
 
 {% include-markdown 'mosqueda/usecase.md' %}
+
+## Shake Table Data Analysis Using ML
+
+{% include-markdown 'mosqueda/erler-mosqueda.md' %}
 

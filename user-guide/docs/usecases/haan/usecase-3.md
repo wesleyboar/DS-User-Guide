@@ -41,7 +41,7 @@ The U.S. National Weather Service (NWS) maintains a database called the Damage A
 
 ### Plotting Data Sets in QGIS
 
-![](img3/image004.png)
+<!-- ![](img3/image004.png) -->
 
 QGIS is used in this example both to demonstrate how it works and to show how nicely it displays the NWS wind speed estimates. Launch QGIS from the Visualization tab of the DesignSafe Tools &amp; Applications menu. Select QGIS Desktop 3.16. 
 
@@ -69,7 +69,7 @@ Click on the … symbol to select your DAT output files (which can be an entire 
 
 Zoom in on the portion of the map we’re interested in. For our example, we zoom in on Mayfield, Kentucky. Notice the “nws_dat” layer has been added to the Layers list. 
 
-![](img3/image008.png)
+<!-- ![](img3/image008.png) -->
 
 ![](img3/image013.png)
 
@@ -87,7 +87,7 @@ Now we can zoom in on the location where these new Taggit symbols appeared (see 
 
 To see the wind speeds from the NWS DAT data, select the nws_dat layer from the Layer list and select the Identify Features button from the icons across the top (see red arrows below). Once you have selected these, you can then click on any of the NWS DAT points and see the metadata for that point. The metadata includes a wind speed estimate (see the black arrows below). 
 
-![](img3/image008.png)
+<!-- ![](img3/image008.png) -->
 
 ![](img3/image020.png)
 

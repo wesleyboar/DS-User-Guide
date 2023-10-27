@@ -35,7 +35,7 @@ NOTE: All browsing/mapping starts with HazMapper. HazMapper and Taggit are just 
 So to get started, we launch HazMapper from the Visualization tab of the Tools and Applications page of the DesignSafe Workspace.
 
 
-![](img/image004.png)
+<!-- ![](img/image004.png) -->
 
 Once HazMapper is up, click on “Create a New Map” as shown below:
 
@@ -48,7 +48,7 @@ Fill out a name and description of the “Map” you will create. This Map will 
 
 When you are selecting a Save Location, you should probably select from MyProjects. That way, you can share your Map/Gallery with other users. I selected a project called “Tornado Damage Research” as shown below. 
 
-![](img/image008.png)
+<!-- ![](img/image008.png) -->
 
 Next you click on Assets and Import from DesignSafe to load the images you want to see:
 
