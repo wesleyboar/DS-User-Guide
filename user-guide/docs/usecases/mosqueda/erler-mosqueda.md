@@ -1,5 +1,6 @@
-**Leveraging Machine Learning for Identification of Shake Table Data and Post Processing**
+## Shake Table Data Analysis Using ML
 
+**Leveraging Machine Learning for Identification of Shake Table Data and Post Processing**
 **Kayla Erler and Gilberto Mosqueda – University of California San Diego**
 **Key Words: machine learning, shake table, friction, data modeling**
 

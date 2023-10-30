@@ -1,5 +1,6 @@
-**Wind Data Analysis Tools**   
+## Field Sensing Wind Events
 
+**Wind Data Analysis Tools**   
 **Soundarya Sridhar and Jean-Paul Pinelli - Florida Institute of Technology**  
 
 Florida Tech (FIT) teams  deploy networks of wireless sensors on residential houses during high impact wind events or on full scale wind tunnel models. Each team deploys pressure, temperature and humidity sensors alongside anemometry, which includes different anemometers and a conical scanning infrared lidar. The workflow starts with uploading the data to DesignSafe through authentication tokens created in Tapis. Once on DesignSafe, three Jupyter notebooks process and visualize the instruments’ data for analyses. The notebooks provide a user friendly and interactive environment that can adapt to different datasets. For this project, the notebooks perform quasi static real-time analyses, assess sensor performance, study pressure variations for different wind conditions and data correlation. The user interactivity of these notebooks facilitates an easy adaptation to different datasets with little to no-change in code.  The example makes use of the following DesignSafe resources:

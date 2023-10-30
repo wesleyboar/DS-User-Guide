@@ -1,4 +1,6 @@
 <!--# Multi-Data Set Image Analysis in Taggit -->
+## Multi-Data Set Image Analysis in Taggit
+
 
 **Combining Taggit analysis results with external data sets to do further analysis on image files**
 **Fred Haan – Calvin University**  

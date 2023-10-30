@@ -1,4 +1,4 @@
-<!-- ## Hurricane Data Integration &amp; Visualization -->
+## Hurricane Data Integration &amp; Visualization
 
 **Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization Using KeplerGl**   
 
