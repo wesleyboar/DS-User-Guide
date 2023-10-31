@@ -26,7 +26,7 @@ Wireless Sensor Network is an autonomous full-scale hurricane data measurement s
 <ul>
 	<li>Select the Hurricane Data Analysis application from the Simulation tab in the Workspace. 
 	<ul>
-		<li>You must have <a href="/rw/user-guides/tools-applications/analysis/matlab/" target="_blank">MATLAB license enabled</a> to use this app.</li>
+		<li>You must have [MATLAB license enabled](../analysis/#matlab-user-guide) to use this app.</li>
 	</ul>
 	</li>
 	<li>Select your desired desktop resolution from the dropdown menu.</li>

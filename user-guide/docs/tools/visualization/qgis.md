@@ -4,7 +4,7 @@ QGIS is a free and open source Geographic Information System. Geospatial informa
 
 You will have to fill out a form to submit your job that asks for two information (Desktop Resolution and Job name). Desktop Resolution sets the desktop screen size for your QGIS Desktop session. Additionally, you will have to select a recognizable job name in this form. Once the form is filled you can select “Launch” to submit your job.
 
-![](./imgs/qgis-1.png){: class="align-center" }
+![](./imgs/QGIS-1.png){: class="align-center" }
 
 You can track the status of your job to the right side of the application page. The status will change from “Pending” to “Staged”, “Submitting” and “Running”. These processes usually take about 1 to 2 minutes. Few seconds after the change of status to “Running”, a message will be shown on the window that allows for connection to the interactive session (see figure below).
 
