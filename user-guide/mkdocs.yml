@@ -57,19 +57,19 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    - General: 
-      - Contents: usecases/contents.md
+    - Overview: usecases/contents.md
+    - General Use Cases: 
       - Basic Image Browsing and Mapping: usecases/haan/usecase.md
       - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - API: usecases/brandenberg-api/usecase.md
 
-    - GeoHazard: 
+    - GeoHazard Use Cases: 
       - NGL Database: usecases/brandenberg-ngl/usecase.md
       - MPM Landslide: usecases/kumar/usecase.md
 
-    - Wind and Storm Surge: 
+    - Wind and Storm Surge Use Cases: 
       - Field Sensing Wind Events: usecases/pinelli/usecase.md
       - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
       - ADCIRC Datasets: usecases/dawson/usecase2.md
@@ -77,7 +77,7 @@ nav:
       - Visualizing Surge for Regional Risks: usecases/padgett/usecase.md
       - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
 
-    - Seismic: 
+    - Seismic Use Cases: 
       - OpenSees Model Calibration: usecases/arduino/usecase.md
       - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
       - Soil Structure Interaction: usecases/rathje/usecase.md
