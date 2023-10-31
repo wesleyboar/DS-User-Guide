@@ -58,6 +58,7 @@ nav:
 
   - Use Cases:
     - General: 
+      - Contents: usecases/contents.md
       - Basic Image Browsing and Mapping: usecases/haan/usecase.md
       - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
