@@ -30,7 +30,9 @@ Currently we do not pose restrictions on the volume of data users upload to and 
 
 However, for data curation and publication purposes users need to consider the sizes of their data for its proper reuse. Publishing large amounts of data requires more curation work (organizing and describing) so that other users can understand the structure and contents of the dataset. In addition, downloading very large projects may require the use of [Globus](../../managingdata/datatransfer#globus).  We further discuss data selection and quality considerations in the Data Curation section.
 
-### Data Curation 
+---
+
+### Data Curation
 
 Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication <a href="https://www.go-fair.org/fair-principles/">FAIR</a> with assurance that it will be useful for generations to come.
 
@@ -426,6 +428,9 @@ Due to variations in research methods, users may not need to use all the metadat
 </ul>
 
 </td></tr></table>
+
+---
+
 ### Data Publication
 
 #### [Protected Data](#protecteddata) { #protecteddata }
@@ -727,6 +732,7 @@ Datasets take a lot of work to produce; they are important research products. By
 
 When using social media or any presentation platform to communicate research, it is important to include the proper citation and DOI on the presentations, emails, tweets, professional blog posts, etc.. A researcher does not actually need to reuse a dataset to cite it, but rather may cite it to point/review something about a dataset (e.g., how it was collected, its uniqueness, certain facts, etc.). This is similar to the process of citing other papers within a literary review section.
 
+---
 
 ### [Data Preservation](#datapreservation) { #datapreservation }
 

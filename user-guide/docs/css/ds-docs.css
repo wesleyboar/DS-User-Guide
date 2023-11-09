@@ -29,6 +29,16 @@
 
 
 
+/* To make horizontal rules more obvious */
+/* FAQ: Our pages are so tall, that we will let users on big <hr>s */
+/* NOTE: Alternative UX is more difficult using our ReadTheDocs theme */
+hr {
+    border-top-color: #343131; /* copied from sidebar background */
+    margin-block: 5rem;
+}
+
+
+
 /* To have an auto–heading-anchor mimic appearance of manual heading-anchor */
 /* FAQ: Make auto–heading-anchor cover both heading & manual heading-anchor */
 /* FAQ: Cover the manual heading-anchor because:
