@@ -221,7 +221,3 @@ Examples in this guide:
 	<li>Emails at begin and end of job will be sent to the email address provided in the batch file.</li>
 	<li>Once the analysis is completed, output files can be transferred using Globus (or SCP client) and used LS-PrePost (or else) to visualize them.</li>
 </ul>
-
- 
----
-

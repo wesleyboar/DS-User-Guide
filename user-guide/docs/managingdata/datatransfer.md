@@ -620,6 +620,3 @@ Follow the on-screen instructions to login to your Google Drive account.
 Return to the Google Drive section of the Data Depot. You can now copy files to and from your Google Drive account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
 
 ![Complete Google Drive](./imgs/cloudstorage-1.png)
-
----
-

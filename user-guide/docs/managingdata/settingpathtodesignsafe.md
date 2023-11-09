@@ -40,6 +40,3 @@ Replace <strong>&lt;NEES-XXXX-XXXX.groups&gt;</strong> with the NEES project num
 
 
 <strong>If you have any issues setting the path to DesignSafe on Corral, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)</strong>.
-
----
-

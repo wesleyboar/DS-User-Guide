@@ -35,6 +35,3 @@ When the form is completed, you can click “Launch” to submit your job. The j
 	 <br>
 	From the Data Depot Browser to the left of job submission form, you can browse to your desired project and select the file/folder to be converted.</li>
 </ol>
-
----
-

@@ -71,7 +71,3 @@ More detailed information and STKO user documentation can be found on the <a hre
 
 </li>
 </ol>
-
-
----
-

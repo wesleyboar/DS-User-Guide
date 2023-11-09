@@ -24,6 +24,3 @@ QGIS has the following components:
 You can either use Browser Panel to browse to your dataset (e.g. mydata or projects) and drag and drop it to Layers panel for visualization or from toolbar, you can select 'Add Raster Layer' and 'Add Vector Layer' icons to select raster or vector layers respectively.
 
 A full documentation on QGIS software and its capabilities can be found at: <a href="https://docs.qgis.org/2.8/en/docs/user_manual/introduction/getting_started.html" target="_blank">https://docs.qgis.org/2.8/en/docs/user_manual/introduction/getting_started.html</a>.
-
----
-

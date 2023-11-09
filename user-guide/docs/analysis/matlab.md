@@ -51,7 +51,3 @@ MATLAB Batch that runs on HPC
 	<li>Enter an output archive location or use the default provided.</li>
 	<li>Click Run to submit your job to stampede queue.</li>
 </ul>
-
- 
----
-

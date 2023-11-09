@@ -32,6 +32,3 @@ More detailed information and Dakota user documentation can be found at the <a h
 	<li>Click Run to submit your job.</li>
 	<li>Check the job status by clicking on the arrow in the upper right of the job submission form.</li>
 </ul>
-
----
-
