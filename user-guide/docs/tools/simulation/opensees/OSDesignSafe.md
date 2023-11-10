@@ -1,11 +1,13 @@
-# OpenSees On DesignSafe
+# OpenSees User Guide
+
+## OpenSees On DesignSafe
 
 The Open System for Earthquake Engineering Simulation (<a href="http://opensees.berkeley.edu/" target="_blank">OpenSees</a>) is a software framework for developing applications to simulate the behavior of structural and geotechnical systems subjected to static and dynamic loading. It has advanced capabilities for modeling and analyzing the nonlinear response of systems using a wide range of material models, elements, and solution algorithms.
 
 The purpose of this documentation is to provide the details to help you understand the capabilities of different OpenSees applications and the different DesignSafe platforms on which they run. The choice of which application and platform to use depends on the size and scope of the job you are trying to run.
 
 
-## OpenSees Applications
+### OpenSees Applications
 
 OpenSees was conceptualized, designed, and developed with parallel computing as its core objective. An application designed for parallel computing takes advantage of multiple processors working symultaneously on independent tasks as well as on interdependent ones where the processors can pass information to each other. Within these parallel-computing design concepts, there are <b>3+1 application of OpenSees</b>, each designed with a different objective:
 
@@ -14,7 +16,7 @@ OpenSees was conceptualized, designed, and developed with parallel computing as 
 1. <b>OpenSeesMP</b> is the most versatile parallel application. It runs all the processors in parallel, each executing the same script containing individual instructions for each processor. This is the most powerful OpenSees application by giving the user full control of the job. The user can decompose the model manually by assigning different nodes, elements and loads to different processors (automated in OpenSeesSP). Alternatively, the user can assign a different analysis to each processor easily. Because of the inter-processor communication, load-balancing techniques can also be employed in the input script to minimize total run time.
 1. <b>OpenSeesPy</b> is a Python library with all the capabilities of both the sequential and parallel OpenSees applications. Because it runs in the Python environement, OpenSeesPy creates a seamless integration of OpenSees into your workflow. This integration includes Python's powerful and versatile graphics libraries so that you can use visualization of your model as well as the component behaviors in building and testing your OpenSees script. Parallel-OpenSeesPy: read the chapter on OpenSeesPy to learn how to handle it in the current version in DesignSafe.
 
-## DesignSafe Platforms
+### DesignSafe Platforms
 
 DesignSafe provides different platforms to run the OpenSees applications. These platforms have been designed with scalability in mind -- each platform is optimized for a wide range of project size and scope:
 
@@ -26,7 +28,7 @@ DesignSafe provides different platforms to run the OpenSees applications. These 
 The choice of OpenSees Application and DesignSafe platform depends on your project needs. 
 
 
-## OpenSees-Project "Size"
+### OpenSees-Project "Size"
 
 As you plan your OpenSees project on DesignSafe, you need to have an idea of the project's "size," which is defined by its scope. The project scope is defined by the size of your model and the type and number of parametric analyses.
 
@@ -58,7 +60,7 @@ Here are a few items that affect Model Size:
 
 
 
-## Decision Matrix for OpenSees Applications
+### Decision Matrix for OpenSees Applications
 
 The following figure provides the decision matrix: a visual tool for quick assessment of which OpenSees application is best suited for different run configurations, and why. The choice is based on the size of your model as well as the number and type of parametric analyses, as described below.
 
@@ -67,17 +69,17 @@ The following figure provides the decision matrix: a visual tool for quick asses
 Choose the right OpenSees application to make the best use of resources such as modeler time, run time, and computer resources. 
 
 
-## Decision Matrix for DesignSafe Platform for OpenSees
+### Decision Matrix for DesignSafe Platform for OpenSees
 
 The following table provides a comparison of all the ways you can run OpenSees on the DesignSafe CI execution platforms and configurations. Each platform has different interfaces for you to interact with OpenSees. Items in the table are placed in order of complexity and recommendation. 
 
 ![](./DecisionMatrixForOpenSeesOnDesignSafeCI.jpg)
-## Running OpenSees at the Linux Terminal
+### Running OpenSees at the Linux Terminal
 
 Several DesignSafe platforms allows you to run OpenSees directly in Linux.
 This section is dedicated to providing more details on the actual process of running OpenSees in the Linux terminal.
 
-### Basic Linux Commands
+#### Basic Linux Commands
 
 Here are the basic commands you <b>may</b> need.<br>
 However, for case of the platforms that have the integrated jupyter environment, the Interactive-VM and Jupyter Hub, most of these actions can be easily performed in the navigation panel within the workspace.
@@ -93,7 +95,7 @@ However, for case of the platforms that have the integrated jupyter environment,
     wc –l filename : how many lines in a file 
 ```
 
-#### Command to run OpenSees Applications at Linux Prompt
+##### Command to run OpenSees Applications at Linux Prompt
 
 <small>
 <table width=100%>
@@ -107,16 +109,16 @@ However, for case of the platforms that have the integrated jupyter environment,
 
 
 
-#### Running OpenSees Parallel Applications
+##### Running OpenSees Parallel Applications
 <p>The parallel OpenSees applications require the MPI, which has been preinstalled in the VM. <br>
 The Tcl-Interpreter OpenSees applications (OpenSees-Express, OpenSeesSP, and OpenSeesMP) are compiled executable programs. The MPI, therefore, will run NP processes of this executable.<br>
 OpenSeesPy, on the other hand, is a python library that has been pre-installed in the VM and is called within the python environment. In this case, therefore, the MPI will run NP Python processes and each process will call its own Python library. In addition, all three OpenSees applications are integrated into a single library, OpenSeesPy.</p>
 
-### Examples 
+#### Examples 
 
 The following examples give you the command to executed as well as a demonstration of the Interaction with OpenSees:
 
-#### Run Sequential Applications: OpenSees in the TCL interpreter
+##### Run Sequential Applications: OpenSees in the TCL interpreter
 
 command: <b><i>OpenSees</i></b>
 <br>
@@ -140,7 +142,7 @@ command: <b><i>OpenSees</i></b>
     (base) jovyan@3cd0f33abec1:~/work$ OpenSees
 ```
 
-#### Run Sequential Applications: OpenSeesPy in the Python interpreter
+##### Run Sequential Applications: OpenSeesPy in the Python interpreter
 
 command: <b><i>python</i></b>
 <br>
@@ -159,7 +161,7 @@ command: <b><i>python</i></b>
 ```
 
 
-#### Run Parallel Applications: OpenSeesMP in the TCL interpreter
+##### Run Parallel Applications: OpenSeesMP in the TCL interpreter
 
 command: <b><i>mpiexec -np NP OpenSeesMP inputFile.tcl</i></b><br>
 <small><i>NP=number of processes</i></small>
@@ -203,7 +205,7 @@ command: <b><i>mpiexec -np NP OpenSeesMP inputFile.tcl</i></b><br>
 ```
 
 
-#### Run Parallel Applications: OpenSeesMP in the Python interpreter (OpenSeesPy)
+##### Run Parallel Applications: OpenSeesMP in the Python interpreter (OpenSeesPy)
 
 command: <b><i>mpiexec -np NP python inputFile.py</i></b><br>
 <small><i>NP=number of processes</i></small>
@@ -230,10 +232,10 @@ command: <b><i>mpiexec -np NP python inputFile.py</i></b><br>
 ```
 </ul>
 
-## REFERENCES & RESOURCES
+### References &amp; Resources
 
+#### OpenSees Docs:
 
-### OpenSees Docs:
 The OpenSees documentation is now managed in RST format in GitHub. Because not all the content has been transferred, you can use a search engine to search to the following pages:
 <ul style="margin-top:-20px;">
 	<li> <a href = "https://opensees.berkeley.edu/" target="_blank">OpenSees Main Page</a></li>
@@ -244,7 +246,8 @@ The OpenSees documentation is now managed in RST format in GitHub. Because not a
 	<li> The official <b>OpenSeesDays</b> was an annual workshop organized by the OpenSees Development Team in the early days. <a href="https://opensees.berkeley.edu/workshop/OpenSeesDays.html" target="_blank"> Click here to access some archived content</a>. You can also search YouTube for more content.
 </ul>
 
-#### OpenSeesPy Documentation
+##### OpenSeesPy Documentation
+
 <p>All the documentation for OpenSees-Tcl applies to OpenSeesPy, the only thing that changes is the format. Here are some links to the OpenSeesPy documentation as well as some useful videos.</p>
 <ul style="margin-top:-20px;">
     <li> You can find the <a href="https://openseespydoc.readthedocs.io/en/latest/" target="_blank"> OpenSeesPy Documentation here</a>. The documentation contains most of the content from the OpenSees Wiki.</li>
@@ -253,13 +256,13 @@ The OpenSees documentation is now managed in RST format in GitHub. Because not a
     <li> View Dr. Minjie Zhu's, the main developer of OpenSeesPy, presentation on YouTube: <a href="https://youtu.be/vjGm2kM5Ihc?si=jb97Xs6SSD3mE6gO" target="_blank">Dr. Zhu Minjhe on Introduction to Parallel Computing in OpenSeesPy</a></li>
 </ul>
 
-### References on Parallel-Computing Fundamentals:
+#### References on Parallel-Computing Fundamentals:
 <ul style="margin-top:-20px;">
     <li><a href="https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial" target="_blank">Introduction to Parallel Computing Tutorial</a> provides a good overview on what is parallel computing and how to design programs for it. It introduces you to the often-quoted-by-Frank Amdahl's Law</li>
     <li><a href="https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial#%23SPMD-MPMD" target="_blank">SPMD and MPMD</a> is the chapter in above document that talks about the difference between Single-Program and Multiple-Program Multiple Data computing -- the difference in design between OpenSeesSP and OpenSeesMP.</li>
 </ul>
 
-### References on Parallel Computing with OpenSees by Dr. Frank McKenna
+#### References on Parallel Computing with OpenSees by Dr. Frank McKenna
 <ul style="margin-top:-20px;">
     <li>Detailed document on <a href="https://opensees.berkeley.edu/OpenSees/parallel/TNParallelProcessing.pdf/" target="_blank">Using the OpenSees Interpreter on Parallel Computers</a> This is a complete, detailed, and yet succint document.</li>
     <li>Slides from the 2013 OpenSees-Parallel workshop: <a href="https://opensees.berkeley.edu/OpenSees/workshops/parallel/ParallelOpenSees.pdf" target="_blank">Introduction to OpenSees Parallel Classes and Applications</a></li>
@@ -271,7 +274,7 @@ The OpenSees documentation is now managed in RST format in GitHub. Because not a
 </ul>
 
 
-### DesignSafe Tutorial: OpenSees &amp; DesignSafe, October 31, 2018
+#### DesignSafe Tutorial: OpenSees &amp; DesignSafe, October 31, 2018
 <p>The following video tutorial by Dr. Maria Giovanna Durante provides excellent content on running OpenSees on DesignSafe. </p>
 <p>Because we continue to improve our platform, some practical examples on how to run OpenSees on DesignSafe have changed. However, the content on the parallel OpenSees and the way you can integrate it into your workflow are still relevant.</p>
 
@@ -289,7 +292,7 @@ Slides of content presented in the tutorial above
 </ul>
 
 
-#### Examples in Community Data
+##### Examples in Community Data
 
 <ul style="margin-top:-20px;">
 	<li>OpenSees-EXPRESS:

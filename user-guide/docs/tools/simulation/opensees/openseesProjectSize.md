@@ -1,4 +1,4 @@
-## OpenSees-Project "Size"
+### OpenSees-Project "Size"
 
 As you plan your OpenSees project on DesignSafe, you need to have an idea of the project's "size," which is defined by its scope. The project scope is defined by the size of your model and the type and number of parametric analyses.
 

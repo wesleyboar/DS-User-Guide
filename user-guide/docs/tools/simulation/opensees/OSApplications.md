@@ -1,11 +1,13 @@
-## OpenSees Express
+## OpenSees Applications
+
+### OpenSees Express
 
 <p>The Sequential OpenSees application, called OpenSees-Express on DesignSafe, runs on a single core in a dedicated Virtual Machine (VM) on DesignSafe. This application should be your starting point for any analysis. </p>
 <p>Start here with a Minimum Working Example (MWE) -- a simple script that has all the features of your final one, but uses a small model and few, short, analyses. While some MWEs can be tested on your local manchine, a final test should be done here in "production mode" on DesignSafe.</p>
 <p>OpenSees on DesignSafe has enough compute resources for you to run a moderate-sized model with a few loading cases. Because your job is executed immediately, you receive immediate feedback in your iterations as you build and test your model and add complexity to it.</p>
 <p>DesignSafe gives you two ways to run the sequential version of OpenSees (called OpenSees-Express): via an interactive interface, or by submitting to the WebPortal with a simple click of a button.</p>
 
-### Advantages
+#### Advantages
 
 <ul style="margin-top:-20px;">
 <li>Ideal for mall model with few load cases.</li>
@@ -20,19 +22,20 @@
 </li>
 </ul>
 
-### Disadvantages
+#### Disadvantages
+
 <ul style="margin-top:-20px;">
 <li>The model and the analysis are handled by a single processor, so all analyses are run sequentially.</li>
 <li>The VM is a shared resource.</li>
 </ul>
 
 
-## OpenSeesSP
+### OpenSeesSP
 
 <p>The 'Single Parallel Interpreter' application <b>OpenSeesSP</b> is intended for large models subjected to few load cases. This application will parse and execute your script as the sequential application. The difference being the element state determination and solution of the system of equations (Gaussian Elmination) are done in parallel. </p>
 <p>In OpenSeesSP one processor reads the input script and builds the model. Once the analysis command is called, this main processor will then partitions the model sub-domains and assigns one sub-domain to each of the remaining processors so that the state determination and solution of the system of equations can be done in parallel. The process of partitioning the model is called Domain Decomposition. The OpenSees domain consists of nodes and elements, as well as loads. To run in parallel, parallel equation solvers must be specified in the script.</p>
 
-### Advantages
+#### Advantages
 
 <ul style="margin-top:-20px;">
 <li>Runs on HPC</li>
@@ -40,7 +43,7 @@
 <li>This application is the easiest parallel application as it does the paralelization automatically. The partitioning is done automatically by the interpreter and no additional scripting or knowledge is necessary.</li>
 </ul>
 
-### Disadvantages
+#### Disadvantages
 
 <ul style="margin-top:-20px;">
 <li>Runs on HPC, hence it has a queue.</li>
@@ -48,7 +51,7 @@
 <li>The order of the data in multi-node or multi-element recorder files is not always the same.</li>
 </ul>
 
-### Changes to the script
+#### Changes to the script
 
 <ol style="margin-top:-20px;">
 <li>Change the System of Equation and the Solver (System Command) to one of the following:
@@ -60,7 +63,7 @@
 <li>Change the Output Command for the Recorder substituting the '-file' flag to '–xml' to document each recorder-column metadata. Do this if your recorder files contain more than one node or element because the column order of results stored in files from the Element and Node recorders will NOT be ordered as they are in single processor runs.</li>
 </ol>
 
-### Example Script from OpenSees GitHub
+#### Example Script from OpenSees GitHub
 
 The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
@@ -209,7 +212,7 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
 
 
-## OpenSeesMP
+### OpenSeesMP
 
 <p>The 'Multiple Parallel Interpreters' application <b>OpenSeesMP</b> is intended for running many analyses with small to large models. This application is the most versatile parallel application which allows, and requires, full control by the user. </p>
 <p>When running on a parallel machine, each processor is running the same interpreter and processes the same input script. The user has control at both the command-line level (if running OpenSeesMP interactively) and scripting level to specify the different work that each processor performs, both in terms of domain decomposition and parametric analysis being run. The tasks are assigned by the script to each processor on the basis of its id (PID). </p>
@@ -221,7 +224,7 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 </ul>
 </p>
 
-### Advantages
+#### Advantages
 
 <ul style="margin-top:-20px;">
 <li>Fast, versatile, and powerful.</li>
@@ -233,7 +236,7 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 <li>No allocation is needed if the job is submitted via the DesignSafe WebPortal (run-time limitations apply)</li>
 </ul>
 
-### Disadvantages
+#### Disadvantages
 
 <ul style="margin-top:-20px;">
 <li>Runs on HPC, hence it has a queue</li>
@@ -243,7 +246,7 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 <li>Load imbalance can greatly reduce the performance, so it should be monitored</li>
 </ul>
 
-### Additional commands used in OpenSeesMP -- TCL Interpreter
+#### Additional commands used in OpenSeesMP -- TCL Interpreter
 
 <p>Each process in OpenseesMP is assigned an ID by the MPI (message passing interface) at the start. Because all processes are running the same script and the tasks are assigned by ID, the script needs to request the process's ID at the very beginning. To distribute the load evenly between all the processes, the script also needs to know the number of processes. The following additional commands have been added to Opensees: 
 <ul style="margin-top:-20px;">
@@ -268,7 +271,7 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
 
 
-### Changes to the script with Examples
+#### Changes to the script with Examples
 
 <p>When using OpenSeesMP, you need to augment your script to manually assign subdomains or analyses to the different processors, as well as update some analysis objects to ones that can handle parallel computing. These commands, in the equivalent python format, are also available in OpenSeesPy</p>
 <ol style="margin-top:-20px;">
@@ -357,7 +360,7 @@ Example on using inter-process commands:
 </li>
 </ol>
 
-### Example Script from OpenSees GitHub
+#### Example Script from OpenSees GitHub
 
 The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
@@ -465,7 +468,7 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
    
 ```
 <small><a href="https://github.com/OpenSees/OpenSees/blob/master/EXAMPLES/ParallelModelMP/exampleMP.tcl" target="_blank">Click here to access this example and more on GitHub</a></small>
-## OpenSeesPy
+### OpenSeesPy
 
 <p>OpenSeesPy is the Python-Interpreter version of OpenSees. Because it is produced from the same source code, it has the same features as OpenSees. Even though the input format is structured in Python, the commands follow the same order as those of the Tcl version. OpenSeesPy has the following unique features:</p>
 <ul style="margin-top:-20px;">
@@ -481,7 +484,7 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
 
 
-### Parallel Applications in OpenSeesPy
+#### Parallel Applications in OpenSeesPy
 
 <p>The current version of OpenSeesPy available on DesignSafe does not have the capability of inter-process communication. As a result domain decomposition not possible right now. However, the parallel-analyses features of OpenSeesMP can still be run by letting the external MPI and Python manage the processes via the library mpi4py.<br>
 Because OpenSeesPy is a python library rather than an executable, the MPI runs multiple instances of python and assigns a different process-ID (PID) to each. This is the same concept as OpenSeesMP, however, the program being called by the MPI is Python, not OpenSees, hence we use the python process-communication commands, which are part of the mpi4py library (which must be installed and imported in the script):

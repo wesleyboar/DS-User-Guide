@@ -1,4 +1,4 @@
-## Submit OpenSees Jobs to HPC via Jupyter Notebook
+### Submit OpenSees Jobs to HPC via Jupyter Notebook
 
 This option allows you to integrate python for pre- and post-processing your analyses and visualize results.
 Send jobs to HPC, will need allocation

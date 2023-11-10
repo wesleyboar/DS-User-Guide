@@ -1,4 +1,4 @@
-## OpenSeesMP
+### OpenSeesMP
 
 <p>The 'Multiple Parallel Interpreters' application <b>OpenSeesMP</b> is intended for running many analyses with small to large models. This application is the most versatile parallel application which allows, and requires, full control by the user. </p>
 <p>When running on a parallel machine, each processor is running the same interpreter and processes the same input script. The user has control at both the command-line level (if running OpenSeesMP interactively) and scripting level to specify the different work that each processor performs, both in terms of domain decomposition and parametric analysis being run. The tasks are assigned by the script to each processor on the basis of its id (PID). </p>
@@ -10,7 +10,7 @@
 </ul>
 </p>
 
-### Advantages
+#### Advantages
 
 <ul style="margin-top:-20px;">
 <li>Fast, versatile, and powerful.</li>
@@ -22,7 +22,7 @@
 <li>No allocation is needed if the job is submitted via the DesignSafe WebPortal (run-time limitations apply)</li>
 </ul>
 
-### Disadvantages
+#### Disadvantages
 
 <ul style="margin-top:-20px;">
 <li>Runs on HPC, hence it has a queue</li>
@@ -32,7 +32,7 @@
 <li>Load imbalance can greatly reduce the performance, so it should be monitored</li>
 </ul>
 
-### Additional commands used in OpenSeesMP -- TCL Interpreter
+#### Additional commands used in OpenSeesMP -- TCL Interpreter
 
 <p>Each process in OpenseesMP is assigned an ID by the MPI (message passing interface) at the start. Because all processes are running the same script and the tasks are assigned by ID, the script needs to request the process's ID at the very beginning. To distribute the load evenly between all the processes, the script also needs to know the number of processes. The following additional commands have been added to Opensees: 
 <ul style="margin-top:-20px;">
@@ -57,7 +57,7 @@
 
 
 
-### Changes to the script with Examples
+#### Changes to the script with Examples
 
 <p>When using OpenSeesMP, you need to augment your script to manually assign subdomains or analyses to the different processors, as well as update some analysis objects to ones that can handle parallel computing. These commands, in the equivalent python format, are also available in OpenSeesPy</p>
 <ol style="margin-top:-20px;">
@@ -146,7 +146,7 @@ Example on using inter-process commands:
 </li>
 </ol>
 
-### Example Script from OpenSees GitHub
+#### Example Script from OpenSees GitHub
 
 The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 

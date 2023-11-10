@@ -1,4 +1,6 @@
-## Running OpenSees on DesignSafe
+## OpenSees Platforms 
+
+### Running OpenSees on DesignSafe
 
 There are several ways you can run OpenSees on DesigSafe. The variety of DesignSafe platforms and interfaces allow you to work with evolving levels of scalability:
 <ol style="margin-top:-20px;">
@@ -28,7 +30,7 @@ There are several ways you can run OpenSees on DesigSafe. The variety of DesignS
 </li>
 
 </ol>
-## The Interactive Virtual Machine (Interactive-VM)
+### The Interactive Virtual Machine (Interactive-VM)
 
 <p> The Interactive Virtual Machine is a new platform intended to help you in the early stages of building your OpenSees Model by providing you direct interactivity with OpenSees for both Sequential and Parallel applications for immediate feedback for each line of input.</p>
 <p>This NEW dedicated VM has been built for OpenSees. All OpenSees applications (OpenSees, OpenSeesSP, OpenSeesMP, and OpenSeesPy) have been pre-installed and can be run interactively in a user-friendly environment with an integrated terminal window, file editor, and file-tree navigation. This VM has limited shared resources and is intended for building and testing your OpenSees script.
@@ -37,7 +39,7 @@ There are several ways you can run OpenSees on DesigSafe. The variety of DesignS
 Interactivity allows you to monitor the analysis in real time. The workspace, with its multiple tabs, allows you to run your OpenSees in one tab while editing a file in another. Direct interaction to OpenSees via a <b>Linux terminal</b> allows you to check your model as you develop it, as you have immediate access to warning, errors, or echoed data.
 </p>
 
-### Connecting to the Interactive-VM
+#### Connecting to the Interactive-VM
 
 The Interactive-VM is found on DesignSafe in the same Web Portal as OpenSees: Tools & Applications > Simulation > OpenSees (<a href="https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation">Click here to access it</a>)
 <ol>
@@ -58,7 +60,7 @@ The Interactive-VM is found on DesignSafe in the same Web Portal as OpenSees: To
 ![OpenSeesIVMconnect](./OpenSeesVMImages/Form_IVMconnect.JPG){ width=75% , align=center}<br>
 
 
-### The Interactive-VM Environment & Workflow
+#### The Interactive-VM Environment & Workflow
 
 Once you have started your instance of the OpenSees VM, you will be redirected to the Jupyter-Lab Launcher environment in your browser. Here you can interact with your data as well as your analysis processes.
 Here are the step necessary to run OpenSees in the Interactive-VM <i>(Figure 4)</i>:
@@ -79,7 +81,7 @@ Here are the step necessary to run OpenSees in the Interactive-VM <i>(Figure 4)<
 <small><i><b>Figure 4</b>: Interactive-VM Environment</i><br></small>
 ![OpenSeesIVMworkflow](./OpenSeesVMImages/OpenSeesIVMworkflow.JPG){ width=75% , align=center}<br>
 
-#### Interactive-VM Specifications
+##### Interactive-VM Specifications
 
 The specifications for the Interactive VM are given below. This VM is a shared resource: there is only one instance of it and all users connected to it share the same processors and RAM.
 Because of these limitations, the VM is intended for building and testing your OpenSees script and its workflow before scaling up in DesignSafe.<br>
@@ -94,7 +96,7 @@ Because of these limitations, the VM is intended for building and testing your O
     </ul>
 </li>
 
-## Running OpenSees via DesignSafe Web Portal
+### Running OpenSees via DesignSafe Web Portal
 
 <p>Submitting your OpenSees Job to the HPC system via DesignSafe's WebPortal allows you to scale up your project easily through a simple web-form submittal. The Web Portal provides two access points, one for sequential analyses, one for parallel ones:
     <ul>
@@ -106,7 +108,7 @@ Because of these limitations, the VM is intended for building and testing your O
 </p>
 <p> Being able to submit multiple jobs simultaneously via the simple web form makes the <b>DesignSafe Web Portal</b> the ideal solution for most projects (<i>see below for user limits on multiple jobs</i>). The only significant drawback is the fact that you do not have access to the results until the analysis is finished. Wait times in the queue can seem an inconvience, but the ability to run many analysis in parallel effectively reduces the total job time.</p>
 
-### File Management when running the Web-Portal Jobs
+#### File Management when running the Web-Portal Jobs
 
 <p>Job submission via the Web Portal is easy and efficient because it only requires you to fill out a web form and press the run button. All the keyboarding work from that point on is done for you via automation. Understanding what is happening behind the courtain will help you plan your script and data management.</p>
 <p>Because file I/O is fastest closest to the CPU, the input directory you specify in your job-submittal form gets cloned to the compute node that will run OpenSees. During the OpenSees run all the output and recorder files you defined in your input script will be written in that location. Once the OpenSees job is finished, the entire folder that was cloned, with the additional output files, will be moved to the output folder you specify in your job-submittal form. </p>
@@ -125,7 +127,7 @@ Because of these limitations, the VM is intended for building and testing your O
     </ol>
 </p>
 
-### Using the DesignSafe WebPortal
+#### Using the DesignSafe WebPortal
 <p>Before starting your project, make sure you read the File-Management section as it will help you plan your file and data structure</p>
 <p>Follow these steps to run your OpenSees job via the WebPortal:
     <ol style="margin-top:-20px;">
@@ -214,7 +216,7 @@ Because of these limitations, the VM is intended for building and testing your O
 
 
 
-#### Web Portal Form Input Parameters
+##### Web Portal Form Input Parameters
 
 Here is a list and description of all the form input parameters for the Web Form <i>(Figure 1 and 2)</i>.<br>
 Note: not all applications require all the input:<br>
@@ -241,7 +243,7 @@ OpenSees-Express: Figure 1 and OpenSeesMP: Figure2
 <small><i><b>Figure 2</b>: Sample Form for OpenSeesMP</i><br></small>
 ![OpenSeesIVM](./PostWebSubmitImages/SampleForm_OpenSeesMP.jpg){ width=75% , align=center}<br><br>
 
-#### Web-Portal Specifications
+##### Web-Portal Specifications
 
 Sequential and parallel jobs are sent to different systems:
     <ul style="margin-top:-20px;">
@@ -278,7 +280,7 @@ Sequential and parallel jobs are sent to different systems:
 
 
 
-## Integrate OpenSeesPy directly into Jupyter Notebook
+### Integrate OpenSeesPy directly into Jupyter Notebook
 
 Jupyter-Hub environment is user friendly and .... 
 you can query OpenSees Model interactively
@@ -296,7 +298,7 @@ you can query OpenSees Model interactively
         <li>You will need to pip install OpenSeesPy each time you run it in Jupyter Hub.</li>
     </ul>
 </li>
-## Submit OpenSees Jobs to HPC via Jupyter Notebook
+### Submit OpenSees Jobs to HPC via Jupyter Notebook
 
 This option allows you to integrate python for pre- and post-processing your analyses and visualize results.
 Send jobs to HPC, will need allocation
@@ -309,6 +311,6 @@ Send jobs to HPC, will need allocation
 <li>There are two Jupyter Hub services: one that runs on a shared VM, and one that runs in the HPC system, thus requiring an HPC allocation.</li>
 <li>You can publish your notebooks in DesignSafe for public access.</li>
 <li>Jupyter Hub is a shared resource -- it is implemented in a unique node in DesignSafe</li>
-## Running OpenSees on HPC-TACC
+### Running OpenSees on HPC-TACC
 
 All OpenSees applications can be accessed directly in the HPC environment.

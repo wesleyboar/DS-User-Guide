@@ -1,9 +1,9 @@
-## Running OpenSees at the Linux Terminal
+### Running OpenSees at the Linux Terminal
 
 Several DesignSafe platforms allows you to run OpenSees directly in Linux.
 This section is dedicated to providing more details on the actual process of running OpenSees in the Linux terminal.
 
-### Basic Linux Commands
+#### Basic Linux Commands
 
 Here are the basic commands you <b>may</b> need.<br>
 However, for case of the platforms that have the integrated jupyter environment, the Interactive-VM and Jupyter Hub, most of these actions can be easily performed in the navigation panel within the workspace.
@@ -19,7 +19,7 @@ However, for case of the platforms that have the integrated jupyter environment,
     wc –l filename : how many lines in a file 
 ```
 
-#### Command to run OpenSees Applications at Linux Prompt
+##### Command to run OpenSees Applications at Linux Prompt
 
 <small>
 <table width=100%>
@@ -33,16 +33,16 @@ However, for case of the platforms that have the integrated jupyter environment,
 
 
 
-#### Running OpenSees Parallel Applications
+##### Running OpenSees Parallel Applications
 <p>The parallel OpenSees applications require the MPI, which has been preinstalled in the VM. <br>
 The Tcl-Interpreter OpenSees applications (OpenSees-Express, OpenSeesSP, and OpenSeesMP) are compiled executable programs. The MPI, therefore, will run NP processes of this executable.<br>
 OpenSeesPy, on the other hand, is a python library that has been pre-installed in the VM and is called within the python environment. In this case, therefore, the MPI will run NP Python processes and each process will call its own Python library. In addition, all three OpenSees applications are integrated into a single library, OpenSeesPy.</p>
 
-### Examples 
+#### Examples 
 
 The following examples give you the command to executed as well as a demonstration of the Interaction with OpenSees:
 
-#### Run Sequential Applications: OpenSees in the TCL interpreter
+##### Run Sequential Applications: OpenSees in the TCL interpreter
 
 command: <b><i>OpenSees</i></b>
 <br>
@@ -66,7 +66,7 @@ command: <b><i>OpenSees</i></b>
     (base) jovyan@3cd0f33abec1:~/work$ OpenSees
 ```
 
-#### Run Sequential Applications: OpenSeesPy in the Python interpreter
+##### Run Sequential Applications: OpenSeesPy in the Python interpreter
 
 command: <b><i>python</i></b>
 <br>
@@ -85,7 +85,7 @@ command: <b><i>python</i></b>
 ```
 
 
-#### Run Parallel Applications: OpenSeesMP in the TCL interpreter
+##### Run Parallel Applications: OpenSeesMP in the TCL interpreter
 
 command: <b><i>mpiexec -np NP OpenSeesMP inputFile.tcl</i></b><br>
 <small><i>NP=number of processes</i></small>
@@ -129,7 +129,7 @@ command: <b><i>mpiexec -np NP OpenSeesMP inputFile.tcl</i></b><br>
 ```
 
 
-#### Run Parallel Applications: OpenSeesMP in the Python interpreter (OpenSeesPy)
+##### Run Parallel Applications: OpenSeesMP in the Python interpreter (OpenSeesPy)
 
 command: <b><i>mpiexec -np NP python inputFile.py</i></b><br>
 <small><i>NP=number of processes</i></small>
