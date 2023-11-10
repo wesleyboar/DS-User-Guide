@@ -1,7 +1,7 @@
-## REFERENCES & RESOURCES
-
+## References &amp; Resources
 
 ### OpenSees Docs:
+
 The OpenSees documentation is now managed in RST format in GitHub. Because not all the content has been transferred, you can use a search engine to search to the following pages:
 <ul style="margin-top:-20px;">
 	<li> <a href = "https://opensees.berkeley.edu/" target="_blank">OpenSees Main Page</a></li>
@@ -13,6 +13,7 @@ The OpenSees documentation is now managed in RST format in GitHub. Because not a
 </ul>
 
 #### OpenSeesPy Documentation
+
 <p>All the documentation for OpenSees-Tcl applies to OpenSeesPy, the only thing that changes is the format. Here are some links to the OpenSeesPy documentation as well as some useful videos.</p>
 <ul style="margin-top:-20px;">
     <li> You can find the <a href="https://openseespydoc.readthedocs.io/en/latest/" target="_blank"> OpenSeesPy Documentation here</a>. The documentation contains most of the content from the OpenSees Wiki.</li>

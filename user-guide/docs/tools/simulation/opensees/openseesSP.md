@@ -3,21 +3,24 @@
 <p>The 'Single Parallel Interpreter' application <b>OpenSeesSP</b> is intended for large models subjected to few load cases. This application will parse and execute your script as the sequential application. The difference being the element state determination and solution of the system of equations (Gaussian Elmination) are done in parallel. </p>
 <p>In OpenSeesSP one processor reads the input script and builds the model. Once the analysis command is called, this main processor will then partitions the model sub-domains and assigns one sub-domain to each of the remaining processors so that the state determination and solution of the system of equations can be done in parallel. The process of partitioning the model is called Domain Decomposition. The OpenSees domain consists of nodes and elements, as well as loads. To run in parallel, parallel equation solvers must be specified in the script.</p>
 
-#### Advantages
+### Advantages
+
 <ul style="margin-top:-20px;">
 <li>Runs on HPC</li>
 <li>The domain decomposition to parallel processes speeds up the state determination and solution.</li>
 <li>This application is the easiest parallel application as it does the paralelization automatically. The partitioning is done automatically by the interpreter and no additional scripting or knowledge is necessary.</li>
 </ul>
 
-#### Disadvantages
+### Disadvantages
+
 <ul style="margin-top:-20px;">
 <li>Runs on HPC, hence it has a queue.</li>
 <li>Robustness depends on OpenSees objects being used. Not all elements and other OpenSees objects have been tested in OpenSeesSP. The user needs to make sure that the OpenSees objects being used (elements, materials, etc.) have been implemented in a way that is robust in OpenSeesSP (fully-implemented sendSelf and receiveSelf commands).</li>
 <li>The order of the data in multi-node or multi-element recorder files is not always the same.</li>
 </ul>
 
-#### Changes to the script
+### Changes to the script
+
 <ol style="margin-top:-20px;">
 <li>Change the System of Equation and the Solver (System Command) to one of the following:
    <ul>

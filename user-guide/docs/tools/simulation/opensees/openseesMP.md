@@ -10,7 +10,8 @@
 </ul>
 </p>
 
-#### Advantages
+### Advantages
+
 <ul style="margin-top:-20px;">
 <li>Fast, versatile, and powerful.</li>
 <li>Ideal for parameteric analyses.</li>
@@ -21,7 +22,8 @@
 <li>No allocation is needed if the job is submitted via the DesignSafe WebPortal (run-time limitations apply)</li>
 </ul>
 
-#### Disadvantages
+### Disadvantages
+
 <ul style="margin-top:-20px;">
 <li>Runs on HPC, hence it has a queue</li>
 <li>Parallelization-control is fully manual</li>
@@ -30,7 +32,8 @@
 <li>Load imbalance can greatly reduce the performance, so it should be monitored</li>
 </ul>
 
-#### Additional commands used in OpenSeesMP -- TCL Interpreter
+### Additional commands used in OpenSeesMP -- TCL Interpreter
+
 <p>Each process in OpenseesMP is assigned an ID by the MPI (message passing interface) at the start. Because all processes are running the same script and the tasks are assigned by ID, the script needs to request the process's ID at the very beginning. To distribute the load evenly between all the processes, the script also needs to know the number of processes. The following additional commands have been added to Opensees: 
 <ul style="margin-top:-20px;">
    <li><b>getNP</b>: returns the total number of processors assigned to the user for the job;</li>
@@ -54,7 +57,8 @@
 
 
 
-#### Changes to the script with Examples
+### Changes to the script with Examples
+
 <p>When using OpenSeesMP, you need to augment your script to manually assign subdomains or analyses to the different processors, as well as update some analysis objects to ones that can handle parallel computing. These commands, in the equivalent python format, are also available in OpenSeesPy</p>
 <ol style="margin-top:-20px;">
 <li>For large models, when doing domaindecomposition a paralell numberer and system MUST be specified:
