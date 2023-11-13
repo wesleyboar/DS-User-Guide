@@ -6,7 +6,7 @@ This section is dedicated to providing more details on the actual process of run
 #### Basic Linux Commands
 
 Here are the basic commands you <b>may</b> need.<br>
-However, for case of the platforms that have the integrated jupyter environment, the Interactive-VM and Jupyter Hub, most of these actions can be easily performed in the navigation panel within the workspace.
+However, for case of the platforms that have the integrated Jupyter environment, the Interactive-VM and Jupyter Hub, most of these actions can be easily performed in the navigation panel within the workspace.
 ```
     mkdir dirname : make a new directory
     cd dirname : change directory
