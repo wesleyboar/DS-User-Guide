@@ -84,7 +84,7 @@ nav:
 #        - 5. TACC: tools/simulation/opensees/openseesRunTACC.md
 
   - Use Cases:
-    - Overview: usecases/contents.md
+    - Overview: usecases/overview.md
     - Data Analytics: usecases/dataanalyticsusecases.md
     - GeoHazard: usecases/geohazardusecases.md
     - Seismic: usecases/seismicusecases.md

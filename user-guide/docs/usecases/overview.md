@@ -8,7 +8,7 @@ DesignSafe provides a wide variety of resources that allow researchers to effect
 
 To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
-### General Use Cases 
+### Data Analytics Use Cases 
 
 * [**Basic Image Browsing and Mapping**](haan/usecase.md) (Taggit, HazMapper)
 * [**Grouping and Tagging Image Files**](haan/usecase-2.md) (Taggit, HazMapper)
@@ -21,16 +21,6 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 * [**Landslide Runout Simulations**](kumar/usecase.md) (MPM, Jupyter, Paraview, HPC)
 
 
-### Hurricane and Windstorm Use Cases 
-
-* [**Hurricane Data Integration & Visualization**](pinelli/2usecase.md) (10/2023)
-* [**ADCIRC Datasets**](dawson/usecase2.md)  (ADCIRC, pylauncher, Jupyter, Dataset) (10/2023)
-* [**Large-Scale Ensemble Simulations of Storm Surge**](dawson/usecase.md)  (ADCIRC, pylauncher, Jupyter, HPC)
-* [**Visualization of Storm Surge Impacts**](padgett/usecase.md) (ADCIRC, Jupyter, QGIS)
-* [**Simulation of Wind Flow around Buildings**](kareem/usecase.md) (OpenFOAM, Jupyter, Paraview, HPC)
-* [**Analysis of Field Sensor Data from Wind Events**](#field-sensing-wind-events) (Jupyter, Interactive Data Analysis)
-
-
 ### Seismic Use Cases 
 
 * [**Site Response Analysis and Model Calibration**](#opensees-model-calibration) (OpenSees, SimCenter quoFEM, Jupyter, HPC)
@@ -39,11 +29,12 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 * [**Experimental Visualization of Shaking Table Data**](#experimental-shake-table-testing) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
 * [**Shake Table Data Analysis Using ML**](#shake-table-data-analysis-using-ml) 
 
-<!-- ### API Use Cases 
+### Wind &amp; Storm Surge Use Cases
 
-* [title here]()
-
-<a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F"><i class="fa fa-external-link" target="_blank" aria-label="(external url)"></i> **Application Programming Interfaces**</a> (Jupyter, API, requests)
-
--->
+* [**Hurricane Data Integration & Visualization**](pinelli/2usecase.md) (10/2023)
+* [**ADCIRC Datasets**](dawson/usecase2.md)  (ADCIRC, pylauncher, Jupyter, Dataset) (10/2023)
+* [**Large-Scale Ensemble Simulations of Storm Surge**](dawson/usecase.md)  (ADCIRC, pylauncher, Jupyter, HPC)
+* [**Visualization of Storm Surge Impacts**](padgett/usecase.md) (ADCIRC, Jupyter, QGIS)
+* [**Simulation of Wind Flow around Buildings**](kareem/usecase.md) (OpenFOAM, Jupyter, Paraview, HPC)
+* [**Analysis of Field Sensor Data from Wind Events**](#field-sensing-wind-events) (Jupyter, Interactive Data Analysis)
 
