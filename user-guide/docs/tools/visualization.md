@@ -40,4 +40,18 @@
 
 ---
 
+<!-- ## Basic Image Browsing and Mapping -->
+<!-- moved from use cases -->
+
+{% include-markdown '../usecases/haan/usecase.md' %}
+
+---
+
+<!-- ## Grouping and Tagging Image Files -->
+<!-- moved from use cases -->
+
+{% include-markdown '../usecases/haan/usecase-2.md' %}
+
+---
+
 {% include-markdown 'visualization/visit.md' %}

@@ -44,11 +44,10 @@ nav:
     - Recon Portal: recon.md
 
   - Tools and Apps:
-    - Jupyter Hub: tools/jupyterhub.md
-    #- Simulation Applications: tools/simulation.md
-    - Visualization Applications: tools/visualization.md
     - Analysis Applications: analysis.md
     - Hazard Apps &amp; Utilities: tools/hazard.md
+    - Jupyter Hub: tools/jupyterhub.md
+    - Visualization Applications: tools/visualization.md
 
   - Simulation Applications: 
     - Overview: tools/simulation/overview.md
@@ -88,14 +87,14 @@ nav:
     - Overview: usecases/contents.md
     - Data Analytics: usecases/dataanalyticsusecases.md
     - GeoHazard: usecases/geohazardusecases.md
-    - Wind and Storm Surge: usecases/windstormsurgeusecases.md
     - Seismic: usecases/seismicusecases.md
+    - Wind and Storm Surge: usecases/windstormsurgeusecases.md
 
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
-    - HPC Allocations Policy: tools/advanced/hpcallocations.md
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
     - DesignSafe FAQ: tools/advanced/dsfaq.md
+    - HPC Allocations Policy: tools/advanced/hpcallocations.md
 
 
 # Old navigation for unflattened use cases
