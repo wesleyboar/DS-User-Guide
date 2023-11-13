@@ -48,7 +48,7 @@ nav:
     #- Simulation Applications: tools/simulation.md
     - Visualization Applications: tools/visualization.md
     - Analysis Applications: analysis.md
-    - Hazard Apps & Utilities: tools/hazard_utils.md
+    - Hazard Apps &amp; Utilities: tools/hazard.md
 
   - Simulation Applications: 
     - Overview: tools/simulation/overview.md
