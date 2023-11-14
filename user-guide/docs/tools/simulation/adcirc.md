@@ -34,7 +34,6 @@ Multiple configurations and versions of ADCIRC are available in the Workspace:
 
 More detailed information and ADCIRC user documentation can be found at the <a href="http://adcirc.org/" target="_blank">ADCIRC website</a>.  
 
-<hr>
 
 ### How to submit an ADCIRC Job in the Workspace
 
