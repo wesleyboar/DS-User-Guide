@@ -2,7 +2,7 @@
 
 An Expanding Collection of the Most Frequently Asked Questions
 
-<hr style="margin-top: 0px;">
+---
 
 ## [FAQ Categories](#categories) { #categories }
 
@@ -105,7 +105,7 @@ A: The Published directory in the Data Depot holds the <a href="https://www.desi
 A: <a href="/help/">Submit a ticket</a> and we will work with you to add your application to the Discovery Workspace. We can make your application available privately to you, or if it's a widely used code we can make it publicly available to all users.
 
 <strong>Q: What computing resources are used when a job is submitted?</strong><br>
-A: One Stampede node is requested, containing 16 cores and 32GB of memory. For more info, visit the <a href="https://docs.tacc.utexas.edu/hpc/stampede2/#overview" target="_blank">Stampede user guide</a>.
+A: One Frontera node is requested. For more info, consult the <a href="https://docs.tacc.utexas.edu/hpc/frontera/#overview" target="_blank">TACC Frontera User Guide</a>.
 
 <hr>
 ## [MATLAB](#faq-matlab) { #faq-matlab }
