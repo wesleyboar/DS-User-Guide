@@ -96,23 +96,17 @@ After authenticating via the Identity Provider, you will be redirected back to C
 
 #### [3. Associate your DN with your DesignSafe/TACC Account](#globus-step3) { #globus-step3 }
 
-Login to the TACC User Portal (<a href="https://www.tacc.utexas.edu/portal/login" target="_blank">https://portal.tacc.utexas.edu</a>) with your DesignSafe/TACC account.
+Login to the [TACC User Portal](https://portal.tacc.utexas.edu/) and select "Manage Account" under your login name in the top right corner.
 
-Select "Home" &gt; "Account Profile".
+![](imgs/ManageDN-1.png){: style="width:600px"}
 
-![TACC User Portal](./imgs/globus-step3-a.png)
+Click on the "Manage DNs" on the Manage Account page.
 
-Select "Manage DNs" in the lower left.
+![](imgs/ManageDN-2.png){: style="width:500px"}
 
+You will be presented with a list of the DNs currently associated with your TACC account and a text field to associate a new DN to your account. Enter the Certificate Subject obtained from [CILogon.org](http://cilogon.org/) in the text field. Click the button to "Link DN". This will associate the new DN with your account. **Please allow up to one hour for this change to propagate across all TACC systems**.
 
-![TACC Account Profile](./imgs/globus-step3-b.png)
-
-
-Enter the Certificate Subject obtained from CILogon.org in the text field, then click "Associate DN". This will associate the new DN with your account.
-
-![TACC Manage DNs](./imgs/globus-step3-c.png)
-
-**Important**: It may take up to 2 hours for your DN to propagate to all TACC systems.
+![](imgs/ManageDN-3.png){: style="width:600px"}
 
 #### [4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#globus-step4) { #globus-step4 }
 
