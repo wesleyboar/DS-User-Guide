@@ -20,12 +20,6 @@ We define a large data transfer here as any file transfer that is  &gt; 2GB, or 
 
 	See the <a href="#cyberduck">Cyberduck Data Transfer Guide</a> for instructions.
 
-<!--
-1. <s>Globus</s> (unavailable)
-
-	This method is temporarily unavailable.
--->
-
 1. Command Line
 
 	Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
