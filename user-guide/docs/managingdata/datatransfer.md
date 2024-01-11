@@ -548,7 +548,11 @@ Return to the Dropbox.com section of the Data Depot. You can now copy files to a
 
 ![Complete Dropbox](./imgs/cloudstorage-1.png)
 
-#### [Google Drive](#cloud-googledrive) { #cloud-googledrive }
+#### [Google Drive - CURRENTLY NOT FUNCTIONAL](#cloud-googledrive) { #cloud-googledrive }
+
+GOOGLE HAS MADE CHANGES THAT WE ARE WORKING THROUGH TO REENABLE (status as of January 11, 2023)
+
+Google has made changes that we are working through to reenable.
 
 Login to DesignSafe and go to Workspace &gt; Data Depot &gt; Google Drive
 
