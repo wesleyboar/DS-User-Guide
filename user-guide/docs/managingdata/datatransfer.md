@@ -56,55 +56,26 @@ Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. 
 
 The following provides detailed instructions for setting up Globus access to DesignSafe.
 
-#### [1. Submit a ticket to activate Globus access for your DesignSafe/TACC Account](#globus-step1) { #globus-step1 }
+#### [1. Log in to CILogon.org](#globus-step1) { #globus-step1 }
 
-Create a new ticket on DesignSafe (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>) to request Globus access for your account. 
+Log in to the CILogon service (<a href="https://CILogon.org">https://CILogon.org</a>). If your institution is already a member of CILogon you can search for your institution and use your institutional credentials to log in. Otherwise, you can search for ACCESS CI (XSEDE) and proceed to create an ACCESS account.
 
-In the body of the message indicate you wish to use Globus and list the Data Depot location(s), such as My Data or a project in My Projects, where you intend to transfer files to/from.
 
-You will get a response via email when the activation is complete.
+#### [2. Find the ePPN associated with your CILogon/Globus access](#globus-step2) { #globus-step2 }
 
-#### [2. Create a Distinguished Name (DN)](#globus-step2) { #globus-step2 }
+Globus requires a unique identifier, called a eduPersonPrincipalName (ePPN), for each user.
 
-Globus requires a unique identifier, called a Distinguished Name (DN), for each user.
+Find your ePPN associated with your Globus access by going to https://cilogon.org/ and logging in. You will find your ePPN under User Attributes
 
-To create a DN, you need to log in through an authoritative source that can verify your identity, typically your university or employer.
+#### [3. Associate your ePPN with your DesignSafe/TACC Account](#globus-step3) { #globus-step3 }
 
-If you already have a DN, you may reuse it here and skip to <a href="#globus-step3">Step 3</a>.
-
-If you do not have a DN, you can create one for free using the “CI Logon” service.
-
-<strong>Important: You must use your institution’s credentials, not your personal Google account, when setting up Globus to prevent issues when accessing the DesignSafe endpoint (Corral).</strong>
-
-To create a DN, go to <a href="https://cilogon.org" target="_blank">https://cilogon.org</a>.
-
-Select an "Identity Provider" from the drop-down list, and click "Log On" to be redirected to your Identity Provider's log in screen.
-
-If your university or employer is not in the list, we recommend using Cyberduck instead. See the <a href="#cyberduck">Cyberduck Data Transfer Guide</a> for instructions.
-
-![](imgs/globus-step2.png)
-
-After authenticating via the Identity Provider, you will be redirected back to CILogon, where you can find your Certificate Subject that you will need to copy and paste for <a href="#globus-step3">Step3</a>.
-
-	/DC=org/DC=cilogon/C=US/O=University of Texas at Austin/CN=Sample Person A00000
-
-#### [3. Associate your DN with your DesignSafe/TACC Account](#globus-step3) { #globus-step3 }
-
-Login to the [TACC User Portal](https://portal.tacc.utexas.edu/) and select "Manage Account" under your login name in the top right corner.
-
-![](imgs/ManageDN-1.png){: style="width:600px"}
-
-Click on the "Manage DNs" on the Manage Account page.
-
-![](imgs/ManageDN-2.png){: style="width:500px"}
-
-You will be presented with a list of the DNs currently associated with your TACC account and a text field to associate a new DN to your account. Enter the Certificate Subject obtained from [CILogon.org](http://cilogon.org/) in the text field. Click the button to "Link DN". This will associate the new DN with your account. **Please allow up to one hour for this change to propagate across all TACC systems**.
-
-![](imgs/ManageDN-3.png){: style="width:600px"}
+Login to your TACC user profile here: https://accounts.tacc.utexas.edu. 
+Select ePPN on the left menu and then enter your ePPN in the field at the top of the page and save.
+Allow 30 minutes for the ePPN to propagate through TACC's systems. 
 
 #### [4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#globus-step4) { #globus-step4 }
 
-After giving your DN time to propagate through the systems (up to 2 hours), go to <a href="https://globus.org" target="_blank">https://globus.org</a> and log in.
+After giving your ePPN time to propagate through the systems (up to 30 minutes), go to <a href="https://globus.org" target="_blank">https://globus.org</a> and log in.
 
 ![Globus Login](./imgs/globus-step4-a.png)
 
@@ -145,15 +116,15 @@ Corral3 is a large (40 PB), shared data resource, as such, the data stored on De
 To access your data on DesignSafe
 
 * For <strong>My Data</strong> set Path to <strong>/data/designsafe/mydata/&lt;username&gt;/</strong>
-* For <strong>My Projects</strong> set Path to <strong>/corral-repl/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
-* For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
-* For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
+* For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
+* For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
+* For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
 
 For more information on path selection please see the detailed guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
 
 After entering the appropriate path to DesignSafe on Corral, you are ready to perform your file transfer.
 
-<em>Note: For directories you connect to frequency, for example My Data, you can create a bookmark for easy access using the bookmark icon immediately to the right of the "Path" bar.</em>
+<em>Note: For directories you connect to frequenctly, for example My Data, you can create a bookmark for easy access using the bookmark icon immediately to the right of the "Path" bar.</em>
 
 ![Establish connection to Corral endpoint](./imgs/globus-step5.png)
 
@@ -177,37 +148,23 @@ Globus will email you when the transfer is complete.
 
 Globus provides a command line interface (CLI), for those who need to perform automated data transfers. This data transfer method will likely be of most use to NHERI centers that need to bulk upload their data on a schedule.
 
-#### [1. Submit a ticket to activate Globus access for your DesignSafe/TACC Account](#globuscli-step1) { #globuscli-step1 }
+#### [1. Follow the steps 1-3 above in Globus Data Transfer Guide](#globuscli-step1) { #globuscli-step1 }
 
-Create a new ticket on DesignSafe (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>) to request Globus access for your account. 
+To set up your Globus access, follow steps 1-3 above in the Globus Data Transfer Guide <a href="#globus-step1"> . 
 
-In the body of the message indicate you wish to use Globus and list the Data Depot location(s), such as My Data or a project in My Projects, where you intend to transfer files to/from.
-
-You will get a response via email when the activation is complete.
-
-#### [2. Create a Distinguished Name (DN)](#globuscli-step2) { #globuscli-step2 }
-
-Detailed instructions for creating a DN can be found in <a href="#globus-step2">Step 2 of the Globus Data Transfer Guide</a>.
-
-If you have already completed the DN creation process and associated it with your DesignSafe/TACC account you may skip to <a href="#globus-step4">Step 4</a>.
-
-#### [3. Associate your DN with your DesignSafe/TACC Account](#globuscli-step3) { #globuscli-step3 }
-
-Detailed instructions for associating your DN with your DesignSafe/TACC account can be found in <a href="#globus-step3">Step 3 of the Globus Data Transfer Guide</a>.
-
-#### [4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#globuscli-step4) { #globuscli-step4 }
+#### [2. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#globuscli-step2) { #globuscli-step2 }
 
 If the data you wish to transfer is located on your local machine, follow <a href="#globus-step4">Step 4 of the Globus Data Transfer Guide</a> to create a personal endpoint.
 
 If the data you wish to transfer is located on a server operated by your organization and does not already have a Globus Endpoint available, talk to your system administrator about creating one.
 
-#### [5. Install the Globus CLI](#globuscli-step5) { #globuscli-step5 }
+#### [3. Install the Globus CLI](#globuscli-step3) { #globuscli-step3 }
 
 Follow the instructions provided by Globus for installing the CLI (<a href="https://docs.globus.org/cli/">https://docs.globus.org/cli</a>)
 
 *Note the recommended installation method requires a system with Python3 and the ability to run pip commands.*
 
-#### [6. Settings for CLI Transfer](#globuscli-step6) { #globuscli-step6 }
+#### [4. Settings for CLI Transfer](#globuscli-step4) { #globuscli-step4 }
 
 With the Globus CLI successfully installed on our local machine, we must now determine the endpoint information for DesignSafe.
 
@@ -225,7 +182,7 @@ Search for <strong>TACC Corral3 with CILogon Authentication </strong>&gt; <stron
 
 <strong>Repeat the process above to attain the UUID for your local endpoint.</strong>
 
-#### [7. Test Globus CLI Transfer](#globuscli-step7) { #globuscli-step7 }
+#### [5. Test Globus CLI Transfer](#globuscli-step5) { #globuscli-step5 }
 
 With the endpoint IDs, we can now do a test transfer with the Globus CLI.
 
@@ -253,7 +210,7 @@ The full reference for the Globus CLI can found here: <a href="https://docs.glob
 
 The full reference for the transfer command, including information on additional options that may be useful to you, can be found here: <a href="https://docs.globus.org/cli/reference/transfer/">https://docs.globus.org/cli/reference/transfer</a>.
 
-#### [8. Create an Automatic Transfer Script](#globuscli-step8) { #globuscli-step8 }
+#### [6. Create an Automatic Transfer Script](#globuscli-step6) { #globuscli-step6 }
 
 We will now create a shell script to store the transfer details (i.e., UUIDs and paths) and globus-cli syntax to allow us to quickly and reliably initiate future transfers.
 
@@ -286,7 +243,7 @@ label=$"YourLabelHere_${label}"
 globus transfer --recursive --label $label "$ep1" "$ep2"
 ```
 
-#### [9. Automate Script Execution with cron](#globuscli-step9) { #globuscli-step9 }
+#### [7. Automate Script Execution with cron](#globuscli-step7) { #globuscli-step7 }
 
 To automate the transfer we wil use the Linux scheduling utility cron to call our transfer script on a specified schedule.
 
