@@ -150,7 +150,7 @@ Globus provides a command line interface (CLI), for those who need to perform au
 
 #### [1. Follow the steps 1-3 above in Globus Data Transfer Guide](#globuscli-step1) { #globuscli-step1 }
 
-To set up your Globus access, follow steps 1-3 above in the Globus Data Transfer Guide <a href="#globus-step1"> . 
+To set up your Globus access, follow steps 1-3 above in the <a href="#globus-step1">Globus Data Transfer Guide</a> . 
 
 #### [2. Activate Your Desktop/Laptop as a Globus Endpoint and Connect](#globuscli-step2) { #globuscli-step2 }
 
