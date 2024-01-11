@@ -1,4 +1,4 @@
-The <a href="https://www.designsafe-ci.org/data/browser/public/" target="_blank">Data Depot</a> is the data repository for DesignSafe. The web interface to the Data Depot allows you to browse, upload, download, share, curate and publish data stored within the repository. You are encouraged to use the Data Depot not only for curation and publication of research results, but as a working “scratch” area for any of your own data and work in progress. Scientific applications in the <a href=”https://www.designsafe-ci.org/rw/workspace/” target=”_blank”>Tools & Applications</a> area can access your Data Depot files, enabling data analysis directly in the DesignSafe portal that minimizes the need to transfer data to your laptop. The Data Depot hosts both public and private data associated with a project, with the following directories:
+The <a href="https://www.designsafe-ci.org/data/browser/public/" target="_blank">Data Depot</a> is the data repository for DesignSafe. The web interface to the Data Depot allows you to browse, upload, download, share, curate and publish data stored within the repository. You are encouraged to use the Data Depot not only for curation and publication of research results, but as a working "scratch" area for any of your own data and work in progress. Scientific applications in the <a href="https://www.designsafe-ci.org/rw/workspace/" target="_blank">Tools & Applications</a> area can access your Data Depot files, enabling data analysis directly in the DesignSafe portal that minimizes the need to transfer data to your laptop. The Data Depot hosts both public and private data associated with a project, with the following directories:
 
 
 * **My Data**: Private directory for your data.
@@ -6,14 +6,14 @@ The <a href="https://www.designsafe-ci.org/data/browser/public/" target="_blank"
 * **Box.com**: Access to your Box files for copying to DesignSafe.
 * **Dropbox.com**: Access to your Dropbox for copying to DesignSafe.
 * **Google Drive**: Access to your Google Drive files for copying to DesignSafe.
-* **Published**: Curated data/projects with DOI’s.
+* **Published**: Curated data/projects with DOI's.
 * **Community Data**: Non-curated user-contributed data.
  
 ### [Browsing, Upload, and Download](#browsing) { #browsing } 
 
 ![Figure 1. Data Depot](./imgs/datadepotfigure.jpg)
 
-Figure 1. Data Depot “My Data” screenshot 
+Figure 1. Data Depot "My Data" screenshot 
 
 The Data Depot provides a user interface with a familiar desktop metaphor for manipulating files. The UI for a typical Data Depot window is shown in Figure 1 above. On the left is your directory tree (My Data, etc), and on the right are the files and folders within the currently selected directory. Folders can be navigated simply by clicking on the name of the folders. Clicking on the name of a file will pop up a preview of the file. 
 
