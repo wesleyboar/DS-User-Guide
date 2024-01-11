@@ -7,7 +7,7 @@ The <a href="https://www.designsafe-ci.org/data/browser/public/" target="_blank"
 * **Shared with Me**: DEPRECATED. Use My Projects. Legacy directory we are no longer utilizing, but some very early users may have data. 
 * **Box.com**: Access to your Box files for copying to DesignSafe.
 * **Dropbox.com**: Access to your Dropbox for copying to DesignSafe.
-* **Google Drive**: Access to your Google Drive files for copying to DesignSafe.
+* **Google Drive**: CURRENTLY NOT FUNCTIONAL. Google has made changes that we are working through to reenable.
 * **Published**: Curated data/projects with DOI's.
 * **Published (NEES)**: Curated data/projects from NEES program that ran from 1999 - 2015.
 * **Community Data**: Non-curated user-contributed data.
