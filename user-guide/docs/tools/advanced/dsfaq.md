@@ -10,7 +10,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 	<li><b><a href="#faq-users">Users and Accounts</a></b></li>
 	<li><b><a href="#faq-training">Training</a></b></li>
 	<li><b><a href="#faq-datadepot">Data Depot</a></b></li>
-	<li><b><a href="#faq-workspace">Discovery Workspace</a></b></li>
+	<li><b><a href="#faq-workspace">Tools & Applications</a></b></li>
 	<li><b><a href="#faq-matlab">MATLAB</a></b></li>
 	<li><b><a href="#faq-jupyter">Jupyter</a></b></li>
 	<li><b><a href="#faq-opensees">OpenSees</a></b></li>
@@ -25,26 +25,32 @@ An Expanding Collection of the Most Frequently Asked Questions
 <hr>
 ## [Users and Accounts](#faq-users) { #faq-users } 
 
-<b><a href="/rw/support/getting-started/">www.designsafe-ci.org/rw/support/getting-started</a></b>
+<b><a href="https://www.designsafe-ci.org/user-guide/" target="_blank">DesignSafe User Guides</a></b>
 
 <strong>Q: Who can be a DesignSafe User?</strong><br>
-A: Any natural hazards researcher that needs an environment to store, analyze, curate, publish, and discover data with a community of peers.
+A: Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers.
 
 <strong>Q: How do I get a DesignSafe Account?</strong><br>
-A: Fill out and submit the <a href="/account/register">registration form</a>, follow the instructions in the email you receive to confirm your account, then log into DesignSafe.
+A: Navigate to and then follow the directions to submit the <a href="https://www.designsafe-ci.org/account/register/)" target="_blank">registration request</a>, and then follow the instructions in the email you receive to complete setting up your account, and then you will be able to <a href="https://www.designsafe-ci.org/" target="_blank">log in to DesignSafe</a>. Note that a DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain tacc.utexas.edu.
 
 <strong>Q: Why should I get a DesignSafe Account?</strong><br>
 A: With an account, you can:
 
 <ul>
-	<li>Run analysis or simulations with a variety of applications on High-Performance Computing (HPC) systems in the <a href="/rw/workspace/">Discovery Workspace</a></li>
-	<li>Store your data in the <a href="/data/browser/">Data Depot</a></li>
-	<li>Collaborate and publish your work with other researchers in <a href="/data/browser/projects/">My Projects</a></li>
-	<li>Access data from other researchers in the <a href="/data/browser/public/nees.public/">Published</a> directory</li>
+	<li>Run analysis or simulations with a variety of applications on High-Performance Computing (HPC) systems in <a href="https://www.designsafe-ci.org/rw/workspace/" target="_blank">Tools & Applications</a></li>
+	<li>Store your data in the <a href="https://www.designsafe-ci.org/data/" target="_blank">Data Depot</a></li>
+	<li>Collaborate and publish your work with other researchers in <a href="/data/browser/projects/" target="_blank">My Projects</a></li>
+	<li>Access data from other researchers in the <a href="/data/browser/public/nees.public/" target="_blank">Published</a> directory</li>
 </ul>
 
 <strong>Q: How can I become more involved in DesignSafe?</strong><br>
-A: Join our <a href="/community/slack-online-collaboration/">Slack team</a> to participate in discussions and give your input on the site. All feedback is welcome and helps improve the site.
+A: Upon receiving your new user account, you will be sent an email to join our <a href="https://www.designsafe-ci.org/community/slack-online-collaboration/" target="_blank">Slack team</a> to participate in discussions and give your input on the site. 
+
+<strong>Q: I forgot my password. How do I reset it? </strong><br>
+A: Go to https://accounts.tacc.utexas.edu/forgot_password and you will be prompted to enter your username or email address that is associated with your user account, and you will receive an email with a password reset link. 
+
+<strong>Q: I'm getting an Authentication Failed error. What should I do? </strong><br>
+A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated if it has been more than 120 days since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
 
 <hr>
 ## [Training](#faq-training) { #faq-training }
