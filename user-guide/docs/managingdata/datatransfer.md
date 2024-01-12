@@ -256,52 +256,35 @@ An example cron table entry that you can use to automatically run your transfer 
 
 ### [Cyberduck Data Transfer Guide](#cyberduck) { #cyberduck }
 
-Cyberduck is an open-source client for file transfer protocols that allows you to securely connect to DesignSafe and other Texas Advanced Computing Center (TACC) resources without directly using the command line.
+Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows you to securely connect from your laptop to DesignSafe and other Texas Advanced Computing Center (TACC) resources. 
 
-#### [1. Submit a ticket to activate Corral access for your DesignSafe/TACC Account](#cyberduck-step1) { #cyberduck-step1 }
+#### [1. Set up MFA using the TACC Token App](#cyberduck-step1) { #cyberduck-step1 }
 
-If you have already requested access to Corral for using Globus or another data transfer method, you may skip this step.
+TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">MFA instructions.</a>
 
-To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use Cyberduck. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
+#### [2. Download and Install Cyberduck](#cyberduck-step2) { #cyberduck-step2 }
 
-#### [2. Set up MFA using the TACC Token App](#cyberduck-step2) { #cyberduck-step2 }
-
-Go to TACC user portal (<a href="https://www.tacc.utexas.edu/portal/login">https://www.tacc.utexas.edu/portal/login)</a> and log in with your DesignSafe/TACC credentials and pair a device with your account.
-
-Full instructions are provided here: <https://portal.tacc.utexas.edu/tutorials/multifactor-authentication>.
-
-Select the TACC Token App option.
-
-#### [3. Download and Install Cyberduck](#cyberduck-step3) { #cyberduck-step3 }
-
-Download Cyberduck (<a href="https://cyberduck.io/download/">https://cyberduck.io/download/</a>) and install.
+<a href="https://cyberduck.io/download/" target="_blank">Download Cyberduck</a> and install.
 
 Note that Cyberduck is Free Software and as such is freely available to download (see link above). However, some approaches to downloading Cyberduck (such as through the Windows Store and Mac App Store) come with a registration key that disables a donation prompt. While you may purchase a registration key to support the development of Cyberduck if you wish, the **activation key is not required** to use the software for transfer files to and from DesignSafe.
 
-#### [4. Create a New Bookmark](#cyberduck-step4) { #cyberduck-step4 }
+#### [3. Create a New Bookmark](#cyberduck-step3) { #cyberduck-step3 }
 
 Launch the Cyberduck app and select "Bookmark" &gt; "New Bookmark".
 
 ![Figure 1. Bookmark](./imgs/cyberduck-1.png)
 
-#### [5. Populate Bookmark](#cyberduck-step5) { #cyberduck-step5 }
+#### [4. Populate Bookmark](#cyberduck-step4) { #cyberduck-step4 }
 
 Change the top dropdown to "SFTP (SSH File Transfer Protocol)".
 
-Provide a descriptive nickname to the connect, for example "DesignSafe - Data Depot".
+Provide a descriptive nickname to the connection, for example "DesignSafe - Data Depot".
 
 Set "Server" to "data.tacc.utexas.edu".
 
 Enter your DesignSafe/TACC username and password.
 
-For the "Path", select one of the following:
-
-* For **My Data** set Path to **/data/designsafe/mydata/&lt;username&gt;/**
-* For **My Projects** set Path to **/corral-repl/projects/NHERI/projects/&lt;project-uid&gt;/**
-* For **Published **DesignSafe projects set Path to **/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;**/
-* For **Published (NEES)** projects set Path to **/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/**
-
-For more information on path selection please see the detailed in guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
+For the "Path", refer to <a href="https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral" target="_blank">Setting Path to DS on Corral</a>.
 
 If you do not see the "Path" option click the button "More Options" in the lower left.
 
@@ -311,7 +294,7 @@ When done close the bookmark. You will now see your newly created bookmark in th
 
 ![Figure 2. Bookmark Filled](imgs/cyberduck-2.png)
 
-#### [6. Perform Transfer](#cyberduck-step6) { #cyberduck-step6 }
+#### [5. Perform Transfer](#cyberduck-step5) { #cyberduck-step5 }
 
 Right-click on your newly created bookmark and select "Connect to Server". You will be prompted for your TACC Token code.  Input the code from your TACC Token app.
 
@@ -325,23 +308,13 @@ To download files, select the file(s) you wish to download. Select "File" &gt; "
 
 ### [Command-Line Data Transfer Guide](#cli) { #cli }
 
-Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
+Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users as you will need to learn unix commands. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
-#### [1. Submit a ticket to activate Corral access for your DesignSafe/TACC Account](#cli-step1) { #cli-step1 }
+#### [1. Set up MFA using the TACC Token App](#cli-step1) { #cli-step1 }
 
-If you have already requested access to Corral for using Globus or another data transfer method, you may skip this step.
+TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">MFA instructions.</a>
 
-To request access, go to the DesignSafe website and submit a ticket to request Corral access (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>). In the body of the message say you wish to use a command-line based data transfer. Please list the Data Depot locations(s), such as My Data or a project in My Projects, where you intend to transfer files to/from. You will get a response via email when the access request is complete.
-
-#### [2. Set up MFA using the TACC Token App](#cli-step2) { #cli-step2 }
-
-Go to TACC user portal (<https://www.tacc.utexas.edu/portal/login>) and log in with your DesignSafe/TACC credentials and pair a device with your account.
-
-Full instructions are provided here: <https://docs.tacc.utexas.edu/basics/mfa/>.
-
-Select the TACC Token App option.
-
-#### [3. Select Transfer Utility and Perform Transfer](#cli-step3) { #cli-step3 }
+#### [2. Select Transfer Utility and Perform Transfer](#cli-step2) { #cli-step2 }
 
 There are several different command-line based file transfer utilities. We detail two of them here: scp and rsync.
 
@@ -351,8 +324,7 @@ A data transfer can be performed using the secure copy (scp) utility between any
 
 A file can be copied from your local system to the remote server by using the command:
 
-where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file.To select the appropriate path on Corral see the guide for <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
-
+where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral" target="_blank">Setting Path to DS on Corral</a>.
 
 An entire folder can be copied from your local system to the remote server by using the command:
 
@@ -376,7 +348,7 @@ A file can be synced from your local system to the remote server by using the co
 
 	<em><strong>rsync &lt;filename&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
 
-where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. To select the appropriate path on Corral see the guide for <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
+where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral" target="_blank">Setting Path to DS on Corral</a>.
 
 An entire directory can be synced from your local system to the remote server by using the command:
 
