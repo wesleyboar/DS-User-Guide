@@ -84,8 +84,10 @@ A: The Published directory in the Data Depot holds the <a href="https://www.desi
 <hr>
 ## [Tools & Applications](#faq-workspace) { #faq-workspace }
 
-<strong>Q: I don't see the application I need in the Tools & Appications. How can I get my application added?</strong><br>
-A: <a href="/help/">Submit a ticket</a> and we will work with you to add your application to the Discovery Workspace. We can make your application available privately to you, or if it's a widely used code we can make it publicly available to all users.
+<strong>Q: I don't see the application I need in the Tools & Applications. How can I use my application?</strong><br>
+A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. href="https://www.designsafe-ci.org/help/submit-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="https://www.designsafe-ci.org/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application. 
+
+<a href="/help/">Submit a ticket</a> and we will work with you to add your application to the Discovery Workspace. We can make your application available privately to you, or if it's a widely used code we can make it publicly available to all users.
 
 <hr>
 ## [MATLAB](#faq-matlab) { #faq-matlab }
