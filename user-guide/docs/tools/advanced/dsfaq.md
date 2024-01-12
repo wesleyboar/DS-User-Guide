@@ -40,7 +40,7 @@ A: With an account, you can:
 	<li>Run analysis or simulations with a variety of applications on High-Performance Computing (HPC) systems in <a href="https://www.designsafe-ci.org/rw/workspace/" target="_blank">Tools & Applications</a></li>
 	<li>Store your data in the <a href="https://www.designsafe-ci.org/data/" target="_blank">Data Depot</a></li>
 	<li>Collaborate and publish your work with other researchers in <a href="/data/browser/projects/" target="_blank">My Projects</a></li>
-	<li>Access data from other researchers in the <a href="/data/browser/public/nees.public/" target="_blank">Published</a> directory</li>
+	<li>Access data from other researchers in the <a href="/data/browser/public/" target="_blank">Published</a> directory</li>
 </ul>
 
 <strong>Q: How can I become more involved in DesignSafe?</strong><br>
