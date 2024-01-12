@@ -70,7 +70,7 @@ A: There are no restrictions on file types for the data that you upload to the D
 A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#data-transfer-guides" target="_blank">Data Transfer Guides</a> to see our recommended methods based on the amount of data you are transferring. 
 
 <strong>Q: What is My Projects?</strong><br>
-A: My Projects is a place where you can curate and publish data with other collaborators. Data models are integrated to help you easily curate your data. You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
+A: <a href="/data/browser/projects/" target="_blank">My Projects</a> is a place where you can curate and publish data with other collaborators. Data models are integrated to help you easily curate your data. You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
 
 <strong>Q: Can I easily copy data from my Cloud Data Provider (Dropbox, Box, etc)?</strong><br>
 A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#cloud" target="_blank">Cloud Storage Transfer</a> user guide to see which providers we currently connect with for direct data transfer.
