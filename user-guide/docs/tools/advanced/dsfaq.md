@@ -62,8 +62,6 @@ A: Webinars are recorded and made available on our <a href="https://www.youtube.
 <hr>
 ## [Data Depot](#faq-datadepot) { #faq-datadepot }
 
-<b><a href="/data/browser">www.designsafe-ci.org/data/browser</a></b>
-
 <strong>Q: What data can I upload to the Data Depot?</strong><br>
 A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="https://www.designsafe-ci.org/user-guide/curating/#protectedddr" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
 
