@@ -50,7 +50,7 @@ A: Upon receiving your new user account, you will be sent an email to join our <
 A: Go to https://accounts.tacc.utexas.edu/forgot_password and you will be prompted to enter your username or email address that is associated with your user account, and you will receive an email with a password reset link. 
 
 <strong>Q: I'm getting an Authentication Failed error. What should I do? </strong><br>
-A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated if it has been more than 120 days since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
+A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated more than 120 days have passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
 
 <hr>
 ## [Training](#faq-training) { #faq-training }
