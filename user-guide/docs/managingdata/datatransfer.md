@@ -260,7 +260,7 @@ Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows
 
 #### [1. Set up MFA using the TACC Token App](#cyberduck-step1) { #cyberduck-step1 }
 
-TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">MFA instructions.</a>
+TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://docs.tacc.utexas.edu/basics/mfa/" target="_blank">MFA instructions.</a>
 
 #### [2. Download and Install Cyberduck](#cyberduck-step2) { #cyberduck-step2 }
 
