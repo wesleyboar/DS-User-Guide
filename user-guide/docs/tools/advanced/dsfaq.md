@@ -31,7 +31,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 A: Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers.
 
 <strong>Q: How do I get a DesignSafe Account?</strong><br>
-A: Navigate to and then follow the directions to submit the <a href="https://www.designsafe-ci.org/account/register/)" target="_blank">registration request</a>, and then follow the instructions in the email you receive to complete setting up your account, and then you will be able to <a href="https://www.designsafe-ci.org/" target="_blank">log in to DesignSafe</a>. Note that a DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain tacc.utexas.edu.
+A: Navigate to and then follow the directions to submit the <a href="https://www.designsafe-ci.org/account/register/" target="_blank">registration request</a>, and then follow the instructions in the email you receive to complete setting up your account, and then you will be able to <a href="https://www.designsafe-ci.org/" target="_blank">log in to DesignSafe</a>. Note that a DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain tacc.utexas.edu.
 
 <strong>Q: Why should I get a DesignSafe Account?</strong><br>
 A: With an account, you can:
