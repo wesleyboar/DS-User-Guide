@@ -48,51 +48,34 @@ A: Upon receiving your new user account, you will be sent an email to join our <
 A: Go to https://accounts.tacc.utexas.edu/forgot_password and you will be prompted to enter your username or email address that is associated with your user account, and you will receive an email with a password reset link. 
 
 <strong>Q: I'm getting an Authentication Failed error. What should I do? </strong><br>
-A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated more than 120 days have passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
+A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated when more than 120 days have passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
 
 <hr>
 ## [Training](#faq-training) { #faq-training }
 
-<b><a href="/learning-center/training/">www.designsafe-ci.org/learning-center/training</a></b>
-
-<strong>Q: Does DesignSafe provide training on how to use the Data Depot and the applications in the Discovery Workspace?</strong><br>
-A: <a href="/learning-center/training/">Upcoming training opportunities</a> are posted in the DesignSafe Learning Center, sent via email, and posted on the Slack channel. Webinars covering DesignSafe features are hosted monthly during the school year.
+<strong>Q: Does DesignSafe provide training on how to use the Data Depot and the applications in Tools & Applications?</strong><br>
+A: <a href="https://www.designsafe-ci.org/learning-center/training/" target="_blank">Upcoming training opportunities</a> are posted in the DesignSafe Learning Center, announced via email, and posted on DesignSafe Slack. Webinars covering DesignSafe features are hosted roughly monthly during the academic year.
 
 <strong>Q: Are training webinars recorded and available to view online?</strong><br>
-A: Webinars on a variety of topics are recorded and made <a href="https://www.youtube.com/channel/UCF4nS051wnvMRpnezTRUSqA/playlists">available online</a>, and there are additional <a href="/rw/support/getting-started/">user support videos</a> and <a href="/rw/user-guide/">documentation</a>.
+A: Webinars are recorded and made available on our <a href="https://www.youtube.com/@DesignSafe" target="_blank">YouTube Channel</a>.
 
 <hr>
 ## [Data Depot](#faq-datadepot) { #faq-datadepot }
 
 <b><a href="/data/browser">www.designsafe-ci.org/data/browser</a></b>
 
-<strong>Q: What types of data can I upload to the Data Depot?</strong><br>
-A: There are no restrictions on the type of data you can upload to the Data Depot. Whatever data you need to perform your research is welcomed and encouraged!
+<strong>Q: What data can I upload to the Data Depot?</strong><br>
+A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="https://www.designsafe-ci.org/user-guide/curating/#protectedddr" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
 
-<strong>Q: How much data can I upload to the Data Depot?</strong><br>
-A: Data storage is allocated by the gigabyte-year on a per user basis. Allocation limits are as follows:
 
-<ul type="disc">
-	<li><strong>Base Allocation:</strong> 50 GB – Provided to all registered users</li>
-	<li><strong>Startup Allocation:</strong> up to 1 TB – For researchers in need of more than the base allocation. To receive this allocation, send a request and await approval from an internal review.</li>
-	<li><strong>Research Allocation: </strong>100 TB (negotiable) – For researchers in need of more than the startup allocation. To receive this allocation, send a request and await approval from an internal review.</li>
-	<li><strong>Educational Allocation: </strong>up to 1 TB –  For teachers using DesignSafe for educational purposes. To receive this allocation, send a request and await approval from an internal review.</li>
-	<li><strong>Additional Allocation:</strong> Request via <a href="https://www.xsede.org/using-xsede" target="_blank">XSEDE</a> or purchase $100/TB/year</li>
-</ul>
-
-<strong>Q: How can I upload data from my computer to My Data in the Data Depot?</strong><br>
-A: There are a few different ways to upload data from your local machine:
-
-<ul>
-	<li>Select the Add button, then File upload to begin uploading data from your local machine. You can browse and select files or drag and drop files into the window that appears.</li>
-	<li>Connect to your favorite cloud storage provider. We currently support integration with Box and Dropbox. Support for Google Drive and others is coming soon.</li>
-</ul>
+<strong>Q: How can I transfer data to/from my computer and the Data Depot?</strong><br>
+A: Explore the <a href="https://www.designsafe-ci.org/user-guide/curating/#protectedddr" target="_blank">Data Transfer Guides</a> to see our recommended methods based on the amount of data you are transferring. 
 
 <strong>Q: What is My Projects?</strong><br>
-A: My Projects is a place where you can curate and publish data with other collaborators.<strong> </strong>Data models are integrated to help you easily curate your data.<strong> </strong>You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
+A: My Projects is a place where you can curate and publish data with other collaborators. Data models are integrated to help you easily curate your data. You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
 
-<strong>Q: How do I connect to Box.com, Dropbox or Google Drive?</strong><br>
-A: You can connect to cloud storage providers in your <a href="/account/applications/">Account Profile</a>. We currently support integration with Box and Dropbox and will be adding support for Google Drive.
+<strong>Q: Can I easily copy data from my Cloud Data Provider (Dropbox, Box, etc)?</strong><br>
+A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#cloud" target="_blank">Cloud Storage Transfer</a> user guide to see which providers we currently connect with for direct data transfer.
 
 <strong>Q: How do I add Designsafe's Box app to my company's/university's whitelist?</strong><br>
 A: This will require contacting your IT department to make sure your company/university is using a whitelist for Box apps. If they are, give them Designsafe's client id: <i>gh3tntr70zh1lxf3po7y893rkje696zp</i>.
@@ -101,20 +84,13 @@ A: This will require contacting your IT department to make sure your company/uni
 A: The Published directory in the Data Depot holds the <a href="https://www.designsafe-ci.org/data/browser/public/nees.public/" target="_blank">NEES Public Data</a>. Projects published using DesignSafe will be hosted there as well. The DOIs for the NEES Public Data point to the Data Depot.
 
 <hr>
-## [Discovery Workspace](#faq-workspace) { #faq-workspace }
+## [Tools & Applications](#faq-workspace) { #faq-workspace }
 
-<b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
-
-<strong>Q: I don't see the application I need in the Discovery Workspace. How can I get my application added?</strong><br>
+<strong>Q: I don't see the application I need in the Tools & Appications. How can I get my application added?</strong><br>
 A: <a href="/help/">Submit a ticket</a> and we will work with you to add your application to the Discovery Workspace. We can make your application available privately to you, or if it's a widely used code we can make it publicly available to all users.
-
-<strong>Q: What computing resources are used when a job is submitted?</strong><br>
-A: One Frontera node is requested. For more info, consult the <a href="https://docs.tacc.utexas.edu/hpc/frontera/#overview" target="_blank">TACC Frontera User Guide</a>.
 
 <hr>
 ## [MATLAB](#faq-matlab) { #faq-matlab }
-
-<b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
 <strong>Q: Do I need to provide my own license to run MATLAB?</strong><br>
 A: No, you don’t need to provide your own license to run MATLAB in the Discovery Workspace. Our license with MathWorks allows for academic use and you can be from any academic institution. We have a process whereby you request access to MATLAB and we then verify you are an academic user prior to adding you to the license. Simply click on MATLAB in the Discovery Workspace to start the process of requesting access.
@@ -131,8 +107,6 @@ A: If you do not specify a location, the default output is shown in the grayed-o
 <hr>
 ## [Jupyter](#faq-jupyter) { #faq-jupyter }
 
-<b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
-
 <strong>Q: What is Jupyter?</strong><br>
 A: The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. A more detailed description including a list of more than 40 supported programming languages can be found on the <a href="http://jupyter.org/" target="_blank">Jupyter website</a>.
 
@@ -141,8 +115,6 @@ A: Many people use Jupyter in a similar fashion as they use MATLAB to analyze an
 
 <hr>
 ## [OpenSees](#faq-opensees") { #faq-opensees }
-
-<b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
 <strong>Q: What research is enabled by OpenSees?</strong><br>
 A: The Open System for Earthquake Engineering Simulation (OpenSees) is a software framework for simulating the seismic response of structural and geotechnical systems.<br>
@@ -159,8 +131,6 @@ A: If you do not specify a location, the default output is shown in the grayed-o
 
 <hr>
 ## [ADCIRC](#faq-adcirc) { #faq-adcirc }
-
-<b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
 <strong>Q: What research is enabled by ADCIRC?</strong><br>
 A: ADCIRC is a system of computer programs for solving time dependent, free surface circulation and transport problems in two and three dimensions. These programs utilize the finite element method in space allowing the use of highly flexible, unstructured grids. Typical ADCIRC applications have included:
@@ -184,8 +154,6 @@ A: If you do not specify a location, the default output is shown in the grayed o
 <hr>
 ## [OpenFOAM](#faq-openfoam) { #faq-openfoam }
 
-<b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
-
 <strong>Q: What research is enabled by OpenFOAM?</strong><br>
 A: OpenFOAM has an extensive range of features to solve anything from complex fluid flows involving chemical reactions, turbulence and heat transfer, to acoustics, solid mechanics and electromagnetics.<br>
 A more detailed description can be found on the <a href="http://openfoam.com/" target="_blank">OpenFOAM website</a>.
@@ -195,8 +163,6 @@ A: If you do not specify a location, the default output is shown in the grayed-o
 
 <hr>
 ## [ParaView](#faq-paraview) { #faq-paraview }
-
-<b><a href="/rw/workspace/">www.designsafe-ci.org/rw/workspace</a></b>
 
 <strong>Q: What data analysis and visualization capabilities are enabled by ParaView?</strong><br>
 A: ParaView is an open-source data analysis and visualization application. ParaView users can quickly build visualizations to analyze their data using qualitative and quantitative techniques.
@@ -208,8 +174,6 @@ A: If you do not specify a location, the default output is shown in the grayed-o
 
 <hr>
 ## [Experimental Facilities](#faq-ef) { #faq-ef }
-
-<b><a href="/facilities/experimental">www.designsafe-ci.org/facilities/experimental</a></b>
 
 <strong>Q: What Experimental Facilities are available to the natural hazards engineering community?</strong><br>
 A: You can explore the NSF NHERI Program <a href="/facilities/experimental/">Experimental Facilities</a> on our website. Research instruments at the facilities include wind tunnels, shake tables, centrifuges, wave pools, and mobile shaker trucks.
