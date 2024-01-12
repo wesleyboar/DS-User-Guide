@@ -25,8 +25,6 @@ An Expanding Collection of the Most Frequently Asked Questions
 <hr>
 ## [Users and Accounts](#faq-users) { #faq-users } 
 
-<b><a href="https://www.designsafe-ci.org/user-guide/" target="_blank">DesignSafe User Guides</a></b>
-
 <strong>Q: Who can be a DesignSafe User?</strong><br>
 A: Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers.
 
