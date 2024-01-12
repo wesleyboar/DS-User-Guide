@@ -31,6 +31,12 @@ A: Any natural hazards researcher or practitioner that wants an environment to s
 <strong>Q: How do I get a DesignSafe Account?</strong><br>
 A: Navigate to and then follow the directions to submit the <a href="https://www.designsafe-ci.org/account/register/" target="_blank">registration request</a>, and then follow the instructions in the email you receive to complete setting up your account, and then you will be able to <a href="https://www.designsafe-ci.org/" target="_blank">log in to DesignSafe</a>. Note that a DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain tacc.utexas.edu.
 
+<strong>Q: I forgot my password. How do I reset it? </strong><br>
+A: Go to https://accounts.tacc.utexas.edu/forgot_password and you will be prompted to enter your username or email address that is associated with your user account, and you will receive an email with a password reset link. 
+
+<strong>Q: I'm getting an Authentication Failed error. What should I do? </strong><br>
+A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated when more than 120 days have passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
+
 <strong>Q: Why should I get a DesignSafe Account?</strong><br>
 A: With an account, you can:
 
@@ -43,12 +49,6 @@ A: With an account, you can:
 
 <strong>Q: How can I become more involved in DesignSafe?</strong><br>
 A: Upon receiving your new user account, you will be sent an email to join our <a href="https://www.designsafe-ci.org/community/slack-online-collaboration/" target="_blank">Slack team</a> to participate in discussions and give your input on the site. 
-
-<strong>Q: I forgot my password. How do I reset it? </strong><br>
-A: Go to https://accounts.tacc.utexas.edu/forgot_password and you will be prompted to enter your username or email address that is associated with your user account, and you will receive an email with a password reset link. 
-
-<strong>Q: I'm getting an Authentication Failed error. What should I do? </strong><br>
-A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated when more than 120 days have passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
 
 <hr>
 ## [Training](#faq-training) { #faq-training }
