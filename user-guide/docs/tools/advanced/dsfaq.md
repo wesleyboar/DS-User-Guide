@@ -79,7 +79,7 @@ A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#c
 A: This will require contacting your IT department to make sure your company/university is using a whitelist for Box apps. If they are, give them Designsafe's client id: <i>gh3tntr70zh1lxf3po7y893rkje696zp</i>.
 
 <strong>Q: Where can I find the NEES Public Data that was available in the NEEShub?</strong><br>
-A: The Published directory in the Data Depot holds the <a href="https://www.designsafe-ci.org/data/browser/public/nees.public/" target="_blank">NEES Public Data</a>. Projects published using DesignSafe will be hosted there as well. The DOIs for the NEES Public Data point to the Data Depot.
+A: The Published directory in the Data Depot holds the <a href="https://www.designsafe-ci.org/data/browser/public-legacy/" target="_blank">NEES Public Data</a>. Projects published using DesignSafe will be hosted there as well. The DOIs for the NEES Public Data point to the Data Depot.
 
 <hr>
 ## [Tools & Applications](#faq-workspace) { #faq-workspace }
