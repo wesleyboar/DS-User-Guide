@@ -312,7 +312,7 @@ Common command-line utilities, such as scp and rsync, may also be used to transf
 
 #### [1. Set up MFA using the TACC Token App](#cli-step1) { #cli-step1 }
 
-TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">MFA instructions.</a>
+TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://docs.tacc.utexas.edu/basics/mfa/" target="_blank">MFA instructions.
 
 #### [2. Select Transfer Utility and Perform Transfer](#cli-step2) { #cli-step2 }
 
