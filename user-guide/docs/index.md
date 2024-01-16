@@ -1,5 +1,5 @@
 # DesignSafe User Guides
-*November 27, 2023*
+*January 16, 2024*
 
 <strong>User Account Registration, Password Reset, and Reactivation</strong><br>
 Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, 
