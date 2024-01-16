@@ -8,6 +8,7 @@ To <strong>reset your password</strong>, go to https://accounts.tacc.utexas.edu/
 
 If you receive an <strong>Authentication Failed</strong> error when logging in, and you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated due to more than 120 days having passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and then request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
 
+<strong>NAVIGATING THE USER GUIDE</strong><br>
 **Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF Data Management Plan, and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
 
 **Tools &amp; Apps**: This section contains user guides for how to utilize our many offerings in data analytics, GIS and mapping, visualization, and our Jupyter Hub interacting with the data you bring to DesignSafe or that you discover in our Published datasets.
