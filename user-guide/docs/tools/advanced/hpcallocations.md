@@ -22,35 +22,26 @@ All registered users are provided access to the Tools &amp; Applications in a co
 
 ## [Allocation Types and Constraints](#description) { #description }
 
-DesignSafe provides access to a variety of computing and storage resources, accessible through several different interfaces: via the web-based Tools &amp; Applications portal, or via API's, or via direct command-line access to TACC's HPC systems. Web-based access via Tools &amp; Applications has built-in constraints that limit the amount of compute time. For users requiring access via API or direct command-line access to HPC resources, they can request additional allocations of computational time and/or data storage. Compute time is allocated in Service Units (SUs), which equates to one hour of wall clock time on a single compute node.  
-
-
+DesignSafe provides access to a variety of computing and storage resources, accessible through several different interfaces: via the web-based Tools &amp; Applications portal, or via API's, or via direct command-line access to TACC's HPC systems. Web-based access via Tools &amp; Applications has built-in constraints that limit the amount of compute time. For users requiring access via API or direct command-line access to HPC resources, they can request additional allocations of computational time and/or data storage. TACC has <a href="https://docs.tacc.utexas.edu/" target="_blank">several different HPC resources</a> and we will provide allocation on the resource that is best suited to achieve your research goals. 
 
 ### [Allocation Sizes and Limits](#allocationsizes) { #allocationsizes }
 
-There are three types of additional allocations available via DesignSafe:
+Additional allocations available via DesignSafe enable researchers to directly access TACC's HPC systems via the command line interface. The following describes the types and sizes of allocations available via DesignSafe. Some users will ultimately require even larger amounts of compute time than is offered under this policy, and when that happens we will recommend other allocation methods for NSF-supported resources that are available such as <a href="https://frontera-portal.tacc.utexas.edu/allocations/" target="_blank">Frontera Allocations</a> or <a href="https://allocations.access-ci.org/" target="_blank">ACCESS Allocations</a>. 
 
 <ul>
-	<li>Startup Allocation — Startup projects target new users exploring the use of DesignSafe beyond the level of automatic allocations via Tools &amp; Applications and/or planning to submit more substantial requests in the future as well as users who have modest requirements for the testbed that nonetheless can’t be met by local or institutional resources. Startup projects receive a fast track internal review. A Startup Allocation may request up to 20,000 node-hours on Frontera, and up to 1 terabyte of storage.</li>
+	<li>Startup Allocation — Startup projects target new users exploring the use of DesignSafe beyond the level of computational time or capabilities provided by the portal-based Tools &amp; Applications and/or planning to submit more substantial requests for computational time in the future as well as users who have modest requirements that nonetheless can’t be met by their own local or institutional resources. A Startup Allocation may request up to 20,000 node-hours. </li>
 	<li>Research Allocation -- Research projects are designated for projects that have progressed beyond the startup phase and are conducting production usage of the infrastructure in pursuit of their research goals. Research allocations are subject to the full review process. A Research allocation has no mandatory maximum size; however, a maximum size of 100,000 node-hours annually on Frontera and 100TB of data storage is recommended. Requests above this limit will be considered only in exceptional circumstances with additional justification, and it is recommended the requestor contact the project team to discuss the request before submitting.</li>
 	<li>Educational Allocation — Education projects target faculty or teachers intending to use DesignSafe resources for classroom instruction or training classes related to cloud computing technologies. Educational Allocations receive fast track review. An Educational allocation may request up to 10,000 node-hours on Frontera and 1 terabyte of storage. </li>
+	<li>Data Storage — TACC has <a href="https://docs.tacc.utexas.edu/" target="_blank">several data storage resources</a>. Each HPC resource has a scratch file system for your working files while you are doing your computations, and you can <a href="https://www.designsafe-ci.org/user-guide/managingdata/#data-transfer-guides" target="_blank">transfer files</a> you want to keep back to the DesignSafe Data Depot. If you find a need for additional data storage, such as TACC's archival tape system Ranch, you can request allocation as part of a Startup or Research Allocation. </li>
 </ul>
 
-Each of these allocation types is provided through NSF funding at no direct cost to the end user. Users who need additional allocation above what they are allocated, or who are not eligible for an NSF-provided allocation, may choose to purchase additional compute time or storage capacity from DesignSafe. These services will be provided based on the underlying cloud services rates in effect at the Texas Advanced Computing Center at the time of purchase. As of this writing, storage is available for approximately $100/TB/year, and compute time is available for $0.40 per node hour.
+Allocations are provided through NSF funding at no direct cost to the end user to anyone who meets the eligibility criteria above. Users who are not eligible for an NSF-provided allocation, may choose to purchase additional compute time or storage capacity from TACC. These services will be provided based on TACC's services rates in effect at the time of purchase. For example as of this writing in January 2024, storage is available for approximately $60/TB/year, and compute time is available for approximately $0.50 per node hour.
 
 ### [Allocation Limit per PI](#allocationlimit) { #allocationlimit }
 
-An individual may be a PI on only one active DesignSafe allocation request at a given time. Several distinct research activities can be combined in a single allocation request, however, the allocation request for each activity must be justified, and any allocation-size limits apply to the aggregate request.
+An individual may be a PI on only one active DesignSafe additional allocation request at a given time. Several distinct research activities can be combined in a single allocation request, however, the allocation request for each activity must be justified, and any allocation-size limits apply to the aggregate request.
 
 The single-allocation rule is designed to minimize the effort required by PIs for submitting allocation requests and the overhead to the process for reviewing those requests. While PIs may have several different funded grants that require computational support, these should be included as sub-sections within a single allocation request.
-
-There are several exceptions to this rule:
-
-<ul>
-	<li>A PI may submit a Research request at any time during an active Startup allocation. A successful Research allocation will supersede any Startup allocations and start a new 12-month allocation period.</li>
-	<li>If a PI is leading an individual research activity as well as a community consortium activity or community service activity, separate requests for these distinct activities will be considered.</li>
-	<li>A PI with active Startup or Research projects may submit requests for any number of Educational allocations to keep classroom and training users separate from research activities.</li>
-</ul>
 
 Similarly, to minimize the effort required to gain access to DesignSafe, closely collaborating researchers should submit a single collaborative allocation request rather than several individual requests. For example, a PI and associated post-doctoral researchers; investigators supported by the same funding grant; and researchers in the same lab group should consider submitting a request describing and justifying the various sub-activities. One of the collaborators is designated as the PI, and others can be designated as co-PIs.
 
