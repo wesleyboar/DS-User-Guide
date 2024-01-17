@@ -2,7 +2,7 @@
 
 ## [Introduction](#intro) { #intro }
 
-This document defines the policies governing allocations for compute time and storage on the DesignSafe platform, a comprehensive natural hazards research environment for experimental, theoretical, and computational science. The allocation policy for DesignSafe considers that users may have a range of use cases, from short term analysis work to long term data storage, for very large or very small experiments. All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and they may request an additional allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. New use cases for DesignSafe may emerge—please don’t hesitate to <a href="/help/submit-ticket/" target="_blank">contact the project team</a> if you have additional needs. 
+The following are the policies governing allocations for compute time and storage on the DesignSafe platform, a comprehensive natural hazards research environment for experimental, theoretical, and computational science. The allocation policy for DesignSafe considers that users may have a range of use cases, from short term analysis work to long term data storage, for very large or very small experiments. All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and they may request an additional allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. New use cases for DesignSafe may emerge—please don’t hesitate to <a href="/help/submit-ticket/" target="_blank">contact the project team</a> if you have additional needs. 
 
 ## [Who is eligible for an Account?](#account) { #account }
 
@@ -20,13 +20,13 @@ All registered users are provided access to the Tools &amp; Applications in a co
 	<li>U.S. commercial organizations, especially small businesses with strong capabilities in scientific or engineering research or education may apply for an allocation. The DesignSafe project is interested in supporting projects that couple industrial research resources and perspectives with those of universities; therefore, it especially welcomes requests from cooperative projects involving both universities and the private commercial sector. It is necessary for these projects to submit their work in an open forum, and make the work readily available to the public.</li>
 </ul>
 
-## [What are the units of an allocation and how am I charged?](#units) { #units }
+## [Allocation Types and Constraints](#description) { #description }
 
 DesignSafe provides access to a variety of computing and storage resources, accessible through several different interfaces: via the web-based Tools &amp; Applications portal, or via API's, or via direct command-line access to TACC's HPC systems. Web-based access via Tools &amp; Applications has built-in constraints that limit the amount of compute time. For users requiring access via API or direct command-line access to HPC resources, they can request additional allocations of computational time and/or data storage. Compute time is allocated in Service Units (SUs), which equates to one hour of wall clock time on a single compute node.  
 
 
 
-## [Allocation Sizes and Limits](#allocationsizes) { #allocationsizes }
+### [Allocation Sizes and Limits](#allocationsizes) { #allocationsizes }
 
 There are three types of additional allocations available via DesignSafe:
 
@@ -38,7 +38,7 @@ There are three types of additional allocations available via DesignSafe:
 
 Each of these allocation types is provided through NSF funding at no direct cost to the end user. Users who need additional allocation above what they are allocated, or who are not eligible for an NSF-provided allocation, may choose to purchase additional compute time or storage capacity from DesignSafe. These services will be provided based on the underlying cloud services rates in effect at the Texas Advanced Computing Center at the time of purchase. As of this writing, storage is available for approximately $100/TB/year, and compute time is available for $0.40 per node hour.
 
-## [Allocation Limit per PI](#allocationlimit) { #allocationlimit }
+### [Allocation Limit per PI](#allocationlimit) { #allocationlimit }
 
 An individual may be a PI on only one active DesignSafe allocation request at a given time. Several distinct research activities can be combined in a single allocation request, however, the allocation request for each activity must be justified, and any allocation-size limits apply to the aggregate request.
 
@@ -60,7 +60,7 @@ Allocations for DesignSafe resources are made for up to a 12-month period. PIs c
 
 ## [Review Criteria for Additional Allocation Proposals](#criteria) { #criteria }
 
-DesignSafe supplemental allocations are reviewed for merit by a committee consisting of members of the Allocation Advisory Board.  The board makes recommendations to the project team based solely on the merit of the proposal, and not on overall availability of the resource. The board will review the proposal and make a recommendation to the project team based on the following criteria:
+DesignSafe additional allocations are reviewed for merit by a committee consisting of members of the Allocation Advisory Board.  The board makes recommendations to the project team based solely on the merit of the proposal, and not on overall availability of the resource. The board will review the proposal and make a recommendation to the project team based on the following criteria:
 
 <ul>
 	<li>Scientific merit and significance of the proposed experiment.</li>
@@ -80,7 +80,7 @@ Every effort is made to avoid conflicts of interest. Reviewers are not allowed t
 
 Additional allocations may be requested via the DesignSafe Portal by submitting a <a href="/rw/user-guides/help/" >help ticket</a>. An application for an additional allocation includes information about the eligibility of the requestor, a description of the research to be performed and its sources of support, and a justification for the number of SUs requested.
 
-## [Allocation Proposal Format](#format) { #format }
+### [Allocation Proposal Format](#format) { #format }
 
 A Startup Allocation request consists of the following components:
 
@@ -155,7 +155,7 @@ A supplement is a request for additional resources during an existing allocation
 
 Extensions of allocation periods beyond the normal 12-month duration can be requested. This request brings no new allocation, but keeps unused allocations from expiring. A brief reason is required for not using the awarded allocation, but no formal documentation is needed. Note that granting extension requests reduces the amount of allocation that can be given to users in the next year.
 
-## [Guidelines for a Successful Allocation Request](#guidelines) { #guidelines }
+### [Guidelines for a Successful Allocation Request](#guidelines) { #guidelines }
 
 Well-written research allocation requests will meet the following guidelines:
 
