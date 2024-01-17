@@ -4,11 +4,11 @@
 
 The following are the policies governing allocations for compute time and storage on the DesignSafe platform, a comprehensive natural hazards research environment for experimental, theoretical, and computational science. The allocation policy for DesignSafe considers that users may have a range of use cases, from short term analysis work to long term data storage, for very large or very small experiments. All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and they may request an additional allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. New use cases for DesignSafe may emerge—please don’t hesitate to <a href="/help/submit-ticket/" target="_blank">contact the project team</a> if you have additional needs. 
 
-## [Who is eligible for an Account?](#account) { #account }
+## [Who is eligible for an Account](#account) { #account }
 
 DesignSafe is broadly available to any researcher or practitioner working in <em>open</em> Natural Hazards Engineering and Social Science research. By “<em>open</em>,” the expectation is that any research performed on DesignSafe is unclassified, and will result in publication in a broadly available journal or conference. We also strongly encourage you to <a href="https://www.designsafe-ci.org/user-guide/curating/" target="_blank">publish your datasets</a> in our CoreTrustSeal certified data repository.
 
-## [Who is eligible for Allocations?](#allocation) { #allocation }
+## [Who is eligible for Allocations](#allocation) { #allocation }
 
 All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and they may request an additional Allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. An additional allocation via DesignSafe is headed by a project PI, typically a faculty member or research scientist at a US-based academic institution (private sector users are also welcome, see below). The PI may then add additional researchers to their allocation at their discretion. PIs are responsible for ensuring that any users added to their allocation comply with the terms and conditions for use of the DesignSafe and TACC resources. Collaborative projects involving non-U.S. researchers are encouraged as long as they include substantive intellectual participation by the U.S. researchers. In joint research projects, foreign collaborators are eligible to make use of that allocation in a manner consistent with the request. <strong>While a PI is typically a faculty member or staff researcher at a U.S. academic institution</strong>, there are a number of other cases where an individual may be eligible to be a PI:
 
@@ -76,7 +76,7 @@ Proposals that are deemed competitive by the Allocation Advisory Board are then 
 
 Every effort is made to avoid conflicts of interest. Reviewers are not allowed to review or be present for the discussion of requests from their home institution, former students, postdocs, advisors, or current and recent collaborators. If in the opinion of a PI a certain individual has a conflict of interest, the PI may request that the individual not act as reviewer on their request. All reviews remain confidential and are made available only to the PI and Co-PIs submitting the request, assigned reviewers from the Allocation Advisory Board, DesignSafe project staff involved in the allocation review process, and NSF program officers for the DesignSafe project. While the contents of reviews and details of allocation requests and experiments remain confidential, a list of projects receiving allocations and the general area of research may be made public on the DesignSafe web site and used in project reports and presentations.
 
-## [How do I apply for an Additional Allocation?](#apply) { #apply }
+## [How to apply for an Additional Allocation](#apply) { #apply }
 
 Additional allocations may be requested via the DesignSafe Portal by submitting a <a href="/rw/user-guides/help/" >help ticket</a>. An application for an additional allocation includes information about the eligibility of the requestor, a description of the research to be performed and its sources of support, and a justification for the number of SUs requested.
 
