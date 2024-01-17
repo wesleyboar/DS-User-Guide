@@ -4,10 +4,6 @@ DesignSafe provides a wide variety of resources that allow researchers to effect
 
 To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
-DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.  
-
-To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
-
 ### Data Analytics Use Cases 
 
 * [**Multi-Data Set Image Analysis in Taggit**](haan/usecase-3.md) (Taggit, HazMapper)
@@ -18,7 +14,6 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 * [**Data Analysis using Next Generation Liquefaction (NGL) Database**](brandenberg-ngl/usecase.md) (NGL, Jupyter, SQL, Interactive Data Analytics)
 * [**Landslide Runout Simulations**](kumar/usecase.md) (MPM, Jupyter, Paraview, HPC)
-
 
 ### Seismic Use Cases 
 
