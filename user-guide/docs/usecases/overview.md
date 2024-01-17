@@ -10,8 +10,6 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ### Data Analytics Use Cases 
 
-* [**Basic Image Browsing and Mapping**](haan/usecase.md) (Taggit, HazMapper)
-* [**Grouping and Tagging Image Files**](haan/usecase-2.md) (Taggit, HazMapper)
 * [**Multi-Data Set Image Analysis in Taggit**](haan/usecase-3.md) (Taggit, HazMapper)
 * [**Machine Learning and AI Resources**](vantassel_and_zhang/usecase.md) (Jupyter, Interactive Data Analytics, HPC)
 
