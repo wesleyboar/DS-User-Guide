@@ -10,7 +10,7 @@ DesignSafe is broadly available to any researcher or practitioner working in <em
 
 ## [Who is eligible for Allocations](#allocation) { #allocation }
 
-All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and they may request an additional Allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. An additional allocation via DesignSafe is headed by a project PI, typically a faculty member or research scientist at a US-based academic institution (private sector users are also welcome, see below). The PI may then add additional researchers to their allocation at their discretion. PIs are responsible for ensuring that any users added to their allocation comply with the terms and conditions for use of the DesignSafe and TACC resources. Collaborative projects involving non-U.S. researchers are encouraged as long as they include substantive intellectual participation by the U.S. researchers. In joint research projects, foreign collaborators are eligible to make use of that allocation in a manner consistent with the request. <strong>While a PI is typically a faculty member or staff researcher at a U.S. academic institution</strong>, there are a number of other cases where an individual may be eligible to be a PI:
+All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and may request an additional Allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. An additional allocation via DesignSafe is headed by a project PI, typically a faculty member or research scientist at a US-based academic institution (private sector users are also welcome, see below). The PI may then add additional researchers to their allocation at their discretion. PIs are responsible for ensuring that any users added to their allocation comply with the terms and conditions for use of the DesignSafe and TACC resources. Collaborative projects involving non-U.S. researchers are encouraged as long as they include substantive intellectual participation by the U.S. researchers. In joint research projects, foreign collaborators are eligible to make use of that allocation in a manner consistent with the request. <strong>While a PI is typically a faculty member or staff researcher at a U.S. academic institution</strong>, there are a number of other cases where an individual may be eligible to be a PI:
 
 <ul>
 	<li>NSF Graduate Student Research Fellowships: While in most cases, a graduate student is ineligible to be PI of an allocation request, an exception is made for recipients of NSF Graduate Student Fellowships. </li>
@@ -71,15 +71,15 @@ Every effort is made to avoid conflicts of interest. Reviewers are not allowed t
 
 Additional allocations may be requested via the DesignSafe Portal by submitting a <a href="/rw/user-guides/help/" >help ticket</a>. An application for an additional allocation includes information about the eligibility of the requestor, a description of the research to be performed and its sources of support, and a justification for the number of SUs requested.
 
-### [Allocation Proposal Format](#format) { #format }
+### [Allocation Proposal Guidance](#guidance) { #guidance }
 
 A Startup Allocation request consists of the following components:
 
 <ul>
 	<li>PI Name, Title, and Organization</li>
 	<li>(optional) Co-investigator names, titles, and organizations</li>
-	<li>Summary of the proposed experiments (1 page maximum)</li>
-	<li>Estimated resources required (include a short justification of the number and type of nodes you will request, and any specific software, hardware, or networking requirements. (1 page maximum)</li>
+	<li>Summary of the proposed research and need for computational resources (1 page maximum)</li>
+	<li>Estimated resources required, which includes what software/applications will be used and an estimate of the number of node-hours need for the next 12 months. If you are unsure of how many node-hours to request initially, then request 1,000 node-hours. A Supplement can be requested later if additional time is needed. (1 page maximum)</li>
 	<li>List any sources of funding (or pending funding) that support the proposed research, including funding agency and grant name(s) (Startup Allocations may be for unfunded exploratory research)</li>
 </ul>
 
@@ -89,8 +89,8 @@ An Educational Allocation request consists of the following components:
 	<li>PI Name, Title, and Organization</li>
 	<li>(optional) Co-investigator names, titles, and organizations</li>
 	<li>Summary of the proposed course or training session to be supported, including the expected number of students who will participate (1 page maximum).</li>
-	<li>Estimated resources required (include a short justification of the number and type of nodes you will request, and any specific software, hardware, or networking requirements. (1 page maximum)</li>
-	<li>If applicable, list any sources of funding that support the proposed course, including funding agency and grant name(s) (Educational Allocations do not require any external funding, but in cases where it does exist, the project would like to record any grants that are impacted by Chameleon).</li>
+	<li>Estimated resources required, which includes what software/applications will be used and an estimate of the number of node-hours need for the next 12 months. If you are unsure of how many node-hours to request initially, then request 1,000 node-hours. A Supplement can be requested later if additional time is needed. (1 page maximum)</li>
+	<li>If applicable, list any sources of funding that support the proposed course, including funding agency and grant name(s) (Educational Allocations do not require any external funding)</li>
 </ul>
 
 A Research Allocation request consists of the following components:
@@ -101,13 +101,12 @@ A Research Allocation request consists of the following components:
 	<li>Summary of the proposed research (2 pages maximum).</li>
 	<li>Results from any prior Allocations, including Startups.
 	<ul>
-		<li>Include a list of any publications resulting from these allocations, including conference presentations, technical reports, in preparation manuscripts, etc.</li>
+		<li>Include a list of any publications resulting from prior allocations, including conference presentations, technical reports, in preparation manuscripts, etc.</li>
 		<li>Include a list of any broader impacts, including students or postdocs trained, etc.</li>
 	</ul>
 	</li>
-	<li>Estimated resources required, which must include:
+	<li>Estimated resources required, which includes what software/applications will be used and a table that provides information to calculate the total amount of compute time requested for the next 12 months with table headings of (Number of Jobs, Number of Nodes per Job, Job Duration) and then rows for each different job configuration of Nodes per Job or Job Duration. (2 pages maximum)
 	<ul>
-		<li>A justification of the number and type of nodes you will request, and any specific software, hardware, or networking requirements. Wherever possible, justify this request with performance data from smaller scale experiments that validates the scope of the need (2 pages maximum)</li>
 	</ul>
 	</li>
 	<li>List any sources of funding (or pending funding) that support the proposed research, including funding agency and grant name(s).</li>
@@ -140,11 +139,11 @@ A font size of less than 10 points may be used for mathematical formulas or equa
 
 ### [Supplemental Requests](#supplements) { #supplements }
 
-A supplement is a request for additional resources during an existing allocation's one year time frame. Its purpose is to support changes in the original computational research plan that are required to achieve the scientific goals of the project. This may include altered or new goals, or support for projects proceeding more rapidly than anticipated or that require more resources than anticipated. Supplement awards are highly dependent upon availability of resources and limited to when allocation awards at the previous allocation period have been reduced to eliminate oversubscriptions. Supplements are not a mechanism to acquire additional resources for awards that were recommended for less than the amount originally requested. Supplemental requests require the filing of a progress report that documents what has been done with the originally awarded allocation, and makes the case for additional resources.
+A supplement is a request for additional resources during an existing allocation's one year time frame. Its purpose is to support changes in the original computational research plan that are required to achieve the scientific goals of the project. This may include altered or new goals, or support for projects proceeding more rapidly than anticipated or that require more resources than anticipated. Supplement awards are highly dependent upon availability of resources. Supplemental requests require a progress report that documents what has been done with the originally awarded allocation, and makes the case for additional resources.
 
 ### [Extension Requests](#extensions) { #extensions }
 
-Extensions of allocation periods beyond the normal 12-month duration can be requested. This request brings no new allocation, but keeps unused allocations from expiring. A brief reason is required for not using the awarded allocation, but no formal documentation is needed. Note that granting extension requests reduces the amount of allocation that can be given to users in the next year.
+Extensions of allocation periods beyond the normal 12-month duration can be requested. This request brings no new allocation, but keeps unused allocations from expiring. A brief reason is required for not using the awarded allocation, but no formal documentation is needed. 
 
 ### [Guidelines for a Successful Allocation Request](#guidelines) { #guidelines }
 
