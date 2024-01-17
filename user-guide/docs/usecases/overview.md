@@ -12,6 +12,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 * [**Multi-Data Set Image Analysis in Taggit**](haan/usecase-3.md) (Taggit, HazMapper)
 * [**Machine Learning and AI Resources**](vantassel_and_zhang/usecase.md) (Jupyter, Interactive Data Analytics, HPC)
+* [**Application Programming Interfaces**](brandenberg-api/usecase.md) (API, Jupyter, Data Discovery)
 
 ### Geohazard Use Cases 
 
