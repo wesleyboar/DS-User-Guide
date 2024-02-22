@@ -1,7 +1,7 @@
 # Jupyter Hub
 
-{% include-markdown 'jupyterhub/jupyterhub.md' %}
+--8<-- "tools/jupyterhub/jupyterhub.md"
 
-{% include-markdown 'jupyterhub/examplenotebooks.md' %}
+--8<-- "tools/jupyterhub/examplenotebooks.md"
 
-{% include-markdown 'jupyterhub/publishingnotebooks.md' %}
+--8<-- "tools/jupyterhub/publishingnotebooks.md"

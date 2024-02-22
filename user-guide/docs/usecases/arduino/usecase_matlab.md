@@ -28,8 +28,9 @@ FInally a simple report is generated using rst2pdf.
 
 A schematic workflow for this example is presented in Fig. 1
 
-![Schematic of Matlab workflow](./img/UC3-Arduino-0.png){: width="500" class="align-center" }
-
+<p align="center">
+<img src="../img/UC3-Arduino-0.png" alt="Schematic of Matlab workflow" width="500"/>
+</p>
 <p align="center"> <b>Fig.1 - Schematic of Matlab workflow</b> </p>
     
 
@@ -211,8 +212,9 @@ for ii in range(3):
     axs1[ii].grid(True)
 ```
 
-![Time histories](./img/UC3-Arduino-1.png){: width="400" class="align-center" }
-
+<p align="center">
+<img src="../img/UC3-Arduino-1.png" alt="Time histories" width="400"/>
+</p>
 <p align="center"> <b>Fig.2 - Displacement, velocity and acceleration time history for selected motion</b> </p>
 
 
@@ -242,8 +244,9 @@ axs2[0].legend()
 axs2[0].grid(True)  
 ```
 
-![Response spectra](./img/UC3-Arduino-2.png){: width="400" class="align-center" }
-
+<p align="center">
+<img src="../img/UC3-Arduino-2.png" alt="Response spectra" width="400"/>
+</p>
 <p align="center"> <b>Fig.3 - Response spectra</b> </p>
 
 

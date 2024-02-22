@@ -1,5 +1,17 @@
 ## Overview
 
+### Status Updates
+
+<ul>
+	<li>Dakota, Clawpack, &amp; Rwhale - Last updated 2018</li>
+	<li>ADCIRC Version 51.33 &amp; 52, PADCIRC, PADCIRC SWAN - Last updated 05/20</li>
+	<li>OpenseesSP-STKO &amp; OpenseesMP-STKO - Last updated 08/20</li>
+	<li>OpenFOAM  Version 6 &amp; 7 - Last updated 09/20</li>
+	<li>OpenSeesSP  &amp; OpenSeesMP - Last updated 12/20</li>
+	<li>OpenSees-Kube Version 2.5 - Last updated 03/21</li>
+	<li>LS-Dyna (solver) - Last updated 03/21</li>
+</ul>
+
 ### Requesting New Applications
 
 DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by submitting a help ticket if you would like to request the addition of a software application to the Workspace.

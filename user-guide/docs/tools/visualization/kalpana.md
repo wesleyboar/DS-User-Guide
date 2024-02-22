@@ -29,10 +29,12 @@ You will have to fill out a form to submit your job that asks multiple informati
 
 Next enter a job name and an output archive location or use the default provided. Now, click Run to submit your job.
 
-![](./imgs/kalpana-1.png){: class="align-center" }
+<center><img src="../imgs/kalpana-1.png"></center>
 
 You can track the status of your job to the right side of the same page. The status will change from “Pending” to “Staged”, “Submitting” and “Running”. These processes usually take about 1 to 2 minutes.
 
 Once the status changed to “FINISHED”, you can find the outputs in data depot by navigating to the archived location. If not specified by the user, the job output including the converted shapefile can be found at: My Data / archive / jobs / ${YYYY-MM-DD} / ${JOB_NAME}-${JOB_ID}
 
+
+<em>Last update: May 23, 2019</em>
 

@@ -22,7 +22,7 @@ Policies for the DDR are driven by the Natural Hazards (NH) scientific community
 
 An interdisciplinary repository team (RT) carries out ongoing design, development and day-to-day operations, gathering requirements and discussing solutions through formal monthly and bi-weekly meetings with the NHERI community and maintaining regular communications with members of the network, including monthly meetings with the<a href="https://www.designsafe-ci.org/facilities/experimental/"> Experimental Facilities</a>, <a href="https://rapid.designsafe-ci.org/">RAPID</a>, and <a href="https://rapid.designsafe-ci.org/">CONVERGE</a> staff. Based on these fluid communications, the RT designs functionalities, researches and develops best-practices, and implements agreed-upon solutions. The figure below shows the current formation of the RT, including their expertise.
 
-![](./imgs/Data_Repository_Team_DataTeam.png){: width="322" }
+<img src="../imgs/Data_Repository_Team_DataTeam.png" width="322">
 
 Formal mechanisms are in place for external evaluators to gather feedback and conduct structured assessments, in the form of usability studies and yearly user surveys, to ensure that the repository is meeting the community’s expectations and needs. To track development the DDR curator meets every other week with the DesignSafe PI and with the head of the development team. All DDR activities are reported to the National Science Foundation on a quarterly and annual basis in terms of quantitative and qualitative progress.
 

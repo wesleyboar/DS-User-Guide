@@ -2,20 +2,20 @@
 
 ## Data Depot
 
-{% include-markdown 'managingdata/datadepot.md' %}
+--8<-- "managingdata/datadepot.md"
 
 ## Setting Path to DS on Corral
 
-{% include-markdown 'managingdata/settingpathtodesignsafe.md' %}
+--8<-- "managingdata/settingpathtodesignsafe.md"
 
 ## Data Transfer Guides
 
-{% include-markdown 'managingdata/datatransfer.md' %}
+--8<-- "managingdata/datatransfer.md"
 
 ## Data Management Plan Guidance
 
-{% include-markdown 'managingdata/datamanagementplan.md' %}
+--8<-- "managingdata/datamanagementplan.md"
 
 ## Experimental Facility Checklist
 
-{% include-markdown 'managingdata/experimentalfacilitychecklist.md' %}
+--8<-- "managingdata/experimentalfacilitychecklist.md"
