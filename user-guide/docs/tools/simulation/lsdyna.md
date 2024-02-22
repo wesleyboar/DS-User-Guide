@@ -34,7 +34,7 @@ DesignSafe (through TACC) has negotiated with LSTC to allow LS-DYNA access on TA
 
 A <i>Request Activation</i> button is also available in <i>Workspace &gt; Simulation &gt; LS-DYNA</i>:
 
-<img src="../imgs/ls-dyna-1.png">
+![](./imgs/ls-dyna-1.png)
 
 Once activated, Ls-Dyna will appear in <i>Workspace &gt; My Apps tab</i>.
 
@@ -55,7 +55,7 @@ Examples in this guide:
 	<li>Select the LS-Pre/Post app from the drop-drown menu at (<i>Workspace &gt; Simulation &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-2.png">
+![](./imgs/ls-dyna-2.png)
 
 <ul>
 	<li>Fill the form with the following information:
@@ -72,7 +72,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-3.png">
+![](./imgs/ls-dyna-3.png)
 
 <ul>
 	<li>Once ready a new window will pop-up.
@@ -82,9 +82,9 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-4.png">
+![](./imgs/ls-dyna-4.png)
 
-<img src="../imgs/ls-dyna-5.png">
+![](./imgs/ls-dyna-5.png)
 
 #### [Launching a single job via DesignSafe web portal](#launch-singlejob) { #launch-singlejob }
 
@@ -92,7 +92,7 @@ Examples in this guide:
 	<li>Select LS-DYNA (Serial) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-6.png">
+![](./imgs/ls-dyna-6.png)
 
 <ul>
 	<li>Fill the form with the following information:
@@ -109,7 +109,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-7.png">
+![](./imgs/ls-dyna-7.png)
 
 <ul>
 	<li>Follow the Job Status on the right tab.</li>
@@ -127,7 +127,7 @@ Examples in this guide:
 	<li>Select LS-DYNA (Parallel) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
 </ul>
 
-<img src="../imgs/ls-dyna-8.png">
+![](./imgs/ls-dyna-8.png)
 
 <ul>
 	<li>Fill the form with the following information:
@@ -145,11 +145,12 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-9.png">
-<p><em>Example Ls-Dyna input file for parallel jobs.</em>
+![](./imgs/ls-dyna-9.png)
+
+<p><em>Example Ls-Dyna input file for parallel jobs.</em></p>
 
 
-<img src="../imgs/ls-dyna-10.png">
+![](./imgs/ls-dyna-10.png)
 
 <ul>
 	<li>Follow the Job Status on the right tab.</li>
@@ -164,18 +165,18 @@ Examples in this guide:
 #### [Launching batch of jobs via Command Line Interface (CLI)](#launch-batchcli) { #launch-batchcli }
 
 <ul>
-	<li>Connect to stampede2 using SSH Client (Putty or Terminal - a complete guide to ssh is available at: https://portal.tacc.utexas.edu/user-guides/stampede2 ):
+	<li>Connect to Frontera using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/frontera/):
 	<ul>
-		<li>Host name: stampede2.tacc.utexas.edu;</li>
+		<li>Host name: frontera.tacc.utexas.edu;</li>
 		<li>Username and Password should be the same ones as for DesignSafe.</li>
 	</ul>
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-11.png">
+![](./imgs/ls-dyna-11.png)
 
 <ul>
-	<li>Transfer LS-Dyna k files to /scratch or /work directory on Stampede2 (via Globus);</li>
+	<li>Transfer LS-Dyna k files to /scratch or /work directory on Frontera (via Globus);</li>
 	<li>Generate 3 files:
 	<ul>
 		<li>A batch file (<em>launcherLs_Dyna.slurm</em>) that contains all the information about the resources that you need for the parallel job and calls input files (see example file below);</li>
@@ -193,21 +194,21 @@ Examples in this guide:
 	</li>
 </ul>
 
-<img src="../imgs/ls-dyna-12.png">
-<p><em>Example batch file for Ls-Dyna via CLI.</em>
+![](./imgs/ls-dyna-12.png)
 
+<p><em>Example batch file for Ls-Dyna via CLI.</em></p>
 
-<img src="../imgs/ls-dyna-13.png">
-<p><em>Example myprallellines.py routine.</em>
+![](./imgs/ls-dyna-13.png)
 
+<p><em>Example myprallellines.py routine.</em></p>
 
-<img src="../imgs/ls-dyna-14.png">
-<p><em>Example my_parallel_lines file.</em>
+![](./imgs/ls-dyna-14.png)
 
+<p><em>Example my_parallel_lines file.</em></p>
 
-<img src="../imgs/ls-dyna-15.png">
-<p><em>Example launcher_file.py routine.</em>
+![](./imgs/ls-dyna-15.png)
 
+<p><em>Example launcher_file.py routine.</em></p>
 
 <ul>
 	<li>Launch jobs using SSH client:
@@ -220,8 +221,3 @@ Examples in this guide:
 	<li>Emails at begin and end of job will be sent to the email address provided in the batch file.</li>
 	<li>Once the analysis is completed, output files can be transferred using Globus (or SCP client) and used LS-PrePost (or else) to visualize them.</li>
 </ul>
-
- 
-
-<em>Last update: May 29, 2019</em>
-

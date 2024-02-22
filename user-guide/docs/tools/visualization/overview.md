@@ -1,19 +1,5 @@
 ## Overview
 
-### Status Updates
-
-<ul>
-<li>Kalpana - Last updated 05/19</li>
-<li>STKO - Last updated 11/19</li>
-<li>Paraview - Last updated 12/19</li>
-<li>VisIt - Last updated 04/20</li>
-<li>FigureGen - Last updated 04/20</li>
-<li>Potree Converter - Last updated 06/20</li>
-<li>Potree Viewer - Last updated 06/20</li>
-<li>QGIS Desktop - Last updated 02/21</li>
-<li>GiD -  Last updated 05/21</li>
-</ul>
-
 ### Requesting New Applications
 
 DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by <a href="/help/new-ticket/">submitting a help ticket</a> if you would like to request the addition of a software application to the Workspace.

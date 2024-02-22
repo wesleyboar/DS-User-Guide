@@ -11,17 +11,25 @@ DesignSafe HazMapper is a rich web-based application for visualizing and analyzi
 
 To access Hazmapper from Designsafe, the user can first navigate to the top menu bar and find <em>Workspace</em> (<em>Fig 1.1</em>).
 
-<center><img src="../imgs/hazmapper-1.1.png"> <b>Fig 1.1</b></center>
+![](./imgs/hazmapper-1.1.png){: class="align-center" }
+
+<p align="center"> <b>Fig 1.1</b> </p>
 
 From there, the user can hover on the <em>Workspace</em> section and select <em>Tools &amp; Application</em> (<em>Fig 1.2</em>).
 
-<center><img src="../imgs/hazmapper-1.2.png"> <b>Fig 1.2</b></center>
+![](./imgs/hazmapper-1.2.png){: class="align-center" }
+
+<p align="center"> <b>Fig 1.2</b> </p>
 
 From the <em>Tools &amp; Applications</em> page, the user can navigate to <em>Hazmapper (2.0)</em> (<em>Fig 1.3</em>) and then <em>Launch Hazmapper</em> (<em>Fig 1.4</em>).
 
-<center><img src="../imgs/hazmapper-1.3.png"> <b>Fig 1.3</b></center>
+![](./imgs/hazmapper-1.3.png){: class="align-center" }
 
-<center><img src="../imgs/hazmapper-1.4.png"> <b>Fig 1.4</b></center>
+<p align="center"> <b>Fig 1.3</b> </p>
+
+![](./imgs/hazmapper-1.4.png){: class="align-center" }
+
+<p align="center"> <b>Fig 1.4</b> </p>
 
 ### [Interface Overview](#overview) { #overview }
 
@@ -31,19 +39,23 @@ The welcome menu is the first interface that the user will see. This menu lists 
 
 The header of the menu displays the name of the map and the DesignSafe project that it is saved in. If it is saved to the Data Depot, it will show a <code>----------</code>.
 
-On the rightmost side of the header is the <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="12"> <em>Create a New Map</em> button, which opens the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#project-creation-prompt">map creation prompt</a>.
+On the rightmost side of the header is the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg){: height="12" width="12" } <em>Create a New Map</em> button, which opens the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#project-creation-prompt">map creation prompt</a>.
 
-The icons on the right side of each map item are <em>edit</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="12"> and <em>delete</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12">.
+The icons on the right side of each map item are <em>edit</em> ![](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg){: height="12" width="12" } and <em>delete</em> ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" }.
 
-To access a map, the user can either click on a map item or click on the <em>edit</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="12"> button. To delete a map, the user can click on the <em>delete</em> <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12"> button of a map.
+To access a map, the user can either click on a map item or click on the <em>edit</em> ![edit icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg){: height="12" width="12" } button. To delete a map, the user can click on the <em>delete</em> ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" } button of a map.
 
-<center><img class="img-responsive" src="https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/menu.png" style="margin: 5px 0px 15px 0px;" width="70%"> <b>Fig 2.1</b></center>
+![](https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/menu.png){: class="align-center" width="70%" }
+
+<p align="center"> <b>Fig 2.1</b> </p>
 
 #### [Map Creation Prompt](#overview-mapcreation) { #overview-mapcreation }
 
-Clicking on the <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="12"> <em>Create a New Map</em> button from the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#welcome-menu">welcome menu</a> (<em>Fig 2.2</em>) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
+Clicking on the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg){: height="12" width="12" } <em>Create a New Map</em> button from the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#welcome-menu">welcome menu</a> (<em>Fig 2.2</em>) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
 
-<center><img src="../imgs/hazmapper-2.2.png"> <b>Fig 2.2</b></center>
+![](./imgs/hazmapper-2.2.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.2</b> </p>
 
 First, the user is required to give the map a name and a description.
 
@@ -59,19 +71,23 @@ This will make the created map a <a href="https://www.designsafe-ci.org/rw/user-
 
 Once you create a map or select a map from the welcome menu, you will see the following interface.
 
-<center><img src="../imgs/hazmapper-2.3.png"> <b>Fig 2.3</b></center>
+![](./imgs/hazmapper-2.3.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.3</b> </p>
 
 #### [Title bar](#overview-title) { #overview-title }
 
 We will start the overview of the map interface by first looking at the title bar section of the interface.
 
-Starting from the left to right, we can see a left arrow button <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-left.svg" width="12">. Clicking on this button will bring the user back to the welcome menu we looked into in the previous section.
+Starting from the left to right, we can see a left arrow button ![left arrow icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-left.svg){: height="12" width="12" }. Clicking on this button will bring the user back to the welcome menu we looked into in the previous section.
 
 The next part of the title bar is the name of the map with the associated DesignSafe Project if it exists.
 
 The last part of the title bar is the latitude and longitude coordinates indicating the location of the mouse cursor when hovering on the map.
 
-<center><img class="img-responsive" src="https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/control-bar.png" style="margin: 5px 0px 15px 0px;" width="70%"> <b>Fig 2.4</b></center>
+![](https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/control-bar.png){: class="align-center" width="70%" }
+
+<p align="center"> <b>Fig 2.4</b> </p>
 
 #### [Panels](#overview-panels) { #overview-panels }
 
@@ -79,7 +95,9 @@ Next, we will take a look at the panel interface of Hazmapper.
 
 Panels are the primary interface a user can interact with the map and handle <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#supported-asset-types">assets</a> on the map.
 
-<center><img class="img-responsive" src="https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/map-panel.png" style="margin: 5px 0px 15px 0px;" width="70%"> <b>Fig 2.5</b></center>
+![](https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/map-panel.png){: class="align-center" width="70%" }
+
+<p align="center"> <b>Fig 2.5</b> </p>
 
 ##### [Assets Panel](#overview-panels-assets) { #overview-panels-assets }
 
@@ -87,17 +105,23 @@ The assets panel is the hub of all of the <a href="https://www.designsafe-ci.org
 
 By clicking on <em>Import from DesignSafe</em>, users can open the import prompt (<em>Fig 2.6</em>) and add appropriate files from DesignSafe Data Depot (My Data, Projects, Community Data, Published Data).
 
-<center><img src="../imgs/hazmapper-2.6.png"> <b>Fig 2.6</b></center>
+![](./imgs/hazmapper-2.6.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.6</b> </p>
 
 <a id="file-browser"></a>
 
-<center><img src="../imgs/hazmapper-2.7.png"> <b>Fig 2.7</b></center>
+![](./imgs/hazmapper-2.7.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.7</b> </p>
 
 <strong>NOTE</strong>: <em>The file browser works like the file browsers on our computers. <code>Shift-Click</code> allows the user to select multiple items. And <code>Control-Click</code> (only on Windows) allows the user to select multiple assets without losing the previous selection.</em>
 
 Once imported, the selected assets will be listed inside the panel. A user can click on each asset to jump to the asset location on the map or to get the metadata associated with the asset.
 
-<center><img src="../imgs/hazmapper-2.8.png"> <b>Fig 2.8</b></center>
+![](./imgs/hazmapper-2.8.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.8</b> </p>
 
 <strong>NOTE</strong>: <em>Unless imported from the top-level (i.e. in the root of the folder), image, video, streetview assets will show up in the folders they are located in. On the other hand, point-cloud assets will always display at the root of the asset tree.</em>
 
@@ -107,39 +131,51 @@ This panel allows users to create point cloud objects that associate point cloud
 
 <strong>Note</strong>: <em>Once the assets are attached they will show up in the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#assets-panel">Assets Panel</a></em>.
 
-<center><img src="../imgs/hazmapper-2.9.png"> <b>Fig 2.9</b></center>
+![](./imgs/hazmapper-2.9.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.9</b> </p>
 
 The user can open the point cloud creation prompt by clicking on the <em>Add</em> button.
 
 In the point cloud creation prompt, the user is required to create a <em>Description</em> for the point cloud object (This will be the name displayed in the assets panel as well). After that, by clicking on the <em>Submit</em> button, the user can create a point cloud object.
 
-<center><img src="../imgs/hazmapper-2.10.png"> <b>Fig 2.10</b></center>
+![](./imgs/hazmapper-2.10.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.10</b> </p>
 
 Once created, the point cloud object with be shown in the panel.
 
-Now, the user can add a point cloud asset (las or laz), delete <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12"> the point cloud object, or view <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/info.svg" width="12"> the object information.
+Now, the user can add a point cloud asset (las or laz), delete ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" } the point cloud object, or view ![info icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/info.svg){: height="12" width="12" } the object information.
 
 To add a point cloud asset to the point cloud object, the user must click on the <em>Add las/laz</em> button.
 
-<center><img src="../imgs/hazmapper-2.11.png"> <b>Fig 2.11</b></center>
+![](./imgs/hazmapper-2.11.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.11</b> </p>
 
 This will open a file browser, similar to the one used to <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#file-browser">import assets</a> in the assets panel.
 
 From the file browser, the user must select either a <strong>las</strong> or <strong>laz</strong> file and click <em>Import</em>.
 
-<center><img src="../imgs/hazmapper-2.12.png"> <b>Fig 2.12</b></center>
+![](./imgs/hazmapper-2.12.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.12</b> </p>
 
 The import process will take a while depending on the size of the point cloud file. However, once imported, the asset should show up on the <em>Assets</em> panel and the map (as a bounding box covering the extent of the point cloud).
 
 If the user clicks on the <em>View</em> button on the information box, the Potree Viewer will open.
 
-<center><img src="../imgs/hazmapper-2.13.png"> <b>Fig 2.13</b></center>
+![](./imgs/hazmapper-2.13.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.13</b> </p>
 
 The Potree Viewer can be used for further analysis of the point cloud.
 
 The URL to the Potree Viewer created for the asset will be permanent as long as the asset exists. Furthermore, this can be shared with other researchers.
 
-<center><img src="../imgs/hazmapper-2.14.png"> <b>Fig 2.14</b></center>
+![](./imgs/hazmapper-2.14.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.14</b> </p>
 
 ##### [Layers Panel](#overview-panels-layers) { #overview-panels-layers }
 
@@ -149,9 +185,11 @@ Additionally, users can create an overlay image for the map. This means, given a
 
 By default, the <strong>Roads</strong> and <strong>Satellite</strong> base layers will be added and enabled.
 
-<center><img src="../imgs/hazmapper-2.15.png"> <b>Fig 2.15</b></center>
+![](./imgs/hazmapper-2.15.png){: class="align-center" }
 
-To add more layers, the user must click on the <img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="12"> button directly under <em>Tile Layers</em>.
+<p align="center"> <b>Fig 2.15</b> </p>
+
+To add more layers, the user must click on the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg){: height="12" width="12" } button directly under <em>Tile Layers</em>.
 
 This will open the tile layer creation prompt.
 
@@ -159,31 +197,43 @@ The default layers (<strong>Roads</strong>, <strong>Satellites</strong>) can be 
 
 Otherwise, the user can choose among the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#tile-layers">supported tile layer formats</a> as the <em>Import Method</em>.
 
-<center><img src="../imgs/hazmapper-2.16.png"> <b>Fig 2.16</b></center>
+![](./imgs/hazmapper-2.16.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.16</b> </p>
 
 The <strong>Manual</strong> import method will have additional prompts that each tile layer type method requires.
 
-<center><img src="../imgs/hazmapper-2.17.png"> <b>Fig 2.17</b></center>
+![](./imgs/hazmapper-2.17.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.17</b> </p>
 
 The <strong>INI file</strong> import method will show a file browser similar to the one used to <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#file-browser">import assets</a>.
 
 Here the user must select a <code>.ini</code> file containing the required tile layer data.
 
-<center><img src="../imgs/hazmapper-2.18.png"> <b>Fig 2.18</b></center>
+![](./imgs/hazmapper-2.18.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.18</b> </p>
 
 The <strong>QMS Search</strong> import method utilizes <a href="https://qms.nextgis.com/">Quick Map Services</a> to search for various tile layers and add them to the map.
 
-<center><img src="../imgs/hazmapper-2.19.png"> <b>Fig 2.19</b></center>
+![](./imgs/hazmapper-2.19.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.19</b> </p>
 
 Once the user creates the tile layer, it will show up on the layers panel.
 
-<center><img src="../imgs/hazmapper-2.20.png"> <b>Fig 2.20</b></center>
+![](./imgs/hazmapper-2.20.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.20</b> </p>
 
 Each tile layer has controls to rename, toggle visibility, change the opacity, and delete.
 
 If the user desires to preserve the changed options for collaborators or those with access to the public version of the map, the user must click on the <em>Save Layer Options</em> button.
 
-<center><img src="../imgs/hazmapper-2.21.png"> <b>Fig 2.21</b></center>
+![](./imgs/hazmapper-2.21.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.21</b> </p>
 
 ##### [Filters Panel](#overview-panels-filters) { #overview-panels-filters }
 
@@ -191,7 +241,9 @@ Displayed assets can be filtered based on type (Images, Videos, Point Clouds, Co
 
 <strong>NOTE</strong>: <em>Currently the date range filter is a placeholder that will be implemented in the future.</em>
 
-<center><img src="../imgs/hazmapper-2.22.png"> <b>Fig 2.22</b></center>
+![](./imgs/hazmapper-2.22.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.22</b> </p>
 
 ##### [Streetview Panel](#overview-panels-streetview) { #overview-panels-streetview }
 
@@ -225,17 +277,25 @@ To start using streetview assets with Mapillary, the user must log in to Mapilla
 
 From the <em>Streetview</em> panel, the user can access the <em>Login to Mapillary</em> button.
 
-<center><img src="../imgs/hazmapper-2.23.png"> <b>Fig 2.23</b></center>
+![](./imgs/hazmapper-2.23.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.23</b> </p>
 
 This will redirect the user to an external login page.
 
-<center><img src="../imgs/hazmapper-2.24.png"> <b>Fig 2.24</b></center>
+![](./imgs/hazmapper-2.24.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.24</b> </p>
 
 Once authorized from the external site, the user must provide Hazmapper a Mapillary <em>username</em> and at least one <em>organization key</em> of an organization. <a id="streetview-login-username"></a>
 
-<center><img src="../imgs/hazmapper-2.25.png"> <b>Fig 2.25</b></center>
+![](./imgs/hazmapper-2.25.png){: class="align-center" }
 
-<center><img src="../imgs/hazmapper-2.26.png"> <b>Fig 2.26</b></center>
+<p align="center"> <b>Fig 2.25</b> </p>
+
+![](./imgs/hazmapper-2.26.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.26</b> </p>
 
 These can be acquired through the <a href="https://www.mapillary.com/dashboard/profile">Mapillary dashboard</a>.
 
@@ -243,23 +303,35 @@ Here, the user will see the <em>username</em> in the top-left panel (<em>Fig 2.2
 
 In order. to find the <em>organization key</em>, the user must switch to a organization account (<em>Fig 2.28</em>).
 
-<center><img src="../imgs/hazmapper-2.27.png"> <b>Fig 2.27</b></center>
+![](./imgs/hazmapper-2.27.png){: class="align-center" }
 
-<center><img src="../imgs/hazmapper-2.28.png"> <b>Fig 2.28</b></center>
+<p align="center"> <b>Fig 2.27</b> </p>
 
-<center><img src="../imgs/hazmapper-2.29.png"> <b>Fig 2.29</b></center>
+![](./imgs/hazmapper-2.28.png){: class="align-center" }
 
-<center><img src="../imgs/hazmapper-2.30.png"> <b>Fig 2.30</b></center>
+<p align="center"> <b>Fig 2.28</b> </p>
+
+![](./imgs/hazmapper-2.29.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.29</b> </p>
+
+![](./imgs/hazmapper-2.30.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.30</b> </p>
 
 If a user adds a correct organization key, Hazmapper will automatically add the organization to the <em>Streetview</em> panel with the organization name. So, users can verify that they've added the correct organization key.
 
-<center><img src="../imgs/hazmapper-2.31.png"> <b>Fig 2.31</b></center>
+![](./imgs/hazmapper-2.31.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.31</b> </p>
 
 ###### [Display Mapillary Sequences](#overview-panels-streetview-display) { #overview-panels-streetview-display }
 
 This will display all of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#mapillary-assets">mapillary assets</a> of a selected organization in the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#filters-tab">filters tab</a>.
 
-<center><img src="../imgs/hazmapper-2.32.png"> <b>Fig 2.32</b></center>
+![](./imgs/hazmapper-2.32.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.32</b> </p>
 
 ###### [Publish Button](#overview-panels-streetview-publish) { #overview-panels-streetview-publish }
 
@@ -267,27 +339,35 @@ This allows the user to upload and publish images from DesignSafe to Mapillary. 
 
 <strong>NOTE</strong>: <em>The assets published here will be imported as <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#mapillary-assets">mapillary assets</a></em>
 
-<center><img src="../imgs/hazmapper-2.33.png"> <b>Fig 2.33</b></center>
+![](./imgs/hazmapper-2.33.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.33</b> </p>
 
 On clicking the <em>Publish</em> button, the user will see a prompt that asks for the user to select streetview images (images that support <a href="https://developers.google.com/streetview/spherical-metadata">GPano panorama metadata</a>)
 
-<center><img src="../imgs/hazmapper-2.34.png"> <b>Fig 2.34</b></center>
+![](./imgs/hazmapper-2.34.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.34</b> </p>
 
 ###### [Assets Tab](#overview-panels-streetview-assets) { #overview-panels-streetview-assets }
 
 This tab will all of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#linked-mapillary-assets">linked mapillary assets</a>. On clicking on the asset, the prompt will display the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#mapillary-terminology">mapillary sequences</a> associated with a system/path.
 
-<center><img src="../imgs/hazmapper-2.35.png"> <b>Fig 2.35</b></center>
+![](./imgs/hazmapper-2.35.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.35</b> </p>
 
 In this interface (<em>Fig 2.36</em>), the user can:
 
 <ol>
-<li><a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#imported-streetview-assets">Imported the streetview assets to the map</a> (<img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/link.svg" width="12">).</li>
+<li><a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#imported-streetview-assets">Imported the streetview assets to the map</a> (![link icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/link.svg){: height="12" width="12" }).</li>
 <li>Jump to the sequence in the map.</li>
-<li>Delete the sequence's association with Hazmapper (<img height="12" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="12">).</li>
+<li>Delete the sequence's association with Hazmapper (![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg){: height="12" width="12" }).</li>
 </ol>
 
-<center><img src="../imgs/hazmapper-2.36.png"> <b>Fig 2.37</b></center>
+![](./imgs/hazmapper-2.36.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.37</b> </p>
 
 ###### [Log Tab](#overview-panels-streetview-log) { #overview-panels-streetview-log }
 
@@ -295,13 +375,17 @@ The <em>Publish</em> process prompted by the user submitting a <a href="https://
 
 This tab shows a list of the progress of active publish processes.
 
-<center><img src="../imgs/hazmapper-2.37.png"> <b>Fig 2.37</b></center>
+![](./imgs/hazmapper-2.37.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.37</b> </p>
 
 ###### [Filters Tab](#overview-panels-streetview-filterstab) { #overview-panels-streetview-filterstab }
 
 The interface of the <em>Filters tab</em> is similar to that of the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#filters-panel">Filters panel</a>. However, instead of filtering based on a date range or asset type, this will filter by the organizations that a user added (either on login or through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#account-tab">account tab</a>).
 
-<center><img src="../imgs/hazmapper-2.38.png"> <b>Fig 2.39</b></center>
+![](./imgs/hazmapper-2.38.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.39</b> </p>
 
 ###### [Account Tab](#overview-panels-streetview-accounttab) { #overview-panels-streetview-accounttab }
 
@@ -315,7 +399,9 @@ The <em>Delete Streetview Service</em> button will delete all of the association
 
 <strong>NOTE</strong>: <em>Changes here will not affect the actual Mapillary account. For example, changing the username will not change the actual Mapillary username but only change the username that Hazmapper keeps track of.</em>
 
-<center><img src="../imgs/hazmapper-2.39.png"> <b>Fig 2.39</b></center>
+![](./imgs/hazmapper-2.39.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.39</b> </p>
 
 ###### [Streetview Assets](#overview-panels-streetview-streetview) { #overview-panels-streetview-streetview }
 
@@ -330,9 +416,13 @@ First, there are some commonalities among the different asset components:
 <li>The streetview assets will be displayed as a polyline on the map (<em>Fig 2.40</em>).</li>
 </ul>
 
-<center><img src="../imgs/hazmapper-2.40.png"> <b>Fig 2.40</b></center>
+![](./imgs/hazmapper-2.40.png){: class="align-center" }
 
-<center><img src="../imgs/hazmapper-2.41.png"> <b>Fig 2.41</b></center>
+<p align="center"> <b>Fig 2.40</b> </p>
+
+![](./imgs/hazmapper-2.41.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.41</b> </p>
 
 ###### [Mapillary assets](#overview-panels-streetview-mapillaryassets) { #overview-panels-streetview-mapillaryassets }
 
@@ -350,17 +440,23 @@ This will open a modal, in which the user can select a location to link the sequ
 
 <a id="mapillary-link"></a>
 
-<center><img src="../imgs/hazmapper-2.42.png"> <b>Fig 2.42</b></center>
+![](./imgs/hazmapper-2.42.png){: class="align-center" }
 
-<center><img src="../imgs/hazmapper-2.43.png"> <b>Fig 2.43</b></center>
+<p align="center"> <b>Fig 2.42</b> </p>
+
+![](./imgs/hazmapper-2.43.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.43</b> </p>
 
 <em>Linked mapillary assets</em><a id="linked-mapillary-assets"></a>
 
-These are created either by manually adding a link from a <a href="non-linked-mapillary-asset">non-linked mapillary asset</a> or <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#publish-button">publishing</a> streetview assets to Mapillary through Hazmapper.
+These are created either by manually adding a link from a non-linked mapillary asset or <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#publish-button">publishing</a> streetview assets to Mapillary through Hazmapper.
 
 They are displayed in this color: .
 
-<center><img src="../imgs/hazmapper-2.44.png"> <b>Fig 2.44</b></center>
+![](./imgs/hazmapper-2.44.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.44</b> </p>
 
 ###### [Imported streetview feature assets](#overview-panels-streetview-feature) { #overview-panels-streetview-feature }
 
@@ -370,7 +466,9 @@ They appear in the Hazmapper <a href="https://www.designsafe-ci.org/rw/user-guid
 
 They are displayed in this color: .
 
-<center><img src="../imgs/hazmapper-2.45.png"> <b>Fig 2.45</b></center>
+![](./imgs/hazmapper-2.45.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.45</b> </p>
 
 ##### [Manage Panel](#overview-panels-manage) { #overview-panels-manage }
 
@@ -378,11 +476,15 @@ In this panel, the user can manage the configuration of the maps.
 
 The <em>Map</em> tab allows the user to edit the name/description of the map and delete the map.
 
-<center><img src="../imgs/hazmapper-2.46.png"> <b>Fig 2.46</b></center>
+![](./imgs/hazmapper-2.46.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.46</b> </p>
 
 The <em>Members</em> tab allows the user to view other users with access to the map (these will be managed by the linked <a href="https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/#step1">DesignSafe Project</a>.
 
-<center><img src="../imgs/hazmapper-2.47.png"> <b>Fig 2.47</b></center>
+![](./imgs/hazmapper-2.47.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.47</b> </p>
 
 The <em>Public</em> tab allows the user to create a <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#public-maps">public version of the map</a> by creating a permanent link that can be shared with anyone. <a id="public-tab"></a> (<em>Fig 2.48</em>).
 
@@ -390,15 +492,23 @@ The public map will have access to all of the <a href="https://www.designsafe-ci
 
 After making the map public, the user can either click or copy the link. Furthermore, the user can revert the process and make the link private again (<em>Fig 2.50</em>).
 
-<center><img src="../imgs/hazmapper-2.48.png"> <b>Fig 2.48</b></center>
+![](./imgs/hazmapper-2.48.png){: class="align-center" }
 
-<center><img src="../imgs/hazmapper-2.49.png"> <b>Fig 2.49</b></center>
+<p align="center"> <b>Fig 2.48</b> </p>
 
-<center><img src="../imgs/hazmapper-2.50.png"> <b>Fig 2.50</b></center>
+![](./imgs/hazmapper-2.49.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.49</b> </p>
+
+![](./imgs/hazmapper-2.50.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.50</b> </p>
 
 The <em>Save</em> tab shows where the map is saved within DesignSafe's Data Depot. If saved to a DesignSafe project, it will display the corresponding project information.
 
-<center><img src="../imgs/hazmapper-2.51.png"> <b>Fig 2.51</b></center>
+![](./imgs/hazmapper-2.51.png){: class="align-center" }
+
+<p align="center"> <b>Fig 2.51</b> </p>
 
 ### [Maps](#maps) { #maps }
 
@@ -410,7 +520,9 @@ When creating a new map, the user is required to save the map to a location in D
 
 If saved to a DesignSafe project, the DesignSafe project interface will also show this association.
 
-<center><img src="../imgs/hazmapper-3.1.png"> <b>Fig 3.1</b></center>
+![](./imgs/hazmapper-3.1.png){: class="align-center" }
+
+<p align="center"> <b>Fig 3.1</b> </p>
 
 ##### [Public Map](#maps-map-public) { #maps-map-public }
 
@@ -487,6 +599,4 @@ As briefly mentioned in the <a href="https://www.designsafe-ci.org/rw/user-guide
 #### [Public Maps](#collaboration-public) { #collaboration-public }
 
 Any map can have a public version of the map through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#public-tab">public tab of the manage panel</a>. The generated link will be permanent unless the owner of the map makes the map private, or unless the owner of the map deletes the original map.
-
-<em>Last update: June 21, 2022</em>
 

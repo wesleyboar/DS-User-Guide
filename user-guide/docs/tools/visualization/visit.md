@@ -18,8 +18,3 @@ More detailed information and VisIt user documentation can be found on the <a hr
 	<li>Click Run to start your interactive session.</li>
 	<li><strong><em>Be sure to exit the Paraview application when you are finished with the session or any files saved will not be archived with the job.</em></strong></li>
 </ul>
-
- 
-
-<em>Last update: May 16, 2018</em>
-
