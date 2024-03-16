@@ -5,10 +5,19 @@
 
 This use case example shows how to run an OpenSeesMP analysis on the high-performance computing (HPC) resources at [DesignSafe](https://www.designsafe-ci.org){target=_blank} (DS) using the [STKO](https://asdeasoft.net/?product-stko){target=_blank} graphical user interface and a Jupyter notebook. The example also post-processes the output results using python scripts, which allows the entire analysis workflow to be executed within DesignSafe without any download of output.  The example makes use of the following DesignSafe resources:
 
-[Simulation on DS - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation){target=_blank}<br/> 
-[Visualization on DS - STKO](https://www.designsafe-ci.org/rw/workspace/#!/stko-ds-exec-01-1.0.0u1){target=_blank}<br/>
-[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+### Resources 
 
+* DesignSafe tools used by this project:
+    * [Simulation on DS - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation){target=_blank}<br/> 
+    * [Visualization on DS - STKO](https://www.designsafe-ci.org/rw/workspace/#!/stko-express-1.0.0u1#workspace){target=_blank}<br/>
+    * [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+
+* Jupyter Notebooks on DesignSafe
+    * Jupyter Notebook submitting jobs to OpenSeesMP: [SSI_MainDriver.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FOpenSees-STKO%2FSSI_MainDriver.ipynb){target=_blank}<br/>
+    * Jupyter Notebook for Post-Processing Data: [SSI_MainDriver.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FOpenSees-STKO%2FExample%20post-processing%20scripts.ipynb){target=_blank}<br/>
+
+* DesignSafe Data Depot Location:
+    * [Data Depot Folder](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenSees-STKO){target=_blank}<br/>
 
 ### Background 
 
