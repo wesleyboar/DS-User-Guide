@@ -13,7 +13,7 @@ Jupyter Notebooks can provide fully integrated workflows of experiments from doc
 * Jupyter Notebooks on DesignSafe
     * [Case 1. Shake table performance.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data%2FCase%201.%20Shake%20table%20performance.ipynb){target=_blank}<br/>
     * [Case 2: Structural Response and System Identification.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data%2FCase%202%3A%20Structural%20Response%20and%20System%20Identification.ipynb){target=_blank}<br/>
-    * Jupyter Notebook for Post-Processing Data: [Case 3: Experimental Workflow.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data%2FCase%203%3A%20Experimental%20Workflow.ipynb){target=_blank}<br/>
+    * [Case 3: Experimental Workflow.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data%2FCase%203%3A%20Experimental%20Workflow.ipynb){target=_blank}<br/>
 
 * DesignSafe Data Depot Location:
     * [Data Depot Folder](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data){target=_blank}<br/>
