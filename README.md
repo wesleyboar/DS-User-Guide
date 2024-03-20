@@ -30,7 +30,7 @@ cd user-guide
 mkdocs serve
 ```
 
-### Using Shared Environment
+### Using Pre-Configured Environment
 
 > Less control. Less caveats.
 
