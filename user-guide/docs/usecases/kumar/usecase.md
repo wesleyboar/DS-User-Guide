@@ -1,5 +1,6 @@
-### Material Point Method for Landslide Modeling
+## MPM Landslide
 
+**Material Point Method for Landslide Modeling**   
 **Krishna Kumar - University of Texas at Austin**  
 
 The example makes use of the following DesignSafe resources:
@@ -8,19 +9,16 @@ The example makes use of the following DesignSafe resources:
 [CB-Geo MPM](https://www.designsafe-ci.org/rw/workspace/#!/mpm-1.0.0u1){target=_blank}<br/> 
 [ParaView](https://www.designsafe-ci.org/rw/workspace/#!/Paraview::Visualization){target=_blank}<br/> 
 
-#### Background 
-##### Citation and Licensing
+### Background 
+#### Citation and Licensing
 
 * Please cite [Kumar et al. (2019)](https://arxiv.org/abs/1909.13380){target=_blank} to acknowledge the use of CB-Geo MPM.
-
 * Please cite [Abram et al. (2022)](https://arxiv.org/abs/2109.02754){target=_blank} to acknowledge the use of any resources from the Oso in situ use case.
-
 * Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
-
 * This software is distributed under the [MIT License](https://github.com/cb-geo/mpm/blob/develop/license.md){target=_blank}.
 
 
-##### Description
+#### Description
 Material Point Method (MPM) is a particle based method that represents the material as a collection of material points, and their deformations are determined by Newton’s laws of motion. The MPM is a hybrid Eulerian-Lagrangian approach, which uses moving material points and computational nodes on a background mesh. This approach is very effective particularly in the context of large deformations. 
 
 ![MPM Algorithm](img/mpm-algorithm.png)
@@ -30,7 +28,7 @@ This use case demonstrates how to run MPM simulations on DesignSafe using [Jupyt
 
 
 
-#### Input generation
+### Input generation
 
 Input files for the MPM code can be generated using [pycbg](https://forgemia.inra.fr/mpm-at-recover/pycbg){target=_blank}. The documentation of the input generator is [here](https://pycbg.readthedocs.io/en/latest/){target=_blank}. For more information on the input files, please refer to [CB-Geo MPM documentation](https://mpm.cb-geo.com/#/user/preprocess/input){target=_blank}. The generator is available at [PyPI](https://pypi.org/project/pycbg/){target=_blank} and an be easily installed with `pip install pycbg`. `pycbg` enables a Python generation of expected `.json` input files, offering all Python capabilities to CB-Geo MPM users for this preprocessing stage.
 
@@ -49,7 +47,7 @@ Typing a few Python lines is usually enough for a user to define all necessary i
  - setup batch of simulations (the documentation doesn't mention it yet but the function `pycbg.preprocessing.setup_batch` has a complete docstring)
 
 
-##### An example 
+#### An example 
 
 Simulation of a settling column made with two different materials is described in [preprocess.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/MPM){target=_blank} as follows:
 
@@ -97,14 +95,14 @@ sim.write_input_file()
 
 This creates in the working directory a folder `Two_materials_column` where all the necessary input files are located. 
 
-#### Running the MPM Code
+### Running the MPM Code
 The CB-Geo MPM code is available on DesignSafe under `WorkSpace > Tools & Applications > Simulations`. [Launch a new MPM Job](https://www.designsafe-ci.org/rw/workspace/#!/mpm-1.0.0u1){target=_blank}. The input folder should have all the scripts, mesh and particle files. CB-Geo MPM can run on multi-nodes and has been tested to run on upto 15,000 cores. 
 
 ![Run MPM on DS](img/mpm-ds.png)
 
-#### Post Processing
+### Post Processing
 
-##### VTK and ParaView
+#### VTK and ParaView
 
 The MPM code can be set to write VTK data of particles at a specified output frequency. The input JSON configuration takes as optional `vtk` argument. The following attributes are valid options for VTK: `"stresses`, `strains`, and `velocities`. When the attribute `vtk` is not specified or an incorrect argument is defined, the code will write all available options.
 
@@ -137,7 +135,7 @@ You can view the results in [DesignSafe ParaView](https://www.designsafe-ci.org/
 ![ParaView MPM](img/paraview-viz.png)
 
 
-##### HDF5
+#### HDF5
 
 The CB-Geo mpm code writes HDF5 data of particles at each output time step. The HDF5 data can be read using Python / Pandas. If `pandas` package is not installed, run `pip3 install pandas`. The [postprocess.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/MPM){target=_blank} shows how to perform data analysis using HDF5 data.
 
@@ -179,7 +177,7 @@ print(df[['velocity_x', 'velocity_y','velocity_z']])
 7         0.0         0.0    0.033333
 ```
 
-##### Oso landslide with in situ visualization
+#### Oso landslide with in situ visualization
 
 In situ visualization is a broad approach to processing
 simulation data in real-time - that is, wall-clock time, as the
