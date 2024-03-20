@@ -20,11 +20,13 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 
 > More control. More caveats.
 
-If you have not already, install Python [Poetry](https://python-poetry.org/): `curl -sSL https://install.python-poetry.org | python3 -`
+If you have not already, create a virtual environment that uses Python 3.11.
 
 ```shell
-cd ds-user-guide/user-guide
+cd DS-User-Guide
+pip install poetry
 poetry install
+cd user-guide
 mkdocs serve
 ```
 
@@ -32,10 +34,10 @@ mkdocs serve
 
 > Less control. Less caveats.
 
-If you have not already, follow [TACC/TACC-Docs "Prequisites for Running the Docs"](https://github.com/TACC/TACC-Docs#prequisites-for-running-the-docs).
+If you have not already, follow [TACC/TACC-Docs prequisites for running the docs "via Docker"](https://github.com/TACC/TACC-Docs#via-docker).
 
 ```shell
-cd ds-user-guide
+cd DS-User-Guide
 make build
 make start
 ```
