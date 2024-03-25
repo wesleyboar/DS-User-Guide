@@ -4,7 +4,7 @@ services:
     build: .
     volumes:
       - ./user-guide/docs:/code/docs
-      - ./user-guide/mkdocs.yml:/code/mkdocs-tacc-client.yml
+      - ./user-guide/mkdocs.yml:/code/mkdocs.yml
       # To NOT sync these from container to host
       # (so no one tries to edit or commit them)
       - type: tmpfs
@@ -21,6 +21,6 @@ services:
         mkdir --parents /code/docs/js/core; cp -r /code-from-tacc/docs/js/core/** /code/docs/js/core/
         mkdir --parents /code/docs/css/core; cp -r /code-from-tacc/docs/css/core/** /code/docs/css/core/
         mkdir --parents /code/themes/tacc-readthedocs; cp -r /code-from-tacc/themes/tacc-readthedocs/** /code/themes/tacc-readthedocs/
-        cp -r /code-from-tacc/mkdocs.yml /code/mkdocs-tacc.yml && cd /code && ./mkdocs.yml.sh && cd /code/docs
+        cp -r /code-from-tacc/mkdocs.base.yml /code/mkdocs.base.yml && cd /code/docs
         mkdocs serve --dev-addr 0.0.0.0:8000 --watch-theme --config-file /code/mkdocs.yml
     container_name: ds_docs

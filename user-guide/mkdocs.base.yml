@@ -1,0 +1,2 @@
+# Retain this empty file to support `INHERIT: ./mkdocs.base.yml` via Docker
+# FAQ: In container, this file will be replaced by TACC's `mkdocs.base.yml`

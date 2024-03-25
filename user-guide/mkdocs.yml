@@ -1,11 +1,10 @@
+INHERIT: ./mkdocs.base.yml
+
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
 # NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
 site_favicon: https://www.designsafe-ci.org/favicon.ico
-
-plugins:
-  - search
 
 theme:
     name: readthedocs
@@ -19,19 +18,48 @@ theme:
       - navigation.top
 
 extra_css:
-    - css/ds-docs.css
+  # TACC/TACC-Docs:/mkdocs.base.yml
+  - css/core/bootstrap.css
+  - css/core/core-styles.css
+  - css/core/tacc-docs.css
+  # DesignSafe/DS-User-Guide
+  - css/ds-docs.css
 
 extra_javascript:
-    - js/changeNavMarkup.js
+  # TACC/TACC-Docs:/mkdocs.base.yml
+  - js/autoScrollNav.js
+  - js/addPageId.js
+  # DesignSafe/DS-User-Guide
+  - js/changeNavMarkup.js
 
 markdown_extensions:
+  # TACC/TACC-Docs:/mkdocs.base.yml
   - footnotes
   - def_list
   - admonition
   - attr_list
   - abbr
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.saneheaders
+  - pymdownx.details
+  - pymdownx.blocks.tab
+  - pymdownx.blocks.html
+  # DesignSafe/DS-User-Guide
   - pymdownx.snippets:
       base_path: docs
+
+plugins:
+  - search
+  - exclude-search:
+      exclude:
+        - aliases.md
+        - include/*
+        - index-sample/*
+        - code-examples/*
+        - testingextensions.md
+        - archives/*
+  - macros
 
 nav:
   - Data Depot:
