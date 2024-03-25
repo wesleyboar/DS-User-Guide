@@ -1,18 +1,22 @@
+---
+render_macros: true
+---
+
 # Data Analytics
 
 <!-- ## Multi-Data Set Image Analysis in Taggit -->
 
-{% include-markdown 'haan/usecase-3.md' %}
+{% include 'usecases/haan/usecase-3.md' %}
 
 ---
 
 <!-- ## ML and AI -->
 
-{% include-markdown 'vantassel_and_zhang/usecase.md' %}
+{% include 'usecases/vantassel_and_zhang/usecase.md' %}
 
 ---
 
 <!-- ## API -->
 
-{% include-markdown 'brandenberg-api/usecase.md' %}
+{% include 'usecases/brandenberg-api/usecase.md' %}
 

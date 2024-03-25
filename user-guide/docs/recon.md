@@ -1,3 +1,7 @@
+---
+render_macros: true
+---
+
 # Recon Portal
 
-{% include-markdown 'tools/recon.md' %}
+{% include 'tools/recon.md' %}

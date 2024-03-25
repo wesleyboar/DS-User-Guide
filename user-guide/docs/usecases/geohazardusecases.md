@@ -1,14 +1,18 @@
+---
+render_macros: true
+---
+
 # Geohazard Use Cases 
 
 ---
 
 <!-- ## NGL Database -->
 
-{% include-markdown 'brandenberg-ngl/usecase.md' %}
+{% include 'usecases/brandenberg-ngl/usecase.md' %}
 
 ---
 
 <!-- ## MPM Landslide -->
 
-{% include-markdown 'kumar/usecase.md' %}
+{% include 'usecases/kumar/usecase.md' %}
 

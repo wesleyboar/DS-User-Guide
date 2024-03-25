@@ -454,7 +454,7 @@ These are created either by manually adding a link from a non-linked mapillary a
 
 They are displayed in this color: .
 
-![](./imgs/hazmapper-2.44.png){: class="align-center" }
+![](imgs/hazmapper-2.44.png){: class="align-center" }
 
 <p align="center"> <b>Fig 2.44</b> </p>
 

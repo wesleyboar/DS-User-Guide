@@ -1,19 +1,23 @@
+---
+render_macros: true
+---
+
 ### Experimental
 
-{% include-markdown 'dictionary/experimental.md' %}
+{% include 'dictionary/experimental.md' %}
 
 ### Simulation
 
-{% include-markdown 'dictionary/simulation.md' %}
+{% include 'dictionary/simulation.md' %}
 
 ### Hybrid
 
-{% include-markdown 'dictionary/hybrid.md' %}
+{% include 'dictionary/hybrid.md' %}
 
 ### Field
 
-{% include-markdown 'dictionary/field.md' %}
+{% include 'dictionary/field.md' %}
 
 ### Other
 
-{% include-markdown 'dictionary/other.md' %}
+{% include 'dictionary/other.md' %}

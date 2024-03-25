@@ -1,31 +1,35 @@
+---
+render_macros: true
+---
+
 # <b>Seismic Use Cases</b>
 
 <!-- ## Seismic Response of Concrete Walls -->
 
-{% include-markdown 'lowes/usecase.md' %}
+{# include 'lowes/usecase.md' #}
 
 ---
 
 <!-- ## Soil Structure Interaction -->
 
-{% include-markdown 'rathje/usecase.md' %}
+{# include 'rathje/usecase.md' #}
 
 ---
 
 <!-- ## Experimental Shake Table Testing -->
 
-{% include-markdown 'mosqueda/usecase.md' %}
+{# include 'mosqueda/usecase.md' #}
 
 ---
 
 <!-- ## Shake Table Data Analysis Using ML -->
 
-{% include-markdown 'mosqueda/erler-mosqueda.md' %}
+{# include 'mosqueda/erler-mosqueda.md' #}
 
 ---
 
 <!-- ## OpenSees Model Calibration -->
 
-{% include-markdown 'arduino/usecase.md' %}
+{# include 'arduino/usecase.md' #}
 
 
