@@ -1,4 +1,4 @@
-FROM tacc-docs-shared-docker--2024-03-26t15-20
+FROM taccwma/tacc-docs:998ea5e6
 
 # To archive TACC code, then replace it
 RUN cp -r /code /code-from-tacc
