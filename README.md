@@ -24,6 +24,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 2. Install dependencies:\
     <sup>You should only need to do this once.</sup>
     ```shell
+    ./bin/tacc-setup.sh
     pip install poetry
     poetry install
     ```
