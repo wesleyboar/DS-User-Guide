@@ -1,7 +1,3 @@
----
-render_macros: true
----
-
 DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.  
 
 To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
@@ -13,11 +9,11 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Taggit - Image Tagging
 
-{% include 'usecases/haan/usecase.md' %}
+{% include-markdown 'usecases/haan/usecase.md' %}
 
 ## ML and AI
 
-{% include 'usecases/vantassel_and_zhang/usecase.md' %}
+{% include-markdown 'usecases/vantassel_and_zhang/usecase.md' %}
 
 # Geohazards 
 
@@ -26,11 +22,11 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## NGL Database
 
-{% include 'usecases/brandenberg-ngl/usecase.md' %}
+{% include-markdown 'usecases/brandenberg-ngl/usecase.md' %}
 
 ## MPM Landslide
 
-{% include 'usecases/kumar/usecase.md' %}
+{% include-markdown 'usecases/kumar/usecase.md' %}
 
 # Wind &amp; Storm Surge
 
@@ -42,19 +38,19 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Large-Scale Storm Surge
 
-{% include 'usecases/dawson/usecase.md' %}
+{% include-markdown 'usecases/dawson/usecase.md' %}
 
 ## Creating an ADCIRC dataset
 
-{% include 'usecases/dawson/usecase2.md' %}
+{% include-markdown 'usecases/dawson/usecase2.md' %}
 
 ## Visualizing Surge for Regional Risks
 
-{% include 'usecases/padgett/usecase.md' %}
+{% include-markdown 'usecases/padgett/usecase.md' %}
 
 ## CFD Analysis of Winds on Structures
 
-{% include 'usecases/kareem/usecase.md' %}
+{% include-markdown 'usecases/kareem/usecase.md' %}
 
 # Seismic Use Cases
 
@@ -65,20 +61,20 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Field Sensing Wind Events
 
-{% include 'usecases/pinelli/usecase.md' %}
+{% include-markdown 'usecases/pinelli/usecase.md' %}
 
 ## OpenSees Model Calibration
 
-{% include 'usecases/arduino/usecase.md' %}
+{% include-markdown 'usecases/arduino/usecase.md' %}
 
 ## Seismic Response of Concrete Walls
 
-{% include 'usecases/lowes/usecase.md' %}
+{% include-markdown 'usecases/lowes/usecase.md' %}
 
 ## Soil Structure Interaction
 
-{% include 'usecases/rathje/usecase.md' %}
+{% include-markdown 'usecases/rathje/usecase.md' %}
 
 ## Experimental Shake Table Testing
 
-{% include 'usecases/mosqueda/usecase.md' %}
+{% include-markdown 'usecases/mosqueda/usecase.md' %}

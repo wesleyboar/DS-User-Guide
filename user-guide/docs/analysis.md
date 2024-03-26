@@ -1,7 +1,3 @@
----
-render_macros: true
----
-
 # Analysis Applications
 
 **Requesting New Applications**: DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by submitting a help ticket if you would like to request the addition of a software application to the Workspace.
@@ -12,14 +8,14 @@ render_macros: true
 
 ---
 
-{% include 'analysis/hvsrweb.md' %}
+{% include-markdown 'analysis/hvsrweb.md' %}
 
 ---
 
-{% include 'analysis/matlab.md' %}
+{% include-markdown 'analysis/matlab.md' %}
 
 ---
 
-{% include 'analysis/swbatch.md' %}
+{% include-markdown 'analysis/swbatch.md' %}
 
 ---

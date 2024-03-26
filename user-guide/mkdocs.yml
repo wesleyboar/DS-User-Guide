@@ -38,8 +38,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - macros:
-      render_by_default: false
+  - include-markdown
 
 nav:
   - Data Depot:

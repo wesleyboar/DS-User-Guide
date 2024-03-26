@@ -233,7 +233,6 @@ print pdf_fn
 PDF(pdf_fn , (750,600))
 ```
 
-{% raw %}
 PDF function 
 ``` python
 class PDF(object):
@@ -247,7 +246,6 @@ class PDF(object):
   def _repr_latex_(self):
     return r'\includegraphics[width=1.0\textwidth]{{{0}}}'.format(self.pdf)
 ```
-{% endraw %}
 
 ##### Create Interactive Plots
 

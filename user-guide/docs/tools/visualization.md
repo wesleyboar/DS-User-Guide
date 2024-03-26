@@ -1,7 +1,3 @@
----
-render_macros: true
----
-
 # Visualization Applications
 
 **Requesting New Applications**: DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by <a href="/help/new-ticket/">submitting a help ticket</a> if you would like to request the addition of a software application to the Workspace.
@@ -12,50 +8,50 @@ render_macros: true
 
 ---
 
-{% include 'tools/visualization/figuregen.md' %}
+{% include-markdown 'visualization/figuregen.md' %}
 
 ---
 
-{% include 'tools/visualization/hazmapper.md' %}
+{% include-markdown 'visualization/hazmapper.md' %}
 
 ---
 
-{% include 'tools/visualization/kalpana.md' %}
+{% include-markdown 'visualization/kalpana.md' %}
 
 ---
 
-{% include 'tools/visualization/paraview.md' %}
+{% include-markdown 'visualization/paraview.md' %}
 
 ---
 
-{% include 'tools/visualization/potree-converter.md' %}
+{% include-markdown 'visualization/potree-converter.md' %}
 
 ---
 
-{% include 'tools/visualization/potree-viewer.md' %}
+{% include-markdown 'visualization/potree-viewer.md' %}
 
 ---
 
-{% include 'tools/visualization/qgis.md' %}
+{% include-markdown 'visualization/qgis.md' %}
 
 ---
 
-{% include 'tools/visualization/stko.md' %}
+{% include-markdown 'visualization/stko.md' %}
 
 ---
 
 <!-- ## Basic Image Browsing and Mapping -->
 <!-- moved from use cases -->
 
-{% include 'usecases/haan/usecase.md' %}
+{% include-markdown '../usecases/haan/usecase.md' %}
 
 ---
 
 <!-- ## Grouping and Tagging Image Files -->
 <!-- moved from use cases -->
 
-{% include 'usecases/haan/usecase-2.md' %}
+{% include-markdown '../usecases/haan/usecase-2.md' %}
 
 ---
 
-{% include 'tools/visualization/visit.md' %}
+{% include-markdown 'visualization/visit.md' %}

@@ -1,25 +1,21 @@
----
-render_macros: true
----
-
 # Managing Data
 
 ## Data Depot
 
-{% include 'managingdata/datadepot.md' %}
+{% include-markdown 'managingdata/datadepot.md' %}
 
 ## Setting Path to DS on Corral
 
-{% include 'managingdata/settingpathtodesignsafe.md' %}
+{% include-markdown 'managingdata/settingpathtodesignsafe.md' %}
 
 ## Data Transfer Guides
 
-{% include 'managingdata/datatransfer.md' %}
+{% include-markdown 'managingdata/datatransfer.md' %}
 
 ## Data Management Plan Guidance
 
-{% include 'managingdata/datamanagementplan.md' %}
+{% include-markdown 'managingdata/datamanagementplan.md' %}
 
 ## Experimental Facility Checklist
 
-{% include 'managingdata/experimentalfacilitychecklist.md' %}
+{% include-markdown 'managingdata/experimentalfacilitychecklist.md' %}

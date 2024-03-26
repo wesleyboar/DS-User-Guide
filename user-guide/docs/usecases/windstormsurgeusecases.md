@@ -1,32 +1,28 @@
----
-render_macros: true
----
-
 # Wind and Storm Surge
 
 
 <!-- ## Field Sensing Wind Events -->
 
-{% include 'usecases/pinelli/usecase.md' %}
+{% include-markdown 'pinelli/usecase.md' %}
 
 <!-- ##  Hurricane Data Integration Visualization -->
 
-{% include 'usecases/pinelli/2usecase.md' %}
+{% include-markdown 'pinelli/2usecase.md' %}
 
 <!-- ##  ADCIRC Datasets -->
 
-{% include 'usecases/dawson/usecase2.md' %}
+{% include-markdown 'dawson/usecase2.md' %}
 
 <!-- ##  Large-Scale Storm Surge -->
 
-{% include 'usecases/dawson/usecase.md' %}
+{% include-markdown 'dawson/usecase.md' %}
 
 <!-- ##  Visualizing Surge for Regional Risks -->
 
-{% include 'usecases/padgett/usecase.md' %}
+{% include-markdown 'padgett/usecase.md' %}
 
 <!-- ##  CFD Analysis of Winds on Structures -->
 
-{% include 'usecases/kareem/usecase.md' %}
+{% include-markdown 'kareem/usecase.md' %}
 
 
