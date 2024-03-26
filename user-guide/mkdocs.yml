@@ -1,4 +1,4 @@
-INHERIT: ./mkdocs.local.yml
+INHERIT: ./mkdocs.base.yml
 
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
