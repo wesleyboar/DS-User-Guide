@@ -6,30 +6,30 @@ render_macros: true
 
 <!-- ## Seismic Response of Concrete Walls -->
 
-{# include 'lowes/usecase.md' #}
+{% include 'usecases/lowes/usecase.md' %}
 
 ---
 
 <!-- ## Soil Structure Interaction -->
 
-{# include 'rathje/usecase.md' #}
+{% include 'usecases/rathje/usecase.md' %}
 
 ---
 
 <!-- ## Experimental Shake Table Testing -->
 
-{# include 'mosqueda/usecase.md' #}
+{% include 'usecases/mosqueda/usecase.md' %}
 
 ---
 
 <!-- ## Shake Table Data Analysis Using ML -->
 
-{# include 'mosqueda/erler-mosqueda.md' #}
+{% include 'usecases/mosqueda/erler-mosqueda.md' %}
 
 ---
 
 <!-- ## OpenSees Model Calibration -->
 
-{# include 'arduino/usecase.md' #}
+{% include 'usecases/arduino/usecase.md' %}
 
 
