@@ -1,5 +1,5 @@
 <!-- # Grouping and Tagging Image Files -->
-## Taggit: Grouping and Tagging Image Files
+## Taggit User Guide: Grouping and Tagging Image Files
 
 **Using Taggit to categorize image files with groups and tags**  
 **Fred Haan – Calvin University**
@@ -14,11 +14,10 @@ The example makes use of the following DesignSafe resources:
 
 ### Description
 
-This use case demonstrates how to use Taggit on DesignSafe to organize image files into groups and to tag images. The groups and tags can then be saved for use in other programs (for example, for machine learning applications) or be used to present a set of images in a clear and organized way.
+This user guide demonstrates how to use Taggit on DesignSafe to organize image files into groups and to tag images. The groups and tags can then be saved for use in other programs (for example, for machine learning applications) or be used to present a set of images in a clear and organized way.
 
-**NOTE**: You always start a Map/Gallery file in HazMapper. HazMapper and Taggit should be considered different ways of viewing the same set of images. You see a thumbnail Gallery of those images when you use Taggit, and you see a Map of those images when you use HazMapper, but it is the same *.hazmapper file in both cases.
+**NOTE**: You always start a Map/Gallery file in HazMapper. HazMapper and Taggit should be considered different ways of viewing the same set of images. You see a thumbnail Gallery of those images when you use Taggit, and you see a Map of those images when you use HazMapper, but it is the same *.hazmapper file in both cases. Also, at this time you cannot publish a Map/Gallery but this functionality is coming soon.
 
-### Implementation
 
 Taggit enables you to organize images into groups and to tag images. This document shows you how to create groups and tags with Taggit.
 
@@ -105,7 +104,6 @@ Clicking one of the Checkbox options will cause a Save Tags button to appear (as
 Groups and Tags can be exported using the Export Tags/Groups option in the pull-down menu. You can export to your local machine or to a folder in DesignSafe. This export option will generate one json file and also separate csv files for each group in the Gallery. 
 
 
-### Citations and Licensing
+### References
 
-* Please cite Kijewski-Correa et al. (2021) to acknowledge PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
-* Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a> to acknowledge the use of DesignSafe resources.
+* Kijewski-Correa et al. (2021) for PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
