@@ -1,6 +1,6 @@
+## Taggit: Basic Image Browsing and Mapping
 **Using HazMapper and Taggit to browse thumbnails of large numbers of images and map their locations**   
 **Fred Haan – Calvin University Key Words: Taggit, HazMapper, image browsing**
-## Taggit: Basic Image Browsing and Mapping
 
 ### Resources 
 
@@ -11,9 +11,9 @@ The example makes use of the following DesignSafe resources:
 
 ### Description
 
-This use case demonstrates how to use HazMapper and Taggit applications on DesignSafe to browse through large numbers of image files. HazMapper and Taggit should be considered different ways of viewing the same set of images. You see a thumbnail Gallery of those images when you use Taggit, and you see a Map of those images when you use HazMapper, but it is the same *.hazmapper file in both cases.
+This user guide demonstrates how to use HazMapper and Taggit applications on DesignSafe to browse through large numbers of image files. HazMapper and Taggit should be considered different ways of viewing the same set of images. You see a thumbnail Gallery of those images when you use Taggit, and you see a Map of those images when you use HazMapper, but it is the same *.hazmapper file in both cases.
 
-NOTE: You always start a Map/Gallery file in HazMapper. All browsing/mapping starts with HazMapper, and you can switch back and forth between the apps as you wish.
+NOTE: You always start a Map/Gallery file in HazMapper. All browsing/mapping starts with HazMapper, and you can switch back and forth between the apps as you wish. Also, at this time you cannot publish a Map/Gallery but this functionality is coming soon.
 
 **Creating a Map/Gallery and Browsing Images**
 
