@@ -15,8 +15,6 @@ This use case demonstrates how to use HazMapper and Taggit applications on Desig
 
 NOTE: You always start a Map/Gallery file in HazMapper. All browsing/mapping starts with HazMapper, and you can switch back and forth between the apps as you wish.
 
-### Implementation
-
 **Creating a Map/Gallery and Browsing Images**
 
 Taggit and HazMapper allow you to browse and map image files that are on DesignSafe. This document shows you how to get started with Taggit and HazMapper for a set of images available on DesignSafe.
@@ -85,8 +83,6 @@ If you want to go back to HazMapper and put all the photos on a map, click the V
 
 ![](img/image018.png)
 
-### Citations and Licensing
+### References
 
-* Please cite Kijewski-Correa et al. (2021) to acknowledge PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
-* Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a> to acknowledge the use of DesignSafe
-resources.
+* Kijewski-Correa et al. (2021) for PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
