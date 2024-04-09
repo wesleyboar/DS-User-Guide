@@ -1,4 +1,4 @@
-FROM python:3.10-bullseye as python-base
+FROM python:3.11-bullseye as python-base
 
 LABEL maintainer="TACC-ACI-WMA <wma_prtl@tacc.utexas.edu>"
 
@@ -8,7 +8,6 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV POETRY_VERSION=1.8.2 \
     POETRY_HOME="/opt/poetry" \
     POETRY_VIRTUALENVS_IN_PROJECT=true \
-    POETRY_NO_INTERACTION=1 \
     PYSETUP_PATH="/opt/pysetup" \
     VENV_PATH="/opt/pysetup/.venv"
 
