@@ -11,3 +11,6 @@ pyproject.toml
 
 # TACC-Docs files within Docker-synced directories
 user-guide/docs/**/core
+
+# Igonre pyenv
+.python-version

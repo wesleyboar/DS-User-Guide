@@ -1,6 +1,6 @@
+## Taggit User Guide: Basic Image Browsing and Mapping
 **Using HazMapper and Taggit to browse thumbnails of large numbers of images and map their locations**   
 **Fred Haan – Calvin University Key Words: Taggit, HazMapper, image browsing**
-## Taggit: Basic Image Browsing and Mapping
 
 ### Resources 
 
@@ -11,11 +11,9 @@ The example makes use of the following DesignSafe resources:
 
 ### Description
 
-This use case demonstrates how to use HazMapper and Taggit applications on DesignSafe to browse through large numbers of image files. HazMapper and Taggit should be considered different ways of viewing the same set of images. You see a thumbnail Gallery of those images when you use Taggit, and you see a Map of those images when you use HazMapper, but it is the same *.hazmapper file in both cases.
+This user guide demonstrates how to use HazMapper and Taggit applications on DesignSafe to browse through large numbers of image files. HazMapper and Taggit should be considered different ways of viewing the same set of images. You see a thumbnail Gallery of those images when you use Taggit, and you see a Map of those images when you use HazMapper, but it is the same *.hazmapper file in both cases.
 
-NOTE: You always start a Map/Gallery file in HazMapper. All browsing/mapping starts with HazMapper, and you can switch back and forth between the apps as you wish.
-
-### Implementation
+NOTE: You always start a Map/Gallery file in HazMapper. All browsing/mapping starts with HazMapper, and you can switch back and forth between the apps as you wish. Also, at this time you cannot publish a Map/Gallery but this functionality is coming soon.
 
 **Creating a Map/Gallery and Browsing Images**
 
@@ -85,8 +83,6 @@ If you want to go back to HazMapper and put all the photos on a map, click the V
 
 ![](img/image018.png)
 
-### Citations and Licensing
+### References
 
-* Please cite Kijewski-Correa et al. (2021) to acknowledge PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.
-* Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a> to acknowledge the use of DesignSafe
-resources.
+* Kijewski-Correa et al. (2021) for PRJ-3349 StEER - 10 December 2021 Midwest Tornado Outbreak.

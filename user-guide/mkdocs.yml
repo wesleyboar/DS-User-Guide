@@ -51,7 +51,7 @@ nav:
   - Tools and Apps:
     - Analysis Applications: analysis.md
     - Hazard Apps &amp; Utilities: tools/hazard.md
-    - Jupyter Hub: tools/jupyterhub.md
+    - Jupyter: tools/jupyterhub.md
     - Visualization Applications: tools/visualization.md
 
   - Simulation Applications: 
