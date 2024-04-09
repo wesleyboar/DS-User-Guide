@@ -2,6 +2,7 @@
 name = "ds-user-guide"
 version = "1.0.0"
 description = ""
+package-mode = false
 authors = ["rstijerina <r.sal.tijerina@gmail.com>"]
 readme = "README.md"
 
