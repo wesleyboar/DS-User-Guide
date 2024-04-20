@@ -3,3 +3,6 @@ user-guide/site/
 
 # Temporary files
 .DS_Store
+
+# Igonre pyenv
+.python-version
