@@ -30,7 +30,7 @@ and the following Jupyter notebooks are available to facilitate the analysis of 
 | Bayessian calibration     | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/BayesianCalibration/quoFEM-Bayesian.ipynb)|
 | Forward propagation  | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/ForwardPropagation/quoFEM-Propagation.ipynb)|
 
-</p>
+</div>
 
 
 ## Description
