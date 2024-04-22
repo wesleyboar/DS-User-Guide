@@ -18,7 +18,7 @@ The example makes use of the following DesignSafe resources:
 
 and the following Jupyter notebooks are available to facilitate the analysis of each case. You can access and run them directly from the DesignSafe community folder.
 
-<p align="center">
+<div align="center">
 
 | Site Response | Notebook |
 | :-------: | :---------:  |
