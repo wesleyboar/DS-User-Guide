@@ -95,6 +95,10 @@ Excel and Matlab are two proprietary file formats highly used in this community.
 
 Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to "My Data" , it is possible to unzip it using the extraction <a href="https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1">utility</a> available in the workspace before copying data to My Project for curation and publication.
 
+##### [Simulation Data](#bestpractices-simulationdata) { #bestpractices-simulationdata }
+
+In the Data Depot's Published directory there is a [best practices document](https://doi.org/10.17603/ds2-wsqp-fw44){:target="_blank"} for publishing simulation datasets in DesignSafe. The topics addressed reflect the numerical modeling community needs and recommendations, and are informed by the experience of the working group members and the larger DesignSafe expert cohort while conducting and curating simulations in the context of natural hazards research. These best practices focus on attaining published datasets with precise descriptions of the simulations’ designs, references to or access to the software involved, and complete publication of inputs and if possible all outputs. Tying these pieces together requires documentation to understand the research motivation, origin, processing, and functions of the simulation dataset in line with FAIR principles. These best practices can also be used by simulation researchers in any domain to curate and publish simulation data in any repository.
+
 ##### [Geospatial Data](#bestpractices-geospatial) { #bestpractices-geospatial }
 
 We encourage the use of open Geospatial data formats. Within DS Tools and Applications we provide two open source software for users to share and analyze geospatial data. QGIS can handle most open format datasets and HazMapper, is capable of visualizing geo-tagged photos and GeoJSON files. To access these software users should  get an account in DesignSafe. 
@@ -105,7 +109,7 @@ Understanding that ArcGIS software is widespread in this community  in the DDR i
 
 It is highly recommended to avoid publishing proprietary point cloud data extensions.  Instead, users should consider publishing post-processed and open format extension data such as las or laz files. In addition, point cloud data publications may be very large. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a potree readable format to be visualized in DesignSafe. 
 
-#### [Jupyter Notebooks](#jupyter) { #jupyter }
+##### [Jupyter Notebooks](#jupyter) { #jupyter }
 
 More and more researchers are publishing projects that contain Jupyter Notebooks as part of their data. They can be used to provide sample queries on the published data as well as providing digital data reports.  As you plan for publishing a Jupyter Notebook, please consider the following issues:
 
