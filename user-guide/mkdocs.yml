@@ -16,9 +16,9 @@ theme:
 
 extra_css:
   # TACC/TACC-Docs:/mkdocs.base.yml
-  - css/core/bootstrap.css
-  - css/core/core-styles.css
-  - css/core/tacc-docs.css
+  - ../tacc-docs/css/core/bootstrap.css
+  - ../tacc-docs/css/core/core-styles.css
+  - ../tacc-docs/css/core/tacc-docs.css
   # DesignSafe/DS-User-Guide
   - css/ds-docs.css
 

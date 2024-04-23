@@ -1,5 +1,18 @@
-FROM taccwma/tacc-docs:998ea5e6
+FROM tup_docs_2024-04-09t14:55-diff-way
 
-# To archive TACC code, then replace it
-RUN cp -r /code /code-from-tacc
-COPY ./user-guide /code
+RUN mv /code /tacc-docs
+COPY ./user-guide/ /code/
+RUN mv /tacc-docs /code/tacc-docs
+RUN mv /tacc-docs/mkdocs.base.yml /code/tacc-docs/mkdocs.base.yml
+# COPY /tacc-code/docs/js/core /code/docs/js/core
+# COPY /tacc-code/docs/css/core /code/docs/css/core
+# COPY /tacc-code/themes/tacc-readthedocs /code/themes/tacc-readthedocs
+
+# COPY ./user-guide /user-guide
+# RUN cp -R -n /user-guide/ /code/
+
+# COPY /code /tacc-code
+# COPY ./user-guide/ /code/
+# COPY /tacc-code/docs/js/core /code/docs/js/core
+# COPY /tacc-code/docs/css/core /code/docs/css/core
+# COPY /tacc-code/themes/tacc-readthedocs /code/themes/tacc-readthedocs
