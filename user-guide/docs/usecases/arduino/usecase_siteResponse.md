@@ -17,14 +17,14 @@ The notebook, and required scripts, are available in the Community Data folder a
 The *site response workflow notebook* introduces typical steps used in the evaluation of the surface response for a site with liquefiable soil.
 The notebook takes advantage of the site response problem to introduce the general numerical analysis workflow shown in Figure 2 that includes: 
 
-1. running OpenSees using a **TAPIS** APP, 
-2. postprocessing results using python, 
-3. generating authomatic reports using rst2pdf or latex, and 
-4. Creating animated plots using visualization widgets. 
+1. running OpenSees using a **TAPIS** APP,
+2. postprocessing results using python,
+3. generating authomatic reports using rst2pdf or latex, and
+4. Creating animated plots using visualization widgets.
 
 
 <p align="center">
-<img src="./img/DSworkflow.png" alt=" OpenSees numericla simulation workflow" width="200"/>
+<img src="../img/DSworkflow.png" alt=" OpenSees numericla simulation workflow" width="200"/>
 </p>
 <p align="center"> <b>Fig.2 - OpenSees numerical simulation workflow</b> </p>
 
@@ -32,7 +32,7 @@ The notebook takes advantage of the site response problem to introduce the gener
 The soil profile shown in Figure 3 includes a 5.0m loose sand underlain by a 1.0 m dense soil.The loose sand is modeled using the PM4Sand constitutive model for liquefiable soils available in OpenSees. The dense sand is considered linear elastic. The groundwter table is assumed at 2.0 m making the lower 3.0 m of the loose sand susceptible to liquefaction. The soil profile is subject to a dynamic excitation at its base. The site response of interest includes (i) the surface acceleration, (ii) profiles of lateral displacement, horizontal acceleration, maximum shear strain, and cyclic stress ratio and (iii) stress strain and pore pressure plots for a point in the middle of the soil profile.  The opensees model definition, analysis steps, and recorders are contained in the [N10_T3.tcl](FreeField-JupyterNB/N10_T3.tcl) file, and the input signal is in [velocity.input](FreeField-JupyterNB/velocity.input). The model can be run using OpenSees in any OS framework.
 
 <p align="center">
-<img src="./img/SPschematic.png" alt="N10_T3 soil profile with liquefiable layer" width="200"/>
+<img src="../img/SPschematic.png" alt="N10_T3 soil profile with liquefiable layer" width="200"/>
 </p>
 <p align="center"> <b>Fig.3 - N10_T3 soil profile with liquefiable layer</b> </p>
 
@@ -167,8 +167,8 @@ plot_acc()
 ```
 
 <p align="center">
-<img src="./img/surfaceAccel.png" alt="Surface acceleration" width="300"/>
-<img src="./img/logSpectra.png" alt="Response spectrum" width="300"/>
+<img src="../img/surfaceAccel.png" alt="Surface acceleration" width="300"/>
+<img src="../img/logSpectra.png" alt="Response spectrum" width="300"/>
 </p>
 <p align="center"> <b>Fig.4 - Surface acceleratio and response spectrum</b> </p>
 
@@ -180,7 +180,7 @@ plot_profile()
 ```
 
 <p align="center">
-<img src="./img/profilePlot.png" alt="Profiles" width="600"/>
+<img src="../img/profilePlot.png" alt="Profiles" width="600"/>
 </p>
 <p align="center"> <b>Fig.5 - Profiles of max displacement, PHA, Max shear strain and cyclic stress ratio</b> </p>
 
@@ -191,8 +191,8 @@ plot_porepressure()
 ```
 
 <p align="center">
-<img src="./img/stressstrain.png" alt="Stress strain" width="300"/>
-<img src="./img/porePressure.png" alt="Pore pressure" width="300"/>
+<img src="../img/stressstrain.png" alt="Stress strain" width="300"/>
+<img src="../img/porePressure.png" alt="Pore pressure" width="300"/>
 </p>
 <p align="center"> <b>Fig.6 - stress strain and pore pressure in the middle of liquefiable layer</b> </p>
 
@@ -243,7 +243,7 @@ from interactiveplot import createpwpplot, createDispplot
 createpwpplot()
 ```
 <p align="center">
-<img src="./img/widget-1.PNG" alt="Pore pressure interatvie plot" width="400"/>
+<img src="../img/widget-1.PNG" alt="Pore pressure interatvie plot" width="400"/>
 </p>
 <p align="center"> <b>Fig.7 - Pore pressure interactive plot</b> </p>
 
@@ -254,7 +254,7 @@ createDispplot()
 ```
 
 <p align="center">
-<img src="./img/widget-2.PNG" alt="Displacement profile interatvie plot" width="400"/>
+<img src="../img/widget-2.PNG" alt="Displacement profile interatvie plot" width="400"/>
 </p>
 <p align="center"> <b>Fig.8 - Displacement proficle interactive plot</b> </p>
 

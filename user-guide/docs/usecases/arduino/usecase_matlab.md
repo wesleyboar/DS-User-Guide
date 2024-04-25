@@ -31,7 +31,7 @@ FInally a simple report is generated using rst2pdf.
 A schematic workflow for this example is presented in Fig. 1
 
 <p align="center">
-<img src="./img/UC3-Arduino-0.png" alt="Schematic of Matlab workflow" width="500"/>
+<img src="../img/UC3-Arduino-0.png" alt="Schematic of Matlab workflow" width="500"/>
 </p>
 <p align="center"> <b>Fig.1 - Schematic of Matlab workflow</b> </p>
     
