@@ -1,6 +1,6 @@
 # From constitutive parameter calibration to site response analysis
 
-## A collection of educational notebooks to introduce model parameter calibration and site response analysis using OpenSees in DesignSafe-CI. 
+## A collection of educational notebooks to introduce model parameter calibration and site response analysis using OpenSees in DesignSafe-CI
 
 **Pedro Arduino - University of Washington** <br/>
 **Sang-Ri Yi - SimCenter, UC Berkeley** <br/>
@@ -45,9 +45,9 @@ This use-case introduces a suite of Jupyter Notebooks published in DesignSafe th
 
 1. [**Site response workflow notebook**](./usecase_siteResponse.md): This notebook introduces typical steps used a seismic site response analysis workflow taking advantage of Jupyter, OpenSees, and DesignSafe-CI.
 
-2. [**quoFEM Notebooks**](./usecase_quoFEM.md): These notebooks provide an introduction to uncertainty quantification (UQ) methods using *quoFEM* to address sensitivity, Bayesian calibration, and forward propagation specifically in the context of seismic site response. Three different analysis are discussed including: 
+2. [**quoFEM Notebooks**](./usecase_quoFEM.md): These notebooks provide an introduction to uncertainty quantification (UQ) methods using *quoFEM* to address sensitivity, Bayesian calibration, and forward propagation specifically in the context of seismic site response. Three different analysis are discussed including:
 
-    a. **Global sensitivity analysis** This notebook provides insight into which model parameters are critical for estimating triggering of liquefaction. 
+    a. **Global sensitivity analysis** This notebook provides insight into which model parameters are critical for estimating triggering of liquefaction.
 
     b. **Parameter calibration notebook**: This  notebook is customized for the PM4Sand model and presents the estimation of its main parameters that best fit experimental data as well as their uncertainty.
 
@@ -56,12 +56,12 @@ This use-case introduces a suite of Jupyter Notebooks published in DesignSafe th
 
 ## Citation and Licensing
 
-* Please cite [Aakash B. Satish et al. (2022)](https://doi.org/10.1007/978-3-031-11898-2_152){target=_blank} to acknowledge the use of resources from this use case. <br/>
+* Please cite [Aakash B. Satish et al. (2022)](https://doi.org/10.1007/978-3-031-11898-2_152){target=_blank} to acknowledge the use of resources from this use case.<br/>
 
-* Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6){target=_blank} to acknowledge the use of resources from this use case. <br/>
+* Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6){target=_blank} to acknowledge the use of resources from this use case.<br/>
 
 * Please cite [Chen, L. et al. (2021)](https://peer.berkeley.edu/sites/default/files/2021_chen_final.pdf){target=_blank} to acknowledge the use of resources from this use case.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
