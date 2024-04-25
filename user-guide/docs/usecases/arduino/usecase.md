@@ -18,8 +18,6 @@ The example makes use of the following DesignSafe resources:
 
 and the following Jupyter notebooks are available to facilitate the analysis of each case. You can access and run them directly from the DesignSafe community folder.
 
-<div align="center">
-
 | Site Response | Notebook |
 | :-------: | :---------:  |
 | FreeField Response | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community.ipynb) |
@@ -30,9 +28,6 @@ and the following Jupyter notebooks are available to facilitate the analysis of 
 | Bayessian calibration     | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/BayesianCalibration/quoFEM-Bayesian.ipynb)|
 | Forward propagation  | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/ForwardPropagation/quoFEM-Propagation.ipynb)|
 
-</div>
-
-
 ## Description
 
 Seismic site response refers to the way the ground responds to seismic waves during an earthquake. This response can vary based on the soil and rock properties of the site, as well as the characteristics of the earthquake itself. 
@@ -40,7 +35,7 @@ Seismic site response refers to the way the ground responds to seismic waves dur
 Site response analysis for liquefiable soils is fundamental in the estimation of demands on civil infrastructure including buildings and lifelines. For this purpose, current state of the art in numerical methods in geotechnical engineering require the use of advance constitutive models and fully couple nonlinear finite element (FEM) tools. Advanced constitutive models require calibration of material parameters based on experimental tests. These parameters include uncertainties that in turn propagate to uncertenties in the estimation of demands. The products included in this use-case provide simple examples showing how to achieve site response analysis including parameter identification and uncertainty quantification using SimCenter tools and the DesignSafe cyber infrastructure.
 
 <p align="center">
-<img src="./img/SRschematic2.PNG" alt="Propagation of vertical waves in site response analysis" width="600"/>
+<img src="../img/SRschematic2.PNG" alt="Propagation of vertical waves in site response analysis" width="600"/>
 </p>
 <p align="center"> <b>Fig.1 - Site response problem</b> </p>
 
