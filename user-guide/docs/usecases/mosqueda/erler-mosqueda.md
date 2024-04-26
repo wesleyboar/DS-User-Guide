@@ -6,13 +6,22 @@
 
 ### Resources 
 
+* DesignSafe tools used by this project:
+    * [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+
 * Jupyter Notebooks on DesignSafe
 	* <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%200%20PreprocessingVisualization.ipynb">CASE 0 Preprocessing Visualization</a>
 	* <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%201%20LinearRegression.ipynb">CASE 1 Linear Regression</a>
 	* <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%202%20DNN.ipynb">CASE 2 Deep Neural Network (DNN) Regression</a> 
-* Jupyter Notebook and Python scripts on [GitHub](https://github.com/Kaylaerler/Structural-Insights-with-ML)
-* [Caltrans Seismic Response Modification Device (SRMD) Test Facility](https://se.ucsd.edu/facilities/laboratory-listing/srmd)
-* [Shortreed et al.  (2001)](https://royalsocietypublishing.org/doi/10.1098/rsta.2001.0875) &quot;Characterization and testing of the Caltrans Seismic Response Modification Device Test System&quot;. Phil. Trans. R. Soc. A.359: 1829–1850
+	
+* Additional Resources
+	* Jupyter Notebook and Python scripts on [GitHub](https://github.com/Kaylaerler/Structural-Insights-with-ML)
+	* [Caltrans Seismic Response Modification Device (SRMD) Test Facility](https://se.ucsd.edu/facilities/laboratory-listing/srmd)
+	* [Shortreed et al.  (2001)](https://royalsocietypublishing.org/doi/10.1098/rsta.2001.0875) &quot;Characterization and testing of the Caltrans Seismic Response Modification Device Test System&quot;. Phil. Trans. R. Soc. A.359: 1829–1850
+
+* DesignSafe Data Depot Location:
+    * [Data Depot Folder](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20ML%20Data%20Analysis){target=_blank}<br/>
+
 
 ### Description
 

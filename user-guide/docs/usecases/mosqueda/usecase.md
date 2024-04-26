@@ -3,9 +3,20 @@
 **Integrated Workflow of Experiments using Jupyter Notebooks: From Experimental Design to Publication**   
 **Enrique Simbort and Gilberto Mosqueda - University of California, San Diego**  
 
-Jupyter Notebooks can provide fully integrated workflows of experiments from documentation of experimental design through analysis and publishing of data using the DesignSafe cyberinfrastructure. A series of Notebooks are being developed to demonstrate their use in the experimental workflow including notebooks showing how to view and analyzed past published data and data from testing of a reconfigurable, modular test bed building planned to be tested on the NHERI@UC San Diego Experimental Facility. The Python-based code is implemented in a modular fashion so that components can be used as desired in other experiments and are transferable to other experimental facilities. In the examples provided, the Notebook can be used to evaluate shake table performance as well as dynamic properties of the structure. A key functionality is to increase the integration and collaboration between researchers at local or remote sites to view and analyze the experimental data during and after testing including after the data is published. As Notebooks are developed to view experimental data by the research team, they can also be published with the data allowing other researchers to quickly view the data for promoting data reuse. Examples are providing for viewing data from past shake table experiments including NEES and more current NHERI data repositories.  The example makes use of the following DesignSafe resources:
+Jupyter Notebooks can provide fully integrated workflows of experiments from documentation of experimental design through analysis and publishing of data using the DesignSafe cyberinfrastructure. A series of Notebooks are being developed to demonstrate their use in the experimental workflow including notebooks showing how to view and analyzed past published data and data from testing of a reconfigurable, modular test bed building planned to be tested on the NHERI@UC San Diego Experimental Facility. The Python-based code is implemented in a modular fashion so that components can be used as desired in other experiments and are transferable to other experimental facilities. In the examples provided, the Notebook can be used to evaluate shake table performance as well as dynamic properties of the structure. A key functionality is to increase the integration and collaboration between researchers at local or remote sites to view and analyze the experimental data during and after testing including after the data is published. As Notebooks are developed to view experimental data by the research team, they can also be published with the data allowing other researchers to quickly view the data for promoting data reuse. Examples are providing for viewing data from past shake table experiments including NEES and more current NHERI data repositories.  The example makes use of the following DesignSafe 
 
-[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+### Resources 
+
+* DesignSafe tools used by this project:
+    * [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+
+* Jupyter Notebooks on DesignSafe
+    * [Case 1. Shake table performance.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data%2FCase%201.%20Shake%20table%20performance.ipynb){target=_blank}<br/>
+    * [Case 2: Structural Response and System Identification.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data%2FCase%202%3A%20Structural%20Response%20and%20System%20Identification.ipynb){target=_blank}<br/>
+    * [Case 3: Experimental Workflow.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data%2FCase%203%3A%20Experimental%20Workflow.ipynb){target=_blank}<br/>
+
+* DesignSafe Data Depot Location:
+    * [Data Depot Folder](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data){target=_blank}<br/>
 
 ### Background 
 #### Citation and Licensing

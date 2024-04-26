@@ -17,11 +17,13 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ### Seismic Use Cases 
 
-* [**Site Response Analysis and Model Calibration**](#opensees-model-calibration) (OpenSees, SimCenter quoFEM, Jupyter, HPC)
-* [**Simulating the Seismic Performance of Reinforced Concrete Walls**](#seismic-response-of-concrete-walls) (OpenSees, Jupyter, HPC)
-* [**Soil-Structure-Interaction Simulations**](#soil-structure-interaction) (OpenSees, STKO, Jupyter, HPC)
-* [**Experimental Visualization of Shaking Table Data**](#experimental-shake-table-testing) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
-* [**Shake Table Data Analysis Using ML**](#shake-table-data-analysis-using-ml) 
+* [**Simulating the Seismic Performance of Reinforced Concrete Walls**](lowes/usecase.md) (OpenSees, Jupyter, HPC)
+* [**Soil-Structure-Interaction Simulations**](rathje/usecase.md) (OpenSees, STKO, Jupyter, HPC)
+* [**Experimental Visualization of Shaking Table Data**](mosqueda/usecase.md) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
+* [**Shake Table Data Analysis Using ML**](mosqueda/erler-mosqueda.md) 
+* [**Site Response Analysis and Model Calibration**](arduino/usecase.md) (OpenSees, SimCenter quoFEM, Jupyter, HPC)
+* [**Launching a Matlab script from a Jupyter notebook**](arduino/usecase_matlab.md) (Matlab, Jupyter, HPC)
+* [**Sensitivity Analysis, Bayesian Calibration and Forward Propagation of Uncertainties Using quoFEM**](arduino/usecase_quoFEM.md) (SimCenter quoFEM, Jupyter, HPC)
 
 ### Wind &amp; Storm Surge Use Cases
 

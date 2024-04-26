@@ -8,6 +8,21 @@
 
 *key Words: quoFEM, OpenSees, Tapis, Python*
 
+<!-- https://github.com/silviamazzoni/DS-User-Guide/commit/69896aen -->
+<!--
+
+### Resources
+A collection of educational notebooks to introduce model parameter calibration and site response analysis using OpenSees in DesignSafe-CI. The example makes use of the following DesignSafe resources: 
+
+* DesignSafe tools used by this project:
+    * [Simulation on DS - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation){target=_blank}<br/> 
+    * [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+
+* DesignSafe Data Depot Location:
+    * [Data Depot Folder](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand){target=_blank}<br/>
+
+-->
+
 ## Resources
 
 The example makes use of the following DesignSafe resources:
