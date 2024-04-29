@@ -210,7 +210,7 @@ for ii in range(3):
 ```
 
 <p align="center">
-<img src="./img/UC3-Arduino-1.png" alt="Time histories" width="400"/>
+<img src="../img/UC3-Arduino-1.png" alt="Time histories" width="400"/>
 </p>
 <p align="center"> <b>Fig.2 - Displacement, velocity and acceleration time history for selected motion</b> </p>
 
@@ -242,7 +242,7 @@ axs2[0].grid(True)
 ```
 
 <p align="center">
-<img src="./img/UC3-Arduino-2.png" alt="Response spectra" width="400"/>
+<img src="../img/UC3-Arduino-2.png" alt="Response spectra" width="400"/>
 </p>
 <p align="center"> <b>Fig.3 - Response spectra</b> </p>
 
