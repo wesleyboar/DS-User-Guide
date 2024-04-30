@@ -36,7 +36,7 @@ In this use case, the amount of reduction in the uncertainty in PM4Sand paramete
 
 
 <p align="center">
-<img src=".../img/UC2-Arduino-1.png" alt="Probabilistic calibration" width="600"/>
+<img src="../img/UC2-Arduino-1.png" alt="Probabilistic calibration" width="600"/>
 </p>
 <p align="center"> <b>Fig.1 - Probabilistic calibration of soil model (step 2) with sensitivity analysis (step 1) and prediction of uncertainty in estimation of lateral sperading (step 3)</b> </p>
 
