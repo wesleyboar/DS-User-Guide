@@ -21,7 +21,8 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 * [**Simulating the Seismic Performance of Reinforced Concrete Walls**](#seismic-response-of-concrete-walls) (OpenSees, Jupyter, HPC)
 * [**Soil-Structure-Interaction Simulations**](#soil-structure-interaction) (OpenSees, STKO, Jupyter, HPC)
 * [**Experimental Visualization of Shaking Table Data**](#experimental-shake-table-testing) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
-* [**Shake Table Data Analysis Using ML**](#shake-table-data-analysis-using-ml) 
+* [**Shake Table Data Analysis Using ML**](#shake-table-data-analysis-using-ml)
+* [**OpenSees Model Calibration**](#OpenSees Model Calibration) (Jupyter)
 
 ### Wind &amp; Storm Surge Use Cases
 
