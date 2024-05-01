@@ -1,3 +1,4 @@
+## DesignSafe Use Cases
 
 DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.  
 
@@ -10,11 +11,11 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Taggit - Image Tagging
 
-{% include-markdown 'usecases/haan/usecase.md' %}
+{% include-markdown 'haan/usecase.md' %}
 
 ## ML and AI
 
-{% include-markdown 'usecases/vantassel_and_zhang/usecase.md' %}
+{% include-markdown 'vantassel_and_zhang/usecase.md' %}
 
 # Geohazards 
 
@@ -23,11 +24,11 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## NGL Database
 
-{% include-markdown 'usecases/brandenberg-ngl/usecase.md' %}
+{% include-markdown 'brandenberg-ngl/usecase.md' %}
 
 ## MPM Landslide
 
-{% include-markdown 'usecases/kumar/usecase.md' %}
+{% include-markdown 'kumar/usecase.md' %}
 
 # Wind &amp; Storm Surge
 
@@ -39,19 +40,19 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Large-Scale Storm Surge
 
-{% include-markdown 'usecases/dawson/usecase.md' %}
+{% include-markdown 'dawson/usecase.md' %}
 
 ## Creating an ADCIRC dataset
 
-{% include-markdown 'usecases/dawson/usecase2.md' %}
+{% include-markdown 'dawson/usecase2.md' %}
 
 ## Visualizing Surge for Regional Risks
 
-{% include-markdown 'usecases/padgett/usecase.md' %}
+{% include-markdown 'padgett/usecase.md' %}
 
 ## CFD Analysis of Winds on Structures
 
-{% include-markdown 'usecases/kareem/usecase.md' %}
+{% include-markdown 'kareem/usecase.md' %}
 
 # Seismic Use Cases
 
@@ -62,21 +63,21 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Field Sensing Wind Events
 
-{% include-markdown 'usecases/pinelli/usecase.md' %}
+{% include-markdown 'pinelli/usecase.md' %}
 
 ## OpenSees Model Calibration
 
-{% include-markdown 'usecases/arduino/usecase.md' %}
+{% include-markdown 'arduino/usecase.md' %}
 
 ## Seismic Response of Concrete Walls
 
-{% include-markdown 'usecases/lowes/usecase.md' %}
+{% include-markdown 'lowes/usecase.md' %}
 
 ## Soil Structure Interaction
 
-{% include-markdown 'usecases/rathje/usecase.md' %}
+{% include-markdown 'rathje/usecase.md' %}
 
 ## Experimental Shake Table Testing
 
-{% include-markdown 'usecases/mosqueda/usecase.md' %}
+{% include-markdown 'mosqueda/usecase.md' %}
 
