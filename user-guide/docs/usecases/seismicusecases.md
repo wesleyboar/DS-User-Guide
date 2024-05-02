@@ -7,7 +7,6 @@
 {% include-markdown 'lowes/usecase.md' %}
 
 ---
-
 <hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
 
 <!-- ## Soil Structure Interaction -->
@@ -22,16 +21,16 @@
 {% include-markdown 'mosqueda/usecase.md' %}
 
 ---
+<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
 
 <!-- ## Shake Table Data Analysis Using ML -->
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
 
 {% include-markdown 'mosqueda/erler-mosqueda.md' %}
 
 ---
+<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
 
 <!-- ## OpenSees Model Calibration -->
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
 
 {% include-markdown 'arduino/usecase.md' %}
 
