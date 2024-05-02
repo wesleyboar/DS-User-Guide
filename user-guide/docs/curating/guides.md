@@ -133,6 +133,8 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 ### [Simulation](#simulation) { #simulation }
 
+Read the [Simulation Data Best Practices Guide](../../curating#bestpractices-simulationdata) prior to initiating your project.
+
 #### [1. Add a Project](#simulation-step1) { #simulation-step1 }
 
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.

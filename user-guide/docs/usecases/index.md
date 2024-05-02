@@ -1,35 +1,36 @@
+# DesignSafe Use Cases
 
 DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.  
 
 To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
-# Data Analytics
+## Data Analytics
 
 * [**Damage Tagging of Field Images**](#taggit-image-tagging) (Taggit, HazMapper)
 * [**Machine Learning and AI Resources**](#ml-and-ai) (Jupyter, Interactive Data Analytics, HPC)
 
-## Taggit - Image Tagging
+### Taggit - Image Tagging
 
-{% include-markdown 'usecases/haan/usecase.md' %}
+{% include-markdown 'haan/usecase.md' %}
 
-## ML and AI
+### ML and AI
 
-{% include-markdown 'usecases/vantassel_and_zhang/usecase.md' %}
+{% include-markdown 'vantassel_and_zhang/usecase.md' %}
 
-# Geohazards 
+## Geohazards 
 
 * [**Data Analysis using Next Generation Liquefaction (NGL) Database**](#application-programming-interfaces) (NGL, Jupyter, SQL, Interactive Data Analytics)
 * [**Landslide Runout Simulations**](#mpm-landslide) (MPM, Jupyter, Paraview, HPC)
 
-## NGL Database
+### NGL Database
 
-{% include-markdown 'usecases/brandenberg-ngl/usecase.md' %}
+{% include-markdown 'brandenberg-ngl/usecase.md' %}
 
-## MPM Landslide
+### MPM Landslide
 
-{% include-markdown 'usecases/kumar/usecase.md' %}
+{% include-markdown 'kumar/usecase.md' %}
 
-# Wind &amp; Storm Surge
+## Wind &amp; Storm Surge
 
 * [**Large-Scale Ensemble Simulations of Storm Surge**](#large-scale-storm-surge)  (ADCIRC, pylauncher, Jupyter, HPC)
 * [**Creating an ADCIRC dataset**](#creating-an-adcirc-dataset)  (ADCIRC, pylauncher, Jupyter, Dataset)
@@ -37,46 +38,46 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 * [**Simulation of Wind Flow around Buildings**](#cfd-analysis-of-winds-on-structures) (OpenFOAM, Jupyter, Paraview, HPC)
 * [**Analysis of Field Sensor Data from Wind Events**](#field-sensing-wind-events) (Jupyter, Interactive Data Analysis)
 
-## Large-Scale Storm Surge
+### Large-Scale Storm Surge
 
-{% include-markdown 'usecases/dawson/usecase.md' %}
+{% include-markdown 'dawson/usecase.md' %}
 
-## Creating an ADCIRC dataset
+### Creating an ADCIRC dataset
 
-{% include-markdown 'usecases/dawson/usecase2.md' %}
+{% include-markdown 'dawson/usecase2.md' %}
 
-## Visualizing Surge for Regional Risks
+### Visualizing Surge for Regional Risks
 
-{% include-markdown 'usecases/padgett/usecase.md' %}
+{% include-markdown 'padgett/usecase.md' %}
 
-## CFD Analysis of Winds on Structures
+### CFD Analysis of Winds on Structures
 
-{% include-markdown 'usecases/kareem/usecase.md' %}
+{% include-markdown 'kareem/usecase.md' %}
 
-# Seismic Use Cases
+## Seismic Use Cases
 
 * [**Site Response Analysis and Model Calibration**](#opensees-model-calibration) (OpenSees, SimCenter quoFEM, Jupyter, HPC)
 * [**Simulating the Seismic Performance of Reinforced Concrete Walls**](#seismic-response-of-concrete-walls) (OpenSees, Jupyter, HPC)
 * [**Soil-Structure-Interaction Simulations**](#soil-structure-interaction) (OpenSees, STKO, Jupyter, HPC)
 * [**Experimental Visualization of Shaking Table Data**](#experimental-shake-table-testing) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
 
-## Field Sensing Wind Events
+### Field Sensing Wind Events
 
-{% include-markdown 'usecases/pinelli/usecase.md' %}
+{% include-markdown 'pinelli/usecase.md' %}
 
-## OpenSees Model Calibration
+### OpenSees Model Calibration
 
-{% include-markdown 'usecases/arduino/usecase.md' %}
+{% include-markdown 'arduino/usecase.md' %}
 
-## Seismic Response of Concrete Walls
+### Seismic Response of Concrete Walls
 
-{% include-markdown 'usecases/lowes/usecase.md' %}
+{% include-markdown 'lowes/usecase.md' %}
 
-## Soil Structure Interaction
+### Soil Structure Interaction
 
-{% include-markdown 'usecases/rathje/usecase.md' %}
+{% include-markdown 'rathje/usecase.md' %}
 
-## Experimental Shake Table Testing
+### Experimental Shake Table Testing
 
-{% include-markdown 'usecases/mosqueda/usecase.md' %}
+{% include-markdown 'mosqueda/usecase.md' %}
 
