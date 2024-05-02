@@ -133,7 +133,7 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 ### [Simulation](#simulation) { #simulation }
 
-We recommend reading the Best Practices Guide for [Simulation Data](../../bestpractices/working#simulationdata) as a prerequesite to initiating your project.
+Read the [Simulation Data Best Practices Guide](../../curating#bestpractices-simulationdata) prior to initiating your project.
 
 #### [1. Add a Project](#simulation-step1) { #simulation-step1 }
 
