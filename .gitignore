@@ -1,6 +1,11 @@
 # Ignore site
 user-guide/site/
 
+# TACC files
+mkdocs.base.yml
+poetry.lock
+pyproject.toml
+
 # Temporary files
 .DS_Store
 
