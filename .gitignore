@@ -1,16 +1,15 @@
 # Ignore site
 user-guide/site/
 
+# Temporary files
+.DS_Store
+
 # TACC files
 mkdocs.base.yml
 poetry.lock
 pyproject.toml
-
-# Temporary files
-.DS_Store
-
-# TACC-Docs files within Docker-synced directories
 user-guide/docs/**/core
+user-guide/themes/tacc-readthedocs
 
 # Igonre pyenv
 .python-version
