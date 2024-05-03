@@ -1,15 +1,31 @@
 ## Shake Table Data Analysis Using ML
 
+<span style="font-size:1.5em;">
 **Leveraging Machine Learning for Identification of Shake Table Data and Post Processing**
-**Kayla Erler and Gilberto Mosqueda – University of California San Diego**
-**Key Words: machine learning, shake table, friction, data modeling**
+</span>
 
-### Resources 
+**Kayla Erler – University of California San Diego** <br>
+**Gilberto Mosqueda – University of California San Diego**
 
-* Jupyter Notebooks on DesignSafe
-	* <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%200%20PreprocessingVisualization.ipynb">CASE 0 Preprocessing Visualization</a>
-	* <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%201%20LinearRegression.ipynb">CASE 1 Linear Regression</a>
-	* <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%202%20DNN.ipynb">CASE 2 Deep Neural Network (DNN) Regression</a> 
+*Key Words: machine learning, shake table, friction, data modeling*
+
+### Resources
+ 
+#### Jupyter Notebooks
+The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
+
+| Scope | Notebook |
+| :-------: | :---------:  |
+| CASE 0 Preprocessing Visualization | Case 0 PreprocessingVisualization.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%200%20PreprocessingVisualization.ipynb) |
+| CASE 1 Linear Regression | Case 1 LinearRegression.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%201%20LinearRegression.ipynb) |
+| CASE 2 Deep Neural Network (DNN) Regression | Case 2 DNN.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%202%20DNN.ipynb) |
+
+#### DesignSafe Resources
+The following DesignSafe resources were used in developing this use case.
+
+* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis)<br/>
+
+#### Additional Resources
 * Jupyter Notebook and Python scripts on [GitHub](https://github.com/Kaylaerler/Structural-Insights-with-ML)
 * [Caltrans Seismic Response Modification Device (SRMD) Test Facility](https://se.ucsd.edu/facilities/laboratory-listing/srmd)
 * [Shortreed et al.  (2001)](https://royalsocietypublishing.org/doi/10.1098/rsta.2001.0875) &quot;Characterization and testing of the Caltrans Seismic Response Modification Device Test System&quot;. Phil. Trans. R. Soc. A.359: 1829–1850
