@@ -1,14 +1,30 @@
 ## Large-Scale Storm Surge
 
-### ADCIRC Use Case - Using Tapis and Pylauncher for Ensemble Modeling in DesignSafe 
+<span style="font-size:1.5em;">
+**ADCIRC Use Case - Using Tapis and Pylauncher for Ensemble Modeling in DesignSafe**
+</span>
 
-**Clint Dawson, University of Texas at Austin**  
-**Carlos del-Castillo-Negrete, University of Texas at Austin**  
+**Clint Dawson, University of Texas at Austin**  <br>
+**Carlos del-Castillo-Negrete, University of Texas at Austin**   <br>
 **Benjamin Pachev, University of Texas at Austin**  
 
-The following use case presents an example of how to leverage the Tapis API to run an ensemble of HPC simulations. The specific workflow to be presented consists of running ADCIRC, a storm-surge modeling application available on DesignSafe, using the parametric job launcher pylauncher. All code and examples presented are meant to be be executed from a Jupyter Notebook on the DesignSafe platform and using a DesignSafe account to make Tapis API calls. Accompanying jupyter notebooks for this use case can be found in the ADCIRC folder in [Community Data](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/ADCIRC){target=_blank}.
+The following use case presents an example of how to leverage the Tapis API to run an ensemble of HPC simulations. The specific workflow to be presented consists of running ADCIRC, a storm-surge modeling application available on DesignSafe, using the parametric job launcher pylauncher. All code and examples presented are meant to be be executed from a Jupyter Notebook on the DesignSafe platform and using a DesignSafe account to make Tapis API calls. 
 
-Learn more: [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}.
+
+### Resources
+ 
+#### Jupyter Notebooks
+Accompanying jupyter notebooks for this use case can be found in the ADCIRC folder in [Community Data](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/ADCIRC){target=_blank}. You may access these notebooksdirectly:
+
+| Scope | Notebook |
+| :-------: | :---------:  |
+| Create an ADCIRC DataSet | Creating an ADCIRC DataSet.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb) |
+| Create an Ensemble Simulations | ADCIRC Ensemble Simulations.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/ADCIRC%20Ensemble%20Simulations.ipynb) |
+
+#### DesignSafe Resources
+The following DesignSafe resources were used in developing this use case.
+
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}.
 
 #### Background 
 

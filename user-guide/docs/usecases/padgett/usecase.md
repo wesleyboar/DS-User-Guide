@@ -1,11 +1,28 @@
 ## Visualizing Surge for Regional Risks
 
-**Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems**   
+<span style="font-size:1.5em;">
+**Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems** 
+</span> 
 
 **Catalina González-Dueñas and Jamie E. Padgett - Rice University**<br/>
 **Miku Fukatsu - Tokyo University of Science**
 
-This use case study shows how to automate the extraction of storm intensity parameters at the structure level to support regional risk assessment studies. This example leverages QGIS and python scripts to obtain the surge elevation and significant wave height from multiple storms at specific building locations. The case study also shows how to visualize the outputs in QGIS and export them as a web map. The following DesignSafe resources are leveraged in this example: 
+This use case study shows how to automate the extraction of storm intensity parameters at the structure level to support regional risk assessment studies. This example leverages QGIS and python scripts to obtain the surge elevation and significant wave height from multiple storms at specific building locations. The case study also shows how to visualize the outputs in QGIS and export them as a web map. 
+
+
+### Resources
+ 
+#### Jupyter Notebooks
+The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
+
+| Scope | Notebook |
+| :-------: | :---------:  |
+| Read Surge | Surge_Galv.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QGIS/Read_ADCIRC/Surge_Galv.ipynb) |
+| Read Wave | Wave_Galv.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QGIS/Read_ADCIRC/Wave_Galv.ipynb) |
+
+#### DesignSafe Resources
+
+The following DesignSafe resources are leveraged in this example: 
 
 [Geospatial data analysis and Visualization on DS - QGIS](https://www.designsafe-ci.org/rw/workspace/#!/qgis-duvd-3.16.3u2){target=_blank}<br/>
 [Jupyter notebooks on DS Jupyterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}
@@ -41,7 +58,7 @@ In order to relate the storm data to the building portfolio data, it is necessar
 
 ### Storm data analysis using Jupyter notebooks
 
-To read the ADCIRC+SWAN storm simulation outputs, two Jupyter notebooks are provided, which can extract the maximum surge elevation and significant wave height values within a particular region. The [Read_Surge](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QGIS/Read_ADCIRC){target=_blank} Jupyter notebook takes as an input the *fort.63.nc* ADCIRC+SWAN output file and provides a csv file with the maximum surge elevation value at each of the points within the region specified by the user. Specifying a region helps to reduce the computational time and to provide the outputs only on the region of interest for the user. Similarly, the [Read_WaveHS](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QGIS/Read_ADCIRC){target=_blank} Jupyter notebook, reads the *swan_HS.63.nc* file and provides the maximum significant wave height in the grid points of the specified area. 
+To read the ADCIRC+SWAN storm simulation outputs, two Jupyter notebooks are provided, which can extract the maximum surge elevation and significant wave height values within a particular region. The [Read_Surge](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QGIS/Read_ADCIRC){target=_blank} Jupyter notebook takes as an input the *fort.63.nc* ADCIRC+SWAN output file and provides a csv file with the maximum surge elevation value at each of the points within the region specified by the user. Specifying a region helps to reduce the computational time and to provide the outputs only on the region of interest for the user. Similarly, the [Read_WaveHS](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QGIS/Read_ADCIRC){target=_blank} Jupyter notebook, reads the *swan_HS.63.nc* file and provides the maximum significant wave height in the grid points of the specified area. Direct links to the Notebooks are provided above.
 
 To use the Jupyter notebooks, the user must:
 
