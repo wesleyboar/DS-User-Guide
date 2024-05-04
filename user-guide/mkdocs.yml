@@ -24,7 +24,7 @@ extra_css:
 
 extra_javascript:
   # TACC/TACC-Docs:/mkdocs.base.yml
-  - js/autoScrollNav.js
+  - js/core/autoScrollNav.js
   - js/core/addPageId.js
 
 markdown_extensions:
