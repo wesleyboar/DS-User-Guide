@@ -1,15 +1,15 @@
 # Ignore site
 user-guide/site/
 
-# Temporary files
-.DS_Store
-
 # TACC files
 mkdocs.base.yml
 poetry.lock
 pyproject.toml
 user-guide/docs/**/core
 user-guide/themes/tacc-readthedocs
+
+# Temporary files
+.DS_Store
 
 # Igonre pyenv
 .python-version
