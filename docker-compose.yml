@@ -5,7 +5,14 @@ services:
     volumes:
       - ./user-guide/docs:/code/docs
       - ./user-guide/mkdocs.yml:/code/mkdocs.yml
+      # To retain TACC assets added during build
+      - skip-tacc-js:/code/docs/js/core
+      - skip-tacc-css:/code/docs/css/core
     ports:
       - 127.0.0.1:8000:8000
     command: mkdocs serve --dev-addr 0.0.0.0:8000 --watch-theme --config-file /code/mkdocs.yml
     container_name: ds_docs
+
+volumes:
+  skip-tacc-js:
+  skip-tacc-css:

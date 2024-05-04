@@ -1,18 +1,9 @@
-FROM tup_docs_2024-04-09t14:55-diff-way
+FROM tup_docs-2024-05-03t16-46
 
-RUN mv /code /tacc-docs
+RUN mv /code /code-from-tacc
 COPY ./user-guide/ /code/
-RUN mv /tacc-docs /code/tacc-docs
-RUN mv /tacc-docs/mkdocs.base.yml /code/tacc-docs/mkdocs.base.yml
-# COPY /tacc-code/docs/js/core /code/docs/js/core
-# COPY /tacc-code/docs/css/core /code/docs/css/core
-# COPY /tacc-code/themes/tacc-readthedocs /code/themes/tacc-readthedocs
-
-# COPY ./user-guide /user-guide
-# RUN cp -R -n /user-guide/ /code/
-
-# COPY /code /tacc-code
-# COPY ./user-guide/ /code/
-# COPY /tacc-code/docs/js/core /code/docs/js/core
-# COPY /tacc-code/docs/css/core /code/docs/css/core
-# COPY /tacc-code/themes/tacc-readthedocs /code/themes/tacc-readthedocs
+RUN cp -r /code-from-tacc/docs/js/core /code/docs/js/core && \
+    cp -r /code-from-tacc/docs/js/autoScrollNav.js /code/docs/js/autoScrollNav.js && \
+    cp -r /code-from-tacc/docs/css/core /code/docs/css/core
+RUN rm -r /code/themes/tacc-readthedocs && \
+    cp -r /code-from-tacc/themes/tacc-readthedocs /code/themes/tacc-readthedocs
