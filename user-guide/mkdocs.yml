@@ -13,6 +13,9 @@ theme:
     cms_name: designsafe-ci.org # TACC Feature
     features:
       - navigation.top
+    nav_redirects: # TACC Feature
+      - before: '#data-depotcuration-office-hours'
+        after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
 
 extra_css:
   # TACC/TACC-Docs:/mkdocs.base.yml

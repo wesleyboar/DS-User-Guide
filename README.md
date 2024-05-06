@@ -48,6 +48,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 1. Navigate into your clone of this repository.
 2. Start the Docker container to serve the docs.
     ```shell
+    ./bin/tacc-setup.sh
     make build
     make start
     ```
