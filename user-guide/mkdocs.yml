@@ -27,20 +27,6 @@ extra_javascript:
   - js/core/autoScrollNav.js
   - js/core/addPageId.js
 
-markdown_extensions:
-  # TACC/TACC-Docs:/mkdocs.base.yml
-  - footnotes
-  - def_list
-  - admonition
-  - attr_list
-  - abbr
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
-  - pymdownx.saneheaders
-  - pymdownx.details
-  - pymdownx.blocks.tab
-  - pymdownx.blocks.html
-
 plugins:
   - search
   - include-markdown
