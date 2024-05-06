@@ -1,4 +1,4 @@
-FROM tup_docs-2024-05-03t16-46
+FROM taccwma/tacc-docs:ca00cb8f
 
 # To archive TACC code, before replacing it
 RUN mv /code /code-from-tacc
