@@ -29,13 +29,14 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     ```shell
     ./bin/tacc-setup.sh
     pip install poetry
-    poetry install
     ```
 4. Serve the docs:
     ```shell
     poetry shell
+    poetry install
     cd user-guide
     mkdocs serve
+
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
 5. Open the website _at the URL echoed by the program_, e.g.
