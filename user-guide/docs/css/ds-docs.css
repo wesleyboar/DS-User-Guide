@@ -1,1 +1,11 @@
 /* Any DesignSafe-specific styles may go here */
+
+
+
+/* TACC-DOCS */
+/* https://github.com/TACC/TACC-Docs/blob/00c8dab/docs/css/tacc-docs.css#L276-L278 */
+
+/* To give logo more horizontal space */
+.wy-side-nav-search > a {
+    --pad-horz: 0px;
+}
