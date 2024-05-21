@@ -1,4 +1,5 @@
-FROM taccwma/tacc-docs:cbbf261f
+# v0.2.0
+FROM taccwma/tacc-docs:4a635b0a
 
 # To archive TACC code, before replacing it
 RUN mv /code /code-from-tacc
