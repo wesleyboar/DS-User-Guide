@@ -6,6 +6,7 @@ The Open System for Earthquake Engineering Simulation (<a href="http://opensees.
 
 The purpose of this documentation is to provide the details to help you understand the capabilities of different OpenSees applications and the different DesignSafe platforms on which they run. The choice of which application and platform to use depends on the size and scope of the job you are trying to run.
 
+Abbreviated User Guide: [OpenSees On DesignSafe Quick Start](./openseesDesignSafeQuickStart.md).
 
 ### OpenSees Applications
 
