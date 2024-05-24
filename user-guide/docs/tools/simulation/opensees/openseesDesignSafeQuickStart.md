@@ -24,7 +24,6 @@
     }
 </style>
 
-# OpenSees On DesignSafe <small>Quick Start</small>
 
 The **Open System for Earthquake Engineering Simulation** ([OpenSees](https://opensees.berkeley.edu/){:target="_blank"}) is a software framework for simulating the static and dynamic response of structural and geotechnical systems. It has advanced capabilities for modeling and analyzing the nonlinear response of systems using a wide range of material models, elements, and solution algorithms. One sequential (**OpenSees EXPRESS**) and two parallel interpreters (**OpenSeesSP** and **OpenSeesMP**) are available on DesignSafe.
 
@@ -78,7 +77,7 @@ Use this WebPortal in one of the these three ways, listed here in order of scala
 
     </div>
 
-## Instructions
+#### Instructions
 
 1. Determine the appropriate application for your task. Refer to the [DesignSafe User Guide](https://www.designsafe-ci.org/user-guide/tools/simulation/opensees/openseesOverview/){:target="_blank"} for detailed help.
 2. <u>Select your application</u> from the pull-down menu.
