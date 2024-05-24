@@ -8,9 +8,10 @@ site_favicon: https://www.designsafe-ci.org/favicon.ico
 
 theme:
     name: readthedocs
-    logo: https://www.designsafe-ci.org/static/images/org_logos/Horizontal-DS.b190a072b800.jpg
+    logo: img/ds-logo.png
     cms_url: https://designsafe-ci.org/ # TACC Feature
     cms_name: designsafe-ci.org # TACC Feature
+    nav_name: User Guide # TACC Feature
     features:
       - navigation.top
     nav_redirects: # TACC Feature

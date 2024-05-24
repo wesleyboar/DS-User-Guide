@@ -25,10 +25,11 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/6c22d2f/pyproject.toml).</sup>
 1. Navigate into your clone of this repo.
 2. Install dependencies:\
-    <sup>You should only need to do this once, or after a major update.</sup>
+    <sup>You should only need to do this once, or after a feature update.</sup>
     ```shell
     ./bin/tacc-setup.sh
     pip install poetry
+
     ```
 4. Serve the docs:
     ```shell
@@ -51,6 +52,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     ```shell
     make build
     make start
+
     ```
 3. Open the website at the URL provided e.g.
     http://0.0.0.1:8000/user-guide/

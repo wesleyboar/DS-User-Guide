@@ -1,1 +1,17 @@
 /* Any DesignSafe-specific styles may go here */
+
+
+
+/* TACC-DOCS */
+/* https://github.com/TACC/TACC-Docs/blob/cbbf261/docs/css/core/tacc-docs.css */
+
+/* To customize name under logo */
+.wy-side-nav-search .nav-name {
+    font-weight: var(--medium);
+    color: #565656;
+}
+
+/* To give logo more horizontal space */
+.wy-side-nav-search > a {
+    --pad-horz: 0px;
+}
