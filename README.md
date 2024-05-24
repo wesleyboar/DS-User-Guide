@@ -25,6 +25,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     <sup>You should only need to do this once.</sup>
     ```shell
     pip install poetry
+
     ```
 4. Serve the docs:
     ```shell
@@ -47,6 +48,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     ```shell
     make build
     make start
+
     ```
 3. Open the website at the URL provided e.g.
     http://0.0.0.1:8000/user-guide/
