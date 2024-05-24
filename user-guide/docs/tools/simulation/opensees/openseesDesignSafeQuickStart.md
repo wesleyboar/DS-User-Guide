@@ -80,6 +80,10 @@ Use this WebPortal in one of the these three ways, listed here in order of scala
 
     </div>
 
+<!-- TODO: Use `<details>` -->
+<!-- FAQ: After DesignSafe-CI/DS-User-Guide#1: `/// details | Instructions` -->
+<!-- https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/details/ -->
+
 #### Instructions
 
 1. Determine the appropriate application for your task. Refer to the [DesignSafe User Guide](https://www.designsafe-ci.org/user-guide/tools/simulation/opensees/openseesOverview/){:target="_blank"} for detailed help.
