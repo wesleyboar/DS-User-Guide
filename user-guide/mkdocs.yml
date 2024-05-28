@@ -51,7 +51,7 @@ nav:
 
   - Simulation Applications: 
     - Overview: tools/simulation/overview.md
-    - ADCIRC: tools/simulation/adcirc.md
+    - ADCIRC: tools/simulation/adcirc/adcirc.md
     - ClawPack: tools/simulation/clawpack.md
     - Dakota: tools/simulation/dakota.md
     - LS-DYNA: tools/simulation/lsdyna.md
