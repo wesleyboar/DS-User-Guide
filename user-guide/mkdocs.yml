@@ -16,6 +16,8 @@ theme:
     ds_navigation_redirects:
       - before: '#data-depotcuration-office-hours'
         after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
+      - before: 'usecases'
+        after: https://www.designsafe-ci.org/user-guide/usecases/overview/        
     analytics:
       gtag: G-D96RT1T24K
 
@@ -89,7 +91,6 @@ nav:
     - GeoHazard: usecases/geohazardusecases.md
     - Seismic: usecases/seismicusecases.md
     - Wind and Storm Surge: usecases/windstormsurgeusecases.md
-    - Work in Progress: usecases/workinprogress.md
 
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
