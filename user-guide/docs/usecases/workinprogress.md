@@ -7,12 +7,10 @@ It has been published here for testing purposes.
 
 {% include-markdown 'kareem/usecase2.md' %}
 
-<hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/>
 ---
 
 <!-- ##  Tamkang Database -->
 
 {% include-markdown 'kareem/usecase3.md' %}
 
-<hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/>
 ---
