@@ -19,26 +19,26 @@ Two primary input files are required:
 
 1. *Grid and Boundary Information File (`fort.14`)*
 
-This file outlines the mesh configuration, including:
+    This file outlines the mesh configuration, including:
 
-- **Grid Information**: 96 elements and 63 nodes.
-- **Nodal Information**: Node number, horizontal coordinates, and depth.
-- **Elemental Information**: Element number, nodes per element, and comprising node numbers.
-- **Boundary Conditions**:
-  - Elevation specified boundary: 1 segment with 9 nodes (Node 7 to Node 63).
-  - Normal flow boundary: 1 segment with 21 nodes (Node 63 to Node 7).
+    - **Grid Information**: 96 elements and 63 nodes.
+    - **Nodal Information**: Node number, horizontal coordinates, and depth.
+    - **Elemental Information**: Element number, nodes per element, and comprising node numbers.
+    - **Boundary Conditions**:
+        - Elevation specified boundary: 1 segment with 9 nodes (Node 7 to Node 63).
+        - Normal flow boundary: 1 segment with 21 nodes (Node 63 to Node 7).
 
 2. *Model Parameter and Periodic Boundary Condition File (`fort.15`)*
 
-Specifies model parameters, including:
+    Specifies model parameters, including:
 
-- **Initialization**: Cold started from a state of rest.
-- **Coordinate System**: Cartesian.
-- **Nonlinearities**: Finite amplitude, advection, and quadratic bottom friction.
-- **Forcings**: No tidal potential or wind stress. Gravity in m/s².
-- **Boundary Forcing**: Sinusoidal elevation with a period of 44,712 s, amplitude of 0.3048 m, and phase of 0 degrees, ramped up over the first two days.
-- **Simulation Duration**: 5 days with a time step of 174.656 s.
-- **Output Settings**: Water level and velocity time series output at specified intervals and locations. Harmonic analysis of model elevation and velocity fields for the M2 constituent on the final day. Hot start files generated every 512 time steps.
+    - **Initialization**: Cold started from a state of rest.
+    - **Coordinate System**: Cartesian.
+    - **Nonlinearities**: Finite amplitude, advection, and quadratic bottom friction.
+    - **Forcings**: No tidal potential or wind stress. Gravity in m/s².
+    - **Boundary Forcing**: Sinusoidal elevation with a period of 44,712 s, amplitude of 0.3048 m, and phase of 0 degrees, ramped up over the first two days.
+    - **Simulation Duration**: 5 days with a time step of 174.656 s.
+    - **Output Settings**: Water level and velocity time series output at specified intervals and locations. Harmonic analysis of model elevation and velocity fields for the M2 constituent on the final day. Hot start files generated every 512 time steps.
 
 ###### ADCIRC Outputs
 

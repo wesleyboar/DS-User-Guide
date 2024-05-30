@@ -9,13 +9,12 @@ These programs utilize the finite element method in space allowing the use of hi
 ADCIRC is often coupled with The wind wave model SWAN (Simulating WAves Nearshore), especially in storm-surge applications where wave radiation stress can have important effects on ocean circulation and vice cersa.
 Typical research topics include:
 
-<ul>
-	<li>prediction of storm surge and flooding</li>
-	<li>modeling tides and wind driven circulation</li>
-	<li>larval transport studies</li>
-	<li>near shore marine operations</li>
-	<li>dredging feasibility and material disposal studies</li>
-</ul>
+- prediction of storm surge and flooding
+- modeling tides and wind driven circulation
+- larval transport studies
+- near shore marine operations
+- dredging feasibility and material disposal studies
+
 
 The following user guide gives a brief overview of ADCIRC and how it and supporting programs can be run on DesignSafe.
 
@@ -81,7 +80,7 @@ Thus the following table can be helpful for deciding where and when to run each 
 [^3]: For very large models, ADCPREP can take a significant amount of time due to the decomposition of large grids. It is recommended that this data be saved and reused when possible to avoid the need for repeated decomposition.
 [^4]: For very large models with complex wave-current interactions, SWAN + ADCIRC in parallel is the recommended approach.
 
-## ADCIRC ON DesignSafe
+## ADCIRC On DesignSafe
 
 DesignSafe Offers a variety of platforms on which to run and test ADCIRC related applications.
 Behing the scenes power it is all powered by the Tapis API which connects the compute resources with the analysis environments.

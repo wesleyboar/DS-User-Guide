@@ -10,43 +10,43 @@ Note this is for advanced users only.
 
 Move into your MyData directory and clone the spack repo. Note we put the spack repo in MyData so that it persists over Jupyter sessions.
 
-```
-$ cd ~/MyData
-$ git clone -c feature.manyFiles=true https://github.com/spack/spack.git ~/spack
+```shell
+cd ~/MyData
+git clone -c feature.manyFiles=true https://github.com/spack/spack.git ~/spack
 ```
 
 After installing spack, initialize it with:
 
-```
-$ source ~/MyData/spack/share/spack/setup-env.sh
+```shell
+source ~/MyData/spack/share/spack/setup-env.sh
 ```
 
 This needs to be run every time a new jupyter terminal environment is spawned. To automatically do this, add the command to your `~/.bashrc` or alternatively, set up an alias:
 
-```
-$ alias spack-setup='source ~/spack/share/spack/setup-env.sh'
+```shell
+alias spack-setup='source ~/spack/share/spack/setup-env.sh'
 ```
 
 Now we clone the spack ADCIRC repo, and add the ADCIRC spack repository to spack.
 
-```
-$ cd ~/MyData
-$ git clone https://github.com/adcirc/adcirc-spack.git 
-$ spack repo add ~/MyData/adcirc-spack
+```shell
+cd ~/MyData
+git clone https://github.com/adcirc/adcirc-spack.git 
+spack repo add ~/MyData/adcirc-spack
 ```
 
 Now to install ADCIRC:
 
-```
-$ spack install adcirc@main +swan +grib
+```shell
+spack install adcirc@main +swan +grib
 ```
 
 **Note**: The installation above may take a long time!
 
 To activate ADCIRC in your environment just run:
 
-```
-$ spack load adcirc
+```shell
+spack load adcirc
 ```
 
 That should make the `padcirc`, `adcirc`, `adcprep`, and `padcswan` executablex available in your path.

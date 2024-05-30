@@ -1,5 +1,5 @@
 
-#### ``adcirc`` Command Line Options
+#### `adcirc` Command Line Options
 
 | Option                            | Description                                                                                   | Special Notes                                                                                 |
 | --------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -7,7 +7,7 @@
 | `-O GLOBALDIR`                    | Set the directory for fulldomain output files.                                                |                                                                                               |
 | `-W NUM_WRITERS`                  | Dedicate NUM_WRITERS MPI processes to writing ascii output files.                             | Affects ascii formatted fort.63, fort.64, fort.73, and fort.74 files.                         |
 
-#### ```adcprep``` Command Line Options
+#### `adcprep` Command Line Options
 
 | Option                | Description                                                                                   | Special Notes                                                                    |
 | --------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -15,7 +15,7 @@
 | `--partmesh`          | Partition the mesh only, resulting in a partmesh.txt file.                                    | Should be done first. Generates partmesh.txt for subdomain assignments.          |
 | `--prepall`           | Decompose all ADCIRC input files using the partmesh.txt file.                                 | Requires previous execution with `--partmesh`. Expects default input file names. |
 
-**``adcprep`` Runs**
+**`adcprep` Runs**
 
 The usual workflow of running `adcprep` consists of two steps - (1) partitioning of the mesh into sub-domains that each core will work on. (2) Decomposing other input files over the partitioned mesh.
 

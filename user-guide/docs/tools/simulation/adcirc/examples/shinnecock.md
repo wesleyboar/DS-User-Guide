@@ -18,24 +18,24 @@ The input files for this simulation can be found in the CommunityData directory 
 
 1. **Grid and Boundary Information File (`fort.14`)**
 
-This file defines the simulation's spatial domain, containing:
+    This file defines the simulation's spatial domain, containing:
 
-- **5780 elements** and **3070 nodes**, detailing the mesh used for the simulation.
-- Nodal and elemental information, including node numbers, horizontal coordinates, depth, and elements' composition.
-- Boundary specifications:
-  - An **elevation specified open boundary** with 75 nodes (from node 75 to node 1).
-  - A **normal flow mainland boundary** with 285 nodes (from node 1 to node 75).
+    - **5780 elements** and **3070 nodes**, detailing the mesh used for the simulation.
+    - Nodal and elemental information, including node numbers, horizontal coordinates, depth, and elements' composition.
+    - Boundary specifications:
+        - An **elevation specified open boundary** with 75 nodes (from node 75 to node 1).
+        - A **normal flow mainland boundary** with 285 nodes (from node 1 to node 75).
 
-2. 2. **Model Parameter and Periodic Boundary Condition File (`fort.15`)**
+2. **Model Parameter and Periodic Boundary Condition File (`fort.15`)**
 
-  This file outlines the simulation's parameters:
+      This file outlines the simulation's parameters:
 
-  - Initialization from a state of rest (cold start).
-  - Use of a longitude-latitude coordinate system.
-  - Inclusion of nonlinearities such as finite amplitude (with elemental wetting and drying), advection, and hybrid bottom friction.
-  - The model is forced using tidal potential terms and along the elevation boundary with 5 tidal constituents (M2, S2, N2, O1, K1), ramped up over the first two days.
-  - The simulation duration is 5 days with a time step of 6 seconds.
-  - Output of water level and velocity time series every 300 time steps (half-hour) at all nodes from days 3.8 to 5. No harmonic output or hot start files are produced.
+      - Initialization from a state of rest (cold start).
+      - Use of a longitude-latitude coordinate system.
+      - Inclusion of nonlinearities such as finite amplitude (with elemental wetting and drying), advection, and hybrid bottom friction.
+      - The model is forced using tidal potential terms and along the elevation boundary with 5 tidal constituents (M2, S2, N2, O1, K1), ramped up over the first two days.
+      - The simulation duration is 5 days with a time step of 6 seconds.
+      - Output of water level and velocity time series every 300 time steps (half-hour) at all nodes from days 3.8 to 5. No harmonic output or hot start files are produced.
 
 ###### ADCIRC Output
 
