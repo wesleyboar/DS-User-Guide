@@ -1,41 +1,59 @@
 # Wind and Storm Surge Use Cases
 
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(0,070,0);height: 15.0px;"/>
+---
 
 <!-- ## Field Sensing Wind Events -->
 
 {% include-markdown 'pinelli/usecase.md' %}
 
+<hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/>
 ---
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(0,170,0);height: 15.0px;"/>
 
 <!-- ##  Hurricane Data Integration Visualization -->
 
 {% include-markdown 'pinelli/2usecase.md' %}
 
+<hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/>
 ---
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(0,170,0);height: 15.0px;"/>
 
 <!-- ##  ADCIRC Datasets -->
 
 {% include-markdown 'dawson/usecase2.md' %}
 
+<hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/>
 ---
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(0,170,0);height: 15.0px;"/>
 
 <!-- ##  Large-Scale Storm Surge -->
 
 {% include-markdown 'dawson/usecase.md' %}
 
+<hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/>
 ---
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(0,170,0);height: 15.0px;"/>
 
 <!-- ##  CFD Analysis of Winds on Structures -->
 
 {% include-markdown 'kareem/usecase.md' %}
 
+<hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/>
 ---
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(0,170,0);height: 15.0px;"/>
+
+<!-- ##  CFD Analysis of Winds on Low-Rise Building -->
+
+<!--- Silvia Mazzoni 5/29/2024. remove these comments after completion -->
+<!--- {% include-markdown 'kareem/usecase2.md' %} -->
+<!---  -->
+<!--- <hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/> -->
+<!--- --- -->
+<!--- end of comment -->
+
+<!--- <!-- ##  Tamkang Database -->
+
+<!--- Silvia Mazzoni 5/29/2024. remove these comments after completion -->
+<!--- {% include-markdown 'kareem/usecase3.md' %} -->
+<!---  -->
+<!--- <hr style="border: dashed white 1.0px;background-color: white;height: 200.0px;"/> -->
+<!--- --- -->
+<!--- end of comment -->
 
 <!-- ##  Visualizing Surge for Regional Risks -->
 
