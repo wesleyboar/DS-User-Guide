@@ -61,7 +61,7 @@ hr:not(
     [role="main"] ~ footer *
 ) {
     border-top-color: #343131; /* copied from sidebar background */
-    margin-block: 5rem;
+    margin-block: 20rem 5rem;
 }
 
 
