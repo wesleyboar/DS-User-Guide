@@ -7,7 +7,7 @@ plugins:
 
 theme:
     name: readthedocs
-    navigation_depth: 3
+    navigation_depth: 4
     collapse_navigation: false
     custom_dir: themes/ds-readthedocs
     highlightjs: true
