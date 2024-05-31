@@ -12,10 +12,14 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 2. [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) relevant files that need update.\
     <sup>([upload images](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) as necessary)</sup>
 4. [Commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) your changes.
-5. [Request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a.k.a. "Pull Request".
-6. [Test](#local-testing) your changes.
+5. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review a.k.a. "Pull Request".
+6. <sub>(if comfortable using a command prompt)</sub>\
+    [Test](#local-testing) your changes.
 
 ## Local Testing
+
+- [A. Via Python](#a-via-python)
+- [B. Via Docker](#b-via-docker)
 
 ### A. Via Python
 
@@ -38,7 +42,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
 5. Open the website _at the URL echoed by the program_, e.g.
-    [link](http://127.0.0.1:8000/user-guide/){:target="_blank"}
+    [link](http://127.0.0.1:8000/user-guide/)
 
 ### B. Via Docker
 
