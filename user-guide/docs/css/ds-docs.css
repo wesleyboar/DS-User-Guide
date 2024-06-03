@@ -15,3 +15,22 @@
 .wy-side-nav-search > a {
     --pad-horz: 0px;
 }
+
+/* To make horizontal rules more obvious */
+/* FAQ: Our pages are so tall, that we will let users on big <hr>s */
+/* NOTE: Alternative UX is more difficult using our ReadTheDocs theme */
+hr:where(:not(
+    [role="navigation"] hr,
+    [role="main"] ~ footer hr
+)) {
+    margin-block: 3rem;
+}
+
+
+
+/* DS-DOCS */
+/* Styles unique to DesignSafe */
+
+hr.spacer {
+    margin-block: 20rem 5rem;
+}
