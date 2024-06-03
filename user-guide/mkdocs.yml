@@ -18,6 +18,8 @@ theme:
     nav_redirects: # TACC Feature
       - before: '#data-depotcuration-office-hours'
         after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
+    analytics:
+      gtag: G-D96RT1T24K
 
 extra_css:
   # TACC/TACC-Docs:/mkdocs.base.yml
