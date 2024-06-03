@@ -12,9 +12,15 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 2. [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) relevant files that need update.\
     <sup>([upload images](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) as necessary)</sup>
 4. [Commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) your changes.
-5. [Create a "Pull Request".](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+5. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
+    <sup>(a.k.a. create a "Pull Request")</sup>
+6. <sub>(if comfortable using a command prompt)</sub>\
+    [Test](#local-testing) your changes.
 
-## Local Development
+## Local Testing
+
+- [A. Via Python](#a-via-python)
+- [B. Via Docker](#b-via-docker)
 
 ### A. Via Python
 
@@ -25,7 +31,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/6c22d2f/pyproject.toml).</sup>
 1. Navigate into your clone of this repo.
 2. Install dependencies:\
-    <sup>You should only need to do this once, or after a feature update.</sup>
+    <sup>You should only need to do this once, or after a new release.</sup>
     ```shell
     ./bin/tacc-setup.sh
     pip install poetry
@@ -41,7 +47,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
 5. Open the website _at the URL echoed by the program_, e.g.
-    [link](http://127.0.0.1:8000/user-guide/){:target="_blank"}
+    [link](http://127.0.0.1:8000/user-guide/)
 
 ### B. Via Docker
 

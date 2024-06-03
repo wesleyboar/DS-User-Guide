@@ -1,8 +1,10 @@
+/// html | header
+
 ## Seismic Response of Concrete Walls
 
-<span style="font-size:1.5em;">
-**Modeling Reinforced Concrete Walls using Shell Elements in OpenSees and Using Jupyter to Post Process Results**
-</span>
+Modeling Reinforced Concrete Walls using Shell Elements in OpenSees and Using Jupyter to Post Process Results
+
+///
 
 **Josh Stokley - University of Washington**  <br>
 **Laura Lowes - University of Washington**  
@@ -102,7 +104,7 @@ The sections of the modeling script are:
 ##### Section 3: Defines material models and their variables
    * The crushing energy and fracture energy are calculated and wrote to the .tcl file. The equations for these values come from ([Nasser et al. (2019)](https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29ST.1943-541X.0002311){:target="_blank"} ) Below is the code: 
 
-```python
+```py
 self.gtcc = abs((0.174*(.5)**2-0.0727*.5+0.149)*((self.Walldata[40]*1000*conMult)/1450)**0.7) #tensile energy of confined
 self.gtuc = abs((0.174*(.5)**2-0.0727*.5+0.149)*((self.Walldata[40]*1000)/1450)**0.7) # tensile energy of unconfined
 self.gfuc = 2*self.Walldata[40]*6.89476*5.71015 #crushing energy of unconfined
