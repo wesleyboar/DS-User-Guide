@@ -12,11 +12,14 @@ theme:
     cms_url: https://designsafe-ci.org/ # TACC Feature
     cms_name: designsafe-ci.org # TACC Feature
     nav_name: User Guide # TACC Feature
+    navigation_depth: 4
     features:
       - navigation.top
     nav_redirects: # TACC Feature
       - before: '#data-depotcuration-office-hours'
         after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
+    analytics:
+      gtag: G-D96RT1T24K
 
 extra_css:
   # TACC/TACC-Docs:/mkdocs.base.yml
