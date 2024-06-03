@@ -33,9 +33,13 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     pip install poetry
 
     ```
-4. Serve the docs:
+3. Isolate dependencies:
     ```shell
     poetry shell
+
+    ```
+4. Update & Serve the docs:
+    ```shell
     poetry install
     cd user-guide
     mkdocs serve
