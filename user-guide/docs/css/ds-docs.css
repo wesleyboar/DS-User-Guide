@@ -56,3 +56,10 @@ hr:where(:not(
 hr.spacer {
     margin-block: 20rem 5rem;
 }
+
+/* To remove space between a page header title and description of that header */
+/* https://github.com/mkdocs/mkdocs/blob/1.4.3/mkdocs/themes/readthedocs/css/theme.css */
+.rst-content header p {
+    font-size: var(--global-font-size--x-large);
+    margin-top: -24px;
+}
