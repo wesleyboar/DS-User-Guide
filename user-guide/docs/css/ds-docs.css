@@ -60,6 +60,11 @@ hr.spacer {
 /* To remove space between a page header title and description of that header */
 /* https://github.com/mkdocs/mkdocs/blob/1.4.3/mkdocs/themes/readthedocs/css/theme.css */
 .rst-content header p {
+    font-size: var(--global-font-size--xx-large);
+    font-weight: var(--bold);
+}
+.rst-content header h2 {
     font-size: var(--global-font-size--x-large);
-    margin-top: -24px;
+    margin-bottom: -24px;
+    font-weight: var(--regular);
 }
