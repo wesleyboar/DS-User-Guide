@@ -25,6 +25,7 @@
 
 /* TACC-DOCS */
 /* To customize TACC/TACC-Docs CSS */
+/* WARNING: These styles assume documentation is run "Via Docker" */
 /* https://github.com/TACC/TACC-Docs/blob/cbbf261/docs/css/core/tacc-docs.css */
 
 /* To force a logo `<img>` loading an SVG to have dimensions */
@@ -72,14 +73,26 @@ hr.spacer {
     margin-block: 20rem 5rem;
 }
 
-/* To remove space between a page header title and description of that header */
-/* https://github.com/mkdocs/mkdocs/blob/1.4.3/mkdocs/themes/readthedocs/css/theme.css */
-.rst-content header p {
+/* To both couple and distinguish short title and long title */
+.rst-content header p:is(#tacc-readthedocs *) {
     font-size: var(--global-font-size--xx-large);
     font-weight: var(--bold);
 }
-.rst-content header h2 {
+.rst-content header h2:is(#tacc-readthedocs *) {
     font-size: var(--global-font-size--x-large);
-    margin-bottom: -24px;
     font-weight: var(--regular);
+
+    /* To remove excess space between titles */
+    margin-bottom: -24px;
+}
+.rst-content header p:not(#tacc-readthedocs *) {
+    font-size: 150%;
+    font-weight: 700;
+}
+.rst-content header h2:not(#tacc-readthedocs *) {
+    font-size: 16px;
+    font-weight: unset;
+
+    /* To remove excess space between titles */
+    margin-bottom: 0.5em;
 }

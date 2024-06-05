@@ -1,18 +1,18 @@
+/// html | header
+
 ## OpenSees Model Calibration
 
-<span style="font-size:1.5em;">
-**From constitutive parameter calibration to site response analysis**
-</span>
-<br><br>
-<span style="font-size:1.25em;">
-***A collection of educational notebooks to introduce model-parameter calibration and site response analysis using OpenSees in DesignSafe-CI***
-</span>
+From Constitutive Parameter Calibration to Site Response Analysis
+
+///
 
 **Pedro Arduino - University of Washington**  <br>
 **Sang-Ri Yi - SimCenter, UC Berkeley**  <br>
 **Aakash Bangalore Satish - SimCenter, UC Berkeley**
 
 *Key Words: quoFEM, OpenSees, Tapis, Python*
+
+A collection of educational notebooks to introduce model-parameter calibration and site response analysis using OpenSees in DesignSafe-CI.
 
 ### Resources
  
