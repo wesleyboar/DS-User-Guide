@@ -27,6 +27,12 @@
 /* To customize TACC/TACC-Docs CSS */
 /* https://github.com/TACC/TACC-Docs/blob/cbbf261/docs/css/core/tacc-docs.css */
 
+/* To force a logo `<img>` loading an SVG to have dimensions */
+/* FAQ: Happens if `swapImgSvgWithRawSvg.js` does not work or is unavailable */
+.wy-side-nav-search > a img.logo[src$=".svg"] {
+    width: 100%;
+}
+
 /* To customize name under logo */
 .wy-side-nav-search .nav-name {
     font-weight: var(--medium);
