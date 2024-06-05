@@ -27,17 +27,17 @@ jobs:
         run: |
           if [ -z "$EVENT_SHA" ]; then SHORT_SHA=${GITHUB_SHA::8}; else SHORT_SHA=${EVENT_SHA::8}; fi
           echo ::set-output name=sha_short::${SHORT_SHA}
-          BRANCH_SHORT=`git symbolic-ref --short HEAD | sed 's/[^[:alnum:]\.\_\-]/-/g'`
-          echo ::set-output name=branch_short::${BRANCH_SHORT}
+          SHORT_REF=`git symbolic-ref --short HEAD | sed 's/[^[:alnum:]\.\_\-]/-/g'`
+          echo ::set-output name=ref_short::${SHORT_REF}
         env:
           EVENT_SHA: ${{ github.event.client_payload.sha }}
       - name: Print vars
         run: |
-          echo $SHORTSHA
-          echo $BRANCH_SHORT
+          echo $SHORT_SHA
+          echo $SHORT_REF
         env:
-          SHORTSHA: ${{ steps.vars.outputs.sha_short }}
-          BRANCH_SHORT: ${{ steps.vars.outputs.branch_short }}
+          SHORT_SHA: ${{ steps.vars.outputs.sha_short }}
+          SHORT_REF: ${{ steps.vars.outputs.ref_short }}
       -
         name: Login to Docker Hub
         uses: docker/login-action@v2
@@ -49,7 +49,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: designsafeci/ds-user-guide:latest,designsafeci/ds-user-guide:${{ steps.vars.outputs.sha_short }},designsafeci/ds-user-guide:${{ steps.vars.outputs.branch_short }}${{ inputs.tag_custom && ',designsafeci/ds-user-guide:' }}${{ inputs.tag_custom }}
+          tags: designsafeci/ds-user-guide:latest,designsafeci/ds-user-guide:${{ steps.vars.outputs.sha_short }},designsafeci/ds-user-guide:${{ steps.vars.outputs.ref_short }}${{ inputs.tag_custom && ',designsafeci/ds-user-guide:' }}${{ inputs.tag_custom }}
       -
         name: Post build status in slack
         id: slack
