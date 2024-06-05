@@ -1,3 +1,5 @@
+name: ds-user-guide
+
 version: "3"
 services:
   docs:
