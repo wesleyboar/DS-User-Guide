@@ -1,8 +1,10 @@
+/// html | header
+
 ## ADCIRC Datasets
 
-<span style="font-size:1.5em;">
-**ADCIRC Use Case - Creating an ADCIRC DataSet on DesignSafe**   
-</span>
+ADCIRC Use Case - Creating an ADCIRC DataSet on DesignSafe
+
+///
 
 **Clint Dawson, University of Texas at Austin** <br>
 **Carlos del-Castillo-Negrete, University of Texas at Austin**<br>

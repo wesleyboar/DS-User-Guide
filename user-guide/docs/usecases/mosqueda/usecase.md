@@ -1,7 +1,10 @@
+/// html | header
+
 ## Experimental Shake Table Testing
-<span style="font-size:1.5em;">
-**Integrated Workflow of Experiments using Jupyter Notebooks: *From Experimental Design to Publication*** 
-</span>
+
+Integrated Workflow of Experiments using Jupyter Notebooks: *From Experimental Design to Publication*
+
+///
 
 **Enrique Simbort - University of California, San Diego** <br>
 **Gilberto Mosqueda - University of California, San Diego**  

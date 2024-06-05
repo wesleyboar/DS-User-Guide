@@ -1,12 +1,15 @@
+/// html | header
+
 ## CFD Analysis of Winds on Low-Rise Building
 
-<span style="font-size:1.5em;">
-**Low-Rise Building CFD Simulations with Jupyter Notebook**  
-Implementation of ASCE Wind Speed Profiles and User-defined Wind Speed Profiles
-</span>
+Low-Rise Building CFD Simulations with Jupyter Notebook
+
+///
 
 
 **Ahsan Kareem - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/){target=_blank}, University of Notre Dame**
+
+Implementation of ASCE Wind Speed Profiles and User-defined Wind Speed Profiles
 
 ### Resources
  
