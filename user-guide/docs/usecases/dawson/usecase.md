@@ -8,7 +8,7 @@ ADCIRC Use Case - Using Tapis and Pylauncher for Ensemble Modeling in DesignSafe
 
 **Clint Dawson, University of Texas at Austin**  <br>
 **Carlos del-Castillo-Negrete, University of Texas at Austin**   <br>
-**Benjamin Pachev, University of Texas at Austin**
+**Benjamin Pachev, University of Texas at Austin**  
 
 The following use case presents an example of how to leverage the Tapis API to run an ensemble of HPC simulations. The specific workflow to be presented consists of running ADCIRC, a storm-surge modeling application available on DesignSafe, using the parametric job launcher pylauncher. All code and examples presented are meant to be be executed from a Jupyter Notebook on the DesignSafe platform and using a DesignSafe account to make Tapis API calls. 
 
