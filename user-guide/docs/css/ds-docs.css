@@ -47,6 +47,11 @@ hr:where(:not(
     margin-block: 3rem;
 }
 
+/* To update old markup that should be `<strong>` */
+b {
+    font-weight: var(--bold);
+}
+
 
 
 /* DS-DOCS */
