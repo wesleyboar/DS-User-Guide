@@ -34,7 +34,11 @@
 }
 /* To give logo more horizontal space */
 .wy-side-nav-search > a {
-    --pad-horz: 0px;
+    --pad-horz: 0;
+    --link-pad-horz: 0;
+}
+.wy-side-nav-search > a:has(.logo) {
+    margin-bottom: 0;
 }
 
 /* To make horizontal rules more obvious */
