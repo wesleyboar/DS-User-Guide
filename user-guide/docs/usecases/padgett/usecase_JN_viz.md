@@ -12,7 +12,7 @@ Jupyter notebooks on DS Juypterhub [![Open In DesignSafe](https://raw.githubuser
 ## Description
 Effective visualization tools for communication of risk and resilience metrics are needed to translate technical information into trustable and useful outputs for decision-making, and also to aid in the research process, including sanity checks, verification, and validation steps, among others. Considering the diverse purposes, it may be desired to explore input, intermediate results, or final outcomes during the risk and resilience assessment (see [Figure 1](#Fig1)). This use case addresses these needs by leveraging different Python libraries to visualize spatially distributed data, especially focusing on risk and resilience analysis products. Some of the visualized products represent data that can be obtained through the Tools & Applications space in the DesignSafe cyberinfrastructure (for example using the [SimCenter research tools](https://simcenter.designsafe-ci.org/research-tools/overview/)) or other platforms for resilience measurement science (see [IN-CORE platform](https://incore.ncsa.illinois.edu/)). Procedures to develop static, interactive, and animated figures and maps are presented throughout the use case. The created maps aim to visualize hazard-to-resilience outputs obtained from the analysis of regionally distributed systems. Hence this Jupyter notebook may serve as a launching point for other researchers to adapt code for visualizing various stages along the regional risk and resilience quantification workflow. 
 
-![Risk and resilience outputs and stakeholder visualization needs](../img/Figure1_viz.jpg){: id="Fig1" style="display: block;max-width: 65%;height: auto;margin: auto;" }
+![Risk and resilience outputs and stakeholder visualization needs](/user-guide/usecases/padgett/img/Figure1_viz.jpg){: id="Fig1" style="display: block;max-width: 65%;height: auto;margin: auto;" }
 
 <p style="text-align: center">
     <b>Figure 1. Risk and resilience outputs and stakeholder visualization needs</b>
@@ -63,7 +63,7 @@ Different strategies are used to visualize geographical data easily. In the acco
 
 In general, web tiles (available through Python libraries such as `Contextily`) are used for background maps to enhance the visualization of hazard, exposure, and risk data. Some of these background tiles may require a projection of the coordinates of the data coordinate reference system (CRS) to the CRS of the desired tile, as explained in the Jupyter Notebook.
 
-![Visualization of static plots](../img/Figure2_viz.jpg){: id="Fig2" style="display: block;max-width: 85%;height: auto;margin: auto;" }
+![Visualization of static plots](/user-guide/usecases/padgett/img/Figure2_viz.jpg){: id="Fig2" style="display: block;max-width: 85%;height: auto;margin: auto;" }
 
 <p style="text-align: center"> <b>Figure 2. Visualization of static plots</b> </p>
 
@@ -76,7 +76,7 @@ Here, interactive Python libraries are used to visualize and inspect fine inform
 
 As shown in this use case, interactive maps can be enhanced by handling the icons, points, and link characteristics such as type, icon figure, color, etc. [Figure 3](#Fig3) presents the bridge condition using a common color coding related to post-hazard tagging. Red tag is used here when $\mathbb{P}(DS≥ds_3 )≥0.15$, yellow tag is used if $0.05≤\mathbb{P}(DS≥ds_3 )<0.15$, and green tag is used if $\mathbb{P}(DS≥ds_3)<0.05$; note that these limits have been arbitrarily selected for display purposes. Moreover, objects such as legends and color bars can be easily included in such interactive maps to add additional layers of information. Given the possibility of presenting the data "online", these are very useful tools for communication with stakeholders, inspection teams, or simply for data analysis during damage simulation or recovery processes.
 
-![Visualization of interactive plots](../img/Figure3_viz.jpg){: id="Fig3" style="display: block;max-width: 85%;height: auto;margin: auto;" }
+![Visualization of interactive plots](/user-guide/usecases/padgett/img/Figure3_viz.jpg){: id="Fig3" style="display: block;max-width: 85%;height: auto;margin: auto;" }
 
 <p style="text-align: center">
     <b>Figure 3. Visualization of interactive plots</b>
@@ -94,7 +94,7 @@ Different widgets (such as checkboxes, sliders, or buttons) can be passed to the
 
 | (a) Example of a graph animated with interactive widgets { #Fig4 } | (b) Example of a ‘gif’ animation |
 | - | - |
-| ![recovery graph 1](../img/Figure4_viz.jpg){: style="display: block; max-width: 70%; height: auto; margin: auto;" } {: .image-as-data } | ![recovery graph animation](../img/recovery_trajectory_viz.gif){: style="display: block; max-width: 100%; height: auto; margin: auto;" } {: .image-as-data } |
+| ![recovery graph 1](/user-guide/usecases/padgett/img/Figure4_viz.jpg){: style="display: block; max-width: 70%; height: auto; margin: auto;" } {: .image-as-data } | ![recovery graph animation](/user-guide/usecases/padgett/img/recovery_trajectory_viz.gif){: style="display: block; max-width: 100%; height: auto; margin: auto;" } {: .image-as-data } |
 
 <p style="text-align: center">
     <b>Figure 4. Animated plots for visualization of dynamic outputs.</b>
