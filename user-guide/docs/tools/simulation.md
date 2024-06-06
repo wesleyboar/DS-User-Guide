@@ -8,6 +8,8 @@
 
 {% include-markdown 'simulation/dakota.md' %}
 
+{% include-markdown 'simulation/in-core.md' %}
+
 {% include-markdown 'simulation/lsdyna.md' %}
 
 {% include-markdown 'simulation/openfoam.md' %}
