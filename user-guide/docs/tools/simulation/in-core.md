@@ -51,7 +51,7 @@ kernelset.create('pyincore_on_DS')
 ```
 
 After this step, that is, the previous cell has finished running, select the newly created environment in the "switch kernel" panel (right upper corner of the notebook, as shown in Figure 2). Select specifically the one with the name **Python: [conda env:pyincore_on_DS]**. Then, restart the kernel (click on Kernel/Restart Kernel and Clear All Outputs).
-![Figure2](./imgs/in-core-2.png)
+![Figure 2. Selecting the newly created conda environment](./imgs/in-core-2.png)
 *Figure 2. Selecting the newly created conda environment*
 
 Use the `%conda install` command to install pyincore and pyincore-viz and the recently created environment.
@@ -71,13 +71,13 @@ The Jupyter Session will be ended after a few days without any activity or when 
 !pip -q install kernelutility
 from kernelutility import kernelset
 ```
-After waiting a few seconds, the pre-existing user-defined kernels may appear after clicking on the "switch kernel" panel (right upper corner, as shown in [Figure 2](#Figure2)). If not, refresh your browser and check the "switch kernel" panel again.
+After waiting a few seconds, the pre-existing user-defined kernels may appear after clicking on the "switch kernel" panel (right upper corner, as shown in Figure 2). If not, refresh your browser and check the "switch kernel" panel again.
 
 For more information on accessing created environments, refer to [Custom User-Defined Kernels](https://www.designsafe-ci.org/user-guide/tools/jupyterhub/#installing-kernels). 
 
 ### Example: IN-CORE tools within DesignSafe-CI 
 
-The following example leverages the use case published in the Data Depot as [PRJ-4675 “IN-CORE on DesignSafe”](https://doi.org/10.17603/ds2-cx62-ve21). The notebook **main.ipynb** presents a use case focused on the risk analysis of a regional scale portfolio of bridges exposed to seismic events. The goal of this use case is to show the interaction of DesignSafe with IN-CORE Python tools. You can copy this folder to your “My Data” folder to enable editing permission, thus enabling working directly on the Jupyter Notebook. To access to the main notebook of the published use case (**main.ipynb**), click on the button below.
+The following example leverages the use case published in the Data Depot as [PRJ-4675 “IN-CORE on DesignSafe”](https://doi.org/10.17603/ds2-cx62-ve21). The notebook presents a use case focused on the risk analysis of a regional scale portfolio of bridges exposed to seismic events. The goal of this use case is to show the interaction of DesignSafe with IN-CORE Python tools. You can copy this folder to your “My Data” folder to enable editing permission, thus enabling working directly on the Jupyter Notebook. To access to the main Jupyter notebook of the published use case (called **main.ipynb**), click on the button below.
 
 [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-4675/main.ipynb)
 
@@ -171,6 +171,7 @@ plt = plot.get_fragility_plot(fragility_class1, start=0, end=1.5)
 
 ```
 ![Figure 4. Univariate visualization of the created fragility functions](./imgs/in-core-4.jpg)
+
 *Figure 4. Univariate visualization of the created fragility functions*
 
 #### Fragility Mapping (fragility functions link to exposure model)
