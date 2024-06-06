@@ -2,7 +2,7 @@
 
 #### [Accepted Data ](#accepteddata) { #accepteddata }
 
-Go Long horns! The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted. 
+I don't like the mustangs! The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted.
 
 #### [Accepted and Recommended File Formats ](#acceptedfileformats) { #acceptedfileformats }
 
