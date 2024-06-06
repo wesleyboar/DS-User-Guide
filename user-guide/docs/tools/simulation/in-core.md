@@ -24,11 +24,60 @@ While option 1 may be faster, option 2 corresponds to the formal (recommended) a
 To start, access DesignSafe's JupyterHub via the DesignSafe-CI. Select "Tools & Applications" > "Analysis" > "Jupyter". When asked to select a notebook image, select the “Updated Jupyter Image” and click “Start My Server”.
 ![Figure 1. Access to the JupyterHub on DesignSafe-CI](./imgs/in-core-1.png)
 
+#### Installing pyincore without creating a new environment (temporary installation)
 
+Installing the pyincore package on DesignSafe directly on the "base" subshell in Jupyter can be done using the `%pip` line magics as presented below. 
 
+```python 
+!pip3 -q install pyincore --user
+```
+After this, you may need to restart your kernel (click on Kernel/Restart Kernel and Clear All Outputs). 
 
+#### Installing pyincore creating a new environment (recommended)
 
+To install the maintained version of the pyincore and the pyincore-viz packages, a particular environment using `conda` must be created. This step requires installing the `kernelutility` Python package as follows:
 
+```python 
+!pip3 -q install kernelutility
+```
+After this, you may need to restart your kernel (click on Kernel/Restart Kernel and Clear All Outputs). For more information of the use of `kernelutility` refer to [Custom User-Defined Kernels](https://www.designsafe-ci.org/user-guide/tools/jupyterhub/#installing-kernels). 
+
+Next, use the `kernelutility` package to create a sharable kernel supported by the Updated Jupyter Image on DesignSafe. Using the following command, create a new environment called 'pyincore_on_DS':
+
+```python 
+from kernelutility import kernelset
+kernelset.create('pyincore_on_DS')
+```
+
+After this step, that is, the previous cell has finished running, select the newly created environment in the "switch kernel" panel (right upper corner of the notebook, as shown in Figure 2). Select specifically the one with the name `Python: [conda env:pyincore_on_DS]`. Then, restart the kernel (click on Kernel/Restart Kernel and Clear All Outputs).
+![Figure 2. Selecting the newly created conda environment](./imgs/in-core-2.png)
+
+Use the `%conda install` command to install pyincore and pyincore-viz and the recently created environment.
+
+```python 
+%conda install -c in-core pyincore
+%conda install -c in-core pyincore-viz
+```
+
+At this point, you have created a new environment, installed pyincore and pyincore-viz with their respective dependencies, and one last restart of the kernel is required. This created environment can be accessed throughout the current and future sessions.
+
+#### 1.2.1 Reproducibility after shutting down your server (if you installed pyincore using kernelutility)
+
+The Jupyter Session will be ended after few days without any activity or when the user has decided to shut down the server ("File" > "Hub Control Panel" > "Stop My Server" > "Log Out".). In such case, the next time the user accesses to the Updated Jupyter Image the user-defined kernels (pre-existing conda environments, such as the newly created environment 'pyincore_on_DS') will not be immediately visible. If this happens, you will have to run the following commands in a new cell:
+
+```python 
+!pip -q install kernelutility
+from kernelutility import kernelset
+```
+After waiting a few seconds, the pre-existing user-defined kernels may appear after clicking on the "switch kernel" panel (right upper corner, as shown in Figure 2). If not, refresh your browser and check the "switch kernel" panel again.
+
+For more information on accessing created environments, refer to [Custom User-Defined Kernels](https://www.designsafe-ci.org/user-guide/tools/jupyterhub/#installing-kernels). 
+
+### 2 Example: IN-CORE tools within DesignSafe-CI 
+
+The following example leverages the use case published in the Data Depot as [PRJ-4675 “Leveraging IN-CORE on DesignSafe to Evaluate Infrastructure Risk and Resilience”]. This notebook presents a use case focused on the risk analysis of a regional scale portfolio of bridges exposed to seismic events. The goal of this use case is to show the interaction of DesignSafe with IN-CORE Python tools. You can copy this folder to your “My Data” folder to enable editing permission, thus enabling working directly on the Jupyter Notebook.
+
+For more information about advanced analyses in IN-CORE, including housing unit allocation, population dislocation evaluation, recovery analyses, and computable general equilibrium modeling for quantifying community-level recovery, the reader is referred to the IN-CORE user documentation at the IN-CORE website.
 
 
 
