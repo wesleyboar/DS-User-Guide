@@ -18,7 +18,9 @@
 
 {% include-markdown 'brandenberg-api/usecase.md' %}
 
+---
 
 <!-- ## Visualization of spatially distributed data -->
 
 {% include-markdown 'padgett/usecase_JN_viz.md' %}
+
