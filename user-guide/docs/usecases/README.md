@@ -39,7 +39,7 @@
     > - The document is written in plain text.
     > - The document supports [Markdown syntax (extended)](https://www.markdownguide.org/extended-syntax/) (we use [MkDocs'](https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown)).
     > - Avoid HTML (because Markdown is easier to maintain in this repository).
-    > - You can add attributes via [python-markdown "Attribute Lists"]().
+    > - You can add attributes via [python-markdown "Attribute Lists"](https://python-markdown.github.io/extensions/attr_list/).
     > - Do **not** use deprecated HTML e.g. [`name` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#deprecated_attributes).
     > - Do **not** use `<b>` or `<i>` unless `**` or `_` _(or `<strong>` or `<em>`)_ is inadequate.
 
