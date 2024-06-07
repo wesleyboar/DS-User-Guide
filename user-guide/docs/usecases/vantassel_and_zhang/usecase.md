@@ -95,7 +95,8 @@ Random forests or random decision forests is an ensemble learning method for cla
 
 ![image_of_5_with_label](img/1_random_forest.png)
 
-Open Jupyter Notebook dirctly:
+Open Jupyter Notebook directly:
+
 - Random forest classification -- Multi-Class: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/1_random_forest/RandomForestClassification_MultiClass.ipynb)
 
 or
