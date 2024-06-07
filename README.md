@@ -47,7 +47,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
 5. Open the website _at the URL echoed by the program_, e.g.
-    [link](http://127.0.0.1:8000/user-guide/)
+    [http://127.0.0.1:8000/user-guide/](http://127.0.0.1:8000/user-guide/)
 
 ### B. Via Docker
 
@@ -61,7 +61,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 
     ```
 3. Open the website at the URL provided e.g.
-    http://0.0.0.1:8000/user-guide/
+    [http://0.0.0.1:8000/user-guide/](http://0.0.0.1:8000/user-guide/)
 
 ## Releases
 
