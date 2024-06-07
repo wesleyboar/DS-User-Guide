@@ -31,13 +31,15 @@
     | - |
     | ![forked-repo](docs/images/02-forked-repo.png) |
 
+    <a id="find-usecase">
+
 3. Navigate to your use case folder, which is located in the `user-guide/docs/usecases` folder. The folders are named after the PI, so find the folder with your name to edit your template. **Always check you are only editing your use case folder**.
 
     | PI use case folder |
     | - |
     | ![PI use case folder](docs/images/03-pi-usecase-folder.png) |
 
-    <a id="find-usecase">
+    <a id="edit-usecase">
 
 4. Click on the `usecase.md` file in your usecase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
 
