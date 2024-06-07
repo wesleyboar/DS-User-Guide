@@ -1,15 +1,15 @@
-FROM taccwma/tacc-docs:v0.5.0
+FROM taccwma/tacc-docs:v0.6.0
 
-# To archive TACC code, before replacing it
-RUN mv /code /code-from-tacc
-COPY ./user-guide/ /code/
+# To archive TACC content, before replacing it
+RUN mv /docs /docs-from-tacc
+COPY ./user-guide/ /docs/
 
 # To restore required TACC files
-RUN cp -r  /code-from-tacc/mkdocs.base.yml /code/mkdocs.base.yml && \
-    rm -rf /code/docs/js/core && \
-    cp -r  /code-from-tacc/docs/js/core /code/docs/js/core && \
-    rm -rf /code/docs/css/core && \
-    cp -r  /code-from-tacc/docs/css/core /code/docs/css/core
-RUN mkdir -p /code/themes/ && \
-    rm -rf   /code/themes/tacc-readthedocs && \
-    cp -r    /code-from-tacc/themes/tacc-readthedocs /code/themes/tacc-readthedocs
+RUN cp -r  /docs-from-tacc/mkdocs.base.yml /docs/mkdocs.base.yml && \
+    rm -rf /docs/docs/js/core && \
+    cp -r  /docs-from-tacc/docs/js/core /docs/docs/js/core && \
+    rm -rf /docs/docs/css/core && \
+    cp -r  /docs-from-tacc/docs/css/core /docs/docs/css/core
+RUN mkdir -p /docs/themes/ && \
+    rm -rf   /docs/themes/tacc-readthedocs && \
+    cp -r    /docs-from-tacc/themes/tacc-readthedocs /docs/themes/tacc-readthedocs
