@@ -6,3 +6,7 @@ user-guide/site/
 
 # Igonre pyenv
 .python-version
+
+# Ignore user configs
+.vs
+.vscode
