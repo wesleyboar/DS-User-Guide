@@ -14,10 +14,10 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 4. [Commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) your changes.
 5. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
     <sup>(a.k.a. create a "Pull Request")</sup>
-6. [Test](#local-testing) your changes.\
+6. [Test](#testing) your changes.\
     <sup>(if comfortable using a command prompt)</sup>
 
-## Local Testing
+## Testing
 
 - [A. Via Python](#a-via-python)
 - [B. Via Docker](#b-via-docker)
