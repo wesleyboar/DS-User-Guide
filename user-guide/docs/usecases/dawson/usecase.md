@@ -1,8 +1,10 @@
+/// html | header
+
 ## Large-Scale Storm Surge
 
-<span style="font-size:1.5em;">
-**ADCIRC Use Case - Using Tapis and Pylauncher for Ensemble Modeling in DesignSafe**
-</span>
+ADCIRC Use Case - Using Tapis and Pylauncher for Ensemble Modeling in DesignSafe
+
+///
 
 **Clint Dawson, University of Texas at Austin**  <br>
 **Carlos del-Castillo-Negrete, University of Texas at Austin**   <br>

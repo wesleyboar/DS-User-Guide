@@ -1,8 +1,10 @@
+/// html | header
+
 ## Shake Table Data Analysis Using ML
 
-<span style="font-size:1.5em;">
-**Leveraging Machine Learning for Identification of Shake Table Data and Post Processing**
-</span>
+Leveraging Machine Learning for Identification of Shake Table Data and Post Processing
+
+///
 
 **Kayla Erler – University of California San Diego** <br>
 **Gilberto Mosqueda – University of California San Diego**

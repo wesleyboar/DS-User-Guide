@@ -1,8 +1,10 @@
+/// html | header
+
 ## Visualizing Surge for Regional Risks
 
-<span style="font-size:1.5em;">
-**Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems** 
-</span> 
+Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems
+
+/// 
 
 **Catalina González-Dueñas and Jamie E. Padgett - Rice University**<br/>
 **Miku Fukatsu - Tokyo University of Science**

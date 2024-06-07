@@ -13,3 +13,7 @@ user-guide/themes/tacc-readthedocs
 
 # Igonre pyenv
 .python-version
+
+# Ignore user configs
+.vs
+.vscode

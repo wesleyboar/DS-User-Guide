@@ -1,8 +1,10 @@
+/// html | header
+
 ## Soil Structure Interaction
 
-<span style="font-size:1.5em;">
-**Integration of OpenSees-STKO-Jupyter to Simulate Seismic Response of Soil-Structure-Interaction**
-</span>
+Integration of OpenSees-STKO-Jupyter to Simulate Seismic Response of Soil-Structure-Interaction
+
+///
 
 **Yu-Wei Hwang - University of Texas at Austin**  <br>
 **Ellen Rathje - University of Texas at Austin**  
