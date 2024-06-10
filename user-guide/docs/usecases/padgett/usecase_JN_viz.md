@@ -1,9 +1,10 @@
-## Visualization of spatially distributed data 
+/// html | header
 
-<span style="font-size:1.5em;">
-**Jupyter notebook for visualization of spatially distributed data in risk and resilience analysis** 
-</span> 
+## Visualization of Spatially Distributed Data
 
+Jupyter notebook for visualization of spatially distributed data in risk and resilience analysis
+
+///
 
 **Raul Rincon - Dept. of Civil and Environmental Engineering, Rice University** <br>
 **Jamie E. Padgett - Dept. of Civil and Environmental Engineering, Rice University** <br>
