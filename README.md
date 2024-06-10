@@ -1,6 +1,6 @@
 # DesignSafe User Guide
 
-DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io/).
+DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customized** [ReadTheDocs](https://www.mkdocs.org/user-guide/choosing-your-theme/#readthedocs) theme.
 
 ## Contributing
 
@@ -16,6 +16,14 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     <sup>(a.k.a. create a "Pull Request")</sup>
 6. [Test](#testing) your changes.\
     <sup>(if comfortable using a command prompt)</sup>
+
+### Resources
+
+* [Markdown syntax (extended)](https://www.markdownguide.org/extended-syntax/) via [MkDocs' Markdown support](https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown)
+    - plus some[^1] enabled [Python-Markdown extensions](https://python-markdown.github.io/extensions/)
+    - plus some[^1] enabled [PyMdown exensions](https://facelessuser.github.io/pymdown-extensions/#extensions)
+
+[^1]: Which extensions are enabled is tracked by https://github.com/TACC/TACC-Docs/blob/main/mkdocs.base.yml under `markdown_extensions:`.
 
 ## Testing
 
@@ -67,8 +75,19 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 3. Open the website at the URL provided e.g.
     [http://0.0.0.1:8000/user-guide/](http://0.0.0.1:8000/user-guide/).
 
+
+[^2]: To manually build or deploy, consult [our internal documentation](https://tacc-main.atlassian.net/wiki/x/aBhv).
+
+## Automatic Builds
+
+Automatic builds (not deploys) should occur on pushes to any branch.[^2]
+
+## Automatic Deployment
+
+Automatic deploys should occur after an automatic build on the `main` branch.[^2]
+
 ## Releases
 
 All commits to `main` will trigger a docker build and push a new image to `designsafeci/ds-user-guide:latest`.
 
-A Watchtower service will monitor new pushes to this dockerhub repo and pull down new images on the fly to https://designsafeci-dev.tacc.utexas.edu/user-guide/
+A Watchtower service monitors new pushes to this dockerhub repo and pull down new images on the fly to [https://designsafeci-dev.tacc.utexas.edu/user-guide/](https://designsafeci-dev.tacc.utexas.edu/user-guide/).
