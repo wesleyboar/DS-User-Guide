@@ -23,7 +23,7 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
     - plus some[^1] enabled [Python-Markdown extensions](https://python-markdown.github.io/extensions/)
     - plus some[^1] enabled [PyMdown exensions](https://facelessuser.github.io/pymdown-extensions/#extensions)
 
-[^1]: Which extensions are enabled is tracked by https://github.com/TACC/TACC-Docs/blob/main/mkdocs.base.yml under `markdown_extensions:`.
+[^1]: Enabled extensions are tracked by https://github.com/TACC/TACC-Docs/blob/main/mkdocs.base.yml under `markdown_extensions:`.
 
 ## Testing
 
