@@ -52,6 +52,7 @@ nav:
     - ADCIRC: tools/simulation/adcirc/adcirc.md
     - ClawPack: tools/simulation/clawpack.md
     - Dakota: tools/simulation/dakota.md
+    - IN-CORE: tools/simulation/in-core.md
     - LS-DYNA: tools/simulation/lsdyna.md
     - OpenFoam: tools/simulation/openfoam.md
     - OpenSees : tools/simulation/opensees/opensees.md
