@@ -95,6 +95,22 @@ nav:
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
 
 
+# ----------------------------------------------------------------
+# Checking how to render Katex.
+# From: https://squidfunk.github.io/mkdocs-material/reference/math/#katex-mkdocsyml
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+# ----------------------------------------------------------------
+
 # Old navigation for unflattened use cases
 #    - Data Analytics: usecases/dataanalytics-usecases.md
 #      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
