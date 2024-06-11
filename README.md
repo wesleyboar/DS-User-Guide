@@ -12,11 +12,11 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 2. [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) relevant files that need update.\
     <sup>([upload images](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) as necessary)</sup>
 4. [Commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) your changes.
-5. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
-    <sup>(a.k.a. create a "Pull Request")</sup>
-6. [Test](#testing) your changes.\
+5. [Test](#testing) your changes.\
     <sup>(if comfortable using a command prompt)</sup>
-
+6. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
+    <sup>(a.k.a. create a "Pull Request")</sup>
+   
 ### Resources
 
 * [Markdown syntax (extended)](https://www.markdownguide.org/extended-syntax/) via [MkDocs' Markdown support](https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown)
@@ -66,13 +66,21 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 0. Have Docker installed.\
     <sup>We recommend doing so via [Docker-Desktop](https://www.docker.com/products/docker-desktop).</sup>
 1. Navigate into your clone of this repository.
-2. Start the Docker container to serve the docs.
-    ```shell
+2. Start the Docker container to serve the docs. 
+
+   Linux or Mac (macOS) user:
+   ```shell
     make build
     make start
 
     ```
-3. Open the website at the URL provided e.g.
+   Windows user:
+   ```shell
+    docker-compose -f ./docker-compose.yml build
+    docker-compose -f docker-compose.yml up
+
+    ```
+4. Open the website at the URL provided e.g.
     [http://0.0.0.1:8000/user-guide/](http://0.0.0.1:8000/user-guide/).
 
 
