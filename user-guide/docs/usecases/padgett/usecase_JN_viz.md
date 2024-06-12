@@ -18,7 +18,7 @@ The following Jupyter notebook is the basis for the use case described in this s
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| visualization of <br> spatially-distributed Data | visualization_risk_resilience.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/silvia/lab/workspaces/auto-k/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)|
+| visualization of <br> spatially-distributed Data | visualization_risk_resilience.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)|
 
 
 
