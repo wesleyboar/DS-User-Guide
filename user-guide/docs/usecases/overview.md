@@ -25,8 +25,11 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 Make sure you are logged into DesignSafe so that you can access the Use-Case products.
 
 /////
-///// html | a.card--plain[href="../dataanalyticsusecases/"]
+///// html | a.card--plain.card--image-top[href="../dataanalyticsusecases/"]
      markdown: block
+
+////// html | img[alt="a data-driven map in a software interface"][src="./img/data.png"]
+//////
 
 <!-- To not use <h3> so this heading does not show in nav -->
 ////// html | p.h3
@@ -36,8 +39,11 @@ Data Analytics
 A powerful utility allowing interactive access to compute nodes.
 
 /////
-///// html | a.card--plain[href="../geohazardusecases/"]
+///// html | a.card--plain.card--image-top[href="../geohazardusecases/"]
      markdown: block
+
+////// html | img[alt="a color-coded landslide"][src="./img/geo.png"]
+//////
 
 <!-- To not use <h3> so this heading does not show in nav -->
 ////// html | p.h3
@@ -47,8 +53,11 @@ GeoHazard
 How to run the Vienna Ab initio Simulation Package (VASP) for atomic-scale materials modeling.
 
 /////
-///// html | a.card--plain[href="../seismicusecases/"]
+///// html | a.card--plain.card--image-top[href="../seismicusecases/"]
      markdown: block
+
+////// html | img[alt="a grid of two kinds of diagonal marks over 4 columns"][src="./img/seismic.jpg"]
+//////
 
 <!-- To not use <h3> so this heading does not show in nav -->
 ////// html | p.h3
@@ -58,8 +67,11 @@ Seismic
 Run Google's powerful deep learning protein folding tool at TACC.
 
 /////
-///// html | a.card--plain[href="../windstormsurgeusecases/"]
+///// html | a.card--plain.card--image-top[href="../windstormsurgeusecases/"]
      markdown: block
+
+////// html | img[alt="a triangular mesh over shallow water area of a coastal map"][src="./img/wind.png"]
+//////
 
 <!-- To not use <h3> so this heading does not show in nav -->
 ////// html | p.h3
