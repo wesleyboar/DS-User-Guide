@@ -28,7 +28,10 @@ Make sure you are logged into DesignSafe so that you can access the Use-Case pro
 ///// html | a.card--plain[href="../dataanalyticsusecases/"]
      markdown: block
 
-### Data Analytics
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+Data Analytics
+//////
 
 A powerful utility allowing interactive access to compute nodes.
 
@@ -36,7 +39,10 @@ A powerful utility allowing interactive access to compute nodes.
 ///// html | a.card--plain[href="../geohazardusecases/"]
      markdown: block
 
-### GeoHazard
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+GeoHazard
+//////
 
 How to run the Vienna Ab initio Simulation Package (VASP) for atomic-scale materials modeling.
 
@@ -44,7 +50,10 @@ How to run the Vienna Ab initio Simulation Package (VASP) for atomic-scale mater
 ///// html | a.card--plain[href="../seismicusecases/"]
      markdown: block
 
-### Seismic
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+Seismic
+//////
 
 Run Google's powerful deep learning protein folding tool at TACC.
 
@@ -52,7 +61,10 @@ Run Google's powerful deep learning protein folding tool at TACC.
 ///// html | a.card--plain[href="../windstormsurgeusecases/"]
      markdown: block
 
-### Wind and Storm Surge
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+Wind and Storm Surge
+//////
 
 Learn how to request access and run MATLAB, the popular numerical computing platform, at TACC
 
