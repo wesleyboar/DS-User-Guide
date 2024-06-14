@@ -36,7 +36,7 @@ Make sure you are logged into DesignSafe so that you can access the Use-Case pro
 Data Analytics
 //////
 
-A powerful utility allowing interactive access to compute nodes.
+Analyze data from multiple datasets, with A.I. and Machine Learning, and via APIs or visualization.
 
 /////
 ///// html | a.card--plain.card--image-top[href="../geohazardusecases/"]
@@ -50,7 +50,7 @@ A powerful utility allowing interactive access to compute nodes.
 GeoHazard
 //////
 
-How to run the Vienna Ab initio Simulation Package (VASP) for atomic-scale materials modeling.
+Geological hazard use cases like liquefaction and landslide modeling.
 
 /////
 ///// html | a.card--plain.card--image-top[href="../seismicusecases/"]
@@ -64,7 +64,7 @@ How to run the Vienna Ab initio Simulation Package (VASP) for atomic-scale mater
 Seismic
 //////
 
-Run Google's powerful deep learning protein folding tool at TACC.
+Analyze seismic responses, soil structure interaction, and shake tables. Integrate with OpenSees.
 
 /////
 ///// html | a.card--plain.card--image-top[href="../windstormsurgeusecases/"]
@@ -78,7 +78,7 @@ Run Google's powerful deep learning protein folding tool at TACC.
 Wind and Storm Surge
 //////
 
-Learn how to request access and run MATLAB, the popular numerical computing platform, at TACC
+Use cases for sensing wind, integrating hurricande data, using ADCIRC datasets or Jupyter Notebooks or QGIS.
 
 /////
 ////
