@@ -36,7 +36,7 @@ Make sure you are logged into DesignSafe so that you can access the Use-Case pro
 Data Analytics
 //////
 
-Analyze data from multiple datasets, with A.I. and Machine Learning, and via APIs or visualization.
+Analyze data from multiple datasets, with A.I. and Machine Learning, or via APIs or visualization.
 
 /////
 ///// html | a.card--plain.card--image-top[href="../geohazardusecases/"]
@@ -78,7 +78,7 @@ Analyze seismic responses, soil structure interaction, and shake tables. Integra
 Wind and Storm Surge
 //////
 
-Use cases for sensing wind, integrating hurricande data, using ADCIRC datasets or Jupyter Notebooks or QGIS.
+Use cases for sensing wind, integrating hurricane data, using ADCIRC datasets or Jupyter Notebooks or QGIS.
 
 /////
 ////
