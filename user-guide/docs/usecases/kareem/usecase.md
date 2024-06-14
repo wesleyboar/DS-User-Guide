@@ -1,8 +1,10 @@
+/// html | header
+
 ## CFD Analysis of Winds on Structures
 
-<span style="font-size:1.5em;">
-**CFD Simulations using the Jupyter Notebooks**  
-</span>
+CFD Simulations using the Jupyter Notebooks
+
+///
 
 **Fei Ding - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/){target=_blank}, University of Notre Dame**<br>
 **Ahsan Kareem - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/){target=_blank}, University of Notre Dame**<br>

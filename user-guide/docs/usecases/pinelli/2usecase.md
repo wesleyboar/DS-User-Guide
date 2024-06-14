@@ -1,8 +1,10 @@
+/// html | header
+
 ## Hurricane Data Integration &amp; Visualization
 
-<span style="font-size:1.5em;">
-**Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization Using KeplerGl**  
-</span>
+Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization Using KeplerGl
+
+///
 
 **Pinelli, J.-P. – Florida Tech**    <br> 
 **Sziklay, E. – Florida Tech**  <br> 
