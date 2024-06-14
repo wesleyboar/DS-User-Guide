@@ -1,128 +1,98 @@
-/* SIDE NAV */
-/* https://github.com/mkdocs/mkdocs/blob/1.4.2/mkdocs/themes/readthedocs/css/theme.css */
-
-/* To align external link icons with expand buttons */
-/* SEE: ../docs/js/changeNavMarkup.js */
-.wy-menu-vertical li i.fa-external-link {
-    display: block;
-    float: left;
-    margin-left: -1.2em;
-    line-height: 18px;
-    color: #4d4d4d;
-    border: none;
-    background: none;
-    padding: 0;
-}
-
-/* To color external link icons like expand buttons */
-.wy-menu-vertical li i.fa-external-link { color: #4d4d4d; }
-.wy-menu-vertical a:hover i.fa-external-link { color: #d9d9d9; }
-/* WARNING: This CSS works but deep nav links are buggy on ReadTheDocs theme */
-.wy-menu-vertical li.toctree-l2 i.fa-external-link { color: #a3a3a3; }
-.wy-menu-vertical li.toctree-l2 a:hover i.fa-external-link { color: grey; }
+/* Any DesignSafe-specific styles may go here */
+/* IMPORTANT: Put the styles within the appropriate section */
 
 
 
+/* CORE STYLES */
+/* To customize TACC/Core-Styles CSS */
+/* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.base.css */
 
+@import url('https://cdn.jsdelivr.net/gh/TACC/Core-Styles@epic/v3--gh-345-tokens-from-figma/src/v3/variables/designsafe.light.css') layer(cosmetic);
 
-/* CONTENT */
-
-
-/* To distinguish headings more */
-/* https://github.com/mkdocs/mkdocs/blob/1.4.2/mkdocs/themes/readthedocs/css/theme.css */
-h1 {
-    font-size: 250%;
-}
-.rst-content .toctree-wrapper > p.caption,
-h2 {
-    font-size: 175%;
-}
-h3 {
-    font-size: 150%;
-}
-h4 {
-    font-size: 125%;
-}
-h5 {
-    font-size: 100%;
-}
-h6 {
-    font-size: 100%;
-    font-weight: normal;
+:scope {
+    --global-color-accent--xxx-light: var(--color-accent-1-light-3x);
+    --global-color-accent--xx-light: var(--color-accent-1-light-2x);
+    --global-color-accent--x-light: var(--color-accent-1-light-x);
+    --global-color-accent--light: var(--color-accent-1-light);
+    --global-color-accent--normal: var(--color-accent-1-normal);
+    --global-color-accent--dark: var(--color-accent-1-dark);
+    --global-color-accent--x-dark: var(--color-accent-1-dark-x);
+    --global-color-accent--xx-dark: var(--color-accent-1-dark-2x);
+    --global-color-accent--xxx-dark: var(--color-accent-1-dark-3x);
 }
 
 
+
+/* TACC-DOCS */
+/* To customize TACC/TACC-Docs CSS */
+/* WARNING: These styles assume documentation is run "Via Docker" */
+/* https://github.com/TACC/TACC-Docs/blob/cbbf261/docs/css/core/tacc-docs.css */
+
+/* To force a logo `<img>` loading an SVG to have dimensions */
+/* FAQ: Happens if `swapImgSvgWithRawSvg.js` does not work or is unavailable */
+.wy-side-nav-search > a img.logo[src$=".svg"] {
+    width: 100%;
+}
+
+/* To customize name under logo */
+.wy-side-nav-search .nav-name {
+    font-weight: var(--medium);
+    color: #565656;
+}
+/* To give logo more horizontal space */
+.wy-side-nav-search > a {
+    --pad-horz: 0;
+    --link-pad-horz: 0;
+}
+.wy-side-nav-search > a:has(.logo) {
+    margin-bottom: 0;
+}
 
 /* To make horizontal rules more obvious */
 /* FAQ: Our pages are so tall, that we will let users on big <hr>s */
 /* NOTE: Alternative UX is more difficult using our ReadTheDocs theme */
 hr:where(:not(
-    [role="navigation"] *,
-    [role="main"] ~ footer *
+    [role="navigation"] hr,
+    [role="main"] ~ footer hr
 )) {
-    border-top-color: #343131; /* copied from sidebar background */
     margin-block: 3rem;
 }
+
+/* To update old markup that should be `<strong>` */
+b {
+    font-weight: var(--bold);
+}
+
+
+
+/* DS-DOCS */
+/* To add CSS unique to DesignSafe/DS-User-Guide */
+
+/* A custom horizontal rule to use between large documents */
 hr.spacer {
     margin-block: 20rem 5rem;
 }
 
-
-
-/* To have an auto–heading-anchor mimic appearance of manual heading-anchor */
-/* FAQ: Make auto–heading-anchor cover both heading & manual heading-anchor */
-/* FAQ: Cover the manual heading-anchor because:
-        - those links are rewritten by include-markdown plugin
-        - that rewrite causes them to be broken
-        - auto–heading-anchors are not broken
-*/
-
-/* To control position and size of an auto–heading-anchor */
-/* WARNING: This assumes every content heading has an auto–heading-anchor */
-.rst-content :is(h1, h2, h3, h4, h5, h6) {
-    position: relative; /* to constrain `<a>` `posiiton: absolute` to heading */
-    width: fit-content; /* to limit `<a>` from spanning width of page content */
+/* To both couple and distinguish short title and long title */
+.rst-content header p:is(#tacc-readthedocs *) {
+    font-size: var(--global-font-size--xx-large);
+    font-weight: var(--bold);
 }
-/* FAQ: The `:last-child` avoids selecting a manual heading-anchor */
-a.headerlink:last-child {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+.rst-content header h2:is(#tacc-readthedocs *) {
+    font-size: var(--global-font-size--x-large);
+    font-weight: var(--regular);
+
+    /* To remove excess space between titles */
+    margin-bottom: -24px;
 }
-
-/* To always hide the text of an auto–heading-anchor (the "¶") */
-.rst-content :is(h1, h2, h3, h4, h5, h6):hover a.headerlink {
-    opacity: 0; /* overwrite theme.css */
+.rst-content header p:not(#tacc-readthedocs *) {
+    font-size: 150%;
+    font-weight: 700;
 }
+.rst-content header h2:not(#tacc-readthedocs *) {
+    font-size: 16px;
+    font-weight: unset;
 
-
-
-/* To style a heading like a link */
-/* WARNING: This assumes every content heading has an auto–heading-anchor */
-/* https://github.com/mkdocs/mkdocs/blob/1.4.2/mkdocs/themes/readthedocs/css/theme.css */
-
-/* To mimic text color swap on hover for an auto–heading-anchor */
-.rst-content :is(h1, h2, h3, h4, h5, h6) { color: #2980b9; }
-.rst-content :is(h1, h2, h3, h4, h5, h6):hover { color: #3091d1; }
-
-/* To mimic text color swap on hover for a manual heading-anchor */
-.rst-content :is(h1, h2, h3, h4, h5, h6) a:not(.headerlink) { color: #2980b9; }
-.rst-content :is(h1, h2, h3, h4, h5, h6):hover a:not(.headerlink) { color: #3091d1; }
-
-
-
-
-
-/* CUSTOM CLASSES */
-
-/* To allow images to be center-aligned */
-/* https://github.com/TACC/Core-CMS/blob/v3.10.2/taccsite_cms/static/site_cms/css/src/_imports/components/django.cms.picture.css#L30-L33 */
-.align-center {
-  display: block;
-  margin-inline: auto;
+    /* To remove excess space between titles */
+    margin-bottom: 0.5em;
 }

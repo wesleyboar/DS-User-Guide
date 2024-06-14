@@ -1,6 +1,6 @@
 # DesignSafe User Guide
 
-DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io/).
+DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customized** [ReadTheDocs](https://www.mkdocs.org/user-guide/choosing-your-theme/#readthedocs) theme.
 
 ## Contributing
 
@@ -12,10 +12,18 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 2. [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) relevant files that need update.\
     <sup>([upload images](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) as necessary)</sup>
 4. [Commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) your changes.
-5. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
-    <sup>(a.k.a. create a "Pull Request")</sup>
-6. [Test](#testing) your changes.\
+5. [Test](#testing) your changes.\
     <sup>(if comfortable using a command prompt)</sup>
+6. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
+    <sup>(a.k.a. create a "Pull Request")</sup>
+   
+### Resources
+
+* [Markdown syntax (extended)](https://www.markdownguide.org/extended-syntax/) via [MkDocs' Markdown support](https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown)
+    - plus some[^1] enabled [Python-Markdown extensions](https://python-markdown.github.io/extensions/)
+    - plus some[^1] enabled [PyMdown exensions](https://facelessuser.github.io/pymdown-extensions/#extensions)
+
+[^1]: Enabled extensions are tracked by https://github.com/TACC/TACC-Docs/blob/main/mkdocs.base.yml under `markdown_extensions:`.
 
 ## Testing
 
@@ -24,12 +32,16 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 
 ### A. Via Python
 
+> [!NOTE]
+> This solution uses a different theme than https://designsafe-ci.org/user-guide/.
+
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/6c22d2f/pyproject.toml).</sup>
 1. Navigate into your clone of this repo.
 2. Install dependencies:\
-    <sup>You should only need to do this once.</sup>
+    <sup>You should only need to do this once, or after a new release.</sup>
     ```shell
+    ./bin/tacc-setup.sh
     pip install poetry
 
     ```
@@ -54,17 +66,36 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 0. Have Docker installed.\
     <sup>We recommend doing so via [Docker-Desktop](https://www.docker.com/products/docker-desktop).</sup>
 1. Navigate into your clone of this repository.
-2. Start the Docker container to serve the docs.
-    ```shell
+2. Start the Docker container to serve the docs. 
+
+   Linux or Mac (macOS) user:
+   ```shell
     make build
     make start
 
     ```
-3. Open the website at the URL provided e.g.
+   Windows user:
+   ```shell
+    docker-compose -f docker-compose.yml build
+    docker-compose -f docker-compose.yml up
+
+    ```
+4. Open the website at the URL provided e.g.
     [http://0.0.0.1:8000/user-guide/](http://0.0.0.1:8000/user-guide/).
+
+
+[^2]: To manually build or deploy, consult [our internal documentation](https://tacc-main.atlassian.net/wiki/x/aBhv).
+
+## Automatic Builds
+
+Automatic builds (not deploys) should occur on pushes to any branch.[^2]
+
+## Automatic Deployment
+
+Automatic deploys should occur after an automatic build on the `main` branch.[^2]
 
 ## Releases
 
 All commits to `main` will trigger a docker build and push a new image to `designsafeci/ds-user-guide:latest`.
 
-A Watchtower service will monitor new pushes to this dockerhub repo and pull down new images on the fly to https://designsafeci-dev.tacc.utexas.edu/user-guide/
+A Watchtower service monitors new pushes to this dockerhub repo and pull down new images on the fly to [https://designsafeci-dev.tacc.utexas.edu/user-guide/](https://designsafeci-dev.tacc.utexas.edu/user-guide/).

@@ -1,40 +1,37 @@
+INHERIT: ./mkdocs.base.yml
+
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
-plugins:
-  - search
-  - include-markdown
+# NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
+site_favicon: https://www.designsafe-ci.org/favicon.ico
 
 theme:
     name: readthedocs
+    logo: img/NSF_NHERI-DS.svg
+    cms_url: https://designsafe-ci.org/ # TACC Feature
+    cms_name: designsafe-ci.org # TACC Feature
+    nav_name: User Guide # TACC Feature
     navigation_depth: 4
-    collapse_navigation: false
-    custom_dir: themes/ds-readthedocs
-    highlightjs: true
     features:
       - navigation.top
-    # redirect links within the docs (not to the docs) to anywhere (in or out)
-    ds_navigation_redirects:
+    nav_redirects: # TACC Feature
       - before: '#data-depotcuration-office-hours'
         after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
     analytics:
       gtag: G-D96RT1T24K
 
 extra_css:
-    - css/ds-docs.css
+  # TACC/TACC-Docs:/mkdocs.base.yml
+  - css/core/bootstrap.css
+  - css/core/core-styles.css
+  - css/core/tacc-docs.css
+  # DesignSafe/DS-User-Guide
+  - css/ds-docs.css
 
-extra_javascript:
-    - js/changeNavMarkup.js
-    # some JavaScript is included as modules in `./themes/ds-readthedocs/`
-
-markdown_extensions:
-  - footnotes
-  - def_list
-  - admonition
-  - attr_list
-  - abbr
-  - toc:
-      permalink: True
+plugins:
+  - search
+  - include-markdown
 
 nav:
   - Data Depot:
@@ -55,6 +52,7 @@ nav:
     - ADCIRC: tools/simulation/adcirc/adcirc.md
     - ClawPack: tools/simulation/clawpack.md
     - Dakota: tools/simulation/dakota.md
+    - IN-CORE: tools/simulation/in-core.md
     - LS-DYNA: tools/simulation/lsdyna.md
     - OpenFoam: tools/simulation/openfoam.md
     - OpenSees : tools/simulation/opensees/opensees.md
@@ -121,4 +119,3 @@ nav:
 #      - Soil Structure Interaction: usecases/rathje/usecase.md
 #      - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
 #      - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md
-
