@@ -29,6 +29,16 @@ extra_css:
   # DesignSafe/DS-User-Guide
   - css/ds-docs.css
 
+extra_javascript:
+  # TACC/TACC-Docs:/mkdocs.base.yml
+  - js/core/autoScrollNav.js
+  - js/core/addPageId.js
+  - js/core/redirectNavLinks.js
+  # DesignSafe/DS-User-Guide
+  # https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/#loading-mathjax
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+
 plugins:
   - search
   - include-markdown
@@ -119,3 +129,39 @@ nav:
 #      - Soil Structure Interaction: usecases/rathje/usecase.md
 #      - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
 #      - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md
+
+markdown_extensions:
+  # TACC/TACC-Docs:/mkdocs.base.yml
+  - footnotes
+  - def_list
+  - admonition
+  - attr_list
+  - abbr
+  # Enabled by MkDocs by default
+  # https://github.com/mkdocs/mkdocs/blob/1.4.2/docs/user-guide/configuration.md#markdown_extensions
+  # - meta
+  # - toc
+  # - tables
+  # - fenced_code
+  # Extensions from PyMdown
+  # https://facelessuser.github.io/pymdown-extensions
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.saneheaders
+  - pymdownx.blocks.details
+  - pymdownx.blocks.tab
+    # There is an alternative style that supports experimental mobile UX
+    # SEE: https://facelessuser.github.io/pymdown-extensions/extensions/tabbed/#alternate-style
+  - pymdownx.blocks.html
+  # FAQ: The `pymdownx.highlight` is useful only if Pygments is installed
+  #      because Pygments would offer:
+  #      - build-time syntax highlight markup
+  #      - custom language tags and formatters
+  # WARNING: Installing Pygments causes MkDocs build error
+  # - pymdownx.highlight
+  #     use_pygments: true
+  #
+  # DesignSafe/DS-User-Guide
+  # https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/#loading-mathjax
+  - pymdownx.arithmatex:
+      generic: true
