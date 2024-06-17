@@ -33,7 +33,7 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 ### A. Via Python
 
 > [!NOTE]
-> This solution uses a different theme than https://designsafe-ci.org/user-guide/.
+> This solution uses a different theme than https://designsafe-ci.org/user-guide/. See [issue #42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42) for details.
 
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/6c22d2f/pyproject.toml).</sup>
