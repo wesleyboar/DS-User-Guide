@@ -1,47 +1,15 @@
-FROM python:3.11-bullseye as python-base
+FROM taccwma/tacc-docs:v0.6.0
 
-LABEL maintainer="TACC-ACI-WMA <wma_prtl@tacc.utexas.edu>"
+# To archive TACC content, before replacing it
+RUN mv /docs /docs-from-tacc
+COPY ./user-guide/ /docs/
 
-ARG DEBIAN_FRONTEND=noninteractive
-
-# https://python-poetry.org/docs/configuration/#using-environment-variables
-ENV POETRY_VERSION=1.8.2 \
-    POETRY_HOME="/opt/poetry" \
-    POETRY_VIRTUALENVS_IN_PROJECT=true \
-    PYSETUP_PATH="/opt/pysetup" \
-    VENV_PATH="/opt/pysetup/.venv"
-
-# prepend poetry and venv to path
-ENV PATH="$POETRY_HOME/bin:$VENV_PATH/bin:$PATH"
-
-FROM python-base as builder-base
-# install locales for en_us.utf-8
-RUN apt-get update && apt-get install -y \
-    dialog \
-    apt-utils \
-    locales \
-    && rm -rf /var/lib/apt/lists/* \
-    && localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
-
-ENV LC_ALL en_US.utf-8
-ENV LANG en_US.utf-8
-
-RUN pip3 install --upgrade pip setuptools wheel
-
-# Install Poetry - respects $POETRY_VERSION & $POETRY_HOME
-RUN curl -sSL https://install.python-poetry.org | python3 -
-
-# copy project requirement files here to ensure they will be cached.
-WORKDIR $PYSETUP_PATH
-COPY pyproject.toml poetry.lock ./
-
-# install runtime deps - uses $POETRY_VIRTUALENVS_IN_PROJECT internally
-RUN poetry install --no-dev
-
-# `production` image is used for deployed runtime environments
-FROM python-base as production
-
-COPY --from=builder-base $PYSETUP_PATH $PYSETUP_PATH
-
-COPY ./user-guide /docs
-WORKDIR /docs
+# To restore required TACC files
+RUN cp -r  /docs-from-tacc/mkdocs.base.yml /docs/mkdocs.base.yml && \
+    rm -rf /docs/docs/js/core && \
+    cp -r  /docs-from-tacc/docs/js/core /docs/docs/js/core && \
+    rm -rf /docs/docs/css/core && \
+    cp -r  /docs-from-tacc/docs/css/core /docs/docs/css/core
+RUN mkdir -p /docs/themes/ && \
+    rm -rf   /docs/themes/tacc-readthedocs && \
+    cp -r    /docs-from-tacc/themes/tacc-readthedocs /docs/themes/tacc-readthedocs

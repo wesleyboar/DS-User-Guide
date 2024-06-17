@@ -1,11 +1,16 @@
+/// html | header
+
 ## Hurricane Data Integration &amp; Visualization
 
-**Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization Using KeplerGl**   
+Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization Using KeplerGl
 
-**Pinelli, J.-P. – Florida Tech**   
-**Sziklay, E. – Florida Tech**   
+///
+
+**Pinelli, J.-P. – Florida Tech**    <br> 
+**Sziklay, E. – Florida Tech**  <br> 
 **Ajaz, M.A. – Florida Tech**   
-Key Words: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI
+
+*Key Words: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI*
 
 ### Resources 
 
@@ -19,7 +24,7 @@ Key Words: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind
 
 ### Description
 
-The purpose of this JupyterLab notebook is to integrate field damage, hazard, and exposure data from past hurricane events. KeplerGl provides customizable geospatial map visualization and user-friendly analysis tools. Different kinds of data from different sources related to any hurricane event are collected.  The exposure data from the National Structure Inventory (NSI) database and flood data from U.S. Geological Survey (USGS) are both collected via an application programming interface or API.  API is storage-friendly and updates automatically. In that case, the script connects to the service provider. The field damage reconnaissance data from Structural Extreme Events Reconnaissance (StEER) is available from both DesignSafe and Fulcrum without an API, whereas the wind field data from the Applied Research Associates, Inc. (ARA) wind grid is on DesignSafe. 
+The purpose of this JupyterLab is to integrate field damage, hazard, and exposure data from past hurricane events. KeplerGl provides customizable geospatial map visualization and user-friendly analysis tools. Different kinds of data from different sources related to any hurricane event are collected.  The exposure data from the National Structure Inventory (NSI) database and flood data from U.S. Geological Survey (USGS) are both collected via an application-programming interface or API.  API is storage-friendly and updates automatically. In that case, the script connects to the service provider. The field damage reconnaissance data from Structural Extreme Events Reconnaissance (StEER) is available from both DesignSafe and Fulcrum without an API, whereas the wind field data from the Applied Research Associates, Inc. (ARA) wind grid is on DesignSafe. 
 
 ### Implementation
 
@@ -29,11 +34,36 @@ This use case uses Hurricane Michael as an example to illustrate the data collec
 
 Figure 1.  Integration of Hazard, Reconnaissance and Exposure Data
 
+### Instructions
+
+#### Using JupyterHub on DesignSafe####
+#### Accessing JupyterHub####
+*Navigate to the JupyterHub: Use this <a href="https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis">link</a> to go directly to the JupyterHub portal on DesignSafe.
+*Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
+*Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
+*To run this Notebook, <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3903v3/FirstMap.ipynb" target="_blank">FirstMap.ipynb</a> you must copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory. Use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file.
+
+1. Run the following command cell to copy the project to your MyData or change path to wherever you want to copy it to: after opening this Notebook in MyData you don't have to run the below cell again
+	!umask 0022; cp -r /home/jupyter/NHERI-Published/PRJ-3903v3/home/jupyter/MyData/PRJ-3903; chmod -R u+rw /home/jupyter/MyData/PRJ-3903
+
+2. Navigate to your 'MyData' directory.
+For illustrative purposes, input files have been created and shared in this project. These files have been pre-processed and conveniently organized used to illustrate the data collection, integration, and visualization on the map. The outcomes as follows: 
+	1.	2018-Michael_windgrid_ver36.csv
+	2.	hex_config.py
+	3.	Steer_deamage.csv
+	4.	FirstMap.ipynb
+	Results: 
+	1. first_map.html
+	2. first_map_read_only.html
+
+
+### Jupyter Notebooks
+
 #### Installing and importing the required packages
 
 When using the JupyterLab for the first time, some packages need to be installed. Start a new console by clicking <b>File &gt; New Console for Notebook</b> and copy and paste the following code: 
 
-	jupyter lab clean --all &amp;&amp;   pip install --no-cache-dir --upgrade keplergl &amp;&amp; \  jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
+	jupyter lab clean --all &&   pip install --no-cache-dir --upgrade keplergl && \  jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
 The code above installs <b>KeplerGl</b>, as well as the required dependencies. 
 
@@ -48,7 +78,7 @@ There is no need to install <b>geopandas</b>, <b>pandas </b>and<b> json</b>.  T
 
 #### Get the exposure data from the NSI database
 
-Exposure or building data is one of the main components of the integrated model. The NSI provides access to building data from diverse sources across 50 states in the US and it is updated on a yearly basis. For each building, public and private fields are provided. This JupyterLab accesses the publicly available fields only.  It is possible to get access to the private fields through a Data Use Agreement with Homeland Infrastructure Foundation-Level Data (HIFLD). The public fields include valuable building attributes such as occupation type (occtype), building type (bldgtype), square footage of the structure (sqft), foundation type (found type), foundation height (found_ht), number of stories (num_story), median year built (med_yr_blt) and ground elevation at the structure (ground_elv). Building data can be accessed from NSI in two ways; by direct download in <b>json</b> format or via the API service. This JupyterLab provides data access via API. Figure 3 shows how the script establishes two API connections and sends requests.
+Exposure or building data is one of the main components of the integrated model. The NSI provides access to building data from diverse sources across 50 states in the US and it is updated on a yearly basis. For each building, public and private fields are provided. This JupyterLab accesses the publicly available fields only.  It is possible to get access to the private fields through a Data Use Agreement with Homeland Infrastructure Foundation-Level Data (HIFLD). The public fields include valuable building attributes such as occupation type (occtype), building type (bldgtype), square footage of the structure (sqft), foundation type (found type), foundation height (found_ht), number of stories (num_story), median year built (med_yr_blt) and ground elevation at the structure (ground_elv). Building data can be accessed from NSI in two ways, one by direct download in json format or via the API service. This JupyterLab provides data access via API. Figure 3 shows how the script establishes two API connections and sends requests.
 
 ![](newimgs/image003.png)
 
@@ -90,9 +120,10 @@ As the Python script adds data to the map, the user still must set it up to disp
 
 Figure 5. Every data is added as a new layer on the map.
 
-For each new layer, the user specifies the basic type (point, polygon, arc, line etc.), selects the latitude and longitude fields from the data (Lat, Long) and decides on the fill color, too. The color can be based on a field value, making the map to be color-coded. In this JupyterLab the reconnaissance damage data has been color-coded based on the wind damage rating value (0-4). The deeper purple the color, the higher the wind damage rating of the property. The layer of buildings is also color-coded based on the field median-year-built. This is an estimated value only and the map shows larger areas with the same color implying that this attribute must be treated with caution. 
+For each new layer, the user specifies the basic type (point, polygon, arc, line etc.), selects the latitude and longitude fields from the data (Lat, Long) and decides on the fill color, too. The color can be based on a field value, making the map to be color-coded. In this JupyterLab, the reconnaissance damage data has been color-coded based on the wind damage rating value (0-4). The deeper purple the color, the higher the wind damage rating of the property. The layer of buildings is also color-coded based on the field median-year-built. This is an estimated value only and the map shows larger areas with the same color implying that this attribute must be treated with caution. 
 
 Finally, the maximum open terrain 1-minute sustained wind speed (mph) and 3-second wind gust (mph) at 10-meters are also color-coded. 
+
 
 #### Customizing the map further
 
@@ -136,6 +167,8 @@ The html file generated cannot be opened directly from DesignSafe.User needs to 
 
 ### Citations and Licensing
 
-* Roueche, D., T. Kijewski-Correa, J. Cleary, K. Gurley, J. Marshall, J. Pinelli, D. Prevatt, D. Smith, K. Ambrose, C. Brown, M. Moravej, J. Palmer, H. Rawajfih, M. Rihner, (2020) &quot;StEER Field Assessment Structural Team (FAST)&quot;, in <i>StEER - Hurricane Michael</i>. DesignSafe-CI. <a href="https://doi.org/10.17603/ds2-5aej-e227">https://doi.org/10.17603/ds2-5aej-e227.</a>
 * Please cite<a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246" target="_blank">Rathje et al. (2017)</a>to acknowledge the use of DesignSafe resources.
 * This software is distributed under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License</a>.
+* Roueche, D., T. Kijewski-Correa, J. Cleary, K. Gurley, J. Marshall, J. Pinelli, D. Prevatt, D. Smith, K. Ambrose, C. Brown, M. Moravej, J. Palmer, H. Rawajfih, M. Rihner, (2020) &quot;StEER Field Assessment Structural Team (FAST)&quot;, in <i>StEER - Hurricane Michael</i>. DesignSafe-CI. <a href="https://doi.org/10.17603/ds2-5aej-e227">https://doi.org/10.17603/ds2-5aej-e227.</a>
+
+* This use-case page was last updated on 5/1/2024

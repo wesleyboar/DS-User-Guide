@@ -1,34 +1,85 @@
-## DesignSafe Use Cases
+# DesignSafe Use Cases
 
 DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.  
 
-To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
+<style>
+.grid {
+  display: grid;
+  gap: var(--global-space--grid-gap);
+  grid-template-columns: 1fr 1fr;
+}
+/* HACK: Remove space from top of section */
+/* NOTE: Not necessary if section head a header as is expected */
+/* https://github.com/TACC/TACC-Docs/blob/f2e80b4/docs/index.md?plain=1#L107-L109 */
+.grid > div[style] > p:first-child {
+  margin-top: 0;
+}
+</style>
 
-### Data Analytics Use Cases 
+/// html | section.section--muted
+//// html | div.grid
+///// html | div[style="grid-column: span 2"]
 
-* [**Multi-Data Set Image Analysis in Taggit**](haan/usecase-3.md) (Taggit, HazMapper)
-* [**Machine Learning and AI Resources**](vantassel_and_zhang/usecase.md) (Jupyter, Interactive Data Analytics, HPC)
-* [**Application Programming Interfaces**](brandenberg-api/usecase.md) (API, Jupyter, Data Discovery)
+To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided for each Use Case.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
-### Geohazard Use Cases 
+Make sure you are logged into DesignSafe so that you can access the Use-Case products.
 
-* [**Data Analysis using Next Generation Liquefaction (NGL) Database**](brandenberg-ngl/usecase.md) (NGL, Jupyter, SQL, Interactive Data Analytics)
-* [**Landslide Runout Simulations**](kumar/usecase.md) (MPM, Jupyter, Paraview, HPC)
+/////
+///// html | a.card--plain.card--image-top[href="../dataanalyticsusecases/"]
+     markdown: block
 
-### Seismic Use Cases 
+////// html | img[alt="a data-driven map in a software interface"][src="./img/data.png"]
+//////
 
-* [**Site Response Analysis and Model Calibration**](#opensees-model-calibration) (OpenSees, SimCenter quoFEM, Jupyter, HPC)
-* [**Simulating the Seismic Performance of Reinforced Concrete Walls**](#seismic-response-of-concrete-walls) (OpenSees, Jupyter, HPC)
-* [**Soil-Structure-Interaction Simulations**](#soil-structure-interaction) (OpenSees, STKO, Jupyter, HPC)
-* [**Experimental Visualization of Shaking Table Data**](#experimental-shake-table-testing) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
-* [**Shake Table Data Analysis Using ML**](#shake-table-data-analysis-using-ml) 
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+Data Analytics
+//////
 
-### Wind &amp; Storm Surge Use Cases
+Analyze data from multiple datasets, with A.I. and Machine Learning, or via APIs or visualization.
 
-* [**Hurricane Data Integration & Visualization**](pinelli/2usecase.md) (10/2023)
-* [**ADCIRC Datasets**](dawson/usecase2.md)  (ADCIRC, pylauncher, Jupyter, Dataset) (10/2023)
-* [**Large-Scale Ensemble Simulations of Storm Surge**](dawson/usecase.md)  (ADCIRC, pylauncher, Jupyter, HPC)
-* [**Visualization of Storm Surge Impacts**](padgett/usecase.md) (ADCIRC, Jupyter, QGIS)
-* [**Simulation of Wind Flow around Buildings**](kareem/usecase.md) (OpenFOAM, Jupyter, Paraview, HPC)
-* [**Analysis of Field Sensor Data from Wind Events**](#field-sensing-wind-events) (Jupyter, Interactive Data Analysis)
+/////
+///// html | a.card--plain.card--image-top[href="../geohazardusecases/"]
+     markdown: block
 
+////// html | img[alt="a color-coded landslide"][src="./img/geo.png"]
+//////
+
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+GeoHazard
+//////
+
+Geological hazard use cases like liquefaction and landslide modeling.
+
+/////
+///// html | a.card--plain.card--image-top[href="../seismicusecases/"]
+     markdown: block
+
+////// html | img[alt="a grid of two kinds of diagonal marks over 4 columns"][src="./img/seismic.jpg"]
+//////
+
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+Seismic
+//////
+
+Analyze seismic responses, soil structure interaction, and shake tables. Integrate with OpenSees.
+
+/////
+///// html | a.card--plain.card--image-top[href="../windstormsurgeusecases/"]
+     markdown: block
+
+////// html | img[alt="a triangular mesh over shallow water area of a coastal map"][src="./img/wind.png"]
+//////
+
+<!-- To not use <h3> so this heading does not show in nav -->
+////// html | p.h3
+Wind and Storm Surge
+//////
+
+Use cases for sensing wind, integrating hurricane data, using ADCIRC datasets or Jupyter Notebooks or QGIS.
+
+/////
+////
+///
