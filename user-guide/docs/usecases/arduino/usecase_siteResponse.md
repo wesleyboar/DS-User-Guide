@@ -22,19 +22,13 @@ The notebook takes advantage of the site response problem to introduce the gener
 3. generating authomatic reports using rst2pdf or latex, and
 4. Creating animated plots using visualization widgets.
 
-
-<p align="center">
-<img src="../img/DSworkflow.png" alt=" OpenSees numericla simulation workflow" width="200"/>
-</p>
-<p align="center"> <b>Fig.2 - OpenSees numerical simulation workflow</b> </p>
-
+![OpenSees numericla simulation workflow](img/UC1-Arduino-2-DSworkflow.png "Fig.2 - OpenSees numerical simulation workflow")
+<p style="text-align: center;"> Fig.2 - OpenSees numerical simulation workflow </p>
 
 The soil profile shown in Figure 3 includes a 5.0m loose sand underlain by a 1.0 m dense soil.The loose sand is modeled using the PM4Sand constitutive model for liquefiable soils available in OpenSees. The dense sand is considered linear elastic. The groundwter table is assumed at 2.0 m making the lower 3.0 m of the loose sand susceptible to liquefaction. The soil profile is subject to a dynamic excitation at its base. The site response of interest includes (i) the surface acceleration, (ii) profiles of lateral displacement, horizontal acceleration, maximum shear strain, and cyclic stress ratio and (iii) stress strain and pore pressure plots for a point in the middle of the soil profile.  The opensees model definition, analysis steps, and recorders are contained in the [N10_T3.tcl](FreeField-JupyterNB/N10_T3.tcl) file, and the input signal is in [velocity.input](FreeField-JupyterNB/velocity.input). The model can be run using OpenSees in any OS framework.
 
-<p align="center">
-<img src="../img/SPschematic.png" alt="N10_T3 soil profile with liquefiable layer" width="200"/>
-</p>
-<p align="center"> <b>Fig.3 - N10_T3 soil profile with liquefiable layer</b> </p>
+![N10_T3 soil profile with liquefiable layer](img/UC1-Arduino-3-SPschematic.png "Fig.3 - N10_T3 soil profile with liquefiable layer")
+<p style="text-align: center;"> Fig.3 - N10_T3 soil profile with liquefiable layer </p>
 
 
 ## Implementation
@@ -166,11 +160,9 @@ from plotAcc import plot_acc
 plot_acc()
 ```
 
-<p align="center">
-<img src="../img/surfaceAccel.png" alt="Surface acceleration" width="300"/>
-<img src="../img/logSpectra.png" alt="Response spectrum" width="300"/>
-</p>
-<p align="center"> <b>Fig.4 - Surface acceleratio and response spectrum</b> </p>
+![Surface acceleration](img/UC1-Arduino-4-surfaceAccel.png "Surface acceleration")
+![Response spectrum](img/UC1-Arduino-5-logSpectra.png "Response spectrum")
+<p style="text-align: center;"> Fig.4 - Surface acceleratio and response spectrum </p>
 
 
 Plot profiles
@@ -179,10 +171,9 @@ from plotProfile import plot_profile
 plot_profile()
 ```
 
-<p align="center">
-<img src="../img/profilePlot.png" alt="Profiles" width="600"/>
-</p>
-<p align="center"> <b>Fig.5 - Profiles of max displacement, PHA, Max shear strain and cyclic stress ratio</b> </p>
+![Profiles](img/UC1-Arduino-6-profilePlot.png "Profiles")
+<p style="text-align: center;"> Fig.5 - Profiles of max displacement, PHA, Max shear strain and cyclic stress ratio </p>
+
 
 Plot excess pore water pressure
 ``` python
@@ -190,11 +181,9 @@ from plotPorepressure import plot_porepressure
 plot_porepressure()
 ```
 
-<p align="center">
-<img src="../img/stressstrain.png" alt="Stress strain" width="300"/>
-<img src="../img/porePressure.png" alt="Pore pressure" width="300"/>
-</p>
-<p align="center"> <b>Fig.6 - stress strain and pore pressure in the middle of liquefiable layer</b> </p>
+![Stress strain](img/UC1-Arduino-7-stressstrain.png "Stress strain")
+![Pore pressure](img/UC1-Arduino-8-porePressure.png "Pore pressure")
+<p style="text-align: center;"> Fig.6 - stress strain and pore pressure in the middle of liquefiable layer </p>
 
 
 #### Generate report 
@@ -242,10 +231,10 @@ Finally, jupyter notebooks offer flexibility to invoke GUI widgets that can help
 from interactiveplot import createpwpplot, createDispplot
 createpwpplot()
 ```
-<p align="center">
-<img src="../img/widget-1.PNG" alt="Pore pressure interatvie plot" width="400"/>
-</p>
-<p align="center"> <b>Fig.7 - Pore pressure interactive plot</b> </p>
+
+![Pore pressure interatvie plot](img/widget-1.PNG "Pore pressure interatvie plot")
+<p style="text-align: center;"> Fig.7 - Pore pressure interactive plot </p>
+
 
 #### Displacement
 
@@ -253,10 +242,8 @@ createpwpplot()
 createDispplot()
 ```
 
-<p align="center">
-<img src="../img/widget-2.PNG" alt="Displacement profile interatvie plot" width="400"/>
-</p>
-<p align="center"> <b>Fig.8 - Displacement proficle interactive plot</b> </p>
+![Displacement profile interatvie plot](img/widget-2.PNG "Displacement profile interatvie plot")
+<p style="text-align: center;"> Fig.8 - Displacement proficle interactive plot </p>
 
 ## Citation and Licensing
 

@@ -17,11 +17,14 @@ A collection of educational notebooks to introduce model-parameter calibration a
 ### Resources
  
 #### Jupyter Notebooks
-The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
+The following Jupyter notebooks are made available to facilitate the analysis of each case. They are described in detail in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
 | Site Response | Notebook |
 | :-------: | :---------:  |
 | FreeField Response | freeFieldJupyterPM4Sand_Community.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community.ipynb) |
+
+---
+---
 
 | quoFEM | Notebook |
 | :-------: | :---------:  |
@@ -33,23 +36,23 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis)<br/>
-* [SimCenter - quoFEM](https://simcenter.designsafe-ci.org/research-tools/quofem-application)<br/>
-* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation)<br/>
+* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis)
+* [SimCenter - quoFEM](https://simcenter.designsafe-ci.org/research-tools/quofem-application)
+* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation)
 
 
 ### Background
 
 #### Citation and Licensing
-* Please cite [Aakash B. Satish et al. (2022)](https://doi.org/10.1007/978-3-031-11898-2_152){:target="_blank"}  to acknowledge the use of resources from this use case.<br/>
+* Please cite [Aakash B. Satish et al. (2022)](https://doi.org/10.1007/978-3-031-11898-2_152){:target="_blank"}  to acknowledge the use of resources from this use case.
 
-* Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6){:target="_blank"}  to acknowledge the use of resources from this use case.<br/>
+* Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6){:target="_blank"}  to acknowledge the use of resources from this use case.
 
 * Please cite [Chen, L. et al. (2021)](https://peer.berkeley.edu/sites/default/files/2021_chen_final.pdf){:target="_blank"}  to acknowledge the use of resources from this use case.
 
 * Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){:target="_blank"}  to acknowledge the use of DesignSafe resources.
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){:target="_blank"} .
+* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){:target="_blank"}.
 
 ### Description
 
@@ -58,8 +61,7 @@ Seismic site response refers to the way the ground responds to seismic waves dur
 Site response analysis for liquefiable soils is fundamental in the estimation of demands on civil infrastructure including buildings and lifelines. For this purpose, current state of the art in numerical methods in geotechnical engineering require the use of advance constitutive models and fully couple nonlinear finite element (FEM) tools. Advanced constitutive models require calibration of material parameters based on experimental tests. These parameters include uncertainties that in turn propagate to uncertenties in the estimation of demands. The products included in this use-case provide simple examples showing how to achieve site response analysis including parameter identification and uncertainty quantification using SimCenter tools and the DesignSafe cyber infrastructure.
 
 
-
-![Propagation of vertical waves in site response analysis"](./img/SRschematic2.PNG "Fig.1 - Site response problem")
+![Propagation of vertical waves in site response analysis](img/UC1-Arduino-1-SRschematic2.PNG "Fig.1 - Site response problem")
 <p style="text-align: center;"> Fig.1 - Site response problem </p>
 
 ### Implementation
