@@ -61,7 +61,7 @@ Seismic site response refers to the way the ground responds to seismic waves dur
 Site response analysis for liquefiable soils is fundamental in the estimation of demands on civil infrastructure including buildings and lifelines. For this purpose, current state of the art in numerical methods in geotechnical engineering require the use of advance constitutive models and fully couple nonlinear finite element (FEM) tools. Advanced constitutive models require calibration of material parameters based on experimental tests. These parameters include uncertainties that in turn propagate to uncertenties in the estimation of demands. The products included in this use-case provide simple examples showing how to achieve site response analysis including parameter identification and uncertainty quantification using SimCenter tools and the DesignSafe cyber infrastructure.
 
 
-![Propagation of vertical waves in site response analysis](img/UC1-Arduino-1-SRschematic2.PNG "Fig.1 - Site response problem")
+![Propagation of vertical waves in site response analysis](img/UC1-Arduino-1-SRschematic2.png "Fig.1 - Site response problem")
 <p style="text-align: center;"> Fig.1 - Site response problem </p>
 
 ### Implementation

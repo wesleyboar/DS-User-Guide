@@ -140,7 +140,7 @@ $$ -->
 </p>
 <p align="center"> </p> -->
 
-![Equation 1 and 2](img/equation-1-2.png "Equation 1 and2")
+![Equation 1 and 2](img/UC2-Arduino-Eq1-2.png "Equation 1 and2")
 
 where $\theta_i$ is the parameter of interest (i.e., one of the $\{D_r,G_o,h_{po}\}$ ) , $\boldsymbol{\theta}_{\sim i}$ denotes the other two parameters, $\mathbb{E}_{\boldsymbol{X}}[.]$ and $\operatorname{Var}_{\boldsymbol{X}}[.]$ denote mean and variance of function over $\boldsymbol{X}$, respectively, and the vertical bar denotes ‘conditional on’. The former index, called the main-effect index, quantifies how much of the variance of $Y$ is attributed to the parameter $\theta_i$, while the latter index, called the total-effect index, also considers the joint contributions of $\theta_i$ and other parameters [3].
 
@@ -178,7 +178,7 @@ Y_i^m=Y_i(\boldsymbol{\theta})+\varepsilon_i
 \qquad (3)
 $$ -->
 
-![Equation-3](img/equation-3.png "Equation-3")
+![Equation-3](img/UC2-Arduino-Eq3.png "Equation-3")
 
 
 where noise $\epsilon_i$ is assumed to have zero-mean and unknown variance $\sigma^2_{\epsilon,i}$. Given the six
@@ -196,7 +196,7 @@ p\left(\boldsymbol{\theta}, \boldsymbol{\sigma}_{\varepsilon}^2 \mid Y_1^m, . .,
 \qquad (4)
 $$ -->
 
-![Equation-4](img/equation-4.png "Equation-4")
+![Equation-4](img/UC2-Arduino-Eq4.png "Equation-4")
 
 
 where $p(∙)$ denotes the (joint) probability distribution, and $c$ is the normalization constant that ensures the area under the posterior distribution is one. From Eq. (3),
