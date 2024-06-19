@@ -178,7 +178,7 @@ Y_i^m=Y_i(\boldsymbol{\theta})+\varepsilon_i
 \qquad (3)
 $$ -->
 
-![Equation-3](img/UC2-Arduino-Eq3NEW2.png "Equation-3")
+![Equation-3](img/UC2-Arduino-Eq3.png "Equation-3")
 
 
 where noise *epsilon_i* is assumed to have zero-mean and unknown variance *sigma^2_{epsilon,i}*. Given the six
@@ -196,7 +196,7 @@ p\left(\boldsymbol{\theta}, \boldsymbol{\sigma}_{\varepsilon}^2 \mid Y_1^m, . .,
 \qquad (4)
 $$ -->
 
-![Equation-4](img/UC2-Arduino-Eq4NEW.png "Equation-4")
+![Equation-4](img/UC2-Arduino-Eq4.png "Equation-4")
 
 
 where *p(∙)* denotes the (joint) probability distribution, and *c* is the normalization constant that ensures the area under the posterior distribution is one. From Eq. (3),
