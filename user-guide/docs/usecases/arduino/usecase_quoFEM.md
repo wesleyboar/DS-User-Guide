@@ -35,10 +35,9 @@ In this use case, the amount of reduction in the uncertainty in PM4Sand paramete
 3. **Forward propagation** to investigate how the uncertainty that remains after the Bayesian calibration (characterized by the posterior probability distribution) affects the prediction of an earthquake response.
 
 
-<p align="center">
-<img src="../img/UC2-Arduino-1.png" alt="Probabilistic calibration" width="600"/>
-</p>
-<p align="center"> <b>Fig.1 - Probabilistic calibration of soil model (step 2) with sensitivity analysis (step 1) and prediction of uncertainty in estimation of lateral sperading (step 3)</b> </p>
+![Probabilistic calibration](img/UC2-Arduino-1.png "Probabilistic calibration")
+<p style="text-align: center;"> Fig.1 - Probabilistic calibration of soil model (step 2) with sensitivity analysis (step 1) and prediction of uncertainty in estimation of lateral sperading (step 3) </p>
+
 
 ## Implementation
 
@@ -50,10 +49,9 @@ In this context, the notebooks included in this use-case complement input genera
 
 To connect SimCenter applications and Jupyter notebooks in DesignSafe, it's essential to ensure that all required tools are accessible from both frameworks. The SimCenter's vision is well-aligned with this concept and offers all of the necessary functionality through backend applications installed in DesignSafe that can be accessed via Tapis apps. This is schematically shown in Fig 2. Additionally, all SimCenter workflows are stored in JSON files that represent all steps in a workflow. This file is readily accesible using a JSON parser.
 
-<p align="center">
-<img src="../img/UC2-Arduino-2.png" alt="quoFEm in DesignSafe" width="600"/>
-</p>
-<p align="center"> <b>Fig.2 - Running quoFEM analysis using remote computing resources at DesignSafe</b> </p>
+![quoFEm in DesignSafe](img/UC2-Arduino-2.png "Probabilistic calibration")
+<p style="text-align: center;"> Fig.2 - Running quoFEM analysis using remote computing resources at DesignSafe </p>
+
 
 In quoFEM, the workflow data is stored in a tmp.SimCenter folder that can be accessed from the quoFEM desktop, sent to an HPC, or accessed from a notebook. For the examples presented in this document, the  information included in this folder is sufficient to run all cases.
 
@@ -80,14 +78,13 @@ Post-processing of results is specific to the problem being solved and can be ac
 
 Displaying a quoFEM job workflow is useful for understanding the data and steps followed in the workflow. These include: simulation tools, input variables, UQ methods used, and remote directories/folders. An schematic of a typical quoFEM workflow is shown in Fig. 3. 
 
-<p align="center">
-<img src="../img/UC2-Arduino-3.png" alt="quoFEM workflow" width="500"/>
-</p>
-<p align="center"> <b>Fig.3 - Elements of quoFEM workflow (only relevant elements for launching notebook from JupyterHub)</b> </p>
+![quoFEM workflow](img/UC2-Arduino-3.png "quoFEM workflow")
+<p style="text-align: center;"> Fig.3 - Elements of quoFEM workflow (only relevant elements for launching notebook from JupyterHub </p>
+
 
 To display the JSON file the IPython.display module can be used:
  
- ```python
+ ``` python
  # Display Workflow in JSON file
 import IPython.display
 import json
@@ -104,21 +101,17 @@ To modify the workflow, the user can either manually change the workflow files w
 [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/GlobalSensitivity/quoFEM-Sensitivity.ipynb)
 
 
-The PM4Sand constitutive model has 24 parameters. Among them, apparent relative density $D_r$, shear modulus coefficient $G_o$, and contraction rate parameter $h_{po}$, are known to be important for predicting liquefaction responses [2]. Therefore, these three parameters $\theta = \{D_r,G_o,h_{po}\}$ are considered in the UQ analyses and their prior distributions are assumed to be uniform distributions with the ranges shown in Table 1. These prior distributions shall capture a plausible wide range that includes all possible parameter values for the target soils. The experimental data will be used to constrain this wide range to the domain that best describes the behavior exhibited by the specimen during the experiments. 
+The PM4Sand constitutive model has 24 parameters. Among them, apparent relative density *Dr*, shear modulus coefficient *Go*, and contraction rate parameter *hpo*, are known to be important for predicting liquefaction responses [2]. Therefore, these three parameters *theta = {Dr, Go, hpo}* are considered in the UQ analyses and their prior distributions are assumed to be uniform distributions with the ranges shown in Table 1. These prior distributions shall capture a plausible wide range that includes all possible parameter values for the target soils. The experimental data will be used to constrain this wide range to the domain that best describes the behavior exhibited by the specimen during the experiments. 
 
 <p align="center"><b>Table 1. - Prior distributions of PM4Sand parameter</b> </p>
 
-<p align="center">
+| Parameter | Distribution | Range      |
+| :-------: | :---------:  | :-------   |
+| *Dr*      | Uniform      | 0.1-0.6    |
+| *Go*      | Uniform      | 200 - 2000 |
+| *hpo*     | Uniform      | 0.01 - 5   |
 
-| Parameter | Distribution | Range    |
-| :-------: | :---------:  | :------- |
-| $D_r$     | Uniform      | 0.1-0.6     |
-| $G_o$     | Uniform      | 200 - 2000 |
-| $h_{po}$  | Uniform      | 0.01 - 5   |
-
-</p>
-
-The sensitivity analysis is performed for a simulation model that reproduces the CyDSS test shown in Figs. 4 and 5. The output quantity of interest is the number of cycles until the onset of liquefaction (denoted as Y). The onset of liquefaction is defined as the time step when the shear strain shown in Fig. 4 exceeds 3.5%. Liquefaction capacity is affected by the initial shear stress typically characterized by the cyclic shear stress ratio ($CSR$; i.e., ratio of horizontal cyclic shear stress to vertical consolidation stress). In this sensitivity analysis, a $CSR$ of 0.175 is considered. Two variance-based global sensitivity indices are evaluated:
+The sensitivity analysis is performed for a simulation model that reproduces the CyDSS test shown in Figs. 4 and 5. The output quantity of interest is the number of cycles until the onset of liquefaction (denoted as Y). The onset of liquefaction is defined as the time step when the shear strain shown in Fig. 4 exceeds 3.5%. Liquefaction capacity is affected by the initial shear stress typically characterized by the cyclic shear stress ratio (*CSR*; i.e., ratio of horizontal cyclic shear stress to vertical consolidation stress). In this sensitivity analysis, a *CSR* of 0.175 is considered. Two variance-based global sensitivity indices are evaluated:
 
 <!--
 <p align="center">
@@ -142,30 +135,28 @@ S_i^T=\frac{\mathbb{E}_{\boldsymbol{\theta}_{\sim i}}\left[\operatorname{Var}_{\
 \qquad(2)
 $$ -->
 
-<p align="center">
-<img src="../img/equation-1-2.png" alt="Eqn 1 2" width="250"/>
+<!-- <p align="center">
+<img src="img/equation-1-2.png" alt="Eqn 1 2" width="250"/>
 </p>
-<p align="center"> </p>
+<p align="center"> </p> -->
 
-where $\theta_i$ is the parameter of interest (i.e., one of the $\{D_r,G_o,h_{po}\}$ ) , $\boldsymbol{\theta}_{\sim i}$ denotes the other two parameters, $\mathbb{E}_{\boldsymbol{X}}[.]$ and $\operatorname{Var}_{\boldsymbol{X}}[.]$ denote mean and variance of function over $\boldsymbol{X}$, respectively, and the vertical bar denotes ‘conditional on’. The former index, called the main-effect index, quantifies how much of the variance of $Y$ is attributed to the parameter $\theta_i$, while the latter index, called the total-effect index, also considers the joint contributions of $\theta_i$ and other parameters [3].
+![Equation 1 and 2](img/UC2-Arduino-Eq1-2.png "Equation 1 and2")
 
-<p align="center">
-<img src="../img/UC2-Arduino-4.png" alt="OpenSees models" width="250"/>
-</p>
-<p align="center"> <b>Fig.4 - Single element FE model used in sensitivity analysis and Bayesian calibration</b> </p>
+where *theta_i* is the parameter of interest ( i.e., one of the *{Dr, Go, hpo}* ) , *theta~i* denotes the other two parameters, *E_X[.]* and *Var_X[.]* denote mean and variance of function over *X*, respectively, and the vertical bar denotes ‘conditional on’. The former index, called the main-effect index, quantifies how much of the variance of *Y* is attributed to the parameter *theta_i*, while the latter index, called the total-effect index, also considers the joint contributions of *theta_i* and other parameters [3].
 
-<p align="center">
-<img src="../img/UC2-Arduino-5.png" alt="OpenSees models" width="600"/>
-</p>
-<p align="center"> <b>Fig.5 - (a) simulated cyclic stress-strain curve; (b)stress path during the simulated cyclic direct simple shear test; (c) evolution of pore water pressure ratio during the simulated CyDSS test</b> </p>
+![OpenSees models-1](img/UC2-Arduino-4.png "OpenSees models-1")
+<p style="text-align: center;"> Fig.4 - Single element FE model used in sensitivity analysis and Bayesian calibration </p>
 
-The sensitivity analysis is performed using the algorithm in Weirs et al. (2012) through the Dakota engine that interfaces with quoFEM [3]. 2500 simulations were performed using the prior distributions in Table 1. The resulting sensitivity is shown in Fig. 6(a) which indicates that $D_r$ is the dominating parameter for the response $Y$. This is also confirmed by inspecting the scatter plot of Fig. 6(b): $D_r$ (horizontal axis) demonstrates a stronger influence on the output (vertical axis) compared to the influence of the other parameters shown in (c) and (d). Based on this, we can expect that the CyDSS observations will help constrain the uncertainty in $D_r$, while the reduction of uncertainty in $h_{po}$ and $G_o$ will be relatively limited. Additionally, different types of experiments would be needed to better characterize those other parameters.
 
-<p align="center">
-<img src="../img/UC2-Arduino-6.png" alt="Probabilistic calibration" width="600"/>
-</p>
-<p align="center"> <b>Fig.6 - (a) Sensitivity analysis results for the critical number of cycles given CSR = 0.172; (b)–
-(d) Individual input-output scatter plots</b> </p>
+![OpenSees models-2](img/UC2-Arduino-5.png "OpenSees models-2")
+<p style="text-align: center;"> Fig.5 - (a) simulated cyclic stress-strain curve; (b)stress path during the simulated cyclic direct simple shear test; (c) evolution of pore water pressure ratio during the simulated CyDSS test </p>
+
+
+The sensitivity analysis is performed using the algorithm in Weirs et al. (2012) through the Dakota engine that interfaces with quoFEM [3]. 2500 simulations were performed using the prior distributions in Table 1. The resulting sensitivity is shown in Fig. 6(a) which indicates that *Dr* is the dominating parameter for the response *Y*. This is also confirmed by inspecting the scatter plot of Fig. 6(b): *Dr* (horizontal axis) demonstrates a stronger influence on the output (vertical axis) compared to the influence of the other parameters shown in (c) and (d). Based on this, we can expect that the CyDSS observations will help constrain the uncertainty in *Dr*, while the reduction of uncertainty in *hpo* and *Go* will be relatively limited. Additionally, different types of experiments would be needed to better characterize those other parameters.
+
+![Probabilistic calibration](img/UC2-Arduino-6.png "Probabilistic calibration")
+<p style="text-align: center;"> Fig.6 - (a) Sensitivity analysis results for the critical number of cycles given CSR = 0.172; (b)–
+(d) Individual input-output scatter plots </p>
 
 
 ### Step 2 – Bayesian Parameter Calibration
@@ -173,7 +164,7 @@ The sensitivity analysis is performed using the algorithm in Weirs et al. (2012)
 [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/BayesianCalibration/quoFEM-Bayesian.ipynb)
 
 
-Consider now the observations of the CyDSS experiment in Table 2, that are publicly available on the DesignSafe data depot [4]. We assume that the observed count of cycles at different CSR values, denoted as $Y_i^m$ $(i = 1,…,6)$, is given by the simulation model predictions and an added Gaussian noise. The latter captures various inaccuracies such as inherent uncertainty in the phenomenon, the imperfection of our simulation model, and measurement error. Given the above assumptions, we can denote the relationship between the data and model prediction, $Y_i(\theta)$, as
+Consider now the observations of the CyDSS experiment in Table 2, that are publicly available on the DesignSafe data depot [4]. We assume that the observed count of cycles at different CSR values, denoted as *Y_i^m* *(i = 1,…,6)*, is given by the simulation model predictions and an added Gaussian noise. The latter captures various inaccuracies such as inherent uncertainty in the phenomenon, the imperfection of our simulation model, and measurement error. Given the above assumptions, we can denote the relationship between the data and model prediction, *Y_i (theta)*, as
 
 <!--
 <p align="center">
@@ -187,12 +178,10 @@ Y_i^m=Y_i(\boldsymbol{\theta})+\varepsilon_i
 \qquad (3)
 $$ -->
 
-<p align="center">
-<img src="../img/equation-3.png" alt="Eqn 1 2" width="200"/>
-</p>
-<p align="center"> </p>
+![Equation-3](img/UC2-Arduino-Eq3.png "Equation-3")
 
-where noise $\epsilon_i$ is assumed to have zero-mean and unknown variance $\sigma^2_{\epsilon,i}$. Given the six
+
+where noise *epsilon_i* is assumed to have zero-mean and unknown variance *sigma^2_{epsilon,i}*. Given the six
 measurement values, we can use a Bayesian approach to evaluate the posterior distribution of the parameters of PM4Sand and the unknown noise variances:
 
 <!--
@@ -207,14 +196,12 @@ p\left(\boldsymbol{\theta}, \boldsymbol{\sigma}_{\varepsilon}^2 \mid Y_1^m, . .,
 \qquad (4)
 $$ -->
 
-<p align="center">
-<img src="../img/equation-4.png" alt="Eqn 1 2" width="550"/>
-</p>
-<p align="center"> </p>
+![Equation-4](img/UC2-Arduino-Eq4.png "Equation-4")
 
-where $p(∙)$ denotes the (joint) probability distribution, and $c$ is the normalization constant that ensures the area under the posterior distribution is one. From Eq. (3),
 
-$p(Y^m_i | \theta, \sigma^2)$ is a Gaussian distribution with mean $Y_i(\theta)$ and variance of $\sigma^2$. The prior distribution of $\theta$ is in Table 1. Following best practices, inverse Gamma priors with the shape parameter $\alpha = 3$ and scale parameter $\beta = 2$ are introduced for the $\sigma^2$ measurement variances [5]. The posterior sample of $\theta$ in this example is obtained using the transitional Markov chain Monte Carlo (TMCMC) sampling technique [6] that is available in quoFEM through the UCSD-UQ engine. This is an expensive calculation that greatly benefits from the available HPC resources at DesignSafe.
+where *p(∙)* denotes the (joint) probability distribution, and *c* is the normalization constant that ensures the area under the posterior distribution is one. From Eq. (3),
+
+*p(Y^m_i | theta, sigma^2)* is a Gaussian distribution with mean *Y_i(theta)* and variance of *sigma^2*. The prior distribution of *theta* is in Table 1. Following best practices, inverse Gamma priors with the shape parameter *alpha = 3* and scale parameter *beta = 2* are introduced for the *sigma^2* measurement variances [5]. The posterior sample of *theta* in this example is obtained using the transitional Markov chain Monte Carlo (TMCMC) sampling technique [6] that is available in quoFEM through the UCSD-UQ engine. This is an expensive calculation that greatly benefits from the available HPC resources at DesignSafe.
 
 <p align="center"><b>Table 2. -Cyclic direct simple shear (CyDSS)
 test experimental data</b> </p>
@@ -231,17 +218,16 @@ test experimental data</b> </p>
 
 </center>
 
-<p align="center">
-<img src="../img/UC2-Arduino-7.png" alt="Calibrated predictions" width="400"/>
-</p>
-<p align="center"> <b>Fig.7 - Comparison of calibrated model predictions and experimental data </b> </p>
 
-Figure 7 compares the experimental data with the calibrated model predictions of the load-cycle counts, while Fig. 8 shows the calibrated parameter sample from the joint posterior distribution. Figure 8 shows that uncertainty in all variables is reduced by calibrating to the observed data, but the reduction was most apparent in $D_r$. This is in line with our expectations from the earlier sensitivity analysis. The results also highlight a strong dependency between $D_r$ and $h_{po}$, indicating that multiple combinations of $D_r$ and $h_{po}$ produce near-optimal solutions. None of these features are captured by a deterministic estimator that results from a conventional error-minimizing optimization approach (e.g., red diamond marker shown in the same figure). It is also important to recognize that a non-negligible amount of uncertainty remains in the parameter estimates, and this produces substantial uncertainty in the model predictions. The dark blue bounds in Fig. 7 show the level of uncertainty in the estimated number of cycles to liquefaction, but this simulation model was prepared to reproduce the experimental setup. When the calibrated constitutive model is applied in another simulation, the responses can exhibit different scales of uncertainties. 
+![Calibrated predictions](img/UC2-Arduino-7.png "Calibrated predictions")
+<p style="text-align: center;"> Fig.7 - Comparison of calibrated model predictions and experimental data </p>
 
-<p align="center">
-<img src="../img/UC2-Arduino-8.png" alt="Forward propagation" width="500"/>
-</p>
-<p align="center"> <b>Fig.8 - PM4Sand model parameters sampled from the joint posterior distribution</b> </p>
+
+Figure 7 compares the experimental data with the calibrated model predictions of the load-cycle counts, while Fig. 8 shows the calibrated parameter sample from the joint posterior distribution. Figure 8 shows that uncertainty in all variables is reduced by calibrating to the observed data, but the reduction was most apparent in *Dr*. This is in line with our expectations from the earlier sensitivity analysis. The results also highlight a strong dependency between *Dr* and *hpo*, indicating that multiple combinations of *Dr* and *hpo* produce near-optimal solutions. None of these features are captured by a deterministic estimator that results from a conventional error-minimizing optimization approach (e.g., red diamond marker shown in the same figure). It is also important to recognize that a non-negligible amount of uncertainty remains in the parameter estimates, and this produces substantial uncertainty in the model predictions. The dark blue bounds in Fig. 7 show the level of uncertainty in the estimated number of cycles to liquefaction, but this simulation model was prepared to reproduce the experimental setup. When the calibrated constitutive model is applied in another simulation, the responses can exhibit different scales of uncertainties. 
+
+![Forward propagation-1](img/UC2-Arduino-8.png "Forward propagation-1")
+<p style="text-align: center;"> Fig.8 - PM4Sand model parameters sampled from the joint posterior distribution</p>
+
 
 ### Step 3 – Forward Propagation
 
@@ -252,19 +238,14 @@ A forward propagation analysis is helpful to characterize uncertainties in a sim
 The obtained samples of the soil parameters in Fig. 8 are used to predict the uncertainty in the lateral spreading response of a site subjected to an earthquake (Loma Prieta Gilroy Array #2) with peak ground acceleration of 0.37 g. The soil column model shown in Fig. 9 is introduced in which the liquefiable layer in the middle is modeled using PM4Sand and the other parts are assumed to remain elastic throughout the shaking. 
 
 
-<p align="center">
-<img src="../img/UC2-Arduino-9.png" alt="Forward propagation" width="150"/>
-</p>
-<p align="center"> <b>Fig.9 - Schematic of 1D soil layer with liquefiable soil used in the forward propagation analysis. </b> </p>
+![Forward propagation-2](img/UC2-Arduino-9.png "Forward propagation-2")
+<p style="text-align: center;"> Fig.9 - Schematic of 1D soil layer with liquefiable soil used in the forward propagation analysis.</p>
 
 The results of 500 simulations are shown in Fig. 10. The mean and standard deviation of the residual displacement at the surface level (6 m) are 0.24 m and 0.02 m, respectively. Depending on the application, the uncertainty in these results can be considered reasonably low. The sample of the predictive distribution shown on the top of the vertical profile can further be utilized in reliability and risk assessment workflows
 
-    
-<p align="center">
-<img src="../img/UC2-Arduino-10.png" alt="Forward propagation" width="300"/>
-</p>
-<p align="center"> <b>Fig.10 - Predicted earthquake
-response of soil column</b> </p>
+![Forward propagation-3](img/UC2-Arduino-10.png "Forward propagation-3")
+<p style="text-align: center;"> Fig.10 - Predicted earthquake
+response of soil column</p>
 
 
 ### References
@@ -285,10 +266,10 @@ https://doi.org/10.17603/ds2-eahz-9466. Accessed 28 June 2021.
 
 ## Citation and Licensing
 
-* Please cite [Aakash B. Satish et al. (2022)](https://doi.org/10.1007/978-3-031-11898-2_152) to acknowledge the use of resources from this use case. <br/>
+* Please cite [Aakash B. Satish et al. (2022)](https://doi.org/10.1007/978-3-031-11898-2_152) to acknowledge the use of resources from this use case.
 
-* Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6) to acknowledge the use of resources from this use case. <br/>
+* Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6) to acknowledge the use of resources from this use case.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246) to acknowledge the use of DesignSafe resources. <br/>  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246) to acknowledge the use of DesignSafe resources.  
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).  
