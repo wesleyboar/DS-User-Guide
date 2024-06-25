@@ -245,7 +245,7 @@ axs2[0].grid(True)
 #### Generate report 
 
 Generating a summary report is a convenient way to present results from lengthy simulations prcesses. In jupyter this can be done invoking any posprocessor available in the docker container image. Among them rst2pdf is commonly distributed with python. For this matlab example a simple ShortReport.rst file is included that collects the results and plots generated in a simple pdf file. The python code shown below, exemplifies this process and include:
-1. Running rst2pdf on [ShortReport.rst](FreeField-JupyterNB/ShortReport.rst)
+1. Running rst2pdf on [ShortReport.rst](files/ShortReport.rst)
 2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen. 
 
 Run rst2pdf, assign to pdf_fn, and  call PDF show function 

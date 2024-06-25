@@ -25,7 +25,7 @@ The notebook takes advantage of the site response problem to introduce the gener
 ![OpenSees numericla simulation workflow](img/UC1-Arduino-2-DSworkflow.png "Fig.2 - OpenSees numerical simulation workflow")
 <p style="text-align: center;"> Fig.2 - OpenSees numerical simulation workflow </p>
 
-The soil profile shown in Figure 3 includes a 5.0m loose sand underlain by a 1.0 m dense soil.The loose sand is modeled using the PM4Sand constitutive model for liquefiable soils available in OpenSees. The dense sand is considered linear elastic. The groundwter table is assumed at 2.0 m making the lower 3.0 m of the loose sand susceptible to liquefaction. The soil profile is subject to a dynamic excitation at its base. The site response of interest includes (i) the surface acceleration, (ii) profiles of lateral displacement, horizontal acceleration, maximum shear strain, and cyclic stress ratio and (iii) stress strain and pore pressure plots for a point in the middle of the soil profile.  The opensees model definition, analysis steps, and recorders are contained in the [N10_T3.tcl](FreeField-JupyterNB/N10_T3.tcl) file, and the input signal is in [velocity.input](FreeField-JupyterNB/velocity.input). The model can be run using OpenSees in any OS framework.
+The soil profile shown in Figure 3 includes a 5.0m loose sand underlain by a 1.0 m dense soil.The loose sand is modeled using the PM4Sand constitutive model for liquefiable soils available in OpenSees. The dense sand is considered linear elastic. The groundwter table is assumed at 2.0 m making the lower 3.0 m of the loose sand susceptible to liquefaction. The soil profile is subject to a dynamic excitation at its base. The site response of interest includes (i) the surface acceleration, (ii) profiles of lateral displacement, horizontal acceleration, maximum shear strain, and cyclic stress ratio and (iii) stress strain and pore pressure plots for a point in the middle of the soil profile.  The opensees model definition, analysis steps, and recorders are contained in the [N10_T3.tcl](files/N10_T3.tcl) file, and the input signal is in [velocity.input](files/velocity.input). The model can be run using OpenSees in any OS framework.
 
 ![N10_T3 soil profile with liquefiable layer](img/UC1-Arduino-3-SPschematic.png "Fig.3 - N10_T3 soil profile with liquefiable layer")
 <p style="text-align: center;"> Fig.3 - N10_T3 soil profile with liquefiable layer </p>
@@ -189,7 +189,7 @@ plot_porepressure()
 #### Generate report 
 
 Generating a summary report is a convenient way to present results from lengthy simulations prcesses. In jupyter this can be done invoking any posprocessor available in the docker container image. Among them rst2pdf is commonly distributed with python. For the site response notebook a simple ShortReport.rst file is included that collects the results and plots generated in a simple pdf file. The python code shown below, exemplifies this process and include:
-1. Running rst2pdf on [ShortReport.rst](FreeField-JupyterNB/ShortReport.rst)
+1. Running rst2pdf on [ShortReport.rst](files/ShortReport.rst)
 2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen. 
 
 Run rst2pdf, assign to pdf_fn, and  call PDF show function 
@@ -223,7 +223,7 @@ class PDF(object):
 
 #### Create Interactive Plots
 
-Finally, jupyter notebooks offer flexibility to invoke GUI widgets that can help present results in a dynamic and interactive manner. The python scripts shown below create interactive plots for pore water pressure and soil profile lateral displacements. The horizontal bars allow users interrogate each plot for results at any particular time. Complete pyhon scripts are included in the [interactiveplot.py](FreeField-JupyterNB/interactiveplot.py) available in community.   
+Finally, jupyter notebooks offer flexibility to invoke GUI widgets that can help present results in a dynamic and interactive manner. The python scripts shown below create interactive plots for pore water pressure and soil profile lateral displacements. The horizontal bars allow users interrogate each plot for results at any particular time. Complete pyhon scripts are included in the [interactiveplot.py](files/interactiveplot.py) available in community.   
 
 #### Pore water pressure
 
