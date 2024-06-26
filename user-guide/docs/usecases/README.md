@@ -2,7 +2,7 @@
 
 ## A Guide to Adding Your Use Case Project
 
-<a id="fork-repo">
+<a id="fork-repo"></a>
 
 1. The Principal Investigator (PI) should [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the [DS User Guide repo][DS-User-Guide] to their own account. If prompted, select an organziation to create the fork.
 
@@ -20,7 +20,7 @@
     | - |
     | ![collaborator](docs/images/collaborator.png) |
 
-    <a id="fork-success">
+    <a id="fork-success"></a>
 
 2. GitHub will create a forked repo in your user account.
 
@@ -31,7 +31,7 @@
     | - |
     | ![forked-repo](docs/images/02-forked-repo.png) |
 
-    <a id="find-usecase">
+    <a id="find-usecase"></a>
 
 3. Navigate to your use case folder, which is located in the `user-guide/docs/usecases` folder. The folders are named after the PI, so find the folder with your name to edit your template. **Always check you are only editing your use case folder**.
 
@@ -39,7 +39,7 @@
     | - |
     | ![PI use case folder](docs/images/03-pi-usecase-folder.png) |
 
-    <a id="edit-usecase">
+    <a id="edit-usecase"></a>
 
 4. Click on the `usecase.md` file in your usecase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
 
@@ -59,7 +59,7 @@
     | - |
     | ![Edited usecase](docs/images/05-edit-usecase.png) |
 
-    <a id="save-changes">
+    <a id="save-changes"></a>
 
 5. Once you have completed editing your use case, you save your changes by [commiting](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits). Scroll down to the bottom of the page and type a descriptive phrase explaining the changes you have made and click "Commit changes". These changes will be saved only on your repo and will not be reflected in the [original DS User Guide repo][DS-User-Guide] until you create a Pull Request (PR) (that step is explained later).
 
@@ -67,7 +67,7 @@
     | - |
     | ![commit edits](docs/images/06-commit-usecase-edits.png) |
 
-    <a id="add-images">
+    <a id="add-images"></a>
 
 6. To add images to your use case, navigate to your use case folder and select the `img` folder. **Ensure that you are in your usecase `img` folder** before adding images.
 
@@ -85,7 +85,7 @@
     | - |
     | ![upload image](docs/images/09-upload-image.png) |
 
-    <a id="insert-image">
+    <a id="insert-image"></a>
 
 8. To insert the image in your `usecase.md` file, add syntax like this into the text:
 
@@ -114,7 +114,7 @@
     | - |
     | ![image commit](docs/images/12-image-commit.png) |
 
-    <a id="sync-fork">
+    <a id="sync-fork"></a>
 
 9. Before you are ready to make changes to the [original DS-User-Guide repo][DS-User-Guide]. Make sure your repository on GitHub is up to date with all the changes from the original repo. You can do this by navigating your repo and click on "Fetch upstream". It will probably say there is nothing new to fetch.
 
@@ -128,7 +128,7 @@
     | - |
     | ![fetch merge](docs/images/17-fetch-merge.png) |
 
-    <a id="request-review">
+    <a id="request-review"></a>
 
 10. Once you have completed making changes, you'll now [create a Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to request that your changes be merged to the main DesignSafe Use Case repo. Go to your repo on GitHub (in my case it is https://github.com/wesleyboar/DS-User-Guide). And select "Contribute". Before opening a pull request, verify the page states:
 
@@ -156,7 +156,7 @@
     | - |
     | ![PR changes](docs/images/20-pr-file-changes.png) |
 
-    <a id="test-changes">
+    <a id="test-changes"></a>
 
 11. You can [**test your changes** on your local machine](../../../README#testing) using a command prompt (very few commands).
 
