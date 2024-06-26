@@ -166,9 +166,6 @@
     > - Markdown rendering is less forgiving than [Github's](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) e.g.
     >     - Use 4 spaces to indent.
     >     - Add a new line before starting a list.
-    > - Image paths must be:
-    >     - **either** absolute starting at `/user-guide/` ([example](https://github.com/DesignSafe-CI/DS-User-Guide/pull/35/commits/956fc03))
-    >     - **or** relative to page that includes document that loads image
 
     <details><summary>Preview Deployment — ⚠️ Feature Not Available Yet</summary>
 
